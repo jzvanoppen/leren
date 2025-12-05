@@ -63,6 +63,11 @@
   <table id="overzicht">
     <tr><th>Bestand</th><th>Beschrijving</th></tr>
     <tr><td>iaab</td><td>vervoegingen avoir en être</td></tr>
+      <tr>
+      <td>iaab</td>
+      <td>vervoegingen avoir en être</td>
+      <td id="iaab-count">?</td>
+    </tr>
   </table>
 
   <script>
@@ -80,7 +85,9 @@
         return;
       }
 
-      fetch(`txt/${naam}.txt`)
+      fetch(`txt/${naam}.txt`).catch(() => { alert(`Het bestand txt/${naam}.txt kon niet worden gevonden.
+
+Controleer of de map 'txt' bestaat en of het bestand '${naam}.txt' daarin staat.`); throw new Error('Bestand niet gevonden'); })
         .then(r => r.text())
         .then(text => {
           woorden = text.split('
