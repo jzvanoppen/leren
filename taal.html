@@ -7,10 +7,10 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      max-width: 600px;
+      max-width: 700px;
       margin: 40px auto;
     }
-    input, button {
+    input, button, select {
       padding: 10px;
       font-size: 1rem;
       margin-top: 10px;
@@ -23,25 +23,55 @@
       margin-top: 10px;
       font-weight: bold;
     }
+    table, td, th {
+      border: 1px solid black;
+      border-collapse: collapse;
+      padding: 6px;
+    }
   </style>
 </head>
 <body>
-  <h1>Woordjes Frans/Engels Oefenen</h1>
+  <a href="index.html">Terug naar index</a>
+  <h1>Woordjes Oefenen</h1>
 
   <label>Bestandsnaam (4 letters):</label><br>
-  <input type="text" id="fileInput" maxlength="4" placeholder="bv. fr01" /><br>
-  <button onclick="loadFile()">Laad Woordjes</button>
+  <input type="text" id="fileInput" maxlength="4" placeholder="bv. fr01" />
+
+  <br>
+  <label>Hoeveel woorden oefenen?</label><br>
+  <select id="limietSelect">
+    <option value="0">Alles</option>
+    <option value="10">10</option>
+    <option value="15">15</option>
+    <option value="20">20</option>
+    <option value="25">25</option>
+  </select>
+
+  <br>
+  <button onclick="loadFile()">Start Oefenen</button>
 
   <div id="quiz">
     <p><span id="vraagNL"></span></p>
-    <input type="text" id="antwoord" placeholder="Vertaling..." />
+    <input type="text" id="antwoord" placeholder="Vertaling..." onkeydown="if(event.key==='Enter') controleer()" />
     <button onclick="controleer()">Controleer</button>
     <p id="resultaat"></p>
+    <p id="score"></p>
+    <div id="einde" style="display:none"></div>
   </div>
+
+  <h2>Overzicht Tekstbestanden</h2>
+  <table id="overzicht">
+    <tr><th>Bestand</th><th>Beschrijving</th></tr>
+    <tr><td>iaab</td><td>vervoegingen avoir en être</td></tr>
+  </table>
 
   <script>
     let woorden = [];
+    let teOefenen = [];
     let huidige = null;
+    let fouten = {};
+    let juist = 0;
+    let totaal = 0;
 
     function loadFile() {
       const naam = document.getElementById('fileInput').value.trim();
@@ -50,45 +80,92 @@
         return;
       }
 
-      fetch(`${naam}.txt`)
+      fetch(`txt/${naam}.txt`)
         .then(r => r.text())
         .then(text => {
-          woorden = text.split('\n')
+          woorden = text.split('
+')
             .map(l => l.trim())
             .filter(l => l && l.includes(':'))
             .map(l => {
-              const parts = l.split(':');
-              return { nl: parts[0], fr: parts[1], info: parts[2] || "" };
+              const p = l.split(':');
+              return { nl: p[0], fr: p[1], info: p[2] || '' };
             });
 
-          if (woorden.length === 0) {
-            alert('Geen geldige woordjes gevonden in bestand.');
-            return;
-          }
+          const limiet = parseInt(document.getElementById('limietSelect').value);
+          teOefenen = [...woorden];
+
+          if (limiet > 0 && limiet < teOefenen.length)
+            teOefenen = teOefenen.slice(0, limiet);
+
+          juist = 0;
+          totaal = 0;
+          fouten = {};
 
           document.getElementById('quiz').style.display = 'block';
+          document.getElementById('einde').style.display = 'none';
+
           nieuwWoord();
         })
-        .catch(() => alert('Kon bestand niet laden. Zorg dat het in dezelfde map staat.'));
+        .catch(() => alert('Kon bestand niet laden. Bestaat het in /txt ?'));
     }
 
     function nieuwWoord() {
-      huidige = woorden[Math.floor(Math.random() * woorden.length)];
-      document.getElementById('vraagNL').textContent = `Vertaal: ${huidige.nl} (${huidige.info})`;
+      if (teOefenen.length === 0) {
+        toonEinde();
+        return;
+      }
+
+      huidige = teOefenen[Math.floor(Math.random() * teOefenen.length)];
+      document.getElementById('vraagNL').innerHTML = `<b>${huidige.nl}</b> (${huidige.info})`;
       document.getElementById('antwoord').value = '';
       document.getElementById('resultaat').textContent = '';
+      updateScore();
     }
 
     function controleer() {
       const antw = document.getElementById('antwoord').value.trim().toLowerCase();
       if (!huidige) return;
 
+      totaal++;
+
       if (antw === huidige.fr.toLowerCase()) {
+        juist++;
+        teOefenen = teOefenen.filter(w => w !== huidige);
+        delete fouten[huidige.nl];
         document.getElementById('resultaat').textContent = 'Juist!';
-        setTimeout(nieuwWoord, 700);
       } else {
-        document.getElementById('resultaat').textContent = `Fout. Juist antwoord: ${huidige.fr}`;
+        document.getElementById('resultaat').textContent = `Fout. Juist: ${huidige.fr}`;
+        fouten[huidige.nl] = (fouten[huidige.nl] || 0) + 1;
       }
+
+      updateScore();
+      setTimeout(nieuwWoord, 700);
+    }
+
+    function updateScore() {
+      document.getElementById('score').textContent = `${juist}/${totaal}`;
+    }
+
+    function toonEinde() {
+      const div = document.getElementById('einde');
+      div.style.display = 'block';
+
+      let html = `<h3>Eindscore: ${juist}/${totaal}</h3>`;
+      html += `<h4>Foute woorden:</h4>`;
+
+      if (Object.keys(fouten).length === 0) {
+        html += `<p>Geen fouten!</p>`;
+      } else {
+        html += '<ul>';
+        for (let nl in fouten) {
+          const wrd = woorden.find(w => w.nl === nl);
+          html += `<li>${nl} → ${wrd.fr} (x${fouten[nl]})`;
+        }
+        html += '</ul>';
+      }
+
+      div.innerHTML = html;
     }
   </script>
 </body>
