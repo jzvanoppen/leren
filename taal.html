@@ -63,7 +63,7 @@
 let woorden = [];
 let teOefenen = [];
 let huidige = null;
-let fouten = {};
+let fouten = {}; let hold = false;
 let juist = 0;
 let totaal = 0;
 
@@ -80,7 +80,9 @@ function loadFile() {
       return r.text();
     })
     .then(text => {
-      woorden = text.split(/\r?\n/) 
+      woorden = text.split(/
+?
+/) 
         .map(l => l.trim())
         .filter(l => l && l.includes(':'))
         .map(l => {
@@ -120,21 +122,43 @@ function nieuwWoord() {
 }
 
 function controleer() {
-  if (!huidige) return;
-  const antw = document.getElementById('antwoord').value.trim().toLowerCase();
+      const antw = document.getElementById('antwoord').value.trim().toLowerCase();
+      if (!huidige) return;
 
-  totaal++;
-  if (antw === huidige.fr.toLowerCase()) {
-    juist++;
-    teOefenen = teOefenen.filter(w => w !== huidige);
-    delete fouten[huidige.nl];
-    document.getElementById('resultaat').textContent = 'Juist!';
-  } else {
-    document.getElementById('resultaat').textContent = `Fout. Juist: ${huidige.fr}`;
-    fouten[huidige.nl] = (fouten[huidige.nl] || 0) + 1;
-  }
+      totaal++;
 
-  updateScore();
+      // als het eerder fout was, moet eerst juist worden ingegeven
+      if (hold) {
+        if (antw === huidige.fr.toLowerCase()) {
+          hold = false;
+          document.getElementById('resultaat').textContent = 'Juist! (volgende woord)';
+          updateScore();
+          setTimeout(nieuwWoord, 700);
+        } else {
+          document.getElementById('resultaat').textContent = `Nog fout. Juist was: ${huidige.fr}`;
+          fouten[huidige.nl] = (fouten[huidige.nl] || 0) + 1;
+          updateScore();
+        }
+        return;
+      }
+
+      // eerste poging op dit woord
+      if (antw === huidige.fr.toLowerCase()) {
+        juist++;
+        // woord wordt verwijderd want meteen juist
+        teOefenen = teOefenen.filter(w => w !== huidige);
+        delete fouten[huidige.nl];
+        document.getElementById('resultaat').textContent = 'Juist!';
+        updateScore();
+        setTimeout(nieuwWoord, 700);
+      } else {
+        // fout → oplossing tonen, leerling moet eerst juist ingeven
+        document.getElementById('resultaat').textContent = `Fout. Juist: ${huidige.fr}`;
+        fouten[huidige.nl] = (fouten[huidige.nl] || 0) + 1;
+        hold = true;
+        updateScore();
+      }
+    }
   setTimeout(nieuwWoord, 700);
 }
 
