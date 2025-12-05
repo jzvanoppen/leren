@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Woordjes Oefenen</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 600px;
+      margin: 40px auto;
+    }
+    input, button {
+      padding: 10px;
+      font-size: 1rem;
+      margin-top: 10px;
+    }
+    #quiz {
+      margin-top: 20px;
+      display: none;
+    }
+    #resultaat {
+      margin-top: 10px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h1>Woordjes Frans/Engels Oefenen</h1>
+
+  <label>Bestandsnaam (4 letters):</label><br>
+  <input type="text" id="fileInput" maxlength="4" placeholder="bv. fr01" /><br>
+  <button onclick="loadFile()">Laad Woordjes</button>
+
+  <div id="quiz">
+    <p><span id="vraagNL"></span></p>
+    <input type="text" id="antwoord" placeholder="Vertaling..." />
+    <button onclick="controleer()">Controleer</button>
+    <p id="resultaat"></p>
+  </div>
+
+  <script>
+    let woorden = [];
+    let huidige = null;
+
+    function loadFile() {
+      const naam = document.getElementById('fileInput').value.trim();
+      if (naam.length !== 4) {
+        alert('Geef exact 4 letters in.');
+        return;
+      }
+
+      fetch(`${naam}.txt`)
+        .then(r => r.text())
+        .then(text => {
+          woorden = text.split('\n')
+            .map(l => l.trim())
+            .filter(l => l && l.includes(':'))
+            .map(l => {
+              const parts = l.split(':');
+              return { nl: parts[0], fr: parts[1], info: parts[2] || "" };
+            });
+
+          if (woorden.length === 0) {
+            alert('Geen geldige woordjes gevonden in bestand.');
+            return;
+          }
+
+          document.getElementById('quiz').style.display = 'block';
+          nieuwWoord();
+        })
+        .catch(() => alert('Kon bestand niet laden. Zorg dat het in dezelfde map staat.'));
+    }
+
+    function nieuwWoord() {
+      huidige = woorden[Math.floor(Math.random() * woorden.length)];
+      document.getElementById('vraagNL').textContent = `Vertaal: ${huidige.nl} (${huidige.info})`;
+      document.getElementById('antwoord').value = '';
+      document.getElementById('resultaat').textContent = '';
+    }
+
+    function controleer() {
+      const antw = document.getElementById('antwoord').value.trim().toLowerCase();
+      if (!huidige) return;
+
+      if (antw === huidige.fr.toLowerCase()) {
+        document.getElementById('resultaat').textContent = 'Juist!';
+        setTimeout(nieuwWoord, 700);
+      } else {
+        document.getElementById('resultaat').textContent = `Fout. Juist antwoord: ${huidige.fr}`;
+      }
+    }
+  </script>
+</body>
+</html>
