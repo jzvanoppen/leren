@@ -129,17 +129,18 @@ function controleer() {
 
       // als het eerder fout was, moet eerst juist worden ingegeven
       if (hold) {
+        // leerling moet exacte oplossing intypen
         if (antw === huidige.fr.toLowerCase()) {
           hold = false;
           document.getElementById('resultaat').textContent = 'Juist! (volgende woord)';
           updateScore();
           setTimeout(nieuwWoord, 700);
         } else {
-          document.getElementById('resultaat').textContent = `Nog fout. Juist was: ${huidige.fr}`;
-          fouten[huidige.nl] = (fouten[huidige.nl] || 0) + 1;
+          document.getElementById('resultaat').innerHTML = `Nog fout. Typ exact over: <b>${huidige.fr}</b>`;
           updateScore();
         }
         return;
+      }
       }
 
       // eerste poging op dit woord
@@ -153,7 +154,7 @@ function controleer() {
         setTimeout(nieuwWoord, 700);
       } else {
         // fout → oplossing tonen, leerling moet eerst juist ingeven
-        document.getElementById('resultaat').textContent = `Fout. Juist: ${huidige.fr}`;
+        document.getElementById('resultaat').innerHTML = `Fout. Typ exact over: <b>${huidige.fr}</b>`; document.getElementById('antwoord').value = '';
         fouten[huidige.nl] = (fouten[huidige.nl] || 0) + 1;
         hold = true;
         updateScore();
