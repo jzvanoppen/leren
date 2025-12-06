@@ -1,273 +1,247 @@
 <!DOCTYPE html>
-<html lang=\"nl\">
+<html lang="nl">
 <head>
-  <meta charset=\"UTF-8\" />
-  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Woordjes Oefenen</title>
   <style>
-    body { font-family: Arial, sans-serif; max-width: 900px; margin: 24px auto; }
-    input, button, select { padding: 8px 10px; font-size: 1rem; margin: 6px 0; }
-    #quiz { margin-top: 18px; display: none; }
-    #resultaat { margin-top: 10px; font-weight: normal; }
-    table, td, th { border: 1px solid #444; border-collapse: collapse; padding: 6px; }
-    th { background: #f0f0f0; }
-    .big { font-size: 1.25rem; }
-    .correct { color: green; }
-    .wrong { color: red; }
-    .hint { font-style: italic; color: #333; }
-    #footer-note { margin-top: 18px; font-size: 0.9rem; }
+    body{font-family:Arial,Helvetica,sans-serif;max-width:900px;margin:24px auto;padding:0 12px}
+    input,select,button{font-size:1rem;padding:8px;margin:6px 0}
+    #quiz{display:none;margin-top:16px}
+    .big{font-size:1.25rem}
+    #resultaat{margin-top:8px}
+    table,th,td{border:1px solid #444;border-collapse:collapse;padding:6px}
+    th{background:#f0f0f0}
+    .correct{color:green}
+    .wrong{color:red}
+    .hint{font-style:italic;color:#333}
+    .inline{display:inline-block;margin-right:8px}
   </style>
 </head>
 <body>
-  <a href=\"index.html\">← Terug naar index</a>
+  <a href="index.html">← Terug naar index</a>
   <h1>Woordjes Oefenen</h1>
 
-  <label>Bestandsnaam (4 tekens):</label><br>
-  <input type=\"text\" id=\"fileInput\" maxlength=\"4\" placeholder=\"bv. iaab\" />
-
+  <label class="inline">Bestandsnaam (4 tekens):</label>
+  <input id="fileInput" maxlength="4" placeholder="bv. iaab" />
   <br>
-  <label>Hoeveel woorden oefenen?</label><br>
-  <select id=\"limietSelect\">
-    <option value=\"0\">Alles</option>
-    <option value=\"10\">10</option>
-    <option value=\"15\">15</option>
-    <option value=\"20\">20</option>
-    <option value=\"25\">25</option>
+  <label class="inline">Hoeveel woorden oefenen?</label>
+  <select id="limietSelect">
+    <option value="0">Alles</option>
+    <option value="10">10</option>
+    <option value="15">15</option>
+    <option value="20">20</option>
+    <option value="25">25</option>
   </select>
-
   <br>
-  <button id=\"startBtn\">Start Oefenen</button>
+  <button id="startBtn" type="button" onclick="loadFile()">Start Oefenen</button>
 
-  <div id=\"quiz\" aria-live=\"polite\">
-    <p class=\"big\"><span id=\"vraagNL\"></span></p>
-    <input type=\"text\" id=\"antwoord\" placeholder=\"Typ hier de vertaling en druk Enter\" autocomplete=\"off\" />
-    <button id=\"controleerBtn\">Controleer</button>
-    <p id=\"resultaat\"></p>
-    <p id=\"score\" class=\"hint\"></p>
-    <div id=\"einde\" style=\"display:none; margin-top:12px\"></div>
+  <div id="quiz" aria-live="polite">
+    <p class="big" id="vraagNL"></p>
+    <input id="antwoord" placeholder="Typ hier de vertaling en druk Enter" autocomplete="off" />
+    <button id="controleerBtn" type="button">Controleer</button>
+    <p id="resultaat"></p>
+    <p id="score" class="hint"></p>
+    <div id="einde" style="display:none;margin-top:12px"></div>
   </div>
 
   <h2>Overzicht Tekstbestanden</h2>
-  <p>Voeg rijen toe met \"Bestand\" (zonder .txt) en een korte beschrijving. AANTAL wordt automatisch bijgewerkt bij laden.</p>
-  <table id=\"overzicht\">
+  <p>Voeg rijen toe met "Bestand" (zonder .txt) en een korte beschrijving. AANTAL wordt automatisch bijgewerkt bij laden.</p>
+  <table id="overzicht">
     <tr><th>Bestand</th><th>Aantal</th><th>Beschrijving</th></tr>
-    <tr><td>iaab</td><td id=\"iaab-count\">?</td><td>vervoegingen avoir en être</td></tr>
+    <tr><td>iaab</td><td id="iaab-count">?</td><td>vervoegingen avoir en être</td></tr>
   </table>
-  <button id=\"addRowBtn\">Rij toevoegen</button>
+  <button id="addRowBtn" type="button">Rij toevoegen</button>
 
-  <div id=\"footer-note\">Bestanden moeten zich bevinden in de map <code>txt/</code> en heten bijvoorbeeld <code>txt/iaab.txt</code>.</div>
+  <p id="footer-note">Bestanden moeten zich bevinden in de map <code>txt/</code> en heten bijvoorbeeld <code>txt/iaab.txt</code>.<br>
+  Formaat per regel: <code>nl:::fr:info</code> (bijv. <em>houden van:::aimer:INFINITIF</em>).</p>
 
 <script>
-// == Data structures ==
-let allSelected = []; // array of objects for this session
-let huidige = null;
-let stateByKey = {}; // key: nl text -> {attempts, wrongs, done, pendingRepeat}
-let juist = 0, totaal = 0;
-let hold = false; // wanneer leerling moet overtypen
+(function(){
+  // State
+  let allSelected = [];
+  let huidige = null;
+  let stateByKey = {}; // nl -> {attempts, wrongs, done, pendingRepeat, waitingForRetype}
+  let juist = 0, totaal = 0;
 
-const startBtn = document.getElementById('startBtn');
-const controleerBtn = document.getElementById('controleerBtn');
-const antwoordInput = document.getElementById('antwoord');
+  const fileInput = document.getElementById('fileInput');
+  const limSel = document.getElementById('limietSelect');
+  const controleerBtn = document.getElementById('controleerBtn');
+  const antwoord = document.getElementById('antwoord');
+  const vraagNL = document.getElementById('vraagNL');
+  const resultaat = document.getElementById('resultaat');
+  const scoreEl = document.getElementById('score');
+  const quiz = document.getElementById('quiz');
+  const einde = document.getElementById('einde');
 
-startBtn.addEventListener('click', loadFile);
-controleerBtn.addEventListener('click', controleer);
-antwoordInput.addEventListener('keydown', (e) => { if (e.key === 'Enter') controleer(); });
+  // helpers
+  function norm(s){ return (s||'').replace(/\s+/g,' ').trim().toLowerCase(); }
+  function escapeHtml(s){ return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+  function shuffle(a){ for(let i=a.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]] } return a }
 
-// helper: normalize for comparison (trim, collapse spaces, lowercase)
-function norm(s){ return s.replace(/\s+/g,' ').trim().toLowerCase(); }
+  function parseLine(line){
+    // format: nl:::fr:info  (nl may contain colons)
+    const idx = line.indexOf(':::');
+    if(idx===-1) return null;
+    const nl = line.slice(0,idx).trim();
+    const rest = line.slice(idx+3);
+    const parts = rest.split(':');
+    const fr = (parts[0]||'').trim();
+    const info = parts.slice(1).join(':').trim();
+    if(!nl || !fr) return null;
+    return {nl,fr,info};
+  }
 
-function parseLine(line) {
-  // expected format: nl:::fr:info  (nl may contain colons), ':::' separates NL and rest
-  const idx = line.indexOf(':::');
-  if (idx === -1) return null;
-  const nl = line.slice(0, idx).trim();
-  const rest = line.slice(idx+3);
-  const parts = rest.split(':');
-  const fr = parts[0] ? parts[0].trim() : '';
-  const info = parts.slice(1).join(':').trim();
-  if (!nl || !fr) return null;
-  return { nl, fr, info };
-}
+  // Load file
+  window.loadFile = function(){
+    const naam = (fileInput.value||'').trim();
+    if(!/^[a-zA-Z0-9]{4}$/.test(naam)) { alert('Geef exact 4 letters/cijfers in.'); return; }
+    const path = 'txt/' + naam + '.txt';
 
-function loadFile(){
-  const naam = document.getElementById('fileInput').value.trim();
-  if (!/^[a-zA-Z0-9]{4}$/.test(naam)) { alert('Geef exact 4 letters/cijfers in.'); return; }
+    fetch(path).then(r=>{
+      if(!r.ok) throw new Error('notfound');
+      return r.text();
+    }).then(text=>{
+      const lines = text.split(/\r?\n/).map(l=>l.trim()).filter(l=>l.length>0);
+      const parsed = lines.map(parseLine).filter(x=>x);
+      if(parsed.length===0){ alert('Bestand bevat geen regels met het verwachte formaat nl:::fr:info'); return; }
 
-  const path = `txt/${naam}.txt`;
-  fetch(path).then(r=>{
-    if(!r.ok) throw new Error('notfound');
-    return r.text();
-  }).then(text=>{
-    const lines = text.split(/\r?\n/).map(l=>l.trim()).filter(l=>l.length>0);
-    const parsed = lines.map(parseLine).filter(x=>x);
-    if(parsed.length===0){ alert('Bestand bevat geen regels in het correcte formaat (nl:::fr:info).'); return; }
+      // update aantal cel
+      const countCell = document.getElementById(naam + '-count');
+      if(countCell) countCell.textContent = parsed.length;
 
-    // update overzicht AANTAL cel if exists
-    const countCell = document.getElementById(`${naam}-count`);
-    if(countCell) countCell.textContent = parsed.length;
+      // apply limit (random sample)
+      const lim = parseInt(limSel.value,10)||0;
+      let pool = parsed.slice();
+      if(lim>0 && lim < pool.length){ pool = shuffle(pool).slice(0, lim); }
 
-    // choose limit
-    const lim = parseInt(document.getElementById('limietSelect').value);
-    let pool = [...parsed];
-    // if limit specified, pick random sample of that size
-    if(lim>0 && lim < pool.length){
-      pool = shuffle(pool).slice(0, lim);
+      // init state
+      allSelected = pool.map((w,i)=>Object.assign({},w,{_id:i}));
+      stateByKey = {};
+      allSelected.forEach(w=> stateByKey[w.nl] = {attempts:0,wrongs:0,done:false,pendingRepeat:false,waitingForRetype:false});
+      juist = 0; totaal = 0;
+
+      // show quiz
+      quiz.style.display = 'block';
+      einde.style.display = 'none';
+      antwoord.value = '';
+      antwoord.focus();
+      nieuwWoord();
+    }).catch(err=>{
+      alert('Kon bestand ' + path + ' niet laden. Controleer map txt/ en bestandsnaam.');
+    });
+  };
+
+  // pick active pool
+  function pickActivePool(){ return allSelected.filter(w=> !stateByKey[w.nl].done); }
+
+  function nieuwWoord(){
+    const active = pickActivePool();
+    if(active.length===0) return toonEinde();
+    huidige = active[Math.floor(Math.random()*active.length)];
+    const info = huidige.info? ' ('+escapeHtml(huidige.info)+')' : '';
+    vraagNL.innerHTML = '<b>'+escapeHtml(huidige.nl)+'</b>' + info;
+    resultaat.innerHTML = '';
+    antwoord.value = '';
+    antwoord.focus();
+    updateScore();
+  }
+
+  // check answer
+  function controleer(){
+    if(!huidige) return;
+    const key = huidige.nl;
+    const st = stateByKey[key];
+    const given = (antwoord.value||'').trim();
+    if(given.length===0) return; // ignore empty
+
+    // if waiting for retype
+    if(st.waitingForRetype){
+      totaal++;
+      if(norm(given) === norm(huidige.fr)){
+        st.attempts++;
+        // after correct retype, mark pendingRepeat so word returns once more later
+        if(!st.pendingRepeat) st.pendingRepeat = true;
+        resultaat.innerHTML = '<span class="correct">Juist — je hebt het overgetypt.</span>';
+        updateScore();
+        st.waitingForRetype = false;
+        setTimeout(nieuwWoord,700);
+      } else {
+        st.wrongs++; st.attempts++;
+        resultaat.innerHTML = '<span class="wrong">Nog fout. Typ exact over: <b>'+escapeHtml(huidige.fr)+'</b></span>';
+        updateScore();
+        // remain waitingForRetype true so they must try again
+        st.waitingForRetype = true;
+      }
+      return;
     }
 
-    // initialize session state
-    allSelected = pool.map((w, i) => ({...w, _id:i}));
-    stateByKey = {};
-    allSelected.forEach(w=> stateByKey[w.nl] = { attempts:0, wrongs:0, done:false, pendingRepeat:false });
-    juist = 0; totaal = 0; hold = false;
-
-    document.getElementById('quiz').style.display = 'block';
-    document.getElementById('einde').style.display = 'none';
-    antwoordInput.value='';
-    antwoordInput.focus();
-
-    nieuwWoord();
-  }).catch(err=>{
-    alert(`Kon ${path} niet laden. Controleer of de map 'txt' bestaat en het bestand aanwezig is.`);
-  });
-}
-
-function shuffle(a){ for(let i=a.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]]; } return a; }
-
-function pickActivePool(){
-  return allSelected.filter(w => !stateByKey[w.nl].done);
-}
-
-function nieuwWoord(){
-  const active = pickActivePool();
-  if(active.length===0){ return toonEinde(); }
-  // choose random from active
-  huidige = active[Math.floor(Math.random()*active.length)];
-  // show NL bold and info in parentheses; don't show the word \"Vertaal\"
-  const info = huidige.info ? ` (${huidige.info})` : '';
-  document.getElementById('vraagNL').innerHTML = `<b>${escapeHtml(huidige.nl)}</b>${escapeHtml(info)}`;
-  document.getElementById('resultaat').textContent = '';
-  antwoordInput.value = '';
-  antwoordInput.focus();
-  updateScoreDisplay();
-}
-
-function controleer(){
-  if(!huidige) return;
-  const key = huidige.nl;
-  const st = stateByKey[key];
-  const given = document.getElementById('antwoord').value.trim();
-  if(given.length===0) return; // ignore empty
-
-  // If we're in hold state for this word, require exact retype (case-insensitive but preserve accents)
-  if(st.waitingForRetype){
+    // normal first attempt
     totaal++;
     if(norm(given) === norm(huidige.fr)){
-      // correct retype
+      // correct first time
+      juist++;
       st.attempts++;
-      // mark as pending repeat: it should come back one more time before done
-      if(!st.pendingRepeat) st.pendingRepeat = true;
-      document.getElementById('resultaat').innerHTML = `<span class=\"correct\">Juist — je hebt het overgetypt.</span>`;
-      updateScoreDisplay();
-      // small delay then pick next
+      // logic for repeats: if previously wrongs>0 and not pendingRepeat -> set pendingRepeat
+      if(st.wrongs>0 && !st.pendingRepeat){ st.pendingRepeat = true; }
+      else {
+        if(st.wrongs===0) st.done = true; else { if(st.pendingRepeat) st.done = true; else st.pendingRepeat = true; }
+      }
+      resultaat.innerHTML = '<span class="correct">Juist!</span>';
+      updateScore();
       setTimeout(nieuwWoord,700);
     } else {
-      // still wrong
-      st.wrongs++;
-      st.attempts++;
-      document.getElementById('resultaat').innerHTML = `<span class=\"wrong\">Nog fout. Typ exact over: <b>${escapeHtml(huidige.fr)}</b></span>`;
-      updateScoreDisplay();
+      // wrong: show correct and require retype
+      st.wrongs++; st.attempts++;
+      resultaat.innerHTML = '<span class="wrong">Fout. Typ exact over: <b>'+escapeHtml(huidige.fr)+'</b></span>';
+      st.waitingForRetype = true;
+      updateScore();
     }
-    st.waitingForRetype = false; // clear temporary hold (we'll set it again if wrong)
-    return;
   }
 
-  // Normal first attempt
-  totaal++;
-  const correct = norm(huidige.fr);
-  if(norm(given) === correct){
-    // immediate correct
-    juist++;
-    stateByKey[key].attempts++;
-    // if it had previous wrongs, and pendingRepeat is false, set pendingRepeat=true so it returns once more
-    if(stateByKey[key].wrongs>0 && !stateByKey[key].pendingRepeat){
-      stateByKey[key].pendingRepeat = true;
-    } else {
-      // if no previous wrongs, mark done immediately (remove from pool)
-      if(stateByKey[key].wrongs===0) stateByKey[key].done = true;
-      else {
-        // previous wrongs exist: if pendingRepeat already true, this counts as the repeat occurrence -> mark done
-        if(stateByKey[key].pendingRepeat){ stateByKey[key].done = true; }
-        else { stateByKey[key].pendingRepeat = true; }
-      }
+  // update score display
+  function updateScore(){ scoreEl.textContent = juist + '/' + totaal; }
+
+  // end screen
+  function toonEinde(){
+    quiz.style.display = 'none';
+    einde.style.display = 'block';
+    let totalWords = allSelected.length;
+    let html = '<h3>Eindscore: '+juist+'/'+totaal+'</h3>';
+    html += '<p>Je oefende '+totalWords+' woorden.</p>';
+    const wrongEntries = Object.entries(stateByKey).filter(([k,v])=> v.wrongs>0);
+    if(wrongEntries.length===0) html += '<p>Geen fouten — goed gedaan!</p>';
+    else{
+      html += '<h4>Foute woorden (met juiste vertaling en aantal keer fout):</h4><ul>';
+      wrongEntries.forEach(([nl,v])=>{
+        const wrd = allSelected.find(w=> w.nl===nl) || {fr:'?'};
+        html += '<li>' + escapeHtml(nl) + ' → ' + escapeHtml(wrd.fr) + ' (x' + v.wrongs + ')</li>';
+      });
+      html += '</ul>';
     }
-    document.getElementById('resultaat').innerHTML = `<span class=\"correct\">Juist!</span>`;
-    updateScoreDisplay();
-    setTimeout(()=>{
-      // if the word was marked done above, it will be removed from active pool automatically
-      nieuwWoord();
-    },700);
-  } else {
-    // wrong on first attempt: show correct and require retype
-    stateByKey[key].wrongs++;
-    stateByKey[key].attempts++;
-    // show correct answer in bold and ask to retype
-    document.getElementById('resultaat').innerHTML = `<span class=\"wrong\">Fout. Typ exact over: <b>${escapeHtml(huidige.fr)}</b></span>`;
-    // set waiting flag so next Enter is treated as retype attempt
-    stateByKey[key].waitingForRetype = true;
-    // do NOT remove the word; it remains in active pool until finally marked done
+    html += '<p><a href="index.html">Terug naar index</a></p>';
+    einde.innerHTML = html;
   }
-}
 
-function updateScoreDisplay(){
-  document.getElementById('score').textContent = `${juist}/${totaal}`;
-}
+  // expose controleer to button and Enter
+  controleerBtn.addEventListener('click', controleer);
+  antwoord.addEventListener('keydown', function(e){ if(e.key==='Enter') controleer(); });
 
-function toonEinde(){
-  document.getElementById('quiz').style.display = 'none';
-  const div = document.getElementById('einde');
-  div.style.display = 'block';
-
-  let totalWords = allSelected.length;
-  let html = `<h3>Eindscore: ${juist}/${totaal}</h3>`;
-  html += `<p>Je oefende ${totalWords} woorden.</p>`;
-
-  // gather wrong words and counts
-  const wrongEntries = Object.entries(stateByKey).filter(([k,v])=>v.wrongs>0);
-  if(wrongEntries.length===0) html += `<p>Geen fouten — goed gedaan!</p>`;
-  else{
-    html += `<h4>Foute woorden (met juiste vertaling en aantal keer fout):</h4>`;
-    html += '<ul>';
-    wrongEntries.forEach(([nl,v])=>{
-      const wrd = allSelected.find(w=>w.nl===nl) || {fr:'?'};
-      html += `<li>${escapeHtml(nl)} → ${escapeHtml(wrd.fr)} (x${v.wrongs})</li>`;
-    });
-    html += '</ul>';
-  }
-  div.innerHTML = html + `<p><a href=\"index.html\">Terug naar index</a></p>`;
-}
-
-function escapeHtml(s){ return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
-
-// add row to overview table
-document.getElementById('addRowBtn').addEventListener('click', ()=>{
-  const tbl = document.getElementById('overzicht');
-  const row = tbl.insertRow(-1);
-  const cellA = row.insertCell(0);
-  const cellB = row.insertCell(1);
-  const cellC = row.insertCell(2);
-  cellA.innerHTML = '<input placeholder=\"bestandsnaam (4)\" maxlength=\"4\" />';
-  cellB.innerHTML = '<input placeholder=\"beschrijving\" />';
-  cellC.textContent = '?';
-  // when user fills file name and blurs, set id for count
-  const inputA = cellA.querySelector('input');
-  inputA.addEventListener('blur', ()=>{
-    const name = inputA.value.trim();
-    if(/^[a-zA-Z0-9]{4}$/.test(name)){
-      cellC.id = `${name}-count`;
-    }
+  // add row functionality
+  document.getElementById('addRowBtn').addEventListener('click', function(){
+    const tbl = document.getElementById('overzicht');
+    const row = tbl.insertRow(-1);
+    const a = row.insertCell(0); const b = row.insertCell(1); const c = row.insertCell(2);
+    a.innerHTML = '<input maxlength="4" placeholder="bestandsnaam (4)" />';
+    b.innerHTML = '<input placeholder="beschrijving" />';
+    c.textContent = '?';
+    const inputA = a.querySelector('input');
+    inputA.addEventListener('blur', function(){ const name = this.value.trim(); if(/^[a-zA-Z0-9]{4}$/.test(name)){ c.id = name + '-count'; } });
   });
-});
 
+  // expose for debugging
+  window._woords = {loadFile: loadFile, controleer: controleer};
+})();
 </script>
 </body>
 </html>
