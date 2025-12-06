@@ -16,7 +16,6 @@
     .wrong{color:red}
     .hint{font-style:italic;color:#333}
     .inline{display:inline-block;margin-right:8px}
-    #einde ul { background:#fff4f4; padding:10px; border-radius:6px; }
   </style>
 </head>
 <body>
@@ -92,7 +91,7 @@
     const fr = (parts[0]||'').trim();
     const info = parts.slice(1).join(':').trim();
     if(!nl || !fr) return null;
-    return {nl,fr,info, raw: line};
+    return {nl,fr,info};
   }
 
   // Load file
@@ -207,38 +206,21 @@
 
   // end screen
   function toonEinde(){
-    // hide quiz, show einde
     quiz.style.display = 'none';
     einde.style.display = 'block';
-
-    const naam = (fileInput.value||'').trim();
     let totalWords = allSelected.length;
     let html = '<h3>Eindscore: '+juist+'/'+totaal+'</h3>';
     html += '<p>Je oefende '+totalWords+' woorden.</p>';
-
-    // collect wrong entries: show each unique line that was answered wrong at least once
-    const wrongEntries = allSelected.filter(w=> stateByKey[w.nl] && stateByKey[w.nl].wrongs>0);
-
-    if(wrongEntries.length===0) {
-      html += '<p>Geen fouten — goed gedaan!</p>';
-    } else{
-      html += '<h4>Foute woorden (exact zoals in bestand):</h4>';
-      html += '<ul>';
-      wrongEntries.forEach(w=>{
-        // show raw line exactly as in file (nl:::fr:info)
-        html += '<li>' + escapeHtml(w.raw) + '</li>';
+    const wrongEntries = Object.entries(stateByKey).filter(([k,v])=> v.wrongs>0);
+    if(wrongEntries.length===0) html += '<p>Geen fouten — goed gedaan!</p>';
+    else{
+      html += '<h4>Foute woorden (met juiste vertaling en aantal keer fout):</h4><ul>';
+      wrongEntries.forEach(([nl,v])=>{
+        const wrd = allSelected.find(w=> w.nl===nl) || {fr:'?'};
+        html += '<li>' + escapeHtml(nl) + ' → ' + escapeHtml(wrd.fr) + ' (x' + v.wrongs + ')</li>';
       });
       html += '</ul>';
     }
-
-    // timestamp in JJJJMMDDUUMM format (jaar maand dag uur minuut)
-    const date = new Date();
-    const pad = s=>String(s).padStart(2,'0');
-    const timestamp = ''+date.getFullYear() + pad(date.getMonth()+1) + pad(date.getDate()) + pad(date.getHours()) + pad(date.getMinutes());
-
-    // show score overview line in requested format
-    html += '<p><strong>Score overzicht:</strong> ' + escapeHtml(naam) + ':'+juist+'/'+totaal+':'+timestamp + '</p>';
-
     html += '<p><a href="index.html">Terug naar index</a></p>';
     einde.innerHTML = html;
   }
