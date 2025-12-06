@@ -1,0 +1,25 @@
+de schoen:la:chaussure:la chaussure:
+het hemd:la:chemise:la chemise:
+de pyjama:le:pyjama:le pyjama:
+de knie:le:genou:le genou:
+de vinger:le:doigt:le doigt:
+de tand:la:dent:la dent:
+ziek:::malade:
+vallen:::tomber:
+het plein:la:place:la place:
+het nummer:le:numéro:le numéro:
+het adres:l'(f):adresse:l'adresse:
+de vrachtwagen:le:camion:le camion:
+de film:le:film:le film:
+de seconde:la:seconde:la seconde:
+de politieagent:l'(m):agentde police:l'agent de police:
+jongedame, juffrouw:::mademoiselle:
+mogen, kunnen:::pouvoir:
+willen:::vouloir:
+naar de wc gaan:::aller aux toilettes:
+natuurlijk:::bien sûr:
+daar, daarginds:::là-bas:
+waarom:::pourquoi:
+gisteren:::hier:
+Het is tien over negen.:::Il est neuf heures dix.:
+succes:::bonne chance:

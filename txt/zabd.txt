@@ -1,0 +1,176 @@
+ik vind leuk:::j'adore:ADORER
+jij vindt leuk:::tu adores:ADORER
+hij vindt leuk:::il adore:ADORER
+zij vindt leuk:::elle adore:ADORER
+wij vinden leuk:::nous adorons:ADORER
+jullie vinden leuk:::vous adorez:ADORER
+zij vinden leuk:::ils adorent:ADORER (MANNELIJK)
+zij vinden leuk:::elles adorent:ADORER (VROUWELIJK)
+ik help:::j'aide:AIDER
+jij helpt:::tu aides:AIDER
+hij helpt:::il aide:AIDER
+zij helpt:::elle aide:AIDER
+wij helpen:::nous aidons:AIDER
+jullie helpen:::vous aidez:AIDER
+zij helpen:::ils aident:AIDER (MANNELIJK)
+zij helpen:::elles aident:AIDER (VROUWELIJK)
+ik houd van:::j'aime:AIMER
+jij houdt van:::tu aimes:AIMER
+hij houdt van:::il aime:AIMER
+zij houdt van:::elle aime:AIMER
+wij houden van:::nous aimons:AIMER
+jullie houden van:::vous aimez:AIMER
+zij houden van:::ils aiment:AIMER (MANNELIJK)
+zij houden van:::elles aiment:AIMER (VROUWELIJK)
+ik zing:::je chante:CHANTER
+jij zingt:::tu chantes:CHANTER
+hij zingt:::il chante:CHANTER
+zij zingt:::elle chante:CHANTER
+wij zingen:::nous chantons:CHANTER
+jullie zingen:::vous chantez:CHANTER
+zij zingen:::ils chantent:CHANTER (MANNELIJK)
+zij zingen:::elles chantent:CHANTER (VROUWELIJK)
+ik zoek:::je cherche:CHERCHER
+jij zoekt:::tu cherches:CHERCHER
+hij zoekt:::il cherche:CHERCHER
+zij zoekt:::elle cherche:CHERCHER
+wij zoeken:::nous cherchons:CHERCHER
+jullie zoeken:::vous cherchez:CHERCHER
+zij zoeken:::ils cherchent:CHERCHER (MANNELIJK)
+zij zoeken:::elles cherchent:CHERCHER (VROUWELIJK)
+ik begin:::je commence:COMMENCER
+jij begint:::tu commences:COMMENCER
+hij begint:::il commence:COMMENCER
+zij begint:::elle commence:COMMENCER
+wij beginnen:::nous commençons:COMMENCER
+jullie beginnen:::vous commencez:COMMENCER
+zij beginnen:::ils commencent:COMMENCER (MANNELIJK)
+zij beginnen:::elles commencent:COMMENCER (VROUWELIJK)
+ik kook:::je cuisine:CUISINER
+jij kookt:::tu cuisines:CUISINER
+hij kookt:::il cuisine:CUISINER
+zij kookt:::elle cuisine:CUISINER
+wij koken:::nous cuisinons:CUISINER
+jullie koken:::vous cuisinez:CUISINER
+zij koken:::ils cuisinent:CUISINER (MANNELIJK)
+zij koken:::elles cuisinent:CUISINER (VROUWELIJK)
+ik dans:::je danse:DANSER
+jij danst:::tu danses:DANSER
+hij danst:::il danse:DANSER
+zij danst:::elle danse:DANSER
+wij dansen:::nous dansons:DANSER
+jullie dansen:::vous dansez:DANSER
+zij dansen:::ils dansent:DANSER (MANNELIJK)
+zij dansen:::elles dansent:DANSER (VROUWELIJK)
+ik teken:::je dessine:DESSINER
+jij tekent:::tu dessines:DESSINER
+hij tekent:::il dessine:DESSINER
+zij tekent:::elle dessine:DESSINER
+wij tekenen:::nous dessinons:DESSINER
+jullie tekenen:::vous dessinez:DESSINER
+zij tekenen:::ils dessinent:DESSINER (MANNELIJK)
+zij tekenen:::elles dessinent:DESSINER (VROUWELIJK)
+ik haat:::je déteste:DÉTESTER
+jij haat:::tu détestes:DÉTESTER
+hij haat:::il déteste:DÉTESTER
+zij haat:::elle déteste:DÉTESTER
+wij haten:::nous détestons:DÉTESTER
+jullie haten:::vous détestez:DÉTESTER
+zij haten:::ils détestent:DÉTESTER (MANNELIJK)
+zij haten:::elles détestent:DÉTESTER (VROUWELIJK)
+ik geef:::je donne:DONNER
+jij geeft:::tu donnes:DONNER
+hij geeft:::il donne:DONNER
+zij geeft:::elle donne:DONNER
+wij geven:::nous donnons:DONNER
+jullie geven:::vous donnez:DONNER
+zij geven:::ils donnent:DONNER (MANNELIJK)
+zij geven:::elles donnent:DONNER (VROUWELIJK)
+ik luister:::j’écoute:ÉCOUTER
+jij luistert:::tu écoutes:ÉCOUTER
+hij luistert:::il écoute:ÉCOUTER
+zij luistert:::elle écoute:ÉCOUTER
+wij luisteren:::nous écoutons:ÉCOUTER
+jullie luisteren:::vous écoutez:ÉCOUTER
+zij luisteren:::ils écoutent:ÉCOUTER (MANNELIJK)
+zij luisteren:::elles écoutent:ÉCOUTER (VROUWELIJK)
+ik woon:::j'habite:HABITER
+jij woont:::tu habites:HABITER
+hij woont:::il habite:HABITER
+zij woont:::elle habite:HABITER
+wij wonen:::nous habitons:HABITER
+jullie wonen:::vous habitez:HABITER
+zij wonen:::ils habitent:HABITER (MANNELIJK)
+zij wonen:::elles habitent:HABITER (VROUWELIJK)
+ik speel:::je joue:JOUER
+jij speelt:::tu joues:JOUER
+hij speelt:::il joue:JOUER
+zij speelt:::elle joue:JOUER
+wij spelen:::nous jouons:JOUER
+jullie spelen:::vous jouez:JOUER
+zij spelen:::ils jouent:JOUER (MANNELIJK)
+zij spelen:::elles jouent:JOUER (VROUWELIJK)
+ik wandel:::je marche:MARCHER
+jij wandelt:::tu marches:MARCHER
+hij wandelt:::il marche:MARCHER
+zij wandelt:::elle marche:MARCHER
+wij wandelen:::nous marchons:MARCHER
+jullie wandelen:::vous marchez:MARCHER
+zij wandelen:::ils marchent:MARCHER (MANNELIJK)
+zij wandelen:::elles marchent:MARCHER (VROUWELIJK)
+ik zwem:::je nage:NAGER
+jij zwemt:::tu nages:NAGER
+hij zwemt:::il nage:NAGER
+zij zwemt:::elle nage:NAGER
+wij zwemmen:::nous nageons:NAGER
+jullie zwemmen:::vous nagez:NAGER
+zij zwemmen:::ils nagent:NAGER (MANNELIJK)
+zij zwemmen:::elles nagent:NAGER (VROUWELIJK)
+ik spreek:::je parle:PARLER
+jij spreekt:::tu parles:PARLER
+hij spreekt:::il parle:PARLER
+zij spreekt:::elle parle:PARLER
+wij spreken:::nous parlons:PARLER
+jullie spreken:::vous parlez:PARLER
+zij spreken:::ils parlent:PARLER (MANNELIJK)
+zij spreken:::elles parlent:PARLER (VROUWELIJK)
+ik vertel:::je raconte:RACONTER
+jij vertelt:::tu racontes:RACONTER
+hij vertelt:::il raconte:RACONTER
+zij vertelt:::elle raconte:RACONTER
+wij vertellen:::nous racontons:RACONTER
+jullie vertellen:::vous racontez:RACONTER
+zij vertellen:::ils racontent:RACONTER (MANNELIJK)
+zij vertellen:::elles racontent:RACONTER (VROUWELIJK)
+ik kijk:::je regarde:REGARDER
+jij kijkt:::tu regardes:REGARDER
+hij kijkt:::il regarde:REGARDER
+zij kijkt:::elle regarde:REGARDER
+wij kijken:::nous regardons:REGARDER
+jullie kijken:::vous regardez:REGARDER
+zij kijken:::ils regardent:REGARDER (MANNELIJK)
+zij kijken:::elles regardent:REGARDER (VROUWELIJK)
+ik blijf:::je reste:RESTER
+jij blijft:::tu restes:RESTER
+hij blijft:::il reste:RESTER
+zij blijft:::elle reste:RESTER
+wij blijven:::nous restons:RESTER
+jullie blijven:::vous restez:RESTER
+zij blijven:::ils restent:RESTER (MANNELIJK)
+zij blijven:::elles restent:RESTER (VROUWELIJK)
+ik hang rond:::je traine:TRAINER
+jij hangt rond:::tu traines:TRAINER
+hij hangt rond:::il traine:TRAINER
+zij hangt rond:::elle traine:TRAINER
+wij hangen rond:::nous trainons:TRAINER
+jullie hangen rond:::vous trainez:TRAINER
+zij hangen rond:::ils trainent:TRAINER (MANNELIJK)
+zij hangen rond:::elles trainent:TRAINER (VROUWELIJK)
+ik werk:::je travaille:TRAVAILLER
+jij werkt:::tu travailles:TRAVAILLER
+hij werkt:::il travaille:TRAVAILLER
+zij werkt:::elle travaille:TRAVAILLER
+wij werken:::nous travaillons:TRAVAILLER
+jullie werken:::vous travaillez:TRAVAILLER
+zij werken:::ils travaillent:TRAVAILLER (MANNELIJK)
+zij werken:::elles travaillent:TRAVAILLER (VROUWELIJK)

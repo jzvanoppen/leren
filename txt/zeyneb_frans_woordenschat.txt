@@ -1,0 +1,361 @@
+de jongen:le:garçon:le garçon:
+het meisje:la:fille:la fille:
+de vriend:l'(m):ami:l'ami:
+de vriendin:l'(f):amie:l'amie:
+hier:::ici:
+daar:::là:
+nul:::zéro:
+één:::un:
+twee:::deux:
+drie:::trois:
+vier:::quatre:
+vijf:::cinq:
+zes:::six:
+zeven:::sept:
+acht:::huit:
+negen:::neuf:
+tien:::dix:
+elf:::onze:
+twaalf:::douze:
+het dansen:la:danse:la danse:
+het hockey:le:hockey:le hockey:
+het basketten:le:basket:le basket:
+het tennis:le:tennis:le tennis:
+de pizza:la:pizza:la pizza:
+de chocolade:le:chocolat:le chocolat:
+de limonade:la:limonade:la limonade:
+de cola:le:coca:le coca:
+de familie:la:famille:la famille:
+de ouders:les:parents:les parents:
+de papa:le:papa:le papa:
+de mama:la:maman:la maman:
+de broer:le:frère:le frère:
+de zus:la:sœur:la sœur:Gebruik AltGr+o voor 'œ'.
+de oom:l'(m):oncle:l'oncle:
+de tante:la:tante:la tante:
+de man:l'(m):homme:l'homme:
+de vrouw:la:femme:la femme:
+van:::de:
+ik stel voor:::je présente:
+Hij heet Jean.:::Il s'appelle Jean.:
+de dag:le:jour:le jour:
+de week:la:semaine:la semaine:
+maandag:::lundi:
+dinsdag:::mardi:
+woensdag:::mercredi:
+donderdag:::jeudi:
+vrijdag:::vendredi:
+zaterdag:::samedi:
+zondag:::dimanche:
+de klas:la:classe:la classe:
+de leerkracht:le:prof:le prof:MANNELIJK
+de leerkracht:la:prof:la prof:VROUWELIJK
+de vriendin:la:copine:la copine:
+de leerling(e):l'(m+v):élève:l'élève:
+de stad:la:ville:la ville:
+het judo:le:judo:le judo:
+altijd:::toujours:
+ook:::aussi:
+sterk:::fort:MANNELIJK
+sterk:::forte:VROUWELIJK
+mooi:::joli:MANNELIJK
+mooi:::jolie:VROUWELIJK
+klein:::petit:MANNELIJK
+klein:::petite:VROUWELIJK
+groot:::grand:MANNELIJK
+groot:::grande:VROUWELIJK
+tevreden, blij:::content:MANNELIJK
+tevreden, blij:::contente:VROUWELIJK
+snel:::rapide:MANNELIJK+VROUWELIJK
+blond:::blond:MANNELIJK
+blond:::blonde:VROUWELIJK
+triest, verdrietig:::triste:MANNELIJK+VROUWELIJK
+sterk:::forts:MANNELIJK - MEERVOUD
+sterk:::fortes:VROUWELIJK - MEERVOUD
+mooi:::jolis:MANNELIJK - MEERVOUD
+mooi:::jolies:VROUWELIJK - MEERVOUD
+klein:::petits:MANNELIJK - MEERVOUD
+klein:::petites:VROUWELIJK - MEERVOUD
+groot:::grands:MANNELIJK - MEERVOUD
+groot:::grandes:VROUWELIJK - MEERVOUD
+tevreden, blij:::contents:MANNELIJK - MEERVOUD
+tevreden, blij:::contentes:VROUWELIJK - MEERVOUD
+snel:::rapides:MANNELIJK+VROUWELIJK - MEERVOUD
+blond:::blonds:MANNELIJK - MEERVOUD
+blond:::blondes:VROUWELIJK - MEERVOUD
+triest, verdrietig:::tristes:MANNELIJK+VROUWELIJK - MEERVOUD
+cool:::cool:
+super:::super:
+ik:::je:
+jij:::tu:
+hij:::il:
+zij:::elle:VROUWELIJK - ENKELVOUD
+wij:::nous:
+jullie:::vous:
+zij:::ils:MANNELIJK - MEERVOUD
+zij:::elles:VROUWELIJK - MEERVOUD
+de, het:::le:MANNELIJK - ENKELVOUD
+de, het:::la:VROUWELIJK - ENKELVOUD
+de, het:::les:MANNELIJK+VROUWELIJK MEERVOUD
+het kind:l'(m):enfant:l'enfant:
+de match:le:match:le match:
+het hoofd:la:tête:la tête:
+het oog:l'(m):l'œil:l'œil:Gebruik AltGr+o voor 'œ'.
+de ogen:les:yeux:les yeux:
+de arm:le:bras:le bras:
+de buik:le:ventre:le ventre:
+de hand:la:main:la main:
+het oor:l'(f):oreille:l'oreille:
+het been:la:jambe:la jambe:
+de rug:le:dos:le dos:
+de voet:le:pied:le pied:
+pijn hebben:::avoir mal:
+Het gaat.:::Ça va.:
+Gaat het?:::Ça va?:
+heel goed:::très bien:
+overal:::partout:
+Opgelet!:::Attention!:
+de hond:le:chien:le chien:
+de kat:le:chat:le chat:
+het paard:le:cheval:le cheval:
+de paarden:les(m):chevaux:les chevaux:
+de directeur:le:directeur:le directeur:
+de toets:le:test:le test:
+Hoe oud ben je?:::Tu as quel âge?:
+Ik ben 11 jaar.:::J'ai 11 ans.:
+Ik ook!:::Moi aussi!:
+de dokter:le:docteur:le docteur:
+het geneesmiddel:le:médicament:le médicament:
+de broek:le:pantalon:le pantalon:
+het rokje:la:jupe:la jupe:
+het t-shirt:le:t-shirt:le t-shirt:
+de jurk:la:robe:la robe:
+de trui:le:pull:le pull:
+de short:le:short:le short:
+de jas:la:veste:la veste:
+de sneakers (de sportschoenen):les(f):baskets:les baskets:
+de sok:la:chaussette:la chaussette:
+roze:::rose:
+blauw:::bleu:MANNELIJK
+blauw:::bleue:VROUWELIJK
+wit:::blanc:MANNELIJK
+wit:::blanche:VROUWELIJK
+rood:::rouge:
+zwart:::noir:MANNELIJK
+zwart:::noire:VROUWELIJK
+oranje:::orange:
+groen:::vert:MANNELIJK
+groen:::verte:VROUWELIJK
+geel:::jaune:
+paars:::mauve:
+vreemd (bizar):::bizarre:
+vandaag:::aujourd'hui:
+morgen:::demain:
+of:::ou:
+een:::un:MANNELIJK (LIDWOORD)
+een:::une:VROUWELIJK (LIDWOORD)
+een:::des:MEERVOUD (LIDWOORD)
+de olifant:l'(m):éléphant:l'éléphant:
+de giraf:la:girafe:la girafe:
+het varken:le:cochon:le cochon:
+het konijn:le:lapin:le lapin:
+de kip:la:poule:la poule:
+de koe:la:vache:la vache:
+de nek:le:cou:le cou:
+het dier:l'(m):animal:l'animal:
+de dieren:les:animaux:les animaux:
+de boerderij:la:ferme:la ferme:
+de doos:la:boîte:la boîte:
+bang zijn:::avoir peur:
+spreken over:::parler de:
+grappig:::drôle:
+favoriet (lievelings):::favori:MANNELIJK
+favoriet (lievelings):::favorite:VROUWELIJK
+enorm:::énorme:
+mijn:::mon:MANNELIJK
+mijn:::ma:VROUWELIJK
+mijn:::mes:MEERVOUD
+jouw:::ton:MANNELIJK
+jouw:::ta:VROUWELIJK
+jouw:::tes:MEERVOUD
+er is (er zijn):::il y a:
+voor:::devant:
+achter:::derrière:
+onder:::sous:
+tussen:::entre:
+in:::dans:
+op:::sur:
+deze (die, dit, dat):::ce:MANNELIJK ENKELVOUD
+deze (die, dit, dat):::cet:MANNELIJK ENKELVOUD (voor a,e,i,o,u)
+deze (die, dit, dat):::cette:VROUWELIJK ENKELVOUD
+deze (die, dit, dat):::ces:MANNELIJK+VROUWELIJK MEERVOUD
+de boom:l'(m):arbre:l'arbre:
+de bank (om op te zitten):le:banc:le banc:
+de bloem:la:fleur:la fleur:
+een beetje:::un peu:
+snel (vlug):::vite:
+de haas:le:lièvre:le lièvre:
+de schildpad:la:tortue:la tortue:
+traag:::lent:MANNELIJK
+traag:::lente:VROUWELIJK
+
+maandag:::lundi:
+dinsdag:::mardi:
+woensdag:::mercredi:
+donderdag:::jeudi:
+vrijdag:::vendredi:
+zaterdag:::samedi:
+zondag:::dimanche:
+januari:::janvier:
+februari:::février:
+maart:::mars:
+april:::avril:
+mei:::mai:
+juni:::juin:
+juli:::juillet:
+augustus:::août:
+september:::septembre:
+oktober:::octobre:
+november:::novembre:
+december:::décembre:
+in de winter:::en hiver:
+in de lente:::au printemps:
+in de zomer:::en été:
+in de herfst:::en automne:
+de datum:la:date:la date:
+de verjaardag:l'(m):anniversaire:l'anniversaire:
+de dag:le:jour:le jour:
+de week:la:semaine:la semaine:
+de maand:le:mois:le mois:
+het jaar:l'(f):année:l'année:
+vandaag:::aujourd'hui:
+morgen:::demain:
+tussen:::entre:
+er is, er zijn:::il y a:
+de dokter:le:docteur:le docteur:
+het geneesmiddel:le:médicament:le médicament:
+pijn hebben:::avoir mal:
+het gaat/gaat het?:::ça va:
+goed:::bien:
+zeer goed:::très bien:
+Het is warm.:::Il fait chaud.:
+Het is koud.:::Il fait froid.:
+Het regent.:::Il pleut.:
+Het sneeuwt.:::Il neige.:
+Het is mooi weer.:::Il fait beau.:
+Het is slecht weer.:::Il fait mauvais.:
+De zon schijnt.:::Il y a du soleil.:
+Het waait.:::Il y a du vent.:
+Wat voor weer is het?:::Quel temps fait-il?:
+Het is 35 graden.:::Il fait 35 degrés.:
+de jongen:le:garçon:le garçon:
+het meisje/de dochter:la:fille:la fille:
+de vrouw:la:femme:la femme:
+de man:l'(m):homme:l'homme:
+het dansen:la:danse:la danse:
+het hockey (spelen):le:hockey:le hockey:
+het basketten:le:basket:le basket:
+het tennis(sen):le:tennis:le tennis:
+het voetballen:le:foot:le foot:
+het judo:le:judo:le judo:
+de pizza:la:pizza:la pizza:
+de chocolade:le:chocolat:le chocolat:
+de limonade:la:limonade:la limonade:
+de cola:le:coca:le coca:
+de vriend:le:copain:le copain:(c..)
+de vriendin:la:copine:la copine:(c..)
+de vriend:l'(m):ami:l'ami:(l'..)
+de vriendin:l'(f):amie:l'amie:(l'..)
+de familie:la:famille:la famille:
+de ouders:les(m):parents:les parents:
+de vader:le:père:le père:(è)
+de moeder:la:mère:la mère:(è)
+de papa:le:papa:le papa:(pa..)
+de mama:la:maman:la maman:(ma..)
+de broer:le:frère:le frère:
+de zus:la:sœur:la sœur:Gebruik AltGr+o voor 'œ'.
+de oom:l'(m):oncle:l'oncle:
+de tante:la:tante:la tante:
+Ik heet Zeyneb.:::Je m'appelle Zeyneb.:
+Hou oud ben jij?:::Tu as quel âge?:
+Ik ben 10 jaar oud.:::J'ai 10 ans.:
+ik hou van:::j'aime:
+het rokje:la:jupe:la jupe:
+de jurk:la:robe:la robe:
+de broek:le:pantalon:le pantalon:
+de trui:le:pull:le pull:
+het t-shirt:le:t-shirt:le t-shirt:
+de vest, de jas:la:veste:la veste:
+de sokken:les(f):chaussettes:les chaussettes:
+de sneakers:les(f):baskets:les baskets:
+vreemd, bizar:::bizarre:
+de buurman:le:voisin:le voisin:
+de buurvrouw:la:voisine:la voisine:
+de verdieping:l'(m):étage:l'étage:
+de zetel:le:fauteil:le fauteuil:
+de garage:le:garage:le garage:
+de tuin:le:jardin:le jardin:
+het bureau:le:bureau:le bureau:
+het raam:la:fenêtre:la fenêtre:
+de deur:la:porte:la porte:
+zijn, haar:::son,sa,ses:
+alleen:::seul:MANNELIJK
+alleen:::seule:VROUWELIJK
+dan:::alors:
+jawel:::si:
+helpen:::aider:
+plaatsen, zetten:::mettre:
+heten:::s'appeler:
+Hoe heet je?:::Comment tu t'appelles?:
+Ik weet het niet.:::Je ne sais pas.:
+Welkom!:::Bienvenue!:
+de dag (duur):la:journée:la journée:
+de ochtend ('s ochtends):le:matin:le matin:
+de namiddag ('s namiddags):l'(m):après-midi:l'après-midi:
+de avond ('s avonds):le:soir:le soir:
+de nacht ('s nachts):la:nuit:la nuit:
+de maaltijd:le:repas:le repas:
+het ontbijt:le:petit-déjeuner:le petit-déjeuner:
+het middagmaal:le:dîner:le dîner:
+het avondmaal:le:souper:le souper:
+spaghetti:les(m):spaghettis:les spaghettis:
+de boterham:la:tartine:la tartine:
+de confituur:la:confiture:la confiture:
+de jeans:le:jean:le jean:
+de kleren (kledij):les(m):vêtements:les vêtements:
+eten:::manger:
+zich amuseren:::s'amuser:
+gaan slapen:::se coucher:
+zich wassen:::se laver:
+opstaan:::se lever:
+zich aankleden:::s'habiller:
+na (daarna):::après:
+vroeg:::tôt:
+de koffie:le:café:le café:
+de thee:le:thé:le thé:
+het water:l'(f):eau:l'eau:
+de melk:le:lait:le lait:
+het fruitsap:le:jus de fruits:le jus de fruits:
+de warme chocolademelk:le:chocolat chaud:le chocolat chaud:
+de pannenkoek:la:crêpe:la crêpe:
+de suiker:le:sucre:le sucre:
+het brood:le:pain:le pain:
+het stokbrood:la:baguette:la baguette:
+de boter:le:beurre:le beurre:
+de kaas:le:fromage:le fromage:
+de hesp:le:jambon:le jambon:
+de champignon:le:champignon:le champignon:
+het bord:l'(f):assiette:l'assiette:
+het kopje:la:tasse:la tasse:
+het mes:le:couteau:le couteau:
+de vork:la:fourchette:la fourchette:
+de lepel:la:cuillère:la cuillère:
+het weekend:le:week-end:le week-end:
+het idee:l'(f):idée:l'idée:
+drinken:::boire:
+boodschappen doen:::faire des courses:
+de tafel dekken:::mettre la table:
+aardig:::gentil:MANNELIJK
+aardig:::gentille:VROUWELIJK
+tijdens:::pendant:
+het ei:l'(m):œuf:l'œuf:Gebruik AltGr+o voor 'œ'.

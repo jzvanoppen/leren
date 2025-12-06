@@ -1,0 +1,45 @@
+de olijf:l'(f):olive:l'olive:
+de frieten:les(f):frites:les frites:
+het vlees:la:viande:la viande:
+de fijne vleeswaren:la:charcuterie:la charcuterie:
+het menu:le:menu:le menu:
+het dessert:le:dessert:le dessert:
+de saus:la:sauce:la sauce:
+de mayonaise:la:mayonnaise:la mayonnaise:
+het ijsje:la:glace:la glace:
+de wijn:le:vin:le vin:
+het bier(tje):la:bière:la bière:
+het blad:la:feuille:la feuille:
+de mond:la:bouche:la bouche:
+het glas:le:verre:le verre:
+de fles:la:bouteille:la bouteille:
+het restaurant:le:restaurant:le restaurant:
+openen, opendoen:::ouvrir:
+de prijs:le:prix:le prix:
+een kopje ...:::une tasse de:
+een kopje koffie:::une tasse de café:
+een glas ...:::un verre de:
+een glas water:::un verre d'eau:
+een fles ...:::une bouteille de:
+een fles cola:::une bouteille de coca:
+slecht:::mauvais:MANNELIJK (als bijvoeglijke naamwoord: een slechte film)
+slecht:::mauvaise:VROUWELIJK (als bijvoeglijke naamwoord: een slechte film)
+goed:::bon:MANNELIJK (als bijvoeglijke naamwoord: een goede film)
+goed:::bonne:VROUWELIJK (als bijvoeglijke naamwoord: een goede film)
+goed:::bien:(voorbeeld: jij werkt goed)
+slecht:::mal:(voorbeeld: jij werkt slecht)
+omdat:::parce que:
+nog een beetje ...:::encore un peu de:
+nog een beetje melk:::encore un peu de lait:
+voor:::avant:(in tijd: voor de maaltijd)
+wat:::qu'est-ce que:
+voor hem:::pour lui:
+honderd gram ...:::cent grammes de:
+honderd gram ham:::cent grammes de jambon:
+de kilo:le:kilo:le kilo:
+een kilo...:::un kilo de:
+een kilo aardappelen:::un kilo de pommes de terre:
+hoeveel kost het?:::ça fait combien?:
+Gelukkige verjaardag:::Bon anniversaire!:
+Bravo!:::Bravo!:
+Ik heb gewonnen!:::J'ai gagné!:

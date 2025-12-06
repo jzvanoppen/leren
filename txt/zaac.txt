@@ -1,0 +1,37 @@
+de tafel:::la table:
+de broel:::le pantalon:
+rood:::rouge:VROUWELIJK+MANNELIJK  
+de rode tafel:::la table rouge:  
+de rode broek:::le pantalon rouge:  
+blauw:::bleu:MANNELIJK  
+blauw:::bleue:VROUWELIJK  
+de blauwe tafel:::la table bleue:  
+de blauwe broek:::le pantalon bleu:
+geel:::jaune:VROUWELIJK+MANNELIJK  
+de gele tafel:::la table jaune:  
+de gele broek:::le pantalon jaune:  
+groen:::vert:MANNELIJK  
+groen:::verte:VROUWELIJK  
+de groene tafel:::la table verte:  
+de groene broek:::le pantalon vert:  
+zwart:::noir:MANNELIJK  
+zwart:::noire:VROUWELIJK  
+de zwarte tafel:::la table noire:  
+de zwarte broek:::le pantalon noir:  
+wit:::blanc:MANNELIJK  
+wit:::blanche:VROUWELIJK  
+de witte tafel:::la table blanche:  
+de witte broek:::le pantalon blanc: 
+oranje:::orange:VROUWELIJK+MANNELIJK  
+de oranje tafel:::la table orange:  
+de oranje broek:::le pantalon orange:
+paars:::mauve:VROUWELIJK+MANNELIJK  
+de paarse tafel:::la table mauve:  
+de paarse broek:::le pantalon mauve:  
+bruin:::brun:MANNELIJK  
+bruin:::brune:VROUWELIJK  
+de bruine tafel:::la table brune:  
+de bruine broek:::le pantalon brun:
+roze:::rose:VROUWELIJK+MANNELIJK  
+de roze tafel:::la table rose:  
+de roze broek:::le pantalon rose:  

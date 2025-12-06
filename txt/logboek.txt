@@ -1,0 +1,3 @@
+Nieuwe sessie gestart op Thu Aug 22 09:52:33 PM CEST 2024
+Gebruiker ingevoerd: txt/zeyneb_frans_zinnen.txt
+Alle woorden zijn correct beantwoord. Het script wordt afgesloten.

@@ -1,0 +1,19 @@
+het meisje, de dochter:::la fille:
+de zoon:::le fils:
+het voetbal:::le foot:
+de broer:::le frère:
+de jongen:::le garçon:
+de gymnastiek / het turnen:::la gym:
+de hobby:::le hobby:
+de jeans(broek):::le jean:
+het bericht, de boodschap:::le message:
+de muziek:::la musique:
+de naam:::le nom:
+de familienaam:::le nom de famille:
+de appel:::la pomme:
+de voornaam:::le prénom:
+de leerkracht:::le professeur:MANNELIJK
+de leerkracht:::la professeur:VROUWELIJK
+de short, de korte broek:::le short:
+het T-shirt:::le teeshirt:
+de fiets:::le vélo:

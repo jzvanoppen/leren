@@ -1,0 +1,13 @@
+grappig:::drôle:
+geniaal:::génial:MANNELIJK:
+geniaal:::géniale:VROUWELIJK
+vriendelijk:::gentil:MANNELIJK:
+vriendelijk:::gentille:VROUWELIJK:
+slim:::malin:MANNELIJK
+slim:::maligne:VROUWELIJK
+ernstig:::sérieux:MANNELIJK
+ernstig:::sérieuse:VROUWELIJK
+streng:::sévère:
+sociaal:::sociable:
+sportief:::sportif:MANNELIJK
+sportief:::sportive:VROUWELIJK

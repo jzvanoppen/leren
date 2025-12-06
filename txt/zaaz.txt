@@ -1,0 +1,15 @@
+de oudste:(m)::l'ainé:MANNELIJK
+de oudste:(f)::l'ainée:VROUWELIJK
+de schoonbroer:::le beau-frère:
+de schoonvader, de stiefvader:::le beau-père:
+de schoonmoeder, de stiefmoeder:::la belle-mère:
+de schoonzus:::la belle-soeur:
+de strand-cabine:::la cabine de plage:
+de vriend:::le copain:
+de vriendin:::la copine:
+de neef:::le cousin:
+de nicht:::la cousine:
+de halfbroer, de stiefbroer:::le demi-frère:
+de halfzus, de stiefzus:::la demi-soeur:
+de tekening:::le dessin:
+het enige kind:(m)::l'enfant unique:

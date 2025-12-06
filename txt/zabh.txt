@@ -1,0 +1,120 @@
+ik vertrek:::je pars:
+jij vertrekt:::tu pars:
+hij vertrekt:::il part:
+zij vertrekt:::elle part:
+wij vertrekken:::nous partons:
+jullie vertrekken:::vous partez:
+zij vertrekken:::ils partent:(MANNELIJK)
+zij vertrekken:::elles partent:(VROUWELIJK)
+ik beëindig:::je finis:
+jij beëindigt:::tu finis:
+hij beëindigt:::il finit:
+zij beëindigt:::elle finit:
+wij beëindigen:::nous finissons:
+jullie beëindigen:::vous finissez:
+zij beëindigen:::ils finissent:(MANNELIJK)
+zij beëindigen:::elles finissent:(VROUWELIJK)
+ik lieg:::je mens:
+jij liegt:::tu mens:
+hij liegt:::il ment:
+zij liegt:::elle ment:
+wij liegen:::nous mentons:
+jullie liegen:::vous mentez:
+zij liegen:::ils mentent:(MANNELIJK)
+zij liegen:::elles mentent:(VROUWELIJK)
+ik voel/ruik:::je sens:
+jij voelt/ruikt:::tu sens:
+hij voelt/ruikt:::il sent:
+zij voelt/ruikt:::elle sent:
+wij voelen/ruiken:::nous sentons:
+jullie voelen/ruiken:::vous sentez:
+zij voelen/ruiken:::ils sentent:(MANNELIJK)
+zij voelen/ruiken:::elles sentent:(VROUWELIJK)
+ik dien:::je sers:
+jij dient:::tu sers:
+hij dient:::il sert:
+zij dient:::elle sert:
+wij dienen:::nous servons:
+jullie dienen:::vous servez:
+zij dienen:::ils servent:(MANNELIJK)
+zij dienen:::elles servent:(VROUWELIJK)
+ik ga naar buiten:::je sors:
+jij gaat naar buiten:::tu sors:
+hij gaat naar buiten:::il sort:
+zij gaat naar buiten:::elle sort:
+wij gaan naar buiten:::nous sortons:
+jullie gaan naar buiten:::vous sortez:
+zij gaan naar buiten:::ils sortent:(MANNELIJK)
+zij gaan naar buiten:::elles sortent:(VROUWELIJK)
+ik slaap:::je dors:
+jij slaapt:::tu dors:
+hij slaapt:::il dort:
+zij slaapt:::elle dort:
+wij slapen:::nous dormons:
+jullie slapen:::vous dormez:
+zij slapen:::ils dorment:(MANNELIJK)
+zij slapen:::elles dorment:(VROUWELIJK)
+ik kies:::je choisis:
+jij kiest:::tu choisis:
+hij kiest:::il choisit:
+zij kiest:::elle choisit:
+wij kiezen:::nous choisissons:
+jullie kiezen:::vous choisissez:
+zij kiezen:::ils choisissent:(MANNELIJK)
+zij kiezen:::elles choisissent:(VROUWELIJK)
+ik groei:::je grandis:
+jij groeit:::tu grandis:
+hij groeit:::il grandit:
+zij groeit:::elle grandit:
+wij groeien:::nous grandissons:
+jullie groeien:::vous grandissez:
+zij groeien:::ils grandissent:(MANNELIJK)
+zij groeien:::elles grandissent:(VROUWELIJK)
+ik word dik:::je grossis:
+jij wordt dik:::tu grossis:
+hij wordt dik:::il grossit:
+zij wordt dik:::elle grossit:
+wij worden dik:::nous grossissons:
+jullie worden dik:::vous grossissez:
+zij worden dik:::ils grossissent:(MANNELIJK)
+zij worden dik:::elles grossissent:(VROUWELIJK)
+ik vermager:::je maigris:
+jij vermagert:::tu maigris:
+hij vermagert:::il maigrit:
+zij vermagert:::elle maigrit:
+wij vermageren:::nous maigrissons:
+jullie vermageren:::vous maigrissez:
+zij vermageren:::ils maigrissent:(MANNELIJK)
+zij vermageren:::elles maigrissent:(VROUWELIJK)
+ik reageer:::je réagis:
+jij reageert:::tu réagis:
+hij reageert:::il réagit:
+zij reageert:::elle réagit:
+wij reageren:::nous réagissons:
+jullie reageren:::vous réagissez:
+zij reageren:::ils réagissent:(MANNELIJK)
+zij reageren:::elles réagissent:(VROUWELIJK)
+ik denk na:::je réfléchis:
+jij denkt na:::tu réfléchis:
+hij denkt na:::il réfléchit:
+zij denkt na:::elle réfléchit:
+wij denken na:::nous réfléchissons:
+jullie denken na:::vous réfléchissez:
+zij denken na:::ils réfléchissent:(MANNELIJK)
+zij denken na:::elles réfléchissent:(VROUWELIJK)
+ik vul:::je remplis:
+jij vult:::tu remplis:
+hij vult:::il remplit:
+zij vult:::elle remplit:
+wij vullen:::nous remplissons:
+jullie vullen:::vous remplissez:
+zij vullen:::ils remplissent:(MANNELIJK)
+zij vullen:::elles remplissent:(VROUWELIJK)
+ik bloos:::je rougis:
+jij bloost:::tu rougis:
+hij bloost:::il rougit:
+zij bloost:::elle rougit:
+wij blozen:::nous rougissons:
+jullie blozen:::vous rougissez:
+zij blozen:::ils rougissent:(MANNELIJK)
+zij blozen:::elles rougissent:(VROUWELIJK)

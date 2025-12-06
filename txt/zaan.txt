@@ -1,0 +1,18 @@
+kunnen, mogen:::pouvoir:
+ik kan, mag:::je peux:
+jij kan, mag:::tu peux:
+hij kan, mag:::il peut:
+zij kan, mag:::elle peut:
+wij kunnen, mogen:::nous pouvons:
+jullie kunnen, mogen:::vous pouvez:
+zij kunnen, mogen:::ils peuvent:MANNELIJK
+zij kunnen, mogen:::elles peuvent:VROUWELIJK
+willen:::vouloir:
+ik wil:::je veux:
+jij wilt:::tu veux:
+hij wil:::il veut:
+zij wil:::elle veut:
+wij willen:::nous voulons:
+jullie willen:::vous voulez:
+zij willen:::ils veulent:MANNELIJK
+zij willen:::elles veulent:VROUWELIJK

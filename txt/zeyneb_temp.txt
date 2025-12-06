@@ -1,0 +1,15 @@
+nieuw:::nouveau:MANNELIJK
+nieuw:::nouvelle:VROUWELIJK
+eerst:::premier:MANNELIJK
+eerst:::première:VROUWELIJK
+super:::super:
+tof, sympathiek:::sympa:
+goeiedag:::bonjour:
+dat komt goed uit:::ça tombe bien:
+gaat het:::ça va:
+het gaat goed:::ça va bien
+ik woon in Brussel:::j'habite à Bruxelles:
+waar woon jij:::tu habites où:
+hoe oud ben jij:::tu as quel âge:
+ik ben 12 jaar:::j'ai 12 ans:
+ik heet Zeyneb:::je m'appelle Zeyneb:

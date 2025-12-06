@@ -1,0 +1,17 @@
+mij, ik:::moi:
+jou:::toi:
+hem:::lui:
+haar:::elle:
+ons:::nous:
+jullie/u:::vous:
+hen:::eux:MANNELIJK
+hen:::elles:VROUWELIJK
+van mij:::à moi:
+voor jou:::pour toi:
+voor hem:::pour lui:
+met hem:::avec lui:
+zonder haar:::sans elle:
+van:::à:
+voor:::pour:
+met:::avec:
+zonder:::sans:

@@ -1,0 +1,120 @@
+ik vertrek:::je pars:PARTIR
+jij vertrekt:::tu pars:PARTIR
+hij vertrekt:::il part:PARTIR
+zij vertrekt:::elle part:PARTIR
+wij vertrekken:::nous partons:PARTIR
+jullie vertrekken:::vous partez:PARTIR
+zij vertrekken:::ils partent:PARTIR (MANNELIJK)
+zij vertrekken:::elles partent:PARTIR (VROUWELIJK)
+ik beëindig:::je finis:FINIR
+jij beëindigt:::tu finis:FINIR
+hij beëindigt:::il finit:FINIR
+zij beëindigt:::elle finit:FINIR
+wij beëindigen:::nous finissons:FINIR
+jullie beëindigen:::vous finissez:FINIR
+zij beëindigen:::ils finissent:FINIR (MANNELIJK)
+zij beëindigen:::elles finissent:FINIR (VROUWELIJK)
+ik lieg:::je mens:MENTIR
+jij liegt:::tu mens:MENTIR
+hij liegt:::il ment:MENTIR
+zij liegt:::elle ment:MENTIR
+wij liegen:::nous mentons:MENTIR
+jullie liegen:::vous mentez:MENTIR
+zij liegen:::ils mentent:MENTIR (MANNELIJK)
+zij liegen:::elles mentent:MENTIR (VROUWELIJK)
+ik voel/ruik:::je sens:SENTIR
+jij voelt/ruikt:::tu sens:SENTIR
+hij voelt/ruikt:::il sent:SENTIR
+zij voelt/ruikt:::elle sent:SENTIR
+wij voelen/ruiken:::nous sentons:SENTIR
+jullie voelen/ruiken:::vous sentez:SENTIR
+zij voelen/ruiken:::ils sentent:SENTIR (MANNELIJK)
+zij voelen/ruiken:::elles sentent:SENTIR (VROUWELIJK)
+ik dien:::je sers:SERVIR
+jij dient:::tu sers:SERVIR
+hij dient:::il sert:SERVIR
+zij dient:::elle sert:SERVIR
+wij dienen:::nous servons:SERVIR
+jullie dienen:::vous servez:SERVIR
+zij dienen:::ils servent:SERVIR (MANNELIJK)
+zij dienen:::elles servent:SERVIR (VROUWELIJK)
+ik ga naar buiten:::je sors:SORTIR
+jij gaat naar buiten:::tu sors:SORTIR
+hij gaat naar buiten:::il sort:SORTIR
+zij gaat naar buiten:::elle sort:SORTIR
+wij gaan naar buiten:::nous sortons:SORTIR
+jullie gaan naar buiten:::vous sortez:SORTIR
+zij gaan naar buiten:::ils sortent:SORTIR (MANNELIJK)
+zij gaan naar buiten:::elles sortent:SORTIR (VROUWELIJK)
+ik slaap:::je dors:DORMIR
+jij slaapt:::tu dors:DORMIR
+hij slaapt:::il dort:DORMIR
+zij slaapt:::elle dort:DORMIR
+wij slapen:::nous dormons:DORMIR
+jullie slapen:::vous dormez:DORMIR
+zij slapen:::ils dorment:DORMIR (MANNELIJK)
+zij slapen:::elles dorment:DORMIR (VROUWELIJK)
+ik kies:::je choisis:CHOISIR
+jij kiest:::tu choisis:CHOISIR
+hij kiest:::il choisit:CHOISIR
+zij kiest:::elle choisit:CHOISIR
+wij kiezen:::nous choisissons:CHOISIR
+jullie kiezen:::vous choisissez:CHOISIR
+zij kiezen:::ils choisissent:CHOISIR (MANNELIJK)
+zij kiezen:::elles choisissent:CHOISIR (VROUWELIJK)
+ik groei:::je grandis:GRANDIR
+jij groeit:::tu grandis:GRANDIR
+hij groeit:::il grandit:GRANDIR
+zij groeit:::elle grandit:GRANDIR
+wij groeien:::nous grandissons:GRANDIR
+jullie groeien:::vous grandissez:GRANDIR
+zij groeien:::ils grandissent:GRANDIR (MANNELIJK)
+zij groeien:::elles grandissent:GRANDIR (VROUWELIJK)
+ik word dik:::je grossis:GROSSIR
+jij wordt dik:::tu grossis:GROSSIR
+hij wordt dik:::il grossit:GROSSIR
+zij wordt dik:::elle grossit:GROSSIR
+wij worden dik:::nous grossissons:GROSSIR
+jullie worden dik:::vous grossissez:GROSSIR
+zij worden dik:::ils grossissent:GROSSIR (MANNELIJK)
+zij worden dik:::elles grossissent:GROSSIR (VROUWELIJK)
+ik vermager:::je maigris:MAIGRIR
+jij vermagert:::tu maigris:MAIGRIR
+hij vermagert:::il maigrit:MAIGRIR
+zij vermagert:::elle maigrit:MAIGRIR
+wij vermageren:::nous maigrissons:MAIGRIR
+jullie vermageren:::vous maigrissez:MAIGRIR
+zij vermageren:::ils maigrissent:MAIGRIR (MANNELIJK)
+zij vermageren:::elles maigrissent:MAIGRIR (VROUWELIJK)
+ik reageer:::je réagis:RÉAGIR
+jij reageert:::tu réagis:RÉAGIR
+hij reageert:::il réagit:RÉAGIR
+zij reageert:::elle réagit:RÉAGIR
+wij reageren:::nous réagissons:RÉAGIR
+jullie reageren:::vous réagissez:RÉAGIR
+zij reageren:::ils réagissent:RÉAGIR (MANNELIJK)
+zij reageren:::elles réagissent:RÉAGIR (VROUWELIJK)
+ik denk na:::je réfléchis:RÉFLÉCHIR
+jij denkt na:::tu réfléchis:RÉFLÉCHIR
+hij denkt na:::il réfléchit:RÉFLÉCHIR
+zij denkt na:::elle réfléchit:RÉFLÉCHIR
+wij denken na:::nous réfléchissons:RÉFLÉCHIR
+jullie denken na:::vous réfléchissez:RÉFLÉCHIR
+zij denken na:::ils réfléchissent:RÉFLÉCHIR (MANNELIJK)
+zij denken na:::elles réfléchissent:RÉFLÉCHIR (VROUWELIJK)
+ik vul:::je remplis:REMPLIR
+jij vult:::tu remplis:REMPLIR
+hij vult:::il remplit:REMPLIR
+zij vult:::elle remplit:REMPLIR
+wij vullen:::nous remplissons:REMPLIR
+jullie vullen:::vous remplissez:REMPLIR
+zij vullen:::ils remplissent:REMPLIR (MANNELIJK)
+zij vullen:::elles remplissent:REMPLIR (VROUWELIJK)
+ik bloos:::je rougis:ROUGIR
+jij bloost:::tu rougis:ROUGIR
+hij bloost:::il rougit:ROUGIR
+zij bloost:::elle rougit:ROUGIR
+wij blozen:::nous rougissons:ROUGIR
+jullie blozen:::vous rougissez:ROUGIR
+zij blozen:::ils rougissent:ROUGIR (MANNELIJK)
+zij blozen:::elles rougissent:ROUGIR (VROUWELIJK)

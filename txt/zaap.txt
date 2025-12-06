@@ -1,0 +1,20 @@
+de leeftijd:(m)::l'âge:
+de vriend:(m)::l'ami:A...
+de vriendin:(f)::l'amie:A...
+het jaar:(m)::l'an:N
+het jaar:(f)::l'année:NN
+de verjaardag:(f)::l'anniversaire:
+de bal:::le ballon:
+de voetbal:::le ballon de foot:
+de banaan:::la banane:
+de sneaker / de basketschoen:::la basket:
+de basket (sport):::le basket:
+de kat:::le chat:
+de hond:::le chien:
+de bioscoop:::le cinéma:
+de klas:::la classe:
+de vriend:::le copain:C...
+de vriendin:::la copine:C...
+de school:(f)::l'école:
+de leerlinge:(f)::l'élève:
+de leerling:(m)::l'élève:

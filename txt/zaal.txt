@@ -1,0 +1,8 @@
+30:::trente:
+40:::quarante:
+50:::cinquante:
+60:::soixante:
+61:::soixante et un:
+54:::cinquante-quatre:
+48:::quarante-huit:
+39:::trente-neuf:

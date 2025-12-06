@@ -1,0 +1,925 @@
+Ik ben blij.:::I am happy.:
+Jij bent mijn vriend.:::You are my friend.:
+Hij is groot.:::He is tall.:
+Zij is slim.:::She is smart.:
+Wij gaan naar school.:::We go to school.:
+Ik eet een appel.:::I eat an apple.:
+Jij hebt een boek.:::You have a book.:
+Het is koud buiten.:::It is cold outside.:
+Zij spelen in het park.:::They play in the park.:
+Ik houd van muziek.:::I love music.:
+De zon schijnt.:::The sun is shining.:
+Ik drink water.:::I drink water.:
+Zij leest een boek.:::She reads a book.:
+Hij speelt voetbal.:::He plays football.:
+Wij wonen in een huis.:::We live in a house.:
+Het kind lacht.:::The child laughs.:
+Zij zingen een lied.:::They sing a song.:
+Het eten is lekker.:::The food is delicious.:
+Ik maak een tekening.:::I make a drawing.:
+Hij werkt in de tuin.:::He works in the garden.:
+De auto is snel.:::The car is fast.:
+Ik slaap goed.:::I sleep well.:
+Wij leren Engels.:::We learn English.:
+Zij kopen groenten.:::They buy vegetables.:
+Hij draagt een jas.:::He wears a coat.:
+De baby huilt.:::The baby cries.:
+Ik reis met de trein.:::I travel by train.:
+Zij zwemmen in het zwembad.:::They swim in the pool.:
+Hij eet een banaan.:::He eats a banana.:
+De stoel is kapot.:::The chair is broken.:
+Ik ga naar de winkel.:::I go to the store.:
+Het gras is groen.:::The grass is green.:
+Zij vinden het leuk.:::They like it.:
+Hij brengt een cadeau.:::He brings a gift.:
+Wij spelen een spel.:::We play a game.:
+Ik sta op om zes uur.:::I get up at six o'clock.:
+Zij werkt in een kantoor.:::She works in an office.:
+De tafel is groot.:::The table is big.:
+Hij leest de krant.:::He reads the newspaper.:
+Ik kijk naar de televisie.:::I watch television.:
+De kinderen rennen.:::The children run.:
+Hij speelt gitaar.:::He plays the guitar.:
+Ik neem een foto.:::I take a picture.:
+Zij dragen tassen.:::They carry bags.:
+De boom is hoog.:::The tree is tall.:
+Ik eet ontbijt.:::I eat breakfast.:
+Hij rijdt een fiets.:::He rides a bike.:
+Zij dansen op muziek.:::They dance to music.:
+Het boek is interessant.:::The book is interesting.:
+Ik zet de tv aan.:::I turn on the TV.:
+Hij sluit het raam.:::He closes the window.:
+Wij eten avondeten.:::We eat dinner.:
+De bloemen ruiken lekker.:::The flowers smell good.:
+Ik schilder de muur.:::I paint the wall.:
+Hij opent de deur.:::He opens the door.:
+Ik ben moe.:::I am tired.:
+Het regent buiten.:::It is raining outside.:
+Zij is blij.:::She is happy.:
+De kat slaapt.:::The cat is sleeping.:
+Hij kijkt naar de klok.:::He looks at the clock.:
+Wij gaan naar het park.:::We go to the park.:
+Zij zijn vrienden.:::They are friends.:
+De deur is open.:::The door is open.:
+Hij zit op de bank.:::He sits on the couch.:
+Het is koud vandaag.:::It is cold today.:
+Ik lees de regels.:::I read the rules.:
+Zij maakt een taart.:::She makes a cake.:
+De lichten zijn aan.:::The lights are on.:
+Wij drinken koffie.:::We drink coffee.:
+Het kind speelt met speelgoed.:::The child plays with toys.:
+Hij schrijft in zijn dagboek.:::He writes in his diary.:
+De hond is groot.:::The dog is big.:
+Ik koop nieuwe schoenen.:::I buy new shoes.:
+De lucht is blauw.:::The sky is blue.:
+Hij heeft honger.:::He is hungry.:
+Wij luisteren naar muziek.:::We listen to music.:
+De klok tikt.:::The clock is ticking.:
+Ik studeer Engels.:::I study English.:
+Zij bakt koekjes.:::She bakes cookies.:
+Hij rijdt naar huis.:::He drives home.:
+De vogel zingt.:::The bird is singing.:
+Ik vind het leuk hier.:::I like it here.:
+De vloer is schoon.:::The floor is clean.:
+Zij maakt een kopje thee.:::She makes a cup of tea.:
+Hij leest een tijdschrift.:::He reads a magazine.:
+Wij kijken naar de sterren.:::We look at the stars.:
+Het boek is dik.:::The book is thick.:
+Ik ruim de tafel af.:::I clear the table.:
+De auto is rood.:::The car is red.:
+Hij schrijft een email.:::He writes an email.:
+Zij lachen hard.:::They laugh loudly.:
+De film is spannend.:::The movie is exciting.:
+Ik ga naar bed.:::I go to bed.:
+Zij strijkt kleding.:::She irons clothes.:
+Hij opent zijn boek.:::He opens his book.:
+Het gras is nat.:::The grass is wet.:
+Wij wandelen in het bos.:::We walk in the forest.:
+Zij heeft lang haar.:::She has long hair.:
+Hij kijkt naar een foto.:::He looks at a picture.:
+Ik poets mijn tanden.:::I brush my teeth.:
+De weg is lang.:::The road is long.:
+Wij eten lunch.:::We eat lunch.:
+Het huis is schoon.:::The house is clean.:
+Hij draagt een bril.:::He wears glasses.:
+Zij zingt onder de douche.:::She sings in the shower.:
+De winkel is open.:::The store is open.:
+Ik ben klaar met mijn werk.:::I am done with my work.:
+Het raam is vies.:::The window is dirty.:
+Hij maakt zijn bed op.:::He makes his bed.:
+Zij zitten aan tafel.:::They sit at the table.:
+Ik drink een kop koffie.:::I drink a cup of coffee.:
+Het is warm buiten.:::It is warm outside.:
+Wij gaan naar de film.:::We go to the movies.:
+Hij wast de auto.:::He washes the car.:
+Zij knippen papier.:::They cut paper.:
+Ik speel piano.:::I play the piano.:
+Het tapijt is zacht.:::The carpet is soft.:
+Hij leert snel.:::He learns quickly.:
+Zij schildert een muur.:::She paints a wall.:
+Wij dansen in de regen.:::We dance in the rain.:
+Ik koop een cadeau.:::I buy a gift.:
+De hond rent snel.:::The dog runs fast.:
+Hij zet de computer aan.:::He turns on the computer.:
+Zij eet ijs.:::She eats ice cream.:
+De klok is kapot.:::The clock is broken.:
+Wij gaan naar het strand.:::We go to the beach.:
+Het bed is comfortabel.:::The bed is comfortable.:
+Hij pakt zijn koffer.:::He packs his suitcase.:
+Zij doet de afwas.:::She does the dishes.:
+Ik kijk uit het raam.:::I look out the window.:
+De maan is vol.:::The moon is full.:
+Hij leest een kaart.:::He reads a map.:
+Wij luisteren naar de radio.:::We listen to the radio.:
+Zij plant bloemen.:::She plants flowers.:
+Ik schrijf een verslag.:::I write a report.:
+De kat springt.:::The cat jumps.:
+Hij stopt de auto.:::He stops the car.:
+Zij bestelt eten.:::She orders food.:
+De muziek is luid.:::The music is loud.:
+Wij bezoeken een museum.:::We visit a museum.:
+Hij draagt een hoed.:::He wears a hat.:
+De trein arriveert op tijd.:::The train arrives on time.:
+Zij leest een gedicht.:::She reads a poem.:
+Ik kook avondeten.:::I cook dinner.:
+Het water is koud.:::The water is cold.:
+Hij heeft een nieuwe fiets.:::He has a new bike.:
+Zij gaat naar bed.:::She goes to bed.:
+Wij eten taart.:::We eat cake.:
+De appel is rijp.:::The apple is ripe.:
+Hij schildert een landschap.:::He paints a landscape.:
+Zij wast haar handen.:::She washes her hands.:
+Ik speel een spel.:::I play a game.:
+Het raam is gesloten.:::The window is closed.:
+Ik sta vroeg op.:::I wake up early.:
+Zij loopt naar school.:::She walks to school.:
+Hij leest de krant.:::He reads the newspaper.:
+Wij werken samen.:::We work together.:
+De taart is lekker.:::The cake is tasty.:
+Ik draag een jas.:::I wear a coat.:
+Hij helpt zijn vader.:::He helps his father.:
+Wij gaan naar de markt.:::We go to the market.:
+De bloemen zijn mooi.:::The flowers are beautiful.:
+Zij schrijft een brief.:::She writes a letter.:
+Ik zie een vogel.:::I see a bird.:
+Hij wast zijn handen.:::He washes his hands.:
+Wij zitten op de bank.:::We sit on the couch.:
+Het water is warm.:::The water is warm.:
+Zij zet de tv aan.:::She turns on the TV.:
+Hij vindt zijn sleutels.:::He finds his keys.:
+Wij kijken naar de film.:::We watch the movie.:
+De soep is heet.:::The soup is hot.:
+Zij leest een boek.:::She reads a book.:
+Ik schrijf in mijn notitieboek.:::I write in my notebook.:
+Hij belt zijn vriend.:::He calls his friend.:
+Wij praten over het weer.:::We talk about the weather.:
+De kat speelt met een bal.:::The cat plays with a ball.:
+Zij neemt een foto.:::She takes a picture.:
+Ik drink een glas water.:::I drink a glass of water.:
+Hij speelt gitaar.:::He plays the guitar.:
+Wij delen ons eten.:::We share our food.:
+De deur gaat dicht.:::The door closes.:
+Zij maakt haar huiswerk.:::She does her homework.:
+Ik koop een nieuw boek.:::I buy a new book.:
+Hij zoekt zijn bril.:::He looks for his glasses.:
+Wij eten samen.:::We eat together.:
+De hond blaft.:::The dog barks.:
+Zij zingt een lied.:::She sings a song.:
+Ik volg een cursus.:::I take a course.:
+Hij gaat naar het park.:::He goes to the park.:
+Wij vieren een verjaardag.:::We celebrate a birthday.:
+De zon schijnt.:::The sun is shining.:
+Ik stuur een bericht.:::I send a message.:
+Hij poetst zijn schoenen.:::He polishes his shoes.:
+Wij leren nieuwe woorden.:::We learn new words.:
+De trein vertrekt.:::The train departs.:
+Zij vertelt een verhaal.:::She tells a story.:
+Ik bak een brood.:::I bake a loaf of bread.:
+Hij geeft een cadeau.:::He gives a gift.:
+Wij openen de deur.:::We open the door.:
+De zee is rustig.:::The sea is calm.:
+Zij strijkt haar kleren.:::She irons her clothes.:
+Ik wacht op de bus.:::I wait for the bus.:
+Hij luistert naar de radio.:::He listens to the radio.:
+Wij spelen een spel.:::We play a game.:
+De appel valt van de boom.:::The apple falls from the tree.:
+Zij kookt rijst.:::She cooks rice.:
+Ik maak een lijst.:::I make a list.:
+Hij stuurt een brief.:::He sends a letter.:
+Wij vegen de vloer.:::We sweep the floor.:
+De klok staat stil.:::The clock is stopped.:
+Zij haalt haar kinderen op.:::She picks up her children.:
+Ik ruim mijn kamer op.:::I clean my room.:
+Hij rijdt naar zijn werk.:::He drives to work.:
+Wij nemen de trein.:::We take the train.:
+De hond eet zijn eten.:::The dog eats his food.:
+Zij maakt een fotoalbum.:::She makes a photo album.:
+Ik lees een tijdschrift.:::I read a magazine.:
+Hij pakt zijn rugzak.:::He packs his backpack.:
+Wij drinken thee.:::We drink tea.:
+De lamp is fel.:::The lamp is bright.:
+Zij bezoekt haar oma.:::She visits her grandmother.:
+Hij opent het raam.:::He opens the window.:
+Wij luisteren naar de regen.:::We listen to the rain.:
+De kast is vol.:::The cupboard is full.:
+Zij wast haar gezicht.:::She washes her face.:
+Ik kook een maaltijd.:::I cook a meal.:
+Hij legt de tafel.:::He sets the table.:
+Wij gaan naar de stad.:::We go to the city.:
+De vogel vliegt.:::The bird flies.:
+Zij leert een nieuwe taal.:::She learns a new language.:
+Ik sluit de deur.:::I close the door.:
+Hij zoekt een parkeerplaats.:::He looks for a parking spot.:
+Wij bakken een cake.:::We bake a cake.:
+De boom is hoog.:::The tree is tall.:
+Zij maakt een salade.:::She makes a salad.:
+Ik bekijk de foto’s.:::I look at the photos.:
+Hij leest een krant.:::He reads a newspaper.:
+Wij schrijven een brief.:::We write a letter.:
+De wind waait hard.:::The wind is blowing hard.:
+Zij belt haar moeder.:::She calls her mother.:
+Ik schrijf mijn naam.:::I write my name.:
+Hij draait de sleutel om.:::He turns the key.:
+Wij nemen een pauze.:::We take a break.:
+De kat klimt in de boom.:::The cat climbs the tree.:
+Zij eet ontbijt.:::She eats breakfast.:
+Ik maak de bedden op.:::I make the beds.:
+Hij kijkt naar de sterren.:::He looks at the stars.:
+Ik schrijf een email.:::I write an email.:
+Hij draagt een bril.:::He wears glasses.:
+Wij kijken tv.:::We watch TV.:
+De sneeuw is wit.:::The snow is white.:
+Zij veegt het stof weg.:::She wipes the dust.:
+Ik maak een kop thee.:::I make a cup of tea.:
+Hij rijdt een auto.:::He drives a car.:
+Wij drinken koffie.:::We drink coffee.:
+De vloer is schoon.:::The floor is clean.:
+Zij plant een boom.:::She plants a tree.:
+Ik ruim het speelgoed op.:::I put away the toys.:
+Hij strijkt zijn overhemd.:::He irons his shirt.:
+Wij gaan naar het museum.:::We go to the museum.:
+De hond rent snel.:::The dog runs fast.:
+Zij haalt de post op.:::She collects the mail.:
+Ik hang de was op.:::I hang up the laundry.:
+Hij wast de borden af.:::He washes the dishes.:
+Wij maken een wandeling.:::We take a walk.:
+De stoel is comfortabel.:::The chair is comfortable.:
+Zij trekt haar jas aan.:::She puts on her coat.:
+Ik laad de vaatwasser in.:::I load the dishwasher.:
+Hij draait de kraan open.:::He turns on the faucet.:
+Wij bezoeken een kasteel.:::We visit a castle.:
+De taart is klaar.:::The cake is ready.:
+Ik schilder een muur.:::I paint a wall.:
+Hij repareert de fiets.:::He repairs the bike.:
+Wij vangen een vis.:::We catch a fish.:
+De zon gaat onder.:::The sun is setting.:
+Zij opent de envelop.:::She opens the envelope.:
+Ik kook pasta.:::I cook pasta.:
+Hij boekt een hotelkamer.:::He books a hotel room.:
+Wij organiseren een feestje.:::We organize a party.:
+De vogel zingt.:::The bird sings.:
+Zij plukt bloemen.:::She picks flowers.:
+Ik volg de instructies.:::I follow the instructions.:
+Hij zet de wekker.:::He sets the alarm.:
+Wij eten ijs.:::We eat ice cream.:
+De bus is vol.:::The bus is full.:
+Zij maakt de tafel schoon.:::She cleans the table.:
+Ik sluit de ramen.:::I close the windows.:
+Hij rijdt langzaam.:::He drives slowly.:
+Wij nemen de lift.:::We take the elevator.:
+De maan schijnt helder.:::The moon shines brightly.:
+Zij legt de boeken op de plank.:::She puts the books on the shelf.:
+Ik lees een verhaal.:::I read a story.:
+Hij haalt diep adem.:::He takes a deep breath.:
+Wij genieten van de zon.:::We enjoy the sun.:
+De rivier stroomt snel.:::The river flows fast.:
+Zij studeert voor het examen.:::She studies for the exam.:
+Ik open de deur.:::I open the door.:
+Hij koopt een nieuwe fiets.:::He buys a new bike.:
+De kamer is groot.:::The room is big.:
+Zij neemt een pauze.:::She takes a break.:
+Ik pak mijn tas in.:::I pack my bag.:
+Hij sluit de deur af.:::He locks the door.:
+Wij kopen een huis.:::We buy a house.:
+De koffie is heet.:::The coffee is hot.:
+Zij veegt de vloer.:::She sweeps the floor.:
+Ik geef een boek cadeau.:::I give a book as a gift.:
+Hij leest een tijdschrift.:::He reads a magazine.:
+Wij bezoeken een dierentuin.:::We visit a zoo.:
+De regen stopt.:::The rain stops.:
+Zij wast haar haar.:::She washes her hair.:
+Ik maak een cake.:::I bake a cake.:
+Hij kookt soep.:::He cooks soup.:
+Wij spelen tennis.:::We play tennis.:
+Zij eet een appel.:::She eats an apple.:
+Ik werk hard.:::I work hard.:
+Hij zoekt zijn sleutels.:::He looks for his keys.:
+Wij wachten op de bus.:::We wait for the bus.:
+De trein is snel.:::The train is fast.:
+Zij maakt een plan.:::She makes a plan.:
+Ik schrijf in mijn dagboek.:::I write in my diary.:
+Hij kijkt naar de televisie.:::He watches television.:
+Wij genieten van de muziek.:::We enjoy the music.:
+De pizza is warm.:::The pizza is warm.:
+Zij maakt een kopje koffie.:::She makes a cup of coffee.:
+Ik lees het nieuws.:::I read the news.:
+Hij koopt een krant.:::He buys a newspaper.:
+Wij vieren een feest.:::We celebrate a party.:
+De baby slaapt.:::The baby sleeps.:
+Zij kleedt zich aan.:::She gets dressed.:
+Ik neem een douche.:::I take a shower.:
+Hij wast de auto.:::He washes the car.:
+Wij gaan naar het strand.:::We go to the beach.:
+De lucht is grijs.:::The sky is gray.:
+Zij draagt een tas.:::She carries a bag.:
+Ik rijd een fiets.:::I ride a bike.:
+Hij speelt met de bal.:::He plays with the ball.:
+Wij leren nieuwe dingen.:::We learn new things.:
+De tafel is rond.:::The table is round.:
+Zij luistert naar muziek.:::She listens to music.:
+Ik drink sap.:::I drink juice.:
+Hij knoopt zijn das.:::He ties his tie.:
+Wij hebben plezier.:::We have fun.:
+De boom groeit.:::The tree grows.:
+Zij geeft een cadeau.:::She gives a gift.:
+Ik schenk een glas water in.:::I pour a glass of water.:
+Hij knipt het papier.:::He cuts the paper.:
+Wij maken een afspraak.:::We make an appointment.:
+De kat is zwart.:::The cat is black.:
+Zij draagt een sjaal.:::She wears a scarf.:
+Ik lees een kaart.:::I read a map.:
+Hij schrijft zijn naam.:::He writes his name.:
+Wij drinken warme chocolademelk.:::We drink hot chocolate.:
+De stoel is oud.:::The chair is old.:
+Zij opent een boek.:::She opens a book.:
+Ik maak een lijst.:::I make a list.:
+Hij zoekt zijn bril.:::He looks for his glasses.:
+Wij plannen een reis.:::We plan a trip.:
+Zij neemt een taxi.:::She takes a taxi.:
+Ik luister naar de radio.:::I listen to the radio.:
+Hij drinkt water.:::He drinks water.:
+Wij bezoeken vrienden.:::We visit friends.:
+Zij koopt een jurk.:::She buys a dress.:
+Ik lees een boek.:::I read a book.:
+Hij schrijft een brief.:::He writes a letter.:
+Wij maken foto's.:::We take pictures.:
+De boom is hoog.:::The tree is tall.:
+Zij kookt avondeten.:::She cooks dinner.:
+Ik maak ontbijt.:::I make breakfast.:
+Wij lopen naar het park.:::We walk to the park.:
+Zij drinkt koffie.:::She drinks coffee.:
+Ik ga naar bed.:::I go to bed.:
+Hij repareert de auto.:::He repairs the car.:
+Wij lezen een boek.:::We read a book.:
+Zij belt haar vriend.:::She calls her friend.:
+Ik schrijf een verhaal.:::I write a story.:
+Hij speelt gitaar.:::He plays guitar.:
+Wij gaan winkelen.:::We go shopping.:
+De lamp is kapot.:::The lamp is broken.:
+Zij neemt de bus.:::She takes the bus.:
+Ik lees een krant.:::I read a newspaper.:
+Hij speelt piano.:::He plays piano.:
+Wij gaan naar de bioscoop.:::We go to the cinema.:
+De deur is dicht.:::The door is closed.:
+Zij kookt rijst.:::She cooks rice.:
+Ik maak mijn bed op.:::I make my bed.:
+Hij leest een boek.:::He reads a book.:
+Wij fietsen in het park.:::We cycle in the park.:
+De hond is stil.:::The dog is quiet.:
+Zij haalt een boek.:::She gets a book.:
+Ik kijk naar de maan.:::I look at the moon.:
+Hij draagt een hoed.:::He wears a hat.:
+Wij luisteren naar het nieuws.:::We listen to the news.:
+De soep is heet.:::The soup is hot.:
+Zij zet de tv aan.:::She turns on the TV.:
+Ik schrijf een gedicht.:::I write a poem.:
+Hij maakt een foto.:::He takes a photo.:
+Wij rijden naar het werk.:::We drive to work.:
+Zij zingt een liedje.:::She sings a song.:
+Ik maak mijn huiswerk.:::I do my homework.:
+Hij opent het raam.:::He opens the window.:
+Wij praten met elkaar.:::We talk to each other.:
+De vis zwemt.:::The fish swims.:
+Zij bakt een brood.:::She bakes a bread.:
+Ik lees een tijdschrift.:::I read a magazine.:
+Hij belt zijn moeder.:::He calls his mother.:
+Wij eten samen avondeten.:::We eat dinner together.:
+De auto is nieuw.:::The car is new.:
+Zij maakt een foto.:::She takes a picture.:
+Hij tekent een huis.:::He draws a house.:
+Wij gaan naar de kerk.:::We go to church.:
+De vloer is vuil.:::The floor is dirty.:
+Zij veegt het bord schoon.:::She wipes the board clean.:
+Ik was mijn handen.:::I wash my hands.:
+Hij kamt zijn haar.:::He combs his hair.:
+Wij bezoeken de markt.:::We visit the market.:
+De zon schijnt.:::The sun shines.:
+Zij brengt haar kind naar school.:::She takes her child to school.:
+Ik schrijf een e-mail.:::I write an email.:
+Hij drinkt thee.:::He drinks tea.:
+Wij gaan naar het theater.:::We go to the theater.:
+De regen valt.:::The rain falls.:
+Zij pakt een potlood.:::She picks up a pencil.:
+Ik teken een cirkel.:::I draw a circle.:
+Hij koopt brood.:::He buys bread.:
+Wij koken samen.:::We cook together.:
+De telefoon rinkelt.:::The phone rings.:
+Zij doet de deur open.:::She opens the door.:
+Ik vouw de was.:::I fold the laundry.:
+Hij maakt de tafel klaar.:::He sets the table.:
+Wij eten ontbijt.:::We eat breakfast.:
+De bloemen bloeien.:::The flowers bloom.:
+Zij speelt met haar pop.:::She plays with her doll.:
+Ik schrijf een brief.:::I write a letter.:
+Hij leest een verhaal.:::He reads a story.:
+Wij kijken naar de sterren.:::We watch the stars.:
+De vogel vliegt hoog.:::The bird flies high.:
+Zij drinkt melk.:::She drinks milk.:
+Ik maak een puzzel.:::I do a puzzle.:
+Hij zet zijn bril op.:::He puts on his glasses.:
+Wij dansen in de regen.:::We dance in the rain.:
+De kaas is lekker.:::The cheese is tasty.:
+Zij speelt buiten.:::She plays outside.:
+Ik neem een hapje.:::I take a bite.:
+Hij koopt fruit.:::He buys fruit.:
+Wij maken muziek.:::We make music.:
+De kat miauwt.:::The cat meows.:
+Zij draagt een hoed.:::She wears a hat.:
+Ik haal de kinderen op.:::I pick up the kids.:
+Hij eet een banaan.:::He eats a banana.:
+Wij zwemmen in het zwembad.:::We swim in the pool.:
+De koffie is koud.:::The coffee is cold.:
+Zij koopt een boek.:::She buys a book.:
+Hij pakt zijn koffer.:::He packs his suitcase.:
+Wij spelen een spel.:::We play a game.:
+De lucht is helder.:::The sky is clear.:
+Zij speelt op het strand.:::She plays on the beach.:
+Ik maak mijn kamer schoon.:::I clean my room.:
+Hij zoekt een pen.:::He looks for a pen.:
+Wij eten in een restaurant.:::We eat in a restaurant.:
+De trein is op tijd.:::The train is on time.:
+Zij loopt naar huis.:::She walks home.:
+Ik maak soep.:::I make soup.:
+Hij speelt voetbal.:::He plays soccer.:
+De hond graaft een gat.:::The dog digs a hole.:
+Zij draagt een ketting.:::She wears a necklace.:
+Ik lees een e-mail.:::I read an email.:
+Hij werkt in de tuin.:::He works in the garden.:
+Wij spelen buiten.:::We play outside.:
+De stad is druk.:::The city is busy.:
+Zij eet chocolade.:::She eats chocolate.:
+Ik schrijf een rapport.:::I write a report.:
+Hij maakt een grapje.:::He makes a joke.:
+Wij drinken samen thee.:::We drink tea together.:
+De lamp brandt.:::The lamp is on.:
+Zij maakt een kaart.:::She makes a card.:
+Ik snijd een appel.:::I cut an apple.:
+Hij opent een fles wijn.:::He opens a bottle of wine.:
+Wij vieren Kerstmis.:::We celebrate Christmas.:
+De kat is klein.:::The cat is small.:
+Zij trekt haar schoenen aan.:::She puts on her shoes.:
+Ik dek de tafel.:::I set the table.:
+Hij draait de radio aan.:::He turns on the radio.:
+Wij rijden naar de stad.:::We drive to the city.:
+De hond rent naar het park.:::The dog runs to the park.:
+Zij leest een tijdschrift.:::She reads a magazine.:
+Ik schrijf in mijn notitieboekje.:::I write in my notebook.:
+Hij drinkt koffie.:::He drinks coffee.:
+Wij gaan naar de supermarkt.:::We go to the supermarket.:
+De kat springt op het bed.:::The cat jumps on the bed.:
+Zij geeft haar broer een cadeau.:::She gives her brother a gift.:
+Ik maak mijn lunch.:::I make my lunch.:
+Hij speelt een spelletje.:::He plays a game.:
+Wij gaan samen wandelen.:::We go for a walk together.:
+De zon komt op.:::The sun rises.:
+Zij doet haar schoenen uit.:::She takes off her shoes.:
+Ik werk op kantoor.:::I work in the office.:
+Hij kijkt naar de klok.:::He looks at the clock.:
+Wij drinken water.:::We drink water.:
+De regen valt zacht.:::The rain falls softly.:
+Zij plant bloemen in de tuin.:::She plants flowers in the garden.:
+Ik lees een gedicht.:::I read a poem.:
+Hij wast zijn handen.:::He washes his hands.:
+Wij hebben een vergadering.:::We have a meeting.:
+De kat eet vis.:::The cat eats fish.:
+Zij draagt een jas.:::She wears a coat.:
+Ik schrijf een notitie.:::I write a note.:
+Hij kijkt naar de film.:::He watches the movie.:
+Wij gaan naar een concert.:::We go to a concert.:
+De hond ligt op de bank.:::The dog lies on the couch.:
+Zij opent een raam.:::She opens a window.:
+Ik zet de wekker.:::I set the alarm.:
+Hij kijkt naar de sterren.:::He looks at the stars.:
+Wij lezen een boek samen.:::We read a book together.:
+De auto rijdt snel.:::The car drives fast.:
+Zij neemt een foto.:::She takes a picture.:
+Ik maak een smoothie.:::I make a smoothie.:
+Hij vouwt een shirt.:::He folds a shirt.:
+Wij nemen de trein.:::We take the train.:
+De kat zit op de vensterbank.:::The cat sits on the windowsill.:
+Zij koopt een nieuwe bril.:::She buys new glasses.:
+Ik maak een reservering.:::I make a reservation.:
+Hij zet zijn pet op.:::He puts on his cap.:
+Wij gaan naar het park.:::We go to the park.:
+De vogel zingt in de boom.:::The bird sings in the tree.:
+Zij drinkt limonade.:::She drinks lemonade.:
+Ik werk in de tuin.:::I work in the garden.:
+Hij eet zijn lunch.:::He eats his lunch.:
+Wij luisteren naar het weerbericht.:::We listen to the weather forecast.:
+De kat rolt zich op.:::The cat curls up.:
+Zij geeft de hond eten.:::She feeds the dog.:
+Ik maak een kop thee.:::I make a cup of tea.:
+Hij tekent een lijn.:::He draws a line.:
+Wij wachten op de trein.:::We wait for the train.:
+De wind waait hard.:::The wind blows hard.:
+Zij koopt een plant.:::She buys a plant.:
+Ik open de envelop.:::I open the envelope.:
+Hij vult het glas.:::He fills the glass.:
+Wij bezoeken onze grootouders.:::We visit our grandparents.:
+De hond is blij.:::The dog is happy.:
+Zij maakt een salade.:::She makes a salad.:
+Ik schrijf een artikel.:::I write an article.:
+Hij kijkt door het raam.:::He looks out the window.:
+Wij gaan naar een tentoonstelling.:::We go to an exhibition.:
+De kat is schattig.:::The cat is cute.:
+Zij maakt een afspraak.:::She makes an appointment.:
+Ik zet de computer aan.:::I turn on the computer.:
+Hij leest een e-book.:::He reads an e-book.:
+Wij gaan naar de apotheek.:::We go to the pharmacy.:
+De zon schijnt fel.:::The sun shines brightly.:
+Zij koopt een kaart.:::She buys a card.:
+Ik kook een maaltijd.:::I cook a meal.:
+Hij tekent een bloem.:::He draws a flower.:
+Wij wandelen in het bos.:::We walk in the forest.:
+De kat speelt met een bal.:::The cat plays with a ball.:
+Zij schrijft een brief.:::She writes a letter.:
+Ik zet de tv uit.:::I turn off the TV.:
+Hij drinkt een glas sap.:::He drinks a glass of juice.:
+Wij ontbijten samen.:::We have breakfast together.:
+De hond kwispelt met zijn staart.:::The dog wags its tail.:
+Zij plant een boom.:::She plants a tree.:
+Ik vouw de handdoeken.:::I fold the towels.:
+Hij trekt zijn jas uit.:::He takes off his coat.:
+Wij rijden naar het platteland.:::We drive to the countryside.:
+De regen stopt.:::The rain stops.:
+Zij koopt een taart.:::She buys a cake.:
+Ik schrijf mijn dagboek.:::I write my diary.:
+Hij leest de krant.:::He reads the newspaper.:
+Wij maken het bed op.:::We make the bed.:
+De kat springt van het bed.:::The cat jumps off the bed.:
+De zon schijnt.:::The sun is shining.:
+Ik ben thuis.:::I am at home.:
+Hoe laat is het?:::What time is it?:
+Waar woon jij?:::Where do you live?:
+Hij heeft een hond.:::He has a dog.:
+Zij kookt elke dag.:::She cooks every day.:
+Wij gaan naar school.:::We go to school.:
+Ben jij moe?:::Are you tired?:
+De auto is rood.:::The car is red.:
+Ik drink koffie.:::I drink coffee.:
+Hij speelt voetbal.:::He plays soccer.:
+Wat doe je nu?:::What are you doing now?:
+Ik hou van lezen.:::I love reading.:
+Zij draagt een jurk.:::She is wearing a dress.:
+Wij eten ontbijt.:::We eat breakfast.:
+Hoe gaat het?:::How are you?:
+Ik ben gelukkig.:::I am happy.:
+Wat is jouw naam?:::What is your name?:
+Zij luistert naar muziek.:::She listens to music.:
+Hij kijkt tv.:::He is watching TV.:
+Is het koud buiten?:::Is it cold outside?:
+Wij maken een taart.:::We are making a cake.:
+Ik ga naar bed.:::I am going to bed.:
+Heb jij een fiets?:::Do you have a bike?:
+De bloemen zijn mooi.:::The flowers are beautiful.:
+Zij leest een boek.:::She is reading a book.:
+Wat eet jij?:::What are you eating?:
+Hij werkt hard.:::He works hard.:
+Wij spelen een spel.:::We are playing a game.:
+Waar is de winkel?:::Where is the store?:
+Ik heb dorst.:::I am thirsty.:
+Zij zingen een lied.:::They are singing a song.:
+Wat wil je drinken?:::What do you want to drink?:
+Hij rijdt naar het werk.:::He drives to work.:
+Wij hebben plezier.:::We are having fun.:
+Is dit jouw boek?:::Is this your book?:
+Hoe oud ben je?:::How old are you?:
+Zij gaat naar huis.:::She is going home.:
+Hij heeft een broer.:::He has a brother.:
+Wij zwemmen in het zwembad.:::We swim in the pool.:
+Wat zie je?:::What do you see?:
+Ik voel me goed.:::I feel good.:
+De boom is groot.:::The tree is big.:
+Zij werken in de tuin.:::They work in the garden.:
+Ben jij klaar?:::Are you ready?:
+Hij eet een appel.:::He is eating an apple.:
+Waar is jouw huis?:::Where is your house?:
+Wij gaan naar het park.:::We are going to the park.:
+Ik slaap laat.:::I sleep late.:
+Wat koop je?:::What are you buying?:
+Zij drinken thee.:::They are drinking tea.:
+Hij leest de krant.:::He is reading the newspaper.:
+Waar ga je heen?:::Where are you going?:
+De deur is open.:::The door is open.:
+Wij wachten op de bus.:::We are waiting for the bus.:
+Is hij jouw vriend?:::Is he your friend?:
+Ik maak ontbijt.:::I am making breakfast.:
+Zij heeft een fiets.:::She has a bike.:
+Hoe laat eet jij?:::What time do you eat?:
+Hij is heel slim.:::He is very smart.:
+Wij leren Engels.:::We are learning English.:
+De tafel is schoon.:::The table is clean.:
+Wat hoor jij?:::What do you hear?:
+Ik maak een foto.:::I am taking a picture.:
+Zij schildert een muur.:::She is painting a wall.:
+Wat wil jij kopen?:::What do you want to buy?:
+Hij schrijft een boek.:::He is writing a book.:
+Wij rennen snel.:::We are running fast.:
+Zij staan in de rij.:::They are standing in line.:
+Wat wil jij eten?:::What do you want to eat?:
+Ik zie een vogel.:::I see a bird.:
+Zij hebben een feest.:::They are having a party.:
+Is het ver weg?:::Is it far away?:
+Hij vindt het leuk.:::He likes it.:
+De film is lang.:::The movie is long.:
+Zij praten zacht.:::They are talking softly.:
+Waar is de bus?:::Where is the bus?:
+Ik ben erg moe.:::I am very tired.:
+Hoe heet hij?:::What is his name?:
+Hij brengt bloemen.:::He brings flowers.:
+Wij gaan wandelen.:::We are going for a walk.:
+Zij lachen veel.:::They laugh a lot.:
+Wat doet hij?:::What is he doing?:
+Ik zie de maan.:::I see the moon.:
+Zij schildert graag.:::She likes to paint.:
+Ben jij thuis?:::Are you at home?:
+De straat is druk.:::The street is busy.:
+Wij eten pizza.:::We are eating pizza.:
+Zij geeft een cadeau.:::She gives a gift.:
+Waar werk jij?:::Where do you work?:
+Hij draagt een jas.:::He is wearing a coat.:
+Ik loop naar school.:::I walk to school.:
+Wat wil je doen?:::What do you want to do?:
+Zij studeert hard.:::She studies hard.:
+Hoe voel jij je?:::How do you feel?:
+Ik maak een plan.:::I am making a plan.:
+Ik ben blij.:::I am happy.:
+Jij bent mijn vriend.:::You are my friend.:
+Hij is groot.:::He is tall.:
+Zij is slim.:::She is smart.:
+Wij gaan naar school.:::We go to school.:
+Ik eet een appel.:::I eat an apple.:
+Jij hebt een boek.:::You have a book.:
+Het is koud buiten.:::It is cold outside.:
+Zij spelen in het park.:::They play in the park.:
+Ik houd van muziek.:::I love music.:
+De zon schijnt.:::The sun is shining.:
+Ik drink water.:::I drink water.:
+Zij leest een boek.:::She reads a book.:
+Hij speelt voetbal.:::He plays football.:
+Wij wonen in een huis.:::We live in a house.:
+Het kind lacht.:::The child laughs.:
+Zij zingen een lied.:::They sing a song.:
+Het eten is lekker.:::The food is delicious.:
+Ik maak een tekening.:::I make a drawing.:
+Hij werkt in de tuin.:::He works in the garden.:
+De auto is snel.:::The car is fast.:
+Ik slaap goed.:::I sleep well.:
+Wij leren Engels.:::We learn English.:
+Zij kopen groenten.:::They buy vegetables.:
+Hij draagt een jas.:::He wears a coat.:
+De baby huilt.:::The baby cries.:
+Ik reis met de trein.:::I travel by train.:
+Zij zwemmen in het zwembad.:::They swim in the pool.:
+Hij eet een banaan.:::He eats a banana.:
+De stoel is kapot.:::The chair is broken.:
+Ik ga naar de winkel.:::I go to the store.:
+Het gras is groen.:::The grass is green.:
+Zij vinden het leuk.:::They like it.:
+Hij brengt een cadeau.:::He brings a gift.:
+Wij spelen een spel.:::We play a game.:
+Ik sta op om zes uur.:::I get up at six o'clock.:
+Zij werkt in een kantoor.:::She works in an office.:
+De tafel is groot.:::The table is big.:
+Hij leest de krant.:::He reads the newspaper.:
+Ik kijk naar de televisie.:::I watch television.:
+De kinderen rennen.:::The children run.:
+Hij speelt gitaar.:::He plays the guitar.:
+Ik neem een foto.:::I take a picture.:
+Zij dragen tassen.:::They carry bags.:
+De boom is hoog.:::The tree is tall.:
+Ik eet ontbijt.:::I eat breakfast.:
+Hij rijdt een fiets.:::He rides a bike.:
+Zij dansen op muziek.:::They dance to music.:
+Het boek is interessant.:::The book is interesting.:
+Ik zet de tv aan.:::I turn on the TV.:
+Hij sluit het raam.:::He closes the window.:
+Wij eten avondeten.:::We eat dinner.:
+De bloemen ruiken lekker.:::The flowers smell good.:
+Ik schilder de muur.:::I paint the wall.:
+Hij opent de deur.:::He opens the door.:
+Ik ben moe.:::I am tired.:
+Het regent buiten.:::It is raining outside.:
+Zij is blij.:::She is happy.:
+De kat slaapt.:::The cat is sleeping.:
+Hij kijkt naar de klok.:::He looks at the clock.:
+Wij gaan naar het park.:::We go to the park.:
+Zij zijn vrienden.:::They are friends.:
+De deur is open.:::The door is open.:
+Hij zit op de bank.:::He sits on the couch.:
+Het is koud vandaag.:::It is cold today.:
+Ik lees de regels.:::I read the rules.:
+Zij maakt een taart.:::She makes a cake.:
+De lichten zijn aan.:::The lights are on.:
+Wij drinken koffie.:::We drink coffee.:
+Het kind speelt met speelgoed.:::The child plays with toys.:
+Hij schrijft in zijn dagboek.:::He writes in his diary.:
+De hond is groot.:::The dog is big.:
+Ik koop nieuwe schoenen.:::I buy new shoes.:
+De lucht is blauw.:::The sky is blue.:
+Hij heeft honger.:::He is hungry.:
+Wij luisteren naar muziek.:::We listen to music.:
+De klok tikt.:::The clock is ticking.:
+Ik studeer Engels.:::I study English.:
+Zij bakt koekjes.:::She bakes cookies.:
+Hij rijdt naar huis.:::He drives home.:
+De vogel zingt.:::The bird is singing.:
+Ik vind het leuk hier.:::I like it here.:
+De vloer is schoon.:::The floor is clean.:
+Zij maakt een kopje thee.:::She makes a cup of tea.:
+Hij leest een tijdschrift.:::He reads a magazine.:
+Wij kijken naar de sterren.:::We look at the stars.:
+Het boek is dik.:::The book is thick.:
+Ik ruim de tafel af.:::I clear the table.:
+De auto is rood.:::The car is red.:
+Hij schrijft een email.:::He writes an email.:
+Zij lachen hard.:::They laugh loudly.:
+De film is spannend.:::The movie is exciting.:
+Ik ga naar bed.:::I go to bed.:
+Zij strijkt kleding.:::She irons clothes.:
+Hij opent zijn boek.:::He opens his book.:
+Het gras is nat.:::The grass is wet.:
+Wij wandelen in het bos.:::We walk in the forest.:
+Zij heeft lang haar.:::She has long hair.:
+Hij kijkt naar een foto.:::He looks at a picture.:
+Ik poets mijn tanden.:::I brush my teeth.:
+De weg is lang.:::The road is long.:
+Wij eten lunch.:::We eat lunch.:
+Het huis is schoon.:::The house is clean.:
+Hij draagt een bril.:::He wears glasses.:
+Zij zingt onder de douche.:::She sings in the shower.:
+De winkel is open.:::The store is open.:
+Ik ben klaar met mijn werk.:::I am done with my work.:
+Het raam is vies.:::The window is dirty.:
+Hij maakt zijn bed op.:::He makes his bed.:
+Zij zitten aan tafel.:::They sit at the table.:
+Ik drink een kop koffie.:::I drink a cup of coffee.:
+Het is warm buiten.:::It is warm outside.:
+Wij gaan naar de film.:::We go to the movies.:
+Hij wast de auto.:::He washes the car.:
+Zij knippen papier.:::They cut paper.:
+Ik speel piano.:::I play the piano.:
+Het tapijt is zacht.:::The carpet is soft.:
+Hij leert snel.:::He learns quickly.:
+Wij dansen in de regen.:::We dance in the rain.:
+Ik koop een cadeau.:::I buy a gift.:
+De hond rent snel.:::The dog runs fast.:
+Hij zet de computer aan.:::He turns on the computer.:
+Zij eet ijs.:::She eats ice cream.:
+De klok is kapot.:::The clock is broken.:
+Wij gaan naar het strand.:::We go to the beach.:
+Het bed is comfortabel.:::The bed is comfortable.:
+Hij pakt zijn koffer.:::He packs his suitcase.:
+Zij doet de afwas.:::She does the dishes.:
+Ik kijk uit het raam.:::I look out the window.:
+De maan is vol.:::The moon is full.:
+Hij leest een kaart.:::He reads a map.:
+Wij luisteren naar de radio.:::We listen to the radio.:
+Zij plant bloemen.:::She plants flowers.:
+Ik schrijf een verslag.:::I write a report.:
+De kat springt.:::The cat jumps.:
+Hij stopt de auto.:::He stops the car.:
+Zij bestelt eten.:::She orders food.:
+De muziek is luid.:::The music is loud.:
+Wij bezoeken een museum.:::We visit a museum.:
+Hij draagt een hoed.:::He wears a hat.:
+De trein arriveert op tijd.:::The train arrives on time.:
+Zij leest een gedicht.:::She reads a poem.:
+Ik kook avondeten.:::I cook dinner.:
+Het water is koud.:::The water is cold.:
+Hij heeft een nieuwe fiets.:::He has a new bike.:
+Zij gaat naar bed.:::She goes to bed.:
+Wij eten taart.:::We eat cake.:
+De appel is rijp.:::The apple is ripe.:
+Hij schildert een landschap.:::He paints a landscape.:
+Zij wast haar handen.:::She washes her hands.:
+Ik speel een spel.:::I play a game.:
+Het raam is gesloten.:::The window is closed.:
+Ik sta vroeg op.:::I wake up early.:
+Zij loopt naar school.:::She walks to school.:
+Hij leest de krant.:::He reads the newspaper.:
+Wij werken samen.:::We work together.:
+De taart is lekker.:::The cake is tasty.:
+Ik draag een jas.:::I wear a coat.:
+Hij helpt zijn vader.:::He helps his father.:
+Wij gaan naar de markt.:::We go to the market.:
+De bloemen zijn mooi.:::The flowers are beautiful.:
+Zij schrijft een brief.:::She writes a letter.:
+Ik zie een vogel.:::I see a bird.:
+Hij rijdt een auto.:::He drives a car.:
+De soep is heet.:::The soup is hot.:
+Zij draagt een jurk.:::She wears a dress.:
+De hond blaft.:::The dog barks.:
+Wij vieren een feestje.:::We celebrate a party.:
+Het boek is nieuw.:::The book is new.:
+Ik zwem in de zee.:::I swim in the sea.:
+De lucht is helder.:::The sky is clear.:
+Hij kijkt naar de sterren.:::He looks at the stars.:
+Zij leest een verhaal.:::She reads a story.:
+Wij eten samen.:::We eat together.:
+De kat miauwt.:::The cat meows.:
+Ik drink sap.:::I drink juice.:
+Zij speelt met haar pop.:::She plays with her doll.:
+Hij luistert naar de radio.:::He listens to the radio.:
+Wij maken een puzzel.:::We make a puzzle.:
+Het huis is oud.:::The house is old.:
+Zij zingen samen.:::They sing together.:
+Ik koop een boek.:::I buy a book.:
+Hij gaat naar het werk.:::He goes to work.:
+De boom groeit snel.:::The tree grows quickly.:
+Wij zien een film.:::We watch a movie.:
+Zij maakt een schilderij.:::She makes a painting.:
+Ik lees een tijdschrift.:::I read a magazine.:
+Hij speelt in de tuin.:::He plays in the garden.:
+De kat is zwart.:::The cat is black.:
+Zij slaapt vroeg.:::She sleeps early.:
+De zon komt op.:::The sun rises.:
+Ik koop fruit.:::I buy fruit.:
+Hij schrijft een brief.:::He writes a letter.:
+Wij luisteren naar muziek.:::We listen to music.:
+Zij rijdt naar het werk.:::She drives to work.:
+De vogel vliegt hoog.:::The bird flies high.:
+Ik drink thee.:::I drink tea.:
+De tafel is schoon.:::The table is clean.:
+Hij speelt viool.:::He plays the violin.:
+Wij gaan naar de kerk.:::We go to church.:
+De lucht is grijs.:::The sky is gray.:
+Zij houdt van dansen.:::She loves dancing.:
+Ik lees een boek.:::I read a book.:
+Hij eet ontbijt.:::He eats breakfast.:
+De hond is klein.:::The dog is small.:
+Zij speelt buiten.:::She plays outside.:
+Ik slaap vroeg.:::I sleep early.:
+Hij rijdt een motor.:::He rides a motorcycle.:
+Zij speelt piano.:::She plays the piano.:
+Wij gaan naar de dierentuin.:::We go to the zoo.:
+De vis zwemt snel.:::The fish swims fast.:
+Ik eet een sandwich.:::I eat a sandwich.:
+Hij drinkt melk.:::He drinks milk.:
+Zij houdt van lezen.:::She loves reading.:
+Wij kijken naar de zonsondergang.:::We watch the sunset.:
+De bloemen bloeien.:::The flowers bloom.:
+Ik wandel in het park.:::I walk in the park.:
+Hij slaapt laat.:::He sleeps late.:
+Zij rijdt een rode auto.:::She drives a red car.:
+De kat eet vis.:::The cat eats fish.:
+Ik maak ontbijt.:::I make breakfast.:
+Hij speelt met zijn speelgoed.:::He plays with his toys.:
+Wij gaan naar de supermarkt.:::We go to the supermarket.:
+De zee is blauw.:::The sea is blue.:
+Zij draagt een blauwe jurk.:::She wears a blue dress.:
+Hij leert Engels.:::He learns English.:
+Ik schilder een huis.:::I paint a house.:
+De hond slaapt op het bed.:::The dog sleeps on the bed.:
+Zij eet een appel.:::She eats an apple.:
+Wij gaan naar de dokter.:::We go to the doctor.:
+De jongen speelt voetbal.:::The boy plays football.:
+Ik koop groente.:::I buy vegetables.:
+Hij drinkt water.:::He drinks water.:
+Zij leest een boek.:::She reads a book.:
+Wij kijken naar een film.:::We watch a movie.:
+De stoel is comfortabel.:::The chair is comfortable.:
+Ik slaap in mijn bed.:::I sleep in my bed.:
+Zij maakt ontbijt.:::She makes breakfast.:
+Hij rijdt naar zijn werk.:::He drives to work.:
+De kat speelt met een bal.:::The cat plays with a ball.:
+Wij gaan naar de bibliotheek.:::We go to the library.:
+De appel is rood.:::The apple is red.:
+Ik luister naar muziek.:::I listen to music.:
+Zij draagt een hoed.:::She wears a hat.:
+Hij leest een boek.:::He reads a book.:
+Wij spelen een spel.:::We play a game.:
+De hond blaft luid.:::The dog barks loudly.:
+Ik drink koffie.:::I drink coffee.:
+Zij houdt van zingen.:::She loves singing.:
+De bloemen zijn rood.:::The flowers are red.:
+Hij eet een boterham.:::He eats a sandwich.:
+Wij gaan naar de bakker.:::We go to the bakery.:
+Ik lees de krant.:::I read the newspaper.:
+De auto is blauw.:::The car is blue.:
+Zij speelt met haar hond.:::She plays with her dog.:
+Hij leert wiskunde.:::He learns math.:
+Wij wandelen naar huis.:::We walk home.:
+Ik slaap in mijn kamer.:::I sleep in my room.:
+De kat drinkt melk.:::The cat drinks milk.:
+Zij maakt een tekening.:::She makes a drawing.:

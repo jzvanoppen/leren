@@ -1,0 +1,10 @@
+een tweedejaarsstudent:::a sophomore:
+een internaat:::a boarding school:
+een gang:::a corridor:
+een lesrooster:::a timetable:
+wetenschappen:::sciences:
+biologie:::biology:
+informatica (ICT):::Information and Communication Technology:
+chemie:::chemistry:
+Duits:::German:
+lichamelijke opvoeding:::Physical Education:

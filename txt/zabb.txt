@@ -1,0 +1,16 @@
+ik heb:::j'ai:
+jij hebt:::tu as:
+hij heeft:::il a:
+zij heeft:::elle a:
+wij hebben:::nous avons:
+jullie hebben:::vous avez:
+zij hebben:::ils ont:MANNELIJK
+zij hebben:::elles ont:VROUWELIJK
+ik ben:::je suis:
+jij bent:::tu es:
+hij is:::il est:
+zij is:::elle est:
+wij zijn:::nous sommes:
+jullie zijn:::vous êtes:
+zij zijn:::ils sont:MANNELIJK
+zij zijn:::elles sont:VROUWELIJK

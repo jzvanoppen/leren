@@ -1,0 +1,6 @@
+png/001001.png mp3/001001.mp3 '001 Al-Fatihah - 001' ''
+png/097001.png mp3/097001.mp3 '097 Al-Qadr - 001' ''
+png/097002.png mp3/097002.mp3 '097 Al-Qadr - 001' ''
+png/097003.png mp3/097003.mp3 '097 Al-Qadr - 001' ''
+png/097004.png mp3/097004.mp3 '097 Al-Qadr - 001' ''
+png/097005.png mp3/097005.mp3 '097 Al-Qadr - 005' ''

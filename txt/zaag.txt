@@ -1,0 +1,10 @@
+Ik ga te voet.:::Je vais à pied.:
+Jij gaat met het vliegtuig.:::Tu vas en avion.:
+met het vliegtuig:::en avion:
+met de tram:::en tram:
+met de trein:::en train:
+met de auto:::en voiture:
+te voet:::à pied:
+met de fiets:::à vélo:
+met de step:::à trottinette:
+met de moto:::à moto:

@@ -1,0 +1,63 @@
+Ah, hallo! Lukas? Ben je nieuw?:::Ah, salut! Lukas? Tu es nouveau?:
+Ja.:::Oui.:
+Ik heet Timothée.:::Moi, je m'appelle Timothée.:
+Hallo.:::Salut.:
+Ik vind je tas leuk.:::J'aime ton sac.:
+Dank je.:::Merci.:
+Hou je van voetbal?:::Tu aimes le foot?:
+Ja, geweldig.:::Oui, super.:
+Kom!:::Viens!:
+Marie houdt van hockey:::Marie aime le hockey.:
+Ben jij Victor?:::Toi, tu es Victor?:
+Nee, ik heet Marius.:::Non, je m'appelle Marius.:
+Ik ben de vriend van Victor.:::Je suis l'ami de Victor.:
+Ja, dat ben ik.:::Oui, c'est moi.:
+Oh ja.:::Ah oui.:
+En Fleur en Joséphine, zijn jullie er ook?:::Et Fleur et Joséphine, vous êtes là aussi?:
+Ja, we zijn hier!:::Oui, nous sommes là!:
+En Hélène, waar is zij?:::Et Hélène, elle est où?:
+Ik ben hier!:::Je suis ici!:
+Nee, hij is daar!:::Non, il est là!:
+Jij bent Gabriel.:::Tu es Gabriel.:
+En jij, heet jij Tiago?:::Et toi, tu t'appelles Tiago?:
+Let op!:::Attention!:
+Dit zijn Gabriel en Tiago. Ze zijn vrienden.:::Ce sont Gabriel et Tiago. Ils sont amis.:
+Lukas is een jongen.:::Lukas est un garçon.:
+Hélène is een meisje.:::Hélène est une fille.:
+Adrien is de vriend van Timothée.:::Adrien est l'ami de Timothée.:
+Marie is de vriendin van Lilou.:::Marie est l'amie de Lilou.:
+Is Tiago hier?:::Tiago est ici?:
+Ik ben de leraar.:::Je suis la prof.:
+Ben jij de vriend van Nathan?:::Tu es l'ami de Nathan?:
+Hij is aardig.:::Il est sympa.:
+Zij is cool.:::Elle est cool.:
+Wij zijn hier.:::Nous sommes ici.:
+Zijn jullie daar?:::Vous êtes là?:
+Zij zijn in Brussel.:::Ils sont à Bruxelles.:
+Zij zijn in Parijs.:::Elles sont à Paris.:
+Dat is een meisje.:::C'est une fille.:
+Dat zijn Lukas en Marie.:::Ce sont Lukas et Marie.:
+Hij is aardig.:::Il est sympa.:
+Lukas is aardig.:::Lukas est sympa.:
+Zij is aardig.:::Elle est sympa.:
+Marie is aardig.:::Marie est sympa.:
+Zij zijn cool.:::Ils sont cool.:
+Lukas, Victor en Timothée zijn cool.:::Lukas, Victor et Timothée sont cool.:
+Zij zijn cool.:::Elles sont cool.:
+Zij zijn hier.:::Ils sont ici.:
+Zij zijn hier.:::Ils sont ici.:
+Ben jij nieuw?:::Tu es nouveau?:
+Zijn jullie in Parijs?:::Vous êtes à Paris?:
+Zij is aardig.:::Elle est sympa.:
+Heet jij Raysa?:::Tu t'appelles Raysa?:
+Ja, ik heet Zeyneb.:::Oui, je m'appelle Zeyneb.:
+Ben je verdrietig?:::Tu es triste?:
+Nee.:::Non.:
+Ben jij een jongen?:::Tu es un garçon?:
+Ben ik cool?:::Je suis cool?:
+Zij houdt van tennis.:::Elle aime le tennis.:
+Zij houdt van hockey.:::Elle aime le hockey.:
+Zij houdt van voetbal.:::Elle aime le foot.:
+Is het een jongen?:::C'est un garçon?:
+Is het een meisje?:::C'est une fille?:
+Ik woon in Antwerpen.:::J'habite à Anvers.:

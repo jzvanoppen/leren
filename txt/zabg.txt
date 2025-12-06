@@ -1,0 +1,176 @@
+ik vind leuk:::j'adore:
+jij vindt leuk:::tu adores:
+hij vindt leuk:::il adore:
+zij vindt leuk:::elle adore:
+wij vinden leuk:::nous adorons:
+jullie vinden leuk:::vous adorez:
+zij vinden leuk:::ils adorent:(MANNELIJK)
+zij vinden leuk:::elles adorent:(VROUWELIJK)
+ik help:::j'aide:
+jij helpt:::tu aides:
+hij helpt:::il aide:
+zij helpt:::elle aide:
+wij helpen:::nous aidons:
+jullie helpen:::vous aidez:
+zij helpen:::ils aident:(MANNELIJK)
+zij helpen:::elles aident:(VROUWELIJK)
+ik houd van:::j'aime:
+jij houdt van:::tu aimes:
+hij houdt van:::il aime:
+zij houdt van:::elle aime:
+wij houden van:::nous aimons:
+jullie houden van:::vous aimez:
+zij houden van:::ils aiment:(MANNELIJK)
+zij houden van:::elles aiment:(VROUWELIJK)
+ik zing:::je chante:
+jij zingt:::tu chantes:
+hij zingt:::il chante:
+zij zingt:::elle chante:
+wij zingen:::nous chantons:
+jullie zingen:::vous chantez:
+zij zingen:::ils chantent:(MANNELIJK)
+zij zingen:::elles chantent:(VROUWELIJK)
+ik zoek:::je cherche:
+jij zoekt:::tu cherches:
+hij zoekt:::il cherche:
+zij zoekt:::elle cherche:
+wij zoeken:::nous cherchons:
+jullie zoeken:::vous cherchez:
+zij zoeken:::ils cherchent:(MANNELIJK)
+zij zoeken:::elles cherchent:(VROUWELIJK)
+ik begin:::je commence:
+jij begint:::tu commences:
+hij begint:::il commence:
+zij begint:::elle commence:
+wij beginnen:::nous commençons:
+jullie beginnen:::vous commencez:
+zij beginnen:::ils commencent:(MANNELIJK)
+zij beginnen:::elles commencent:(VROUWELIJK)
+ik kook:::je cuisine:
+jij kookt:::tu cuisines:
+hij kookt:::il cuisine:
+zij kookt:::elle cuisine:
+wij koken:::nous cuisinons:
+jullie koken:::vous cuisinez:
+zij koken:::ils cuisinent:(MANNELIJK)
+zij koken:::elles cuisinent:(VROUWELIJK)
+ik dans:::je danse:
+jij danst:::tu danses:
+hij danst:::il danse:
+zij danst:::elle danse:
+wij dansen:::nous dansons:
+jullie dansen:::vous dansez:
+zij dansen:::ils dansent:(MANNELIJK)
+zij dansen:::elles dansent:(VROUWELIJK)
+ik teken:::je dessine:
+jij tekent:::tu dessines:
+hij tekent:::il dessine:
+zij tekent:::elle dessine:
+wij tekenen:::nous dessinons:
+jullie tekenen:::vous dessinez:
+zij tekenen:::ils dessinent:(MANNELIJK)
+zij tekenen:::elles dessinent:(VROUWELIJK)
+ik haat:::je déteste:
+jij haat:::tu détestes:
+hij haat:::il déteste:
+zij haat:::elle déteste:
+wij haten:::nous détestons:
+jullie haten:::vous détestez:
+zij haten:::ils détestent:(MANNELIJK)
+zij haten:::elles détestent:(VROUWELIJK)
+ik geef:::je donne:
+jij geeft:::tu donnes:
+hij geeft:::il donne:
+zij geeft:::elle donne:
+wij geven:::nous donnons:
+jullie geven:::vous donnez:
+zij geven:::ils donnent:(MANNELIJK)
+zij geven:::elles donnent:(VROUWELIJK)
+ik luister:::j’écoute:
+jij luistert:::tu écoutes:
+hij luistert:::il écoute:
+zij luistert:::elle écoute:
+wij luisteren:::nous écoutons:
+jullie luisteren:::vous écoutez:
+zij luisteren:::ils écoutent:(MANNELIJK)
+zij luisteren:::elles écoutent:(VROUWELIJK)
+ik woon:::j'habite:
+jij woont:::tu habites:
+hij woont:::il habite:
+zij woont:::elle habite:
+wij wonen:::nous habitons:
+jullie wonen:::vous habitez:
+zij wonen:::ils habitent:(MANNELIJK)
+zij wonen:::elles habitent:(VROUWELIJK)
+ik speel:::je joue:
+jij speelt:::tu joues:
+hij speelt:::il joue:
+zij speelt:::elle joue:
+wij spelen:::nous jouons:
+jullie spelen:::vous jouez:
+zij spelen:::ils jouent:(MANNELIJK)
+zij spelen:::elles jouent:(VROUWELIJK)
+ik wandel:::je marche:
+jij wandelt:::tu marches:
+hij wandelt:::il marche:
+zij wandelt:::elle marche:
+wij wandelen:::nous marchons:
+jullie wandelen:::vous marchez:
+zij wandelen:::ils marchent:(MANNELIJK)
+zij wandelen:::elles marchent:(VROUWELIJK)
+ik zwem:::je nage:
+jij zwemt:::tu nages:
+hij zwemt:::il nage:
+zij zwemt:::elle nage:
+wij zwemmen:::nous nageons:
+jullie zwemmen:::vous nagez:
+zij zwemmen:::ils nagent:(MANNELIJK)
+zij zwemmen:::elles nagent:(VROUWELIJK)
+ik spreek:::je parle:
+jij spreekt:::tu parles:
+hij spreekt:::il parle:
+zij spreekt:::elle parle:
+wij spreken:::nous parlons:
+jullie spreken:::vous parlez:
+zij spreken:::ils parlent:(MANNELIJK)
+zij spreken:::elles parlent:(VROUWELIJK)
+ik vertel:::je raconte:
+jij vertelt:::tu racontes:
+hij vertelt:::il raconte:
+zij vertelt:::elle raconte:
+wij vertellen:::nous racontons:
+jullie vertellen:::vous racontez:
+zij vertellen:::ils racontent:(MANNELIJK)
+zij vertellen:::elles racontent:(VROUWELIJK)
+ik kijk:::je regarde:
+jij kijkt:::tu regardes:
+hij kijkt:::il regarde:
+zij kijkt:::elle regarde:
+wij kijken:::nous regardons:
+jullie kijken:::vous regardez:
+zij kijken:::ils regardent:(MANNELIJK)
+zij kijken:::elles regardent:(VROUWELIJK)
+ik blijf:::je reste:
+jij blijft:::tu restes:
+hij blijft:::il reste:
+zij blijft:::elle reste:
+wij blijven:::nous restons:
+jullie blijven:::vous restez:
+zij blijven:::ils restent:(MANNELIJK)
+zij blijven:::elles restent:(VROUWELIJK)
+ik hang rond:::je traine:
+jij hangt rond:::tu traines:
+hij hangt rond:::il traine:
+zij hangt rond:::elle traine:
+wij hangen rond:::nous trainons:
+jullie hangen rond:::vous trainez:
+zij hangen rond:::ils trainent:(MANNELIJK)
+zij hangen rond:::elles trainent:(VROUWELIJK)
+ik werk:::je travaille:
+jij werkt:::tu travailles:
+hij werkt:::il travaille:
+zij werkt:::elle travaille:
+wij werken:::nous travaillons:
+jullie werken:::vous travaillez:
+zij werken:::ils travaillent:(MANNELIJK)
+zij werken:::elles travaillent:(VROUWELIJK)

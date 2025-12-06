@@ -1,0 +1,136 @@
+ik heb:::I have:
+jij hebt:::you have:
+hij heeft:::he has:
+zij heeft:::she has:
+het heeft:::it has:
+wij hebben:::we have:
+jullie hebben:::you have:
+zij hebben:::they have:
+ik heb niet:::I don't have:
+jij hebt niet:::you don't have:
+hij heeft niet:::he doesn't have:
+zij heeft niet:::she doesn't have:
+het heeft niet:::it doesn't have:
+wij hebben niet:::we don't have:
+jullie hebben niet:::you don't have:
+zij hebben niet:::they don't have:
+heb ik:::do I have:
+heb jij:::do you have:
+heeft hij:::does he have:
+heeft zij:::does she have:
+heeft het:::does it have:
+hebben we:::do we have:
+hebben jullie:::do you have:
+hebben zij:::do they have:
+ik heb gekregen:::I have got:
+jij hebt gekregen:::you have got:
+hij heeft gekregen:::he has got:
+zij heeft gekregen:::she has got:
+het heeft gekregen:::it has got:
+wij hebben gekregen:::we have got:
+jullie hebben gekregen:::you have got:
+zij hebben gekregen:::they have got:
+ik heb niet gekregen:::I haven't got:
+jij hebt niet gekregen:::you haven't got:
+hij heeft niet gekregen:::he hasn't got:
+zij heeft niet gekregen:::she hasn't got:
+het heeft niet gekregen:::it hasn't got:
+wij hebben niet gekregen:::we haven't got:
+jullie hebben niet gekregen:::you haven't got:
+zij hebben niet gekregen:::they haven't got:
+heb ik gehad:::have I got:
+heb jij gehad:::have you got:
+heeft hij gehad:::has he got:
+heeft zij gehad:::has she got:
+heeft het gehad:::has it got:
+hebben wij gehad:::have we got:
+hebben jullie gehad:::have you got:
+hebben zij gehad:::have they got:
+Ik hou van mijn hond.:::I love my dog.:
+Jij houdt van jouw hond.:::You love your dog.:
+Hij houdt van zijn hond.:::He loves his dog.:
+Zij houdt van haar hond.:::She loves her dog.:
+Het toont haar tanden.:::It is showing its teeth.:
+We houden van onze hond.:::We love our dog.:
+Jullie houden van jullie hond.:::You love your dog.:
+Zij houden van hun hond.:::They love their dog.:
+Hij is van mij.:::He's mine.:
+Hij is van jou.:::He's yours.:
+Hij is van hem.:::He's his.:
+Hij is van haar.:::He's hers.:
+Hij is van ons.:::He's ours.:
+Hij is van jullie.:::He's yours.:
+Hij is van hun.:::He's theirs.:
+
+
+:::I am working.:
+:::You are working.:
+:::She is working.:
+:::We are working.:
+:::You are working.:
+:::They are working.:
+:::I am not working.:FULL FORM
+:::He is not working.:FULL FORM
+:::We are not working.:FULL FORM
+:::You are not working.:FULL FORM
+:::They are not working.:FULL FORM
+:::Am I working?:FULL FORM
+:::Are you working?:FULL FORM
+:::Is it working?:FULL FORM
+:::Are we working?:FULL FORM
+:::Are you working?:FULL FORM
+:::Are they working?:FULL FORM
+:::I'm working.:SHORT FORM
+:::You're working.:SHORT FORM
+:::She's working.:SHORT FORM
+:::We're working.:SHORT FORM
+:::You're working.:SHORT FORM
+:::Thery're working.:SHORT FORM
+:::I'm not working.:SHORT FORM
+:::You aren't working.:SHORT FORM
+:::He isn't working.:SHORT FORM
+:::We aren't working.:SHORT FORM
+:::You aren't working.:SHORT FORM
+:::They aren't working.:SHORT FORM
+:::Am I not working?:
+:::Aren't uoi working?:SHORT FORM
+:::Isn't he working?:SHORT FORM
+:::Aren't we working?:SHORT FORM
+:::Aren't you working?:SHORT FORM
+:::Aren't they working?:SHORT FORM
+
+Ik ben aan het werk.:::I am working.:FULL FORM
+Jij bent aan het werk.:::You are working.:FULL FORM
+Zij is aan het werk.:::She is working.:FULL FORM
+Wij zijn aan het werk.:::We are working.:FULL FORM
+Jullie zijn aan het werk.:::You are working.:FULL FORM
+Zij zijn aan het werk.:::They are working.:FULL FORM
+Ik ben niet aan het werk.:::I am not working.:SHORT FORM
+Hij is niet aan het werk.:::He is not working.:SHORT FORM
+Wij zijn niet aan het werk.:::We are not working.:SHORT FORM
+Jullie zijn niet aan het werk.:::You are not working.:SHORT FORM
+Zij zijn niet aan het werk.:::They are not working.:SHORT FORM
+Ben ik aan het werk?:::Am I working?:SHORT FORM
+Ben jij aan het werk?:::Are you working?:SHORT FORM
+Is het aan het werk?:::Is it working?:SHORT FORM
+Zijn wij aan het werk?:::Are we working?:SHORT FORM
+Zijn jullie aan het werk?:::Are you working?:SHORT FORM
+Zijn zij aan het werk?:::Are they working?:SHORT FORM
+Ik werk.:::I'm working.:SHORT FORM
+Jij werkt.:::You're working.:SHORT FORM
+Zij werkt.:::She's working.:SHORT FORM
+Wij werken.:::We're working.:SHORT FORM
+Jullie werken.:::You're working.:SHORT FORM
+Zij werken.:::They're working.:SHORT FORM
+Ik werk niet.:::I'm not working.:SHORT FORM
+Jij werkt niet.:::You aren't working.:SHORT FORM
+Hij werkt niet.:::He isn't working.:SHORT FORM
+Wij werken niet.:::We aren't working.:SHORT FORM
+Jullie werken niet.:::You aren't working.:SHORT FORM
+Zij werken niet.:::They aren't working.:SHORT FORM
+Werk ik niet?:::Am I not working?:
+Werk jij niet?:::Aren't you working?:SHORT FORM
+Werkt hij niet?:::Isn't he working?:SHORT FORM
+Werken wij niet?:::Aren't we working?:SHORT FORM
+Werken jullie niet?:::Aren't you working?:SHORT FORM
+Werken zij niet?:::Aren't they working?:SHORT FORM

@@ -1,0 +1,8 @@
+tof:::chouette:
+geniaal:::génial:VOOR VROUWELIJK MOET JE + e
+groot:::grand:VOOR VROUWELIJK MOET JE + e
+jong:::jeune:
+nieuw:::nouveau:MANNELIJK
+nieuw:::nouvelle:VROUWELIJK
+klein:::petit:VOOR VROUWELIJK MOET JE + e
+sympathiek:::sympa:

@@ -1,0 +1,22 @@
+de kilometer:le:kilomètre:le kilomètre:
+de reiskoffer:la:valise:la valise:
+de trein:le:train:le train:
+het vliegtuig:l'(m):avion:l'avion:
+de ingang:l'(f):entrée:l'entrée:
+de uitgang:la:sortie:la sortie:
+de hoek:le:coin:le coin:
+de paraplu:le:parapluie:le parapluie:
+de pet:la:casquette:la casquette:
+de gsm:le:portable:le portable:
+de telefoon:le:téléphone:le téléphone:
+de reis:le:voyage:le voyage:
+Europa:l'(f):Europe:l'Europe:
+Vlaanderen:la:Flandre:la Flandre:
+Wallonië:la:Wallonie:la Wallonie:
+stoppen:::s'arrêter:
+binnenkomen:::entrer:
+sluiten:::fermer:
+telefoneren naar:::téléphoner à:
+Hallo?:::Allô?:
+Waar is Zeyneb?:::Où est Zeyneb?:
+zonder:::sans:

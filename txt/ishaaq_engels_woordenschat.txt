@@ -1,0 +1,124 @@
+een schoonvader:::a father-in-law:
+een schoonmoeder:::a mother-in-law:
+een schoonbroer:::a brother-in-law:
+een schoonzus:::a sister-in-law:
+een vrouw:::a wife:
+een zoon:::a son:
+een dochter:::a daughter:
+een vader:::a father:F…
+een vader:::a dad:D…
+ik:::me:
+een zus:::a sister:
+een broer:::a brother:
+een halfbroer:::a half-brother:
+een stiefbroer:::a stepbrother:
+een neef:::a nephew:ZOON VAN BROER/ZUS
+
+een nicht:::a niece:DOCHTER VAN BROER/ZUS
+een grootvader:::a grandfather
+een grootmoeder:::a grandmother:
+een moeder:::a mother:
+een stiefvader:::a stepfather:
+een ex vrouw:::an ex-wife:
+een stiefvader's ex vrouw:::a stepfather's ex-wife:
+een tante:::an aunt:
+een oom:::an uncle:
+een neef:::a cousin:ZOON VAN TANTE/OOM
+een nicht:::a cousin:DOCHTER VAN TANTE/OOM
+een partner van een neef of nicht:::a cousin's partner:
+een zoon van een neef of nicht:::a cousin's son:
+blond haar:::blond hair:
+rood haar:::ginger hair:
+
+bruin haar:::brown hair:
+zwart haar:::black hair:
+kort haar:::short hair:
+schouderlang haar:::shoulder length hair:
+lang haar:::long hair:
+steil haar:::straight hair:
+golvend haar:::wavy hair:
+krullend haar:::curly hair:
+bruine ogen:::brown eyes:
+groene ogen:::green eyes:
+blauwe ogen:::blue eyes:
+grijze ogen:::grey eyes:
+groot:::tall:
+klein:::short:
+slank:::slim:S…
+slank:::thin:T…
+
+gezet:::stocky:
+gespierd:::muscular:
+te zwaar:::overweight:
+een baar:::a beard:
+wangen:::cheeks:
+jukbeenderen:::cheekbones:
+een kin:::a chin:
+een puntige kin:::a pointy chin:
+mollig:::chubby
+wenkbrauwen:::eyebrows:
+een voorhoofd:::a forehead:
+een hoog voorhoofd:::a high forehead:
+een snor:::a moustache:
+een neus:::a nose:
+
+een dochter:::a daughter:
+een grootmoeder:::a grandmother:
+rood haar:::ginger hair:
+schouderlang haar:::shoulder length hair:
+te zwaar:::overweight:
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+gras maaien:::to mow the lawn:
+tafel opruimen:::to clear the table:
+bed opmaken:::to make the bed:
+vaatwasser inladen:::to load the dishwasher:
+afstoffen:::to dust:
+raam kuisen:::to clean the windows:
+vuilbak buiten zetten:::to put the dustbins:
+opruimen:::to tidy up:
+koken:::to cook:
+auto wassen:::to wash the car:
+stofzuigen:::to hoover:H…
+stofzuigen:::to vacuum:V…
+een eetkamer:::a dining room:
+een woonkamer:::a living room:
+een zolder:::an attic:
+een keuken:::a kitchen:
+
+een kelder:::a cellar:
+een badkamer:::a bathroom:
+een slaapkamer:::a bedroom:
+een hal:::a hall:
+een berging:::a storeroom:S…
+een berging:::a storage room:S R…
+een waskamer:::a utility room:
+een tapijt:::a carpet:
+boos:::angry:
+paniekerig:::anxious:
+verbijsterd:::appalled:
+verbaasd:::astonished:
+zeker:::certain:
+vreugdevol:::cheerful:
+bezorgd:::concerned:
+
+zelfzeker:::confident:
+blij:::delighted:D...
+depressief:::depressed:
+teleurgesteld:::disappointed:
+razend:::enraged:
+vervuld/volledig:::fulfilled:
+blij:::glad:G...
+gelukkig:::happy:
+hatelijk:::hateful:
+hoopvol:::hopeful:
+verliefd:::in love:
+ellendig:::miserable:
+blij:::pleased:P...
+droevig:::sad:
+tevreden:::satisfied:
+gechoqueerd:::shocked:
+overstuur:::upset:
+verlegen:::shy:

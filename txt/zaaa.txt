@@ -1,0 +1,20 @@
+de soep:la:soupe:la soupe:
+de salade:la:salade:la salade:
+de wortel:la:carotte:la carotte:
+de aardappel:la:pomme de terre:la pomme de terre:
+de groente:le:légume:le légume:
+het middageten:le:dîner:le dîner:
+de grootouders:les(m):grands-parents:les grands-parents:
+de grootvader:le:grand-père:le grand-père:
+de grootmoeder:la:grand-mère:la grand-mère:
+de laars:la:botte:la botte:
+aandoen:::mettre:
+ik doe aan:::je mets:
+naar buiten gaan/terugkeren naar:::rentrer:
+zin hebben in:::avoir envie de:
+honger hebben:::avoir faim:
+dorst hebben:::avoir soif:
+Aan tafel!:::À table!:
+Het is lekker!:::C'est bon!:
+Nee, dank je.:::Non, merci.:
+Tot morgen!:::À demain!:
