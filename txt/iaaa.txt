@@ -1,0 +1,59 @@
+het karakter:le:caractère:le caractère:
+het uiterlijk/de looks:l'(f):apparence:l'apparence:l'apparence:
+hip:::branché:MANNELIJK
+hip:::branchée:VROUWELIJK
+interessant:::intéressant:MANNELIJK
+interessant:::intéressante:VROUWELIJK
+bedrukt:::imprimé:MANNELIJK
+bedrukt:::imprimée:VROUWELIJK
+vallen voor:::craquer pour:
+grapjes maken:::plaisanter:
+dromen over:::rêver de:
+een goede smaak hebben:::avoir bon goût:
+lijken/eruit zien:::avoir l'air:
+dat is maar (uiterlijke) schijn:::ce n'est que l'apparence:
+ik mis hem:::il me manque:
+het lijkt me dat:::il me semble que:
+het puistje:le:bouton:le bouton:
+de make-up:le:maquillage:le maquillage:
+de baard:la:barbe:la barbe:
+het kapsel:la:coiffure:la coiffure:
+de snor:la:moustache:la moustache:
+bejaard:::âgé:MANNELIJK
+bejaard:::âgée:VROUWELIJK
+gekruld:::bouclé:
+gebruind:::bronzé:MANNELIJK
+gebruind:::bronzée:VROUWELIJK
+kaal:::chauve:
+lelijk:::laid:MANNELIJK
+lelijk:::laide:VROUWELIJK
+lang:::long:MANNELIJK
+lang:::longue:VROUWELIJK
+steil:::lisse:
+schattig:::mignon:MANNELIJK
+schattig:::mignonne:VROUWELIJK
+halflang:::mi-long:MANNELIJK
+halflang:::mi-longue:VROUWELIJK
+slank, dun:::mince:
+gespierd:::musculé:MANNELIJK
+gespierd:::musculée:VROUWELIJK
+actief:::actif:MANNELIJK
+actief:::active:VROUWELIJK
+agressief:::agressif:MANNELIJK
+agressief:::agressive:VROUWELIJK
+rustig:::calme:
+grappig:::drôle:(D...)
+beleefd:::poli:MANNELIJK
+beleefd:::polie:VROUWELIJK
+onbeleefd:::impoli:MANNELIJK
+onbeleefd:::impolie:VROUWELIJK
+verstandig:::intelligent:MANNELIJK
+verstandig:::intelligente:VROUWELIJK
+macho:::macho:
+grappig:::marrant:(M...) MANNELIJK
+grappig:::marrante:(M...) VROUWELIJK
+stout, kwaadaardig:::méchant:MANNELIJK
+kwaadaardig:::méchante:VROUWELIJK
+ernstig:::sérieux:MANNELIJK
+ernstig:::sérieuse:VROUWELIJK
+verlegen:::timide:

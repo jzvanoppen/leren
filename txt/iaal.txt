@@ -1,0 +1,37 @@
+een bloes:::a blouse:
+een strik:::a bow tie:
+een jas:::a coat:C...
+een jurk:::a dress:
+een hoodie:::a hoodie:
+een jas:::a jacket:J...
+een hemd:::a shirt:
+een short:::a pair of shorts:
+een rok:::a skirt:
+sokken:::socks:
+kousenbroek:::tights:
+een pak:::a suit:
+een trui:::a sweater:
+een das:::a tie:
+een panty:::stockings:
+een t-shirt:::a T-shirt:
+een bovenstuk:::a top:
+een broek:::a pair of trousers:
+ondergoed:::underwear:
+een onderhemd:::a vest:
+een tas:::a bag:
+een armband:::a bracelet:
+een pet:::a cap:
+oorbellen:::earrings:
+een handtas:::a handbag:
+een hoed:::a hat:
+een ketting:::a necklace:
+een piercing:::a piercing:
+een portemonnee:::a purse:
+een ring:::a ring:
+een portefeuille:::a wallet:
+een horloge:::a watch:
+botten:::boots:
+hoge hakken:::high heels:
+schoenen:::shoes:
+slippers:::slippers:
+sportschoenen:::trainers:

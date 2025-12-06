@@ -1,0 +1,9 @@
+wat:::quoi:
+waar:::où:
+welke:::quel:
+hoe:::comment:
+hoe laat:::à quelle heure:
+waarom:::pourquoi:
+wie:::qui:
+hoeveel:::combien de:
+wanneer:::quand:

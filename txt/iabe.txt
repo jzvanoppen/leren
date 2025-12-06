@@ -1,0 +1,33 @@
+de leeftijd:(m)::l'âge:
+de kandidaat:::le candidat:MANNELIJK
+de kandidaat:::la candidate:VROUWELIJK
+de fan:::le fan:MANNELIJK
+de fan:::la fan:VROUWELIJK
+de vrijetijdsbesteding:::le loisir:
+de keuze:::le choix:
+de wijk:::le quartier:
+de droom:::le rêve:
+de ervaring:(f)::l'expérience:
+de fiche, het formulier:::la fiche:
+het interview:(f)::l'interview:
+het idool:::la vedette:V…
+het idool:::la star:::S…
+het leven:::la vie:
+bekend/beroemd:::célèbre:
+heerlijk:::délicieux:MANNELIJK
+heerlijk:::délicieuse:VROUWELIJK
+Franstalig:::francophone:
+filmen/opnemen:::enregistrer:
+inspireren:::inspirer:
+interviewen:::interviewer:
+bedanken:::remercier:
+grote fan zijn van:::être très fan de:
+lid zijn van:::être membre de:
+gepassioneerd zijn door:::être passionné par:MANNELIJK ONDERWERP
+gepassioneerd zijn door:::être passionnée par:VROUWELIJK ONDERWERP
+(dol)blij zijn met:::être ravi de:MANNELIJK ONDERWERP
+(dol)blij zijn met:::être ravie de:VROUWELIJK ONDERWERP
+realistisch blijven/beide voeten  op de grond houden:garder les pieds sur terre:
+dankzij:::grâce à:
+te midden van/onder:::parmi:
+eerder/liever:::plutôt:

@@ -1,0 +1,180 @@
+ik ga hebben:::je vais avoir:FUTUR PROCHE
+jij gaat hebben:::tu vas avoir:FUTUR PROCHE
+hij gaat hebben:::il va avoir:FUTUR PROCHE
+zij gaat hebben:::elle va avoir:FUTUR PROCHE
+het gaat hebben:::on va avoir:FUTUR PROCHE
+wij gaan hebben:::nous allons avoir:FUTUR PROCHE
+jullie gaan hebben:::vous allez avoir:FUTUR PROCHE
+zij gaan hebben:::ils vont avoir:(MANNELIJK) FUTUR PROCHE
+zij gaan hebben:::elles vont avoir:(VROUWELIJK) FUTUR PROCHE
+ik ga zijn:::je vais être:FUTUR PROCHE
+jij gaat zijn:::tu vas être:FUTUR PROCHE
+hij gaat zijn:::il va être:FUTUR PROCHE
+zij gaat zijn:::elle va être:FUTUR PROCHE
+het gaat zijn:::on va être:FUTUR PROCHE
+wij gaan zijn:::nous allons être:FUTUR PROCHE
+jullie gaan zijn:::vous allez être:FUTUR PROCHE
+zij gaan zijn:::ils vont être:(MANNELIJK) FUTUR PROCHE
+zij gaan zijn:::elles vont être:(VROUWELIJK) FUTUR PROCHE
+ik ga gaan:::je vais aller:FUTUR PROCHE
+jij gaat gaan:::tu vas aller:FUTUR PROCHE
+hij gaat gaan:::il va aller:FUTUR PROCHE
+zij gaat gaan:::elle va aller:FUTUR PROCHE
+het gaat gaan:::on va aller:FUTUR PROCHE
+wij gaan gaan:::nous allons aller:FUTUR PROCHE
+jullie gaan gaan:::vous allez aller:FUTUR PROCHE
+zij gaan gaan:::ils vont aller:(MANNELIJK) FUTUR PROCHE
+zij gaan gaan:::elles vont aller:(VROUWELIJK) FUTUR PROCHE
+ik ga drinken:::je vais boire:FUTUR PROCHE
+jij gaat drinken:::tu vas boire:FUTUR PROCHE
+hij gaat drinken:::il va boire:FUTUR PROCHE
+zij gaat drinken:::elle va boire:FUTUR PROCHE
+het gaat drinken:::on va boire:FUTUR PROCHE
+wij gaan drinken:::nous allons boire:FUTUR PROCHE
+jullie gaan drinken:::vous allez boire:FUTUR PROCHE
+zij gaan drinken:::ils vont boire:(MANNELIJK) FUTUR PROCHE
+zij gaan drinken:::elles vont boire:(VROUWELIJK) FUTUR PROCHE
+ik ga kennen:::je vais connaître:FUTUR PROCHE
+jij gaat kennen:::tu vas connaître:FUTUR PROCHE
+hij gaat kennen:::il va connaître:FUTUR PROCHE
+zij gaat kennen:::elle va connaître:FUTUR PROCHE
+het gaat kennen:::on va connaître:FUTUR PROCHE
+wij gaan kennen:::nous allons connaître:FUTUR PROCHE
+jullie gaan kennen:::vous allez connaître:FUTUR PROCHE
+zij gaan kennen:::ils vont connaître:(MANNELIJK) FUTUR PROCHE
+zij gaan kennen:::elles vont connaître:(VROUWELIJK) FUTUR PROCHE
+ik ga moeten:::je vais devoir:FUTUR PROCHE
+jij gaat moeten:::tu vas devoir:FUTUR PROCHE
+hij gaat moeten:::il va devoir:FUTUR PROCHE
+zij gaat moeten:::elle va devoir:FUTUR PROCHE
+het gaat moeten:::on va devoir:FUTUR PROCHE
+wij gaan moeten:::nous allons devoir:FUTUR PROCHE
+jullie gaan moeten:::vous allez devoir:FUTUR PROCHE
+zij gaan moeten:::ils vont devoir:(MANNELIJK) FUTUR PROCHE
+zij gaan moeten:::elles vont devoir:(VROUWELIJK) FUTUR PROCHE
+ik ga zeggen:::je vais dire:FUTUR PROCHE
+jij gaat zeggen:::tu vas dire:FUTUR PROCHE
+hij gaat zeggen:::il va dire:FUTUR PROCHE
+zij gaat zeggen:::elle va dire:FUTUR PROCHE
+het gaat zeggen:::on va dire:FUTUR PROCHE
+wij gaan zeggen:::nous allons dire:FUTUR PROCHE
+jullie gaan zeggen:::vous allez dire:FUTUR PROCHE
+zij gaan zeggen:::ils vont dire:(MANNELIJK) FUTUR PROCHE
+zij gaan zeggen:::elles vont dire:(VROUWELIJK) FUTUR PROCHE
+ik ga schrijven:::je vais écrire:FUTUR PROCHE
+jij gaat schrijven:::tu vas écrire:FUTUR PROCHE
+hij gaat schrijven:::il va écrire:FUTUR PROCHE
+zij gaat schrijven:::elle va écrire:FUTUR PROCHE
+het gaat schrijven:::on va écrire:FUTUR PROCHE
+wij gaan schrijven:::nous allons écrire:FUTUR PROCHE
+jullie gaan schrijven:::vous allez écrire:FUTUR PROCHE
+zij gaan schrijven:::ils vont écrire:(MANNELIJK) FUTUR PROCHE
+zij gaan schrijven:::elles vont écrire:(VROUWELIJK) FUTUR PROCHE
+ik ga doen/maken:::je vais faire:FUTUR PROCHE
+jij gaat doen/maken:::tu vas faire:FUTUR PROCHE
+hij gaat doen/maken:::il va faire:FUTUR PROCHE
+zij gaat doen/maken:::elle va faire:FUTUR PROCHE
+het gaat doen/maken:::on va faire:FUTUR PROCHE
+wij gaan doen/maken:::nous allons faire:FUTUR PROCHE
+jullie gaan doen/maken:::vous allez faire:FUTUR PROCHE
+zij gaan doen/maken:::ils vont faire:(MANNELIJK) FUTUR PROCHE
+zij gaan doen/maken:::elles vont faire:(VROUWELIJK) FUTUR PROCHE
+ik ga lezen:::je vais lire:FUTUR PROCHE
+jij gaat lezen:::tu vas lire:FUTUR PROCHE
+hij gaat lezen:::il va lire:FUTUR PROCHE
+zij gaat lezen:::elle va lire:FUTUR PROCHE
+het gaat lezen:::on va lire:FUTUR PROCHE
+wij gaan lezen:::nous allons lire:FUTUR PROCHE
+jullie gaan lezen:::vous allez lire:FUTUR PROCHE
+zij gaan lezen:::ils vont lire:(MANNELIJK) FUTUR PROCHE
+zij gaan lezen:::elles vont lire:(VROUWELIJK) FUTUR PROCHE
+ik ga zetten/leggen:::je vais mettre:FUTUR PROCHE
+jij gaat zetten/leggen:::tu vas mettre:FUTUR PROCHE
+hij gaat zetten/leggen:::il va mettre:FUTUR PROCHE
+zij gaat zetten/leggen:::elle va mettre:FUTUR PROCHE
+het gaat zetten/leggen:::on va mettre:FUTUR PROCHE
+wij gaan zetten/leggen:::nous allons mettre:FUTUR PROCHE
+jullie gaan zetten/leggen:::vous allez mettre:FUTUR PROCHE
+zij gaan zetten/leggen:::ils vont mettre:(MANNELIJK) FUTUR PROCHE
+zij gaan zetten/leggen:::elles vont mettre:(VROUWELIJK) FUTUR PROCHE
+ik ga nemen:::je vais prendre:FUTUR PROCHE
+jij gaat nemen:::tu vas prendre:FUTUR PROCHE
+hij gaat nemen:::il va prendre:FUTUR PROCHE
+zij gaat nemen:::elle va prendre:FUTUR PROCHE
+het gaat nemen:::on va prendre:FUTUR PROCHE
+wij gaan nemen:::nous allons prendre:FUTUR PROCHE
+jullie gaan nemen:::vous allez prendre:FUTUR PROCHE
+zij gaan nemen:::ils vont prendre:(MANNELIJK) FUTUR PROCHE
+zij gaan nemen:::elles vont prendre:(VROUWELIJK) FUTUR PROCHE
+ik ga kunnen/mogen:::je vais pouvoir:FUTUR PROCHE
+jij gaat kunnen/mogen:::tu vas pouvoir:FUTUR PROCHE
+hij gaat kunnen/mogen:::il va pouvoir:FUTUR PROCHE
+zij gaat kunnen/mogen:::elle va pouvoir:FUTUR PROCHE
+het gaat kunnen/mogen:::on va pouvoir:FUTUR PROCHE
+wij gaan kunnen/mogen:::nous allons pouvoir:FUTUR PROCHE
+jullie gaan kunnen/mogen:::vous allez pouvoir:FUTUR PROCHE
+zij gaan kunnen/mogen:::ils vont pouvoir:(MANNELIJK) FUTUR PROCHE
+zij gaan kunnen/mogen:::elles vont pouvoir:(VROUWELIJK) FUTUR PROCHE
+ik ga ontvangen:::je vais recevoir:FUTUR PROCHE
+jij gaat ontvangen:::tu vas recevoir:FUTUR PROCHE
+hij gaat ontvangen:::il va recevoir:FUTUR PROCHE
+zij gaat ontvangen:::elle va recevoir:FUTUR PROCHE
+het gaat ontvangen:::on va recevoir:FUTUR PROCHE
+wij gaan ontvangen:::nous allons recevoir:FUTUR PROCHE
+jullie gaan ontvangen:::vous allez recevoir:FUTUR PROCHE
+zij gaan ontvangen:::ils vont recevoir:(MANNELIJK) FUTUR PROCHE
+zij gaan ontvangen:::elles vont recevoir:(VROUWELIJK) FUTUR PROCHE
+ik ga weten:::je vais savoir:FUTUR PROCHE
+jij gaat weten:::tu vas savoir:FUTUR PROCHE
+hij gaat weten:::il va savoir:FUTUR PROCHE
+zij gaat weten:::elle va savoir:FUTUR PROCHE
+het gaat weten:::on va savoir:FUTUR PROCHE
+wij gaan weten:::nous allons savoir:FUTUR PROCHE
+jullie gaan weten:::vous allez savoir:FUTUR PROCHE
+zij gaan weten:::ils vont savoir:(MANNELIJK) FUTUR PROCHE
+zij gaan weten:::elles vont savoir:(VROUWELIJK) FUTUR PROCHE
+ik ga komen:::je vais venir:FUTUR PROCHE
+jij gaat komen:::tu vas venir:FUTUR PROCHE
+hij gaat komen:::il va venir:FUTUR PROCHE
+zij gaat komen:::elle va venir:FUTUR PROCHE
+het gaat komen:::on va venir:FUTUR PROCHE
+wij gaan komen:::nous allons venir:FUTUR PROCHE
+jullie gaan komen:::vous allez venir:FUTUR PROCHE
+zij gaan komen:::ils vont venir:(MANNELIJK) FUTUR PROCHE
+zij gaan komen:::elles vont venir:(VROUWELIJK) FUTUR PROCHE
+ik ga vasthouden:::je vais tenir:FUTUR PROCHE
+jij gaat vasthouden:::tu vas tenir:FUTUR PROCHE
+hij gaat vasthouden:::il va tenir:FUTUR PROCHE
+zij gaat vasthouden:::elle va tenir:FUTUR PROCHE
+het gaat vasthouden:::on va tenir:FUTUR PROCHE
+wij gaan vasthouden:::nous allons tenir:FUTUR PROCHE
+jullie gaan vasthouden:::vous allez tenir:FUTUR PROCHE
+zij gaan vasthouden:::ils vont tenir:(MANNELIJK) FUTUR PROCHE
+zij gaan vasthouden:::elles vont tenir:(VROUWELIJK) FUTUR PROCHE
+ik ga zien:::je vais voir:FUTUR PROCHE
+jij gaat zien:::tu vas voir:FUTUR PROCHE
+hij gaat zien:::il va voir:FUTUR PROCHE
+zij gaat zien:::elle va voir:FUTUR PROCHE
+het gaat zien:::on va voir:FUTUR PROCHE
+wij gaan zien:::nous allons voir:FUTUR PROCHE
+jullie gaan zien:::vous allez voir:FUTUR PROCHE
+zij gaan zien:::ils vont voir:(MANNELIJK) FUTUR PROCHE
+zij gaan zien:::elles vont voir:(VROUWELIJK) FUTUR PROCHE
+ik ga willen:::je vais vouloir:FUTUR PROCHE
+jij gaat willen:::tu vas vouloir:FUTUR PROCHE
+hij gaat willen:::il va vouloir:FUTUR PROCHE
+zij gaat willen:::elle va vouloir:FUTUR PROCHE
+het gaat willen:::on va vouloir:FUTUR PROCHE
+wij gaan willen:::nous allons vouloir:FUTUR PROCHE
+jullie gaan willen:::vous allez vouloir:FUTUR PROCHE
+zij gaan willen:::ils vont vouloir:(MANNELIJK) FUTUR PROCHE
+zij gaan willen:::elles vont vouloir:(VROUWELIJK) FUTUR PROCHE
+ik ga sturen:::je vais envoyer:FUTUR PROCHE
+jij gaat sturen:::tu vas envoyer:FUTUR PROCHE
+hij gaat sturen:::il va envoyer:FUTUR PROCHE
+zij gaat sturen:::elle va envoyer:FUTUR PROCHE
+het gaat sturen:::on va envoyer:FUTUR PROCHE
+wij gaan sturen:::nous allons envoyer:FUTUR PROCHE
+jullie gaan sturen:::vous allez envoyer:FUTUR PROCHE
+zij gaan sturen:::ils vont envoyer:(MANNELIJK) FUTUR PROCHE
+zij gaan sturen:::elles vont envoyer:(VROUWELIJK) FUTUR PROCHE

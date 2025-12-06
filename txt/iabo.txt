@@ -1,0 +1,24 @@
+spin:::une araignée:
+bezem:::un balai:
+snoepjes:::des bonbons:
+zwarte kat:::un chat noir:
+pompoen:::une citrouille:
+duivel:::un diable:
+spook:::un fantôme:
+weerwolf:::un loup garou:
+masker:::un masque:
+mummie:::une momie:
+monster:::un monstre:
+skelet:::un squelette:
+heks:::une sorcière:
+vampier:::un vampire:
+zombie:::un zombie:
+verkleedkostuum:::un déguisement:
+vogelverschrikker:::un épouvantail:
+toverdrank:::une potion:
+kabouter:::un lutin:
+pompoen:::un potiron:
+doodskist:::un cercueil:
+spookhuis:::une maison hantée:
+vleermuis:::une chauve souris:
+kaars:::une bougie:

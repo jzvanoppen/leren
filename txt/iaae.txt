@@ -1,0 +1,180 @@
+ik heb net gehad:::je viens d'avoir:PASSÉ RÉCENT
+jij hebt net gehad:::tu viens d'avoir:PASSÉ RÉCENT
+hij heeft net gehad:::il vient d'avoir:PASSÉ RÉCENT
+zij heeft net gehad:::elle vient d'avoir:PASSÉ RÉCENT
+het heeft net gehad:::on vient d'avoir:PASSÉ RÉCENT
+wij hebben net gehad:::nous venons d'avoir:PASSÉ RÉCENT
+jullie hebben net gehad:::vous venez d'avoir:PASSÉ RÉCENT
+zij hebben net gehad:::ils viennent d'avoir:(MANNELIJK) PASSÉ RÉCENT
+zij hebben net gehad:::elles viennent d'avoir:(VROUWELIJK) PASSÉ RÉCENT
+ik ben net geweest:::je viens d'être:PASSÉ RÉCENT
+jij bent net geweest:::tu viens d'être:PASSÉ RÉCENT
+hij is net geweest:::il vient d'être:PASSÉ RÉCENT
+zij is net geweest:::elle vient d'être:PASSÉ RÉCENT
+het is net geweest:::on vient d'être:PASSÉ RÉCENT
+wij zijn net geweest:::nous venons d'être:PASSÉ RÉCENT
+jullie zijn net geweest:::vous venez d'être:PASSÉ RÉCENT
+zij zijn net geweest:::ils viennent d'être:(MANNELIJK) PASSÉ RÉCENT
+zij zijn net geweest:::elles viennent d'être:(VROUWELIJK) PASSÉ RÉCENT
+ik ben net gegaan:::je viens d'aller:PASSÉ RÉCENT
+jij bent net gegaan:::tu viens d'aller:PASSÉ RÉCENT
+hij is net gegaan:::il vient d'aller:PASSÉ RÉCENT
+zij is net gegaan:::elle vient d'aller:PASSÉ RÉCENT
+het is net gegaan:::on vient d'aller:PASSÉ RÉCENT
+wij zijn net gegaan:::nous venons d'aller:PASSÉ RÉCENT
+jullie zijn net gegaan:::vous venez d'aller:PASSÉ RÉCENT
+zij zijn net gegaan:::ils viennent d'aller:(MANNELIJK) PASSÉ RÉCENT
+zij zijn net gegaan:::elles viennent d'aller:(VROUWELIJK) PASSÉ RÉCENT
+ik heb net gedronken:::je viens de boire:PASSÉ RÉCENT
+jij hebt net gedronken:::tu viens de boire:PASSÉ RÉCENT
+hij heeft net gedronken:::il vient de boire:PASSÉ RÉCENT
+zij heeft net gedronken:::elle vient de boire:PASSÉ RÉCENT
+het heeft net gedronken:::on vient de boire:PASSÉ RÉCENT
+wij hebben net gedronken:::nous venons de boire:PASSÉ RÉCENT
+jullie hebben net gedronken:::vous venez de boire:PASSÉ RÉCENT
+zij hebben net gedronken:::ils viennent de boire:(MANNELIJK) PASSÉ RÉCENT
+zij hebben net gedronken:::elles viennent de boire:(VROUWELIJK) PASSÉ RÉCENT
+ik heb net gekend:::je viens de connaître:PASSÉ RÉCENT
+jij hebt net gekend:::tu viens de connaître:PASSÉ RÉCENT
+hij heeft net gekend:::il vient de connaître:PASSÉ RÉCENT
+zij heeft net gekend:::elle vient de connaître:PASSÉ RÉCENT
+het heeft net gekend:::on vient de connaître:PASSÉ RÉCENT
+wij hebben net gekend:::nous venons de connaître:PASSÉ RÉCENT
+jullie hebben net gekend:::vous venez de connaître:PASSÉ RÉCENT
+zij hebben net gekend:::ils viennent de connaître:(MANNELIJK) PASSÉ RÉCENT
+zij hebben net gekend:::elles viennent de connaître:(VROUWELIJK) PASSÉ RÉCENT
+ik heb net gemoeten:::je viens de devoir:PASSÉ RÉCENT
+jij hebt net gemoeten:::tu viens de devoir:PASSÉ RÉCENT
+hij heeft net gemoeten:::il vient de devoir:PASSÉ RÉCENT
+zij heeft net gemoeten:::elle vient de devoir:PASSÉ RÉCENT
+het heeft net gemoeten:::on vient de devoir:PASSÉ RÉCENT
+wij hebben net gemoeten:::nous venons de devoir:PASSÉ RÉCENT
+jullie hebben net gemoeten:::vous venez de devoir:PASSÉ RÉCENT
+zij hebben net gemoeten:::ils viennent de devoir:(MANNELIJK) PASSÉ RÉCENT
+zij hebben net gemoeten:::elles viennent de devoir:(VROUWELIJK) PASSÉ RÉCENT
+ik heb net gezegd:::je viens de dire:PASSÉ RÉCENT
+jij hebt net gezegd:::tu viens de dire:PASSÉ RÉCENT
+hij heeft net gezegd:::il vient de dire:PASSÉ RÉCENT
+zij heeft net gezegd:::elle vient de dire:PASSÉ RÉCENT
+het heeft net gezegd:::on vient de dire:PASSÉ RÉCENT
+wij hebben net gezegd:::nous venons de dire:PASSÉ RÉCENT
+jullie hebben net gezegd:::vous venez de dire:PASSÉ RÉCENT
+zij hebben net gezegd:::ils viennent de dire:(MANNELIJK) PASSÉ RÉCENT
+zij hebben net gezegd:::elles viennent de dire:(VROUWELIJK) PASSÉ RÉCENT
+ik heb net geschreven:::je viens d'écrire:PASSÉ RÉCENT
+jij hebt net geschreven:::tu viens d'écrire:PASSÉ RÉCENT
+hij heeft net geschreven:::il vient d'écrire:PASSÉ RÉCENT
+zij heeft net geschreven:::elle vient d'écrire:PASSÉ RÉCENT
+het heeft net geschreven:::on vient d'écrire:PASSÉ RÉCENT
+wij hebben net geschreven:::nous venons d'écrire:PASSÉ RÉCENT
+jullie hebben net geschreven:::vous venez d'écrire:PASSÉ RÉCENT
+zij hebben net geschreven:::ils viennent d'écrire:(MANNELIJK) PASSÉ RÉCENT
+zij hebben net geschreven:::elles viennent d'écrire:(VROUWELIJK) PASSÉ RÉCENT
+ik heb net gedaan/gemaakt:::je viens de faire:PASSÉ RÉCENT
+jij hebt net gedaan/gemaakt:::tu viens de faire:PASSÉ RÉCENT
+hij heeft net gedaan/gemaakt:::il vient de faire:PASSÉ RÉCENT
+zij heeft net gedaan/gemaakt:::elle vient de faire:PASSÉ RÉCENT
+het heeft net gedaan/gemaakt:::on vient de faire:PASSÉ RÉCENT
+wij hebben net gedaan/gemaakt:::nous venons de faire:PASSÉ RÉCENT
+jullie hebben net gedaan/gemaakt:::vous venez de faire:PASSÉ RÉCENT
+zij hebben net gedaan/gemaakt:::ils viennent de faire:(MANNELIJK) PASSÉ RÉCENT
+zij hebben net gedaan/gemaakt:::elles viennent de faire:(VROUWELIJK) PASSÉ RÉCENT
+ik heb net gelezen:::je viens de lire:PASSÉ RÉCENT
+jij hebt net gelezen:::tu viens de lire:PASSÉ RÉCENT
+hij heeft net gelezen:::il vient de lire:PASSÉ RÉCENT
+zij heeft net gelezen:::elle vient de lire:PASSÉ RÉCENT
+het heeft net gelezen:::on vient de lire:PASSÉ RÉCENT
+wij hebben net gelezen:::nous venons de lire:PASSÉ RÉCENT
+jullie hebben net gelezen:::vous venez de lire:PASSÉ RÉCENT
+zij hebben net gelezen:::ils viennent de lire:(MANNELIJK) PASSÉ RÉCENT
+zij hebben net gelezen:::elles viennent de lire:(VROUWELIJK) PASSÉ RÉCENT
+ik heb net gezet/gelegd:::je viens de mettre:PASSÉ RÉCENT
+jij hebt net gezet/gelegd:::tu viens de mettre:PASSÉ RÉCENT
+hij heeft net gezet/gelegd:::il vient de mettre:PASSÉ RÉCENT
+zij heeft net gezet/gelegd:::elle vient de mettre:PASSÉ RÉCENT
+het heeft net gezet/gelegd:::on vient de mettre:PASSÉ RÉCENT
+wij hebben net gezet/gelegd:::nous venons de mettre:PASSÉ RÉCENT
+jullie hebben net gezet/gelegd:::vous venez de mettre:PASSÉ RÉCENT
+zij hebben net gezet/gelegd:::ils viennent de mettre:(MANNELIJK) PASSÉ RÉCENT
+zij hebben net gezet/gelegd:::elles viennent de mettre:(VROUWELIJK) PASSÉ RÉCENT
+ik heb net genomen:::je viens de prendre:PASSÉ RÉCENT
+jij hebt net genomen:::tu viens de prendre:PASSÉ RÉCENT
+hij heeft net genomen:::il vient de prendre:PASSÉ RÉCENT
+zij heeft net genomen:::elle vient de prendre:PASSÉ RÉCENT
+het heeft net genomen:::on vient de prendre:PASSÉ RÉCENT
+wij hebben net genomen:::nous venons de prendre:PASSÉ RÉCENT
+jullie hebben net genomen:::vous venez de prendre:PASSÉ RÉCENT
+zij hebben net genomen:::ils viennent de prendre:(MANNELIJK) PASSÉ RÉCENT
+zij hebben net genomen:::elles viennent de prendre:(VROUWELIJK) PASSÉ RÉCENT
+ik heb net gekund/gemogen:::je viens de pouvoir:PASSÉ RÉCENT
+jij hebt net gekund/gemogen:::tu viens de pouvoir:PASSÉ RÉCENT
+hij heeft net gekund/gemogen:::il vient de pouvoir:PASSÉ RÉCENT
+zij heeft net gekund/gemogen:::elle vient de pouvoir:PASSÉ RÉCENT
+het heeft net gekund/gemogen:::on vient de pouvoir:PASSÉ RÉCENT
+wij hebben net gekund/gemogen:::nous venons de pouvoir:PASSÉ RÉCENT
+jullie hebben net gekund/gemogen:::vous venez de pouvoir:PASSÉ RÉCENT
+zij hebben net gekund/gemogen:::ils viennent de pouvoir:(MANNELIJK) PASSÉ RÉCENT
+zij hebben net gekund/gemogen:::elles viennent de pouvoir:(VROUWELIJK) PASSÉ RÉCENT
+ik heb net ontvangen:::je viens de recevoir:PASSÉ RÉCENT
+jij hebt net ontvangen:::tu viens de recevoir:PASSÉ RÉCENT
+hij heeft net ontvangen:::il vient de recevoir:PASSÉ RÉCENT
+zij heeft net ontvangen:::elle vient de recevoir:PASSÉ RÉCENT
+het heeft net ontvangen:::on vient de recevoir:PASSÉ RÉCENT
+wij hebben net ontvangen:::nous venons de recevoir:PASSÉ RÉCENT
+jullie hebben net ontvangen:::vous venez de recevoir:PASSÉ RÉCENT
+zij hebben net ontvangen:::ils viennent de recevoir:(MANNELIJK) PASSÉ RÉCENT
+zij hebben net ontvangen:::elles viennent de recevoir:(VROUWELIJK) PASSÉ RÉCENT
+ik heb net geweten:::je viens de savoir:PASSÉ RÉCENT
+jij hebt net geweten:::tu viens de savoir:PASSÉ RÉCENT
+hij heeft net geweten:::il vient de savoir:PASSÉ RÉCENT
+zij heeft net geweten:::elle vient de savoir:PASSÉ RÉCENT
+het heeft net geweten:::on vient de savoir:PASSÉ RÉCENT
+wij hebben net geweten:::nous venons de savoir:PASSÉ RÉCENT
+jullie hebben net geweten:::vous venez de savoir:PASSÉ RÉCENT
+zij hebben net geweten:::ils viennent de savoir:(MANNELIJK) PASSÉ RÉCENT
+zij hebben net geweten:::elles viennent de savoir:(VROUWELIJK) PASSÉ RÉCENT
+ik ben net gekomen:::je viens de venir:PASSÉ RÉCENT
+jij bent net gekomen:::tu viens de venir:PASSÉ RÉCENT
+hij is net gekomen:::il vient de venir:PASSÉ RÉCENT
+zij is net gekomen:::elle vient de venir:PASSÉ RÉCENT
+het is net gekomen:::on vient de venir:PASSÉ RÉCENT
+wij zijn net gekomen:::nous venons de venir:PASSÉ RÉCENT
+jullie zijn net gekomen:::vous venez de venir:PASSÉ RÉCENT
+zij zijn net gekomen:::ils viennent de venir:(MANNELIJK) PASSÉ RÉCENT
+zij zijn net gekomen:::elles viennent de venir:(VROUWELIJK) PASSÉ RÉCENT
+ik heb net vastgehouden:::je viens de tenir:PASSÉ RÉCENT
+jij hebt net vastgehouden:::tu viens de tenir:PASSÉ RÉCENT
+hij heeft net vastgehouden:::il vient de tenir:PASSÉ RÉCENT
+zij heeft net vastgehouden:::elle vient de tenir:PASSÉ RÉCENT
+het heeft net vastgehouden:::on vient de tenir:PASSÉ RÉCENT
+wij hebben net vastgehouden:::nous venons de tenir:PASSÉ RÉCENT
+jullie hebben net vastgehouden:::vous venez de tenir:PASSÉ RÉCENT
+zij hebben net vastgehouden:::ils viennent de tenir:(MANNELIJK) PASSÉ RÉCENT
+zij hebben net vastgehouden:::elles viennent de tenir:(VROUWELIJK) PASSÉ RÉCENT
+ik heb net gezien:::je viens de voir:PASSÉ RÉCENT
+jij hebt net gezien:::tu viens de voir:PASSÉ RÉCENT
+hij heeft net gezien:::il vient de voir:PASSÉ RÉCENT
+zij heeft net gezien:::elle vient de voir:PASSÉ RÉCENT
+het heeft net gezien:::on vient de voir:PASSÉ RÉCENT
+wij hebben net gezien:::nous venons de voir:PASSÉ RÉCENT
+jullie hebben net gezien:::vous venez de voir:PASSÉ RÉCENT
+zij hebben net gezien:::ils viennent de voir:(MANNELIJK) PASSÉ RÉCENT
+zij hebben net gezien:::elles viennent de voir:(VROUWELIJK) PASSÉ RÉCENT
+ik heb net gewild:::je viens de vouloir:PASSÉ RÉCENT
+jij hebt net gewild:::tu viens de vouloir:PASSÉ RÉCENT
+hij heeft net gewild:::il vient de vouloir:PASSÉ RÉCENT
+zij heeft net gewild:::elle vient de vouloir:PASSÉ RÉCENT
+het heeft net gewild:::on vient de vouloir:PASSÉ RÉCENT
+wij hebben net gewild:::nous venons de vouloir:PASSÉ RÉCENT
+jullie hebben net gewild:::vous venez de vouloir:PASSÉ RÉCENT
+zij hebben net gewild:::ils viennent de vouloir:(MANNELIJK) PASSÉ RÉCENT
+zij hebben net gewild:::elles viennent de vouloir:(VROUWELIJK) PASSÉ RÉCENT
+ik heb net gestuurd:::je viens d'envoyer:PASSÉ RÉCENT
+jij hebt net gestuurd:::tu viens d'envoyer:PASSÉ RÉCENT
+hij heeft net gestuurd:::il vient d'envoyer:PASSÉ RÉCENT
+zij heeft net gestuurd:::elle vient d'envoyer:PASSÉ RÉCENT
+het heeft net gestuurd:::on vient d'envoyer:PASSÉ RÉCENT
+wij hebben net gestuurd:::nous venons d'envoyer:PASSÉ RÉCENT
+jullie hebben net gestuurd:::vous venez d'envoyer:PASSÉ RÉCENT
+zij hebben net gestuurd:::ils viennent d'envoyer:(MANNELIJK) PASSÉ RÉCENT
+zij hebben net gestuurd:::elles viennent d'envoyer:(VROUWELIJK) PASSÉ RÉCENT

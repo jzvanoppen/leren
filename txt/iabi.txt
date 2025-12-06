@@ -1,0 +1,18 @@
+een leraar:::a teacher:
+een zorgbegeleider:::a counselor:(ook: a guidance counsellor
+een directeur:::a principal:PR… (ook a headteacher, a headmaster, a headmistress)
+een leerling, een student:::a student:
+een atlas:::an atlas:
+een rugzak:::a backpack:
+een ringmap:::a binder:
+een rekenmachine:::a calculator:
+een agenda:::a diary:
+een woordenboek:::a dictionary:
+een markeerstift:::a highlighter:
+een kaart:::a map:
+een pen:::a pen:
+een potlood:::a pencil:
+een lesrooster:::a timetable:
+een proefwerk:::an exam:
+een verhandeling/papier:::a paper:
+een huistaak:::a homework assignment:

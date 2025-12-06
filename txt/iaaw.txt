@@ -1,0 +1,21 @@
+de weg:::le sens:
+de bestemming:::la destination:
+de richting:::la direction:
+de wandeling:::la promenade:
+gaan:::aller:
+rechtdoor gaan:::aller tout droit:
+stoppen:::s'arrêter:
+aankomen:::arriver:
+verder gaan/doorgaan:::continuer:
+binnenkomen:::entrer:
+stappen:::marcher:
+terugkeren:::rentrer:
+wandelen:::se promener:
+zich bevinden:::se trouver:
+zich oriënteren:s'orienter:
+uitgaan, buitengaan:::sortir:
+volgen:::suivre:
+naar links afslaan:::tourner à gauche:
+naar rechts afslaan:::tourner à droite:
+oversteken:::traverser:
+komen:::venir:

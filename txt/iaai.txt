@@ -1,0 +1,90 @@
+het juweel:le:bijou:le bijou:
+de aanwijzing:l'(m):indice:l'indice:
+de spiegel:le:miroir:le miroir:
+de oorring:la:boucle d'oreille:la boucle d'oreille:
+de riem:la:ceinture:la ceinture:
+de hoes:la:coque:la coque:
+de verrassing:la:surprise:la surprise:
+duur:::cher:MANNELIJK
+duur:::chère:VROUWELIJK
+belangrijk:::important:MANNELIJK
+belangrijk:::importante:VROUWELIJK
+praktisch:::pratique:
+genoeg:::assez:
+iets:::quelque chose de:
+beginnen met:::commencer par:
+doorgaan/verdergaan:::continuer:
+raden:::deviner:
+inpakken:::emballer:
+beschermen:::protéger:
+beige:::beige:
+wit:::blanc:MANNELIJK
+wit:::blanche:VROUWELIJK
+bruin:::brun:MANNELIJK
+bruin:::brune:VROUWELIJK
+kaki:::kaki:
+paars:::mauve:
+geel:::jaune:
+rood:::rouge:
+groen:::vert:MANNELIJK
+groen:::verte:VROUWELIJK
+zwart:::noir:MANNELIJK
+zwart:::noire:VROUWELIJK
+oranje:::orange:
+blauw:::bleu:MANNELIJK
+blauw:::bleue:VROUWELIJK
+licht (kleur):::clair:MANNELIJK
+licht (kleur):::claire:VROUWELIJK
+effen (kleur):::uni:MANNELIJK
+effen (kleur):::unie:VROUWELIJK
+kastanjebruin:::marron:
+de centimeter:le:centimètre:le centimètre:
+de meter:le:mètre:le mètre:
+het model:le:modèle:le modèle:
+het (onder)deel:la:partie:la partie:
+scherp:::aigu:MANNELIJK
+scherp:::aiguë:VROUWELIJK
+vierkant:::carré:MANNELIJK
+vierkant:::carrée:VROUWELIJK
+zacht:::doux:MANNELIJK
+zacht:::douce:VROUWELIJK
+recht:::droit:MANNELIJK
+recht:::droite:VROUWELIJK
+hard:::dur:MANNELIJK
+hard:::dure:VROUWELIJK
+dik:::épais:MANNELIJK
+dik:::épaisse:VROUWELIJK
+fijn:::fin:MANNELIJK
+fijn:::fine:VROUWELIJK
+licht:::léger:MANNELIJK
+licht:::légère:VROUWELIJK
+zwaar:::lourd:MANNELIJK
+zwaar:::lourde:VROUWELIJK
+ovaal:::ovale:
+plat:::plat:MANNELIJK
+plat:::plate:VROUWELIJK
+puntig, spits:::pointu:MANNELIJK
+puntig, spits:::pointue:VROUWELIJK
+rechthoekig:::rectangulaire:
+rond:::rond:MANNELIJK
+rond:::ronde:VROUWELIJK
+stevig:::solide:
+driehoekig:::triangulaire:
+het hout:le:bois:le bois:
+van hout:::en bois:
+het karton:le:carton:le carton:
+van karton:::en carton:
+het leder:le:cuir:le cuir:
+van leder:::en cuir:
+het metaal:le:métal:le métal:
+van metaal:::en métal:
+het plastic:le:plastique:le plastique:
+van plastic:::en plastique:
+de stof:le:tissu:le tissu:
+van stof:::en tissu:
+het glas:le:verre:le verre:
+van glas:::en verre:
+ontbreken:::manquer:
+meten:::mesurer:
+dienen:::servir:
+dienen voor:::servir à:

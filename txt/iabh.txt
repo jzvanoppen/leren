@@ -1,0 +1,13 @@
+een internaat:::a boarding school:
+een klas/een les:::a class:
+een klaslokaal:::a classroom:
+een gang:::a corridor:
+een sportzaal:::a gym:G...
+een bibliotheek:::a library:
+een speelplaats:::a playground:
+een cafetaria:::a cafetaria:(ook: a school canteen)
+een labo:::a science lab:
+een sportveld:::a sports ground:
+een sportzaal:::a sports hall:S...
+een PC klas:::a computer room:
+een kleedkamer:::a locker room:

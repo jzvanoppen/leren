@@ -1,0 +1,12 @@
+een cheerleader:::a cheerleader:
+een eerstejaarsstudent:::a freshman:
+een tweedejaarsstudent:::a sophomore:
+een derdejaarsstudent:::a junior:
+een laatstejaarsstudent:::a senior:
+een directeur:::a principal:
+een kleuterschool:::a kindergarten:
+een lagere school:::a primary school:PR...
+een lagere school:::an elementary school:EL...
+een middelbare school (vanaf derde middelbaar):::a high school:
+een hogeschool:::a college:
+een universiteit:::a unversity:

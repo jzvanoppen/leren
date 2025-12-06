@@ -1,0 +1,23 @@
+moderne talen:::modern languages:
+Nederlands:::Dutch:
+Engels:::English:
+Frans:::French:
+Duits:::German:
+Spaans:::Spanish:
+klassieke talen:::classical languages:
+Latijn:::Latin:
+Grieks:::Greek:
+wetenschappen:::sciences:
+chemie:::chemistry:
+fysica:::physics:
+biologie:::biology:
+techniek:::engineering:
+informatica (ICT):::Information and Communication Technology:
+aardrijkskunde:::geography:
+wiskunde:::mathematics:
+kunst:::art:
+muziek/muzikale opvoeding:::music:
+geschiedenis:::history:
+economie:::economics:
+lichamelijke opvoeding:::Physical Education:
+godsdienst:::religious education:

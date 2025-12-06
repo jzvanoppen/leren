@@ -1,0 +1,24 @@
+zwart:::black:
+blauw:::blue:
+bruin:::brown:
+groen:::green:
+grijs:::grey:
+oranje:::orange:
+roze:::pink:
+rood:::red:
+wit:::white:
+geel:::yellow:
+geruit:::checked:PATROON
+gebloemd:::flowery:PATROON
+krijtstrepen:::pin-striped:PATROON
+geruit:::plaid:PATROON
+effen:::plain:PATROON
+gestippeld:::polka-dotted:PATROON
+gevlekt:::spotted:PATROON
+gestreept:::striped:PATROON
+Schotse ruiten:::tartan:PATROON
+zijde:::silk:
+jeans:::jeans:
+wol:::wool:
+leder:::leather:
+katoen:::cotton:

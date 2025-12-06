@@ -1,0 +1,29 @@
+het hoofd:::la tête:
+het hart:::le cœur:
+de schouder:l'(f)::l'épaule:
+de rug:::le dos:
+de buik:::le ventre:
+het been:::la jambe:
+de knie:::le genou:
+de teen:l'(m)::l'orteil:
+de voet:::le pied:
+de hand:::la main:
+de arm:::le bras:
+de tand:::la dent:
+de schouder:l'(f)::l'épaule:
+de keel:::la gorge:
+de nek:::la nuque:
+de borstkas:::la poitrine:
+de vinger:::le doigt:
+de neus:::le nez:
+de mond:::la bouche:
+de ogen:les(m)::les yeux:
+het oog:::l'oeil:
+het oor:l'(f)::l'oreille:
+het gezicht:::le visage:
+Ik heb pijn aan het been.:::J'ai mal à la jambe.:
+Ik heb pijn aan de knie.:::J'ai mal au genou.:
+Ik heb pijn aan de ogen.:::J'ai mal aux yeux.:
+Waar heb je pijn?:::Tu as mal où?:
+Wat is er?:::Qu'est-ce qu'il y a?:
+Wat is het probleem?:::Que lest le problème?:

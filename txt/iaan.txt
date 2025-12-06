@@ -1,0 +1,15 @@
+happy:::happiness:ADJECTIVE>NOUN
+funny:::fun:ADJECTIVE>NOUN
+sad:::sadness:ADJECTIVE>NOUN
+angry:::anger:ADJECTIVE>NOUN
+confident:::confidence:ADJECTIVE>NOUN
+mad:::madness:ADJECTIVE>NOUN
+guilty:::guilt:ADJECTIVE>NOUN
+enjoyable:::enjoy:ADJECTIVE>VERB
+satisfied:::satisfy:ADJECTIVE>VERB
+worried:::worry:ADJECTIVE>VERB
+cheerful:::cheer:ADJECTIVE>VERB
+annoyed:::annoy:ADJECTIVE>VERB
+een zelfstandig naamwoord:::an noun:
+een bijvoeglijk naamwoord:::an adjective:
+een werkwoord:::a verb:

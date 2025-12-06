@@ -1,0 +1,23 @@
+bezet/niet vrij:::occupé:MANNELIJK
+bezet/niet vrij:::occupée:VROUWELIJK
+aanvaarden:::accepter:
+uitleggen:::expliquer:
+op het einde van:::au bout de:
+met veel plezier:::avec grand plaisir:
+Graag gedaan.:::De rien.:D...
+sorry/het spijt me:::désolé:MANNELIJK d...
+sorry/het spijt me:::désolée:VROUWELIJK d...
+Graag gedaan.:::Il n'y a pas de quoi.:I...
+sorry/het spijt me:::je regrette:j...
+tot aan:::jusqu'à:
+Tout à fait.:::Inderdaad.:
+dichtbij:::tout près:
+Graag!:::Volontiers!:
+het centrum:::le centre:
+het stadscentrum:::le centreville:
+het park:::le parc:
+de parking:::le parking:
+de wijk:::le quartier:
+het (trein)station:::la gare:
+de Grote Markt:::la Grand-Place:
+het plein, de (markt)plaats:::la place:

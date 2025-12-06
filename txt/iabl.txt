@@ -1,0 +1,126 @@
+zingen:::chanter:CHANTER
+ik zing:::je chante:CHANTER
+jij zingt:::tu chantes:CHANTER
+hij zingt:::il chante:CHANTER
+zij zingt:::elle chante:CHANTER
+wij zingen:::nous chantons:CHANTER
+jullie zingen:::vous chantez:CHANTER
+zij zingen:::ils chantent:CHANTER - MANNELIJK
+zij zingen:::elles chantent:CHANTER - VROUWELIJK
+beginnen:::commencer:COMMENCER
+ik begin:::je commence:COMMENCER
+jij begint:::tu commences:COMMENCER
+hij begint:::il commence:COMMENCER
+zij begint:::elle commence:COMMENCER
+wij beginnen:::nous commençons:COMMENCER
+jullie beginnen:::vous commencez:COMMENCER
+zij beginnen:::ils commencent:COMMENCER - MANNELIJK
+zij beginnen:::elles commencent:COMMENCER - VROUWELIJK
+eten:::manger:MANGER
+ik eet:::je mange:MANGER
+jij eet:::tu manges:MANGER
+hij eet:::il mange:MANGER
+zij eet:::elle mange:MANGER
+wij eten:::nous mangeons:MANGER
+jullie eten:::vous mangez:MANGER
+zij eten:::ils mangent:MANGER - MANNELIJK
+zij eten:::elles mangent:MANGER - VROUWELIJK
+kopen:::acheter:ACHETER
+ik koop:::j'achète:ACHETER
+jij koopt:::tu achètes:ACHETER
+hij koopt:::il achète:ACHETER
+zij koopt:::elle achète:ACHETER
+wij kopen:::nous achetons:ACHETER
+jullie kopen:::vous achetez:ACHETER
+zij kopen:::ils achètent:ACHETER - MANNELIJK
+zij kopen:::elles achètent:ACHETER - VROUWELIJK
+herhalen:::répéter:RÉPÉTER
+ik herhaal:::je répète:RÉPÉTER
+jij herhaalt:::tu répètes:RÉPÉTER
+hij herhaalt:::il répète:RÉPÉTER
+zij herhaalt:::elle répète:RÉPÉTER
+wij herhalen:::nous répétons:RÉPÉTER
+jullie herhalen:::vous répétez:RÉPÉTER
+zij herhalen:::ils répètent:RÉPÉTER - MANNELIJK
+zij herhalen:::elles répètent:RÉPÉTER - VROUWELIJK
+roepen:::appeler:APPELER
+ik roep:::j'appelle:APPELER
+jij roept:::tu appelles:APPELER
+hij roept:::il appelle:APPELER
+zij roept:::elle appelle:APPELER
+wij roepen:::nous appelons:APPELER
+jullie roepen:::vous appelez:APPELER
+zij roepen:::ils appellent:APPELER - MANNELIJK
+zij roepen:::elles appellent:APPELER - VROUWELIJK
+gooien:::jeter:JETER
+ik gooi:::je jette:JETER
+jij gooit:::tu jettes:JETER
+hij gooit:::il jette:JETER
+zij gooit:::elle jette:JETER
+wij gooien:::nous jetons:JETER
+jullie gooien:::vous jetez:JETER
+zij gooien:::ils jettent:JETER - MANNELIJK
+zij gooien:::elles jettent:JETER - VROUWELIJK
+betalen:::payer:PAYER
+ik betaal:::je paie:PAYER
+jij betaalt:::tu paies:PAYER
+hij betaalt:::il paie:PAYER
+zij betaalt:::elle paie:PAYER
+wij betalen:::nous payons:PAYER
+jullie betalen:::vous payez:PAYER
+zij betalen:::ils paient:PAYER - MANNELIJK
+zij betalen:::elles paient:PAYER - VROUWELIJK
+eindigen:::finir:FINIR
+ik eindig:::je finis:FINIR
+jij eindigt:::tu finis:FINIR
+hij eindigt:::il finit:FINIR
+zij eindigt:::elle finit:FINIR
+wij eindigen:::nous finissons:FINIR
+jullie eindigen:::vous finissez:FINIR
+zij eindigen:::ils finissent:FINIR - MANNELIJK
+zij eindigen:::elles finissent:FINIR - VROUWELIJK
+vertrekken:::partir:PARTIR
+ik vertrek:::je pars:PARTIR
+jij vertrekt:::tu pars:PARTIR
+hij vertrekt:::il part:PARTIR
+zij vertrekt:::elle part:PARTIR
+wij vertrekken:::nous partons:PARTIR
+jullie vertrekken:::vous partez:PARTIR
+zij vertrekken:::ils partent:PARTIR - MANNELIJK
+zij vertrekken:::elles partent:PARTIR - VROUWELIJK
+openen:::ouvrir:OUVRIR
+ik open:::j'ouvre:OUVRIR
+jij opent:::tu ouvres:OUVRIR
+hij opent:::il ouvre:OUVRIR
+zij opent:::elle ouvre:OUVRIR
+wij openen:::nous ouvrons:OUVRIR
+jullie openen:::vous ouvrez:OUVRIR
+zij openen:::ils ouvrent:OUVRIR - MANNELIJK
+zij openen:::elles ouvrent:OUVRIR - VROUWELIJK
+teruggeven:::rendre:RENDRE
+ik geef terug:::je rends:RENDRE
+jij geeft terug:::tu rends:RENDRE
+hij geeft terug:::il rend:RENDRE
+zij geeft terug:::elle rend:RENDRE
+wij geven terug:::nous rendons:RENDRE
+jullie geven terug:::vous rendez:RENDRE
+zij geven terug:::ils rendent:RENDRE - MANNELIJK
+zij geven terug:::elles rendent:RENDRE - VROUWELIJK
+schilderen:::peindre:PEINDRE
+ik schilder:::je peins:PEINDRE
+jij schildert:::tu peins:PEINDRE
+hij schildert:::il peint:PEINDRE
+zij schildert:::elle peint:PEINDRE
+wij schilderen:::nous peignons:PEINDRE
+jullie schilderen:::vous peignez:PEINDRE
+zij schilderen:::ils peignent:PEINDRE - MANNELIJK
+zij schilderen:::elles peignent:PEINDRE - VROUWELIJK
+rijden:::conduire:CONDUIRE
+ik rijd:::je conduis:CONDUIRE
+jij rijdt:::tu conduis:CONDUIRE
+hij rijdt:::il conduit:CONDUIRE
+zij rijdt:::elle conduit:CONDUIRE
+wij rijden:::nous conduisons:CONDUIRE
+jullie rijden:::vous conduisez:CONDUIRE
+zij rijden:::ils conduisent:CONDUIRE - MANNELIJK
+zij rijden:::elles conduisent:CONDUIRE - VROUWELIJK

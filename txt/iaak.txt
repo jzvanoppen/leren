@@ -1,0 +1,24 @@
+boos:::angry:
+paniekerig:::anxious:
+verbijsterd:::appalled:
+verbaasd:::astonished:
+zeker:::certain:
+vreugdevol:::cheerful:
+bezorgd:::concerned:
+zelfzeker:::confident:
+blij:::delighted:D…
+depressief:::depressed:
+teleurgesteld:::disappointed:
+razend:::enraged:
+vervuld/volledig:::fulfilled:
+blij:::glad:G…
+gelukkig:::happy:
+hatelijk:::hateful:
+hoopvol:::hopeful:
+verliefd:::in love:
+ellendig:::miserable:
+blij:::pleased:P…
+droevig:::sad:
+tevreden:::satisfied:
+gechoqueerd:::shocked:
+overstuur:::upset:

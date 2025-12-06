@@ -1,0 +1,35 @@
+Fruit:::fruit:
+Een appel:::an apple:
+Een avocado:::an avocado:
+Een banaan:::a banana:
+Een druif:::a grape:
+Een pompelmoes:::a grapefruit:
+Een citroen:::a lemon:
+Een meloen:::a melon:
+Een peer:::a pear:
+Een aardbei:::a strawberry:
+Groenten:::vegetables:
+Een asperge:::an asparagus:
+Een aubergine:::an aubergine:
+Broccoli:::broccoli:
+Spruiten:::Brussels sprouts:
+Een wortel:::a carrot:
+Een bloemkool:::a cauliflower:
+Sla:::lettuce:
+Een champignon:::a mushroom:
+Een ui:::an onion:
+Een paprika:::a pepper:
+Een aardappel:::a potato:
+Spinazie:::spinach:
+Een tomaat:::a tomato:
+Vlees en vis:::meat and fish:
+Rundvlees:::beef:
+Kip:::chicken:
+Lamsvlees:::lamb:
+Varkensvlees:::pork:
+Een worst:::a sausage:
+Kalfsvlees:::veal:
+Een ansjovis:::an anchovy:
+Zalm:::salmon:
+Graan en zuivel:::wheat and diary:
+Een stokbrood:::a loaf of bread:

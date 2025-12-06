@@ -1,0 +1,247 @@
+gaan:::aller:ALLER
+ik ga:::je vais:ALLER
+jij gaat:::tu vas:ALLER
+hij gaat:::il va:ALLER
+zij gaat:::elle va:ALLER
+wij gaan:::nous allons:ALLER
+jullie gaan:::vous allez:ALLER
+zij gaan:::ils vont:ALLER - MANNELIJK
+zij gaan:::elles vont:ALLER - VROUWELIJK
+gaan zitten:::s'asseoir:S'ASSEOIR
+ik ga zitten:::je m'assieds:S'ASSEOIR
+jij gaat zitten:::tu t'assieds:S'ASSEOIR
+hij gaat zitten:::il s'assied:S'ASSEOIR
+zij gaat zitten:::elle s'assied:S'ASSEOIR
+wij gaan zitten:::nous nous asseyons:S'ASSEOIR
+jullie gaan zitten:::vous vous asseyez:S'ASSEOIR
+zij gaan zitten:::ils s'assoient:S'ASSEOIR - MANNELIJK
+zij gaan zitten:::elles s'assoient:S'ASSEOIR - VROUWELIJK
+hebben:::avoir:AVOIR
+ik heb:::j'ai:AVOIR
+jij hebt:::tu as:AVOIR
+hij heeft:::il a:AVOIR
+zij heeft:::elle a:AVOIR
+wij hebben:::nous avons:AVOIR
+jullie hebben:::vous avez:AVOIR
+zij hebben:::ils ont:AVOIR - MANNELIJK
+zij hebben:::elles ont:AVOIR - VROUWELIJK
+slaan:::battre:BATTRE
+ik sla:::je bats:BATTRE
+jij slaat:::tu bats:BATTRE
+hij slaat:::il bat:BATTRE
+zij slaat:::elle bat:BATTRE
+wij slaan:::nous battons:BATTRE
+jullie slaan:::vous battez:BATTRE
+zij slaan:::ils battent:BATTRE - MANNELIJK
+zij slaan:::elles battent:BATTRE - VROUWELIJK
+drinken:::boire:BOIRE
+ik drink:::je bois:BOIRE
+jij drinkt:::tu bois:BOIRE
+hij drinkt:::il boit:BOIRE
+zij drinkt:::elle boit:BOIRE
+wij drinken:::nous buvons:BOIRE
+jullie drinken:::vous buvez:BOIRE
+zij drinken:::ils boivent:BOIRE - MANNELIJK
+zij drinken:::elles boivent:BOIRE - VROUWELIJK
+kennen:::connaître:CONNAÎTRE
+ik ken:::je connais:CONNAÎTRE
+jij kent:::tu connais:CONNAÎTRE
+hij kent:::il connaît:CONNAÎTRE
+zij kent:::elle connaît:CONNAÎTRE
+wij kennen:::nous connaissons:CONNAÎTRE
+jullie kennen:::vous connaissez:CONNAÎTRE
+zij kennen:::ils connaissent:CONNAÎTRE - MANNELIJK
+zij kennen:::elles connaissent:CONNAÎTRE - VROUWELIJK
+besluiten:::conclure:CONCLURE
+ik besluit:::je conclus:CONCLURE
+jij besluit:::tu conclus:CONCLURE
+hij besluit:::il conclut:CONCLURE
+zij besluit:::elle conclut:CONCLURE
+wij besluiten:::nous concluons:CONCLURE
+jullie besluiten:::vous concluez:CONCLURE
+zij besluiten:::ils concluent:CONCLURE - MANNELIJK
+zij besluiten:::elles concluent:CONCLURE - VROUWELIJK
+lopen:::courir:COURIR
+ik loop:::je cours:COURIR
+jij loopt:::tu cours:COURIR
+hij loopt:::il court:COURIR
+zij loopt:::elle court:COURIR
+wij lopen:::nous courons:COURIR
+jullie lopen:::vous courez:COURIR
+zij lopen:::ils courent:COURIR - MANNELIJK
+zij lopen:::elles courent:COURIR - VROUWELIJK
+geloven:::croire:CROIRE
+ik geloof:::je crois:CROIRE
+jij gelooft:::tu crois:CROIRE
+hij gelooft:::il croit:CROIRE
+zij gelooft:::elle croit:CROIRE
+wij geloven:::nous croyons:CROIRE
+jullie geloven:::vous croyez:CROIRE
+zij geloven:::ils croient:CROIRE - MANNELIJK
+zij geloven:::elles croient:CROIRE - VROUWELIJK
+moeten:::devoir:DEVOIR
+ik moet:::je dois:DEVOIR
+jij moet:::tu dois:DEVOIR
+hij moet:::il doit:DEVOIR
+zij moet:::elle doit:DEVOIR
+wij moeten:::nous devons:DEVOIR
+jullie moeten:::vous devez:DEVOIR
+zij moeten:::ils doivent:DEVOIR - MANNELIJK
+zij moeten:::elles doivent:DEVOIR - VROUWELIJK
+zeggen:::dire:DIRE
+ik zeg:::je dis:DIRE
+jij zegt:::tu dis:DIRE
+hij zegt:::il dit:DIRE
+zij zegt:::elle dit:DIRE
+wij zeggen:::nous disons:DIRE
+jullie zeggen:::vous dites:DIRE
+zij zeggen:::ils disent:DIRE - MANNELIJK
+zij zeggen:::elles disent:DIRE - VROUWELIJK
+schrijven:::écrire:ÉCRIRE
+ik schrijf:::j'écris:ÉCRIRE
+jij schrijft:::tu écris:ÉCRIRE
+hij schrijft:::il écrit:ÉCRIRE
+zij schrijft:::elle écrit:ÉCRIRE
+wij schrijven:::nous écrivons:ÉCRIRE
+jullie schrijven:::vous écrivez:ÉCRIRE
+zij schrijven:::ils écrivent:ÉCRIRE - MANNELIJK
+zij schrijven:::elles écrivent:ÉCRIRE - VROUWELIJK
+zijn:::être:ÊTRE
+ik ben:::je suis:ÊTRE
+jij bent:::tu es:ÊTRE
+hij is:::il est:ÊTRE
+zij is:::elle est:ÊTRE
+wij zijn:::nous sommes:ÊTRE
+jullie zijn:::vous êtes:ÊTRE
+zij zijn:::ils sont:ÊTRE - MANNELIJK
+zij zijn:::elles sont:ÊTRE - VROUWELIJK
+doen / maken:::faire:FAIRE
+ik doe:::je fais:FAIRE
+jij doet:::tu fais:FAIRE
+hij doet:::il fait:FAIRE
+zij doet:::elle fait:FAIRE
+wij doen:::nous faisons:FAIRE
+jullie doen:::vous faites:FAIRE
+zij doen:::ils font:FAIRE - MANNELIJK
+zij doen:::elles font:FAIRE - VROUWELIJK
+moeten (onpersoonlijk):::falloir:FALLOIR
+het moet:::il faut:FALLOIR – ENKEL DE il VORM
+lezen:::lire:LIRE
+ik lees:::je lis:LIRE
+jij leest:::tu lis:LIRE
+hij leest:::il lit:LIRE
+zij leest:::elle lit:LIRE
+wij lezen:::nous lisons:LIRE
+jullie lezen:::vous lisez:LIRE
+zij lezen:::ils lisent:LIRE - MANNELIJK
+zij lezen:::elles lisent:LIRE - VROUWELIJK
+leggen / zetten:::mettre:METTRE
+ik leg:::je mets:METTRE
+jij legt:::tu mets:METTRE
+hij legt:::il met:METTRE
+zij legt:::elle met:METTRE
+wij leggen:::nous mettons:METTRE
+jullie leggen:::vous mettez:METTRE
+zij leggen:::ils mettent:METTRE - MANNELIJK
+zij leggen:::elles mettent:METTRE - VROUWELIJK
+sterven:::mourir:MOURIR
+ik sterf:::je meurs:MOURIR
+jij sterft:::tu meurs:MOURIR
+hij sterft:::il meurt:MOURIR
+zij sterft:::elle meurt:MOURIR
+wij sterven:::nous mourons:MOURIR
+jullie sterven:::vous mourez:MOURIR
+zij sterven:::ils meurent:MOURIR - MANNELIJK
+zij sterven:::elles meurent:MOURIR - VROUWELIJK
+regenen:::pleuvoir:PLEUVOIR
+het regent:::il pleut:PLEUVOIR – ENKEL DE il VORM
+kunnen:::pouvoir:POUVOIR
+ik kan:::je peux:POUVOIR
+jij kan:::tu peux:POUVOIR
+hij kan:::il peut:POUVOIR
+zij kan:::elle peut:POUVOIR
+wij kunnen:::nous pouvons:POUVOIR
+jullie kunnen:::vous pouvez:POUVOIR
+zij kunnen:::ils peuvent:POUVOIR - MANNELIJK
+zij kunnen:::elles peuvent:POUVOIR - VROUWELIJK
+nemen:::prendre:PRENDRE
+ik neem:::je prends:PRENDRE
+jij neemt:::tu prends:PRENDRE
+hij neemt:::il prend:PRENDRE
+zij neemt:::elle prend:PRENDRE
+wij nemen:::nous prenons:PRENDRE
+jullie nemen:::vous prenez:PRENDRE
+zij nemen:::ils prennent:PRENDRE - MANNELIJK
+zij nemen:::elles prennent:PRENDRE - VROUWELIJK
+ontvangen:::recevoir:RECEVOIR
+ik ontvang:::je reçois:RECEVOIR
+jij ontvangt:::tu reçois:RECEVOIR
+hij ontvangt:::il reçoit:RECEVOIR
+zij ontvangt:::elle reçoit:RECEVOIR
+wij ontvangen:::nous recevons:RECEVOIR
+jullie ontvangen:::vous recevez:RECEVOIR
+zij ontvangen:::ils reçoivent:RECEVOIR - MANNELIJK
+zij ontvangen:::elles reçoivent:RECEVOIR - VROUWELIJK
+lachen:::rire:RIRE
+ik lach:::je ris:RIRE
+jij lacht:::tu ris:RIRE
+hij lacht:::il rit:RIRE
+zij lacht:::elle rit:RIRE
+wij lachen:::nous rions:RIRE
+jullie lachen:::vous riez:RIRE
+zij lachen:::ils rient:RIRE - MANNELIJK
+zij lachen:::elles rient:RIRE - VROUWELIJK
+weten:::savoir:SAVOIR
+ik weet:::je sais:SAVOIR
+jij weet:::tu sais:SAVOIR
+hij weet:::il sait:SAVOIR
+zij weet:::elle sait:SAVOIR
+wij weten:::nous savons:SAVOIR
+jullie weten:::vous savez:SAVOIR
+zij weten:::ils savent:SAVOIR - MANNELIJK
+zij weten:::elles savent:SAVOIR - VROUWELIJK
+volgen:::suivre:SUIVRE
+ik volg:::je suis:SUIVRE
+jij volgt:::tu suis:SUIVRE
+hij volgt:::il suit:SUIVRE
+zij volgt:::elle suit:SUIVRE
+wij volgen:::nous suivons:SUIVRE
+jullie volgen:::vous suivez:SUIVRE
+zij volgen:::ils suivent:SUIVRE - MANNELIJK
+zij volgen:::elles suivent:SUIVRE - VROUWELIJK
+komen:::venir:VENIR
+ik kom:::je viens:VENIR
+jij komt:::tu viens:VENIR
+hij komt:::il vient:VENIR
+zij komt:::elle vient:VENIR
+wij komen:::nous venons:VENIR
+jullie komen:::vous venez:VENIR
+zij komen:::ils viennent:VENIR - MANNELIJK
+zij komen:::elles viennent:VENIR - VROUWELIJK
+leven:::vivre:VIVRE
+ik leef:::je vis:VIVRE
+jij leeft:::tu vis:VIVRE
+hij leeft:::il vit:VIVRE
+zij leeft:::elle vit:VIVRE
+wij leven:::nous vivons:VIVRE
+jullie leven:::vous vivez:VIVRE
+zij leven:::ils vivent:VIVRE - MANNELIJK
+zij leven:::elles vivent:VIVRE - VROUWELIJK
+zien:::voir:VOIR
+ik zie:::je vois:VOIR
+jij ziet:::tu vois:VOIR
+hij ziet:::il voit:VOIR
+zij ziet:::elle voit:VOIR
+wij zien:::nous voyons:VOIR
+jullie zien:::vous voyez:VOIR
+zij zien:::ils voient:VOIR - MANNELIJK
+zij zien:::elles voient:VOIR - VROUWELIJK
+willen:::vouloir:VOULOIR
+ik wil:::je veux:VOULOIR
+jij wilt:::tu veux:VOULOIR
+hij wil:::il veut:VOULOIR
+zij wil:::elle veut:VOULOIR
+wij willen:::nous voulons:VOULOIR
+jullie willen:::vous voulez:VOULOIR
+zij willen:::ils veulent:VOULOIR - MANNELIJK
+zij willen:::elles veulent:VOULOIR - VROUWELIJK

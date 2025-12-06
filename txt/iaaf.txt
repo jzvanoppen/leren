@@ -1,0 +1,178 @@
+ik heb gehad:::j'ai eu:PASSÉ COMPOSÉ
+jij hebt gehad:::tu as eu:PASSÉ COMPOSÉ
+hij heeft gehad:::il a eu:PASSÉ COMPOSÉ
+zij heeft gehad:::elle a eu:PASSÉ COMPOSÉ
+het heeft gehad:::on a eu:PASSÉ COMPOSÉ
+wij hebben gehad:::nous avons eu:PASSÉ COMPOSÉ
+jullie hebben gehad:::vous avez eu:PASSÉ COMPOSÉ
+zij hebben gehad:::ils ont eu:(MANNELIJK) PASSÉ COMPOSÉ
+zij hebben gehad:::elles ont eu:(VROUWELIJK) PASSÉ COMPOSÉ
+ik ben geweest:::j'ai été:PASSÉ COMPOSÉ
+jij bent geweest:::tu as été:PASSÉ COMPOSÉ
+hij is geweest:::il a été:PASSÉ COMPOSÉ
+zij is geweest:::elle a été:PASSÉ COMPOSÉ
+het is geweest:::on a été:PASSÉ COMPOSÉ
+wij zijn geweest:::nous avons été:PASSÉ COMPOSÉ
+jullie zijn geweest:::vous avez été:PASSÉ COMPOSÉ
+zij zijn geweest:::ils ont été:(MANNELIJK) PASSÉ COMPOSÉ
+zij zijn geweest:::elles ont été:(VROUWELIJK) PASSÉ COMPOSÉ
+ik ben gegaan:::je suis allé:PASSÉ COMPOSÉ
+jij bent gegaan:::tu es allé:PASSÉ COMPOSÉ
+hij is gegaan:::il est allé:PASSÉ COMPOSÉ
+zij is gegaan:::elle est allée:PASSÉ COMPOSÉ
+wij zijn gegaan:::nous sommes allés:PASSÉ COMPOSÉ
+jullie zijn gegaan:::vous êtes allés:PASSÉ COMPOSÉ
+zij zijn gegaan:::ils sont allés:(MANNELIJK) PASSÉ COMPOSÉ
+zij zijn gegaan:::elles sont allées:(VROUWELIJK) PASSÉ COMPOSÉ
+ik heb gedronken:::j'ai bu:PASSÉ COMPOSÉ
+jij hebt gedronken:::tu as bu:PASSÉ COMPOSÉ
+hij heeft gedronken:::il a bu:PASSÉ COMPOSÉ
+zij heeft gedronken:::elle a bu:PASSÉ COMPOSÉ
+het heeft gedronken:::on a bu:PASSÉ COMPOSÉ
+wij hebben gedronken:::nous avons bu:PASSÉ COMPOSÉ
+jullie hebben gedronken:::vous avez bu:PASSÉ COMPOSÉ
+zij hebben gedronken:::ils ont bu:(MANNELIJK) PASSÉ COMPOSÉ
+zij hebben gedronken:::elles ont bu:(VROUWELIJK) PASSÉ COMPOSÉ
+ik heb gekend:::j'ai connu:PASSÉ COMPOSÉ
+jij hebt gekend:::tu as connu:PASSÉ COMPOSÉ
+hij heeft gekend:::il a connu:PASSÉ COMPOSÉ
+zij heeft gekend:::elle a connu:PASSÉ COMPOSÉ
+het heeft gekend:::on a connu:PASSÉ COMPOSÉ
+wij hebben gekend:::nous avons connu:PASSÉ COMPOSÉ
+jullie hebben gekend:::vous avez connu:PASSÉ COMPOSÉ
+zij hebben gekend:::ils ont connu:(MANNELIJK) PASSÉ COMPOSÉ
+zij hebben gekend:::elles ont connu:(VROUWELIJK) PASSÉ COMPOSÉ
+ik heb gemoeten:::j'ai dû:PASSÉ COMPOSÉ
+jij hebt gemoeten:::tu as dû:PASSÉ COMPOSÉ
+hij heeft gemoeten:::il a dû:PASSÉ COMPOSÉ
+zij heeft gemoeten:::elle a dû:PASSÉ COMPOSÉ
+het heeft gemoeten:::on a dû:PASSÉ COMPOSÉ
+wij hebben gemoeten:::nous avons dû:PASSÉ COMPOSÉ
+jullie hebben gemoeten:::vous avez dû:PASSÉ COMPOSÉ
+zij hebben gemoeten:::ils ont dû:(MANNELIJK) PASSÉ COMPOSÉ
+zij hebben gemoeten:::elles ont dû:(VROUWELIJK) PASSÉ COMPOSÉ
+ik heb gezegd:::j'ai dit:PASSÉ COMPOSÉ
+jij hebt gezegd:::tu as dit:PASSÉ COMPOSÉ
+hij heeft gezegd:::il a dit:PASSÉ COMPOSÉ
+zij heeft gezegd:::elle a dit:PASSÉ COMPOSÉ
+het heeft gezegd:::on a dit:PASSÉ COMPOSÉ
+wij hebben gezegd:::nous avons dit:PASSÉ COMPOSÉ
+jullie hebben gezegd:::vous avez dit:PASSÉ COMPOSÉ
+zij hebben gezegd:::ils ont dit:(MANNELIJK) PASSÉ COMPOSÉ
+zij hebben gezegd:::elles ont dit:(VROUWELIJK) PASSÉ COMPOSÉ
+ik heb geschreven:::j'ai écrit:PASSÉ COMPOSÉ
+jij hebt geschreven:::tu as écrit:PASSÉ COMPOSÉ
+hij heeft geschreven:::il a écrit:PASSÉ COMPOSÉ
+zij heeft geschreven:::elle a écrit:PASSÉ COMPOSÉ
+het heeft geschreven:::on a écrit:PASSÉ COMPOSÉ
+wij hebben geschreven:::nous avons écrit:PASSÉ COMPOSÉ
+jullie hebben geschreven:::vous avez écrit:PASSÉ COMPOSÉ
+zij hebben geschreven:::ils ont écrit:(MANNELIJK) PASSÉ COMPOSÉ
+zij hebben geschreven:::elles ont écrit:(VROUWELIJK) PASSÉ COMPOSÉ
+ik heb gedaan/gemaakt:::j'ai fait:PASSÉ COMPOSÉ
+jij hebt gedaan/gemaakt:::tu as fait:PASSÉ COMPOSÉ
+hij heeft gedaan/gemaakt:::il a fait:PASSÉ COMPOSÉ
+zij heeft gedaan/gemaakt:::elle a fait:PASSÉ COMPOSÉ
+het heeft gedaan/gemaakt:::on a fait:PASSÉ COMPOSÉ
+wij hebben gedaan/gemaakt:::nous avons fait:PASSÉ COMPOSÉ
+jullie hebben gedaan/gemaakt:::vous avez fait:PASSÉ COMPOSÉ
+zij hebben gedaan/gemaakt:::ils ont fait:(MANNELIJK) PASSÉ COMPOSÉ
+zij hebben gedaan/gemaakt:::elles ont fait:(VROUWELIJK) PASSÉ COMPOSÉ
+ik heb gelezen:::j'ai lu:PASSÉ COMPOSÉ
+jij hebt gelezen:::tu as lu:PASSÉ COMPOSÉ
+hij heeft gelezen:::il a lu:PASSÉ COMPOSÉ
+zij heeft gelezen:::elle a lu:PASSÉ COMPOSÉ
+het heeft gelezen:::on a lu:PASSÉ COMPOSÉ
+wij hebben gelezen:::nous avons lu:PASSÉ COMPOSÉ
+jullie hebben gelezen:::vous avez lu:PASSÉ COMPOSÉ
+zij hebben gelezen:::ils ont lu:(MANNELIJK) PASSÉ COMPOSÉ
+zij hebben gelezen:::elles ont lu:(VROUWELIJK) PASSÉ COMPOSÉ
+ik heb gezet/gelegd:::j'ai mis:PASSÉ COMPOSÉ
+jij hebt gezet/gelegd:::tu as mis:PASSÉ COMPOSÉ
+hij heeft gezet/gelegd:::il a mis:PASSÉ COMPOSÉ
+zij heeft gezet/gelegd:::elle a mis:PASSÉ COMPOSÉ
+het heeft gezet/gelegd:::on a mis:PASSÉ COMPOSÉ
+wij hebben gezet/gelegd:::nous avons mis:PASSÉ COMPOSÉ
+jullie hebben gezet/gelegd:::vous avez mis:PASSÉ COMPOSÉ
+zij hebben gezet/gelegd:::ils ont mis:(MANNELIJK) PASSÉ COMPOSÉ
+zij hebben gezet/gelegd:::elles ont mis:(VROUWELIJK) PASSÉ COMPOSÉ
+ik heb genomen:::j'ai pris:PASSÉ COMPOSÉ
+jij hebt genomen:::tu as pris:PASSÉ COMPOSÉ
+hij heeft genomen:::il a pris:PASSÉ COMPOSÉ
+zij heeft genomen:::elle a pris:PASSÉ COMPOSÉ
+het heeft genomen:::on a pris:PASSÉ COMPOSÉ
+wij hebben genomen:::nous avons pris:PASSÉ COMPOSÉ
+jullie hebben genomen:::vous avez pris:PASSÉ COMPOSÉ
+zij hebben genomen:::ils ont pris:(MANNELIJK) PASSÉ COMPOSÉ
+zij hebben genomen:::elles ont pris:(VROUWELIJK) PASSÉ COMPOSÉ
+ik heb gekund/gemogen:::j'ai pu:PASSÉ COMPOSÉ
+jij hebt gekund/gemogen:::tu as pu:PASSÉ COMPOSÉ
+hij heeft gekund/gemogen:::il a pu:PASSÉ COMPOSÉ
+zij heeft gekund/gemogen:::elle a pu:PASSÉ COMPOSÉ
+het heeft gekund/gemogen:::on a pu:PASSÉ COMPOSÉ
+wij hebben gekund/gemogen:::nous avons pu:PASSÉ COMPOSÉ
+jullie hebben gekund/gemogen:::vous avez pu:PASSÉ COMPOSÉ
+zij hebben gekund/gemogen:::ils ont pu:(MANNELIJK) PASSÉ COMPOSÉ
+zij hebben gekund/gemogen:::elles ont pu:(VROUWELIJK) PASSÉ COMPOSÉ
+ik heb ontvangen:::j'ai reçu:PASSÉ COMPOSÉ
+jij hebt ontvangen:::tu as reçu:PASSÉ COMPOSÉ
+hij heeft ontvangen:::il a reçu:PASSÉ COMPOSÉ
+zij heeft ontvangen:::elle a reçu:PASSÉ COMPOSÉ
+het heeft ontvangen:::on a reçu:PASSÉ COMPOSÉ
+wij hebben ontvangen:::nous avons reçu:PASSÉ COMPOSÉ
+jullie hebben ontvangen:::vous avez reçu:PASSÉ COMPOSÉ
+zij hebben ontvangen:::ils ont reçu:(MANNELIJK) PASSÉ COMPOSÉ
+zij hebben ontvangen:::elles ont reçu:(VROUWELIJK) PASSÉ COMPOSÉ
+ik heb geweten:::j'ai su:PASSÉ COMPOSÉ
+jij hebt geweten:::tu as su:PASSÉ COMPOSÉ
+hij heeft geweten:::il a su:PASSÉ COMPOSÉ
+zij heeft geweten:::elle a su:PASSÉ COMPOSÉ
+het heeft geweten:::on a su:PASSÉ COMPOSÉ
+wij hebben geweten:::nous avons su:PASSÉ COMPOSÉ
+jullie hebben geweten:::vous avez su:PASSÉ COMPOSÉ
+zij hebben geweten:::ils ont su:(MANNELIJK) PASSÉ COMPOSÉ
+zij hebben geweten:::elles ont su:(VROUWELIJK) PASSÉ COMPOSÉ
+ik ben gekomen:::je suis venu:PASSÉ COMPOSÉ
+jij bent gekomen:::tu es venu:PASSÉ COMPOSÉ
+hij is gekomen:::il est venu:PASSÉ COMPOSÉ
+zij is gekomen:::elle est venue:PASSÉ COMPOSÉ
+wij zijn gekomen:::nous sommes venus:PASSÉ COMPOSÉ
+jullie zijn gekomen:::vous êtes venus:PASSÉ COMPOSÉ
+zij zijn gekomen:::ils sont venus:(MANNELIJK) PASSÉ COMPOSÉ
+zij zijn gekomen:::elles sont venues:(VROUWELIJK) PASSÉ COMPOSÉ
+ik heb vastgehouden:::j'ai tenu:PASSÉ COMPOSÉ
+jij hebt vastgehouden:::tu as tenu:PASSÉ COMPOSÉ
+hij heeft vastgehouden:::il a tenu:PASSÉ COMPOSÉ
+zij heeft vastgehouden:::elle a tenu:PASSÉ COMPOSÉ
+het heeft vastgehouden:::on a tenu:PASSÉ COMPOSÉ
+wij hebben vastgehouden:::nous avons tenu:PASSÉ COMPOSÉ
+jullie hebben vastgehouden:::vous avez tenu:PASSÉ COMPOSÉ
+zij hebben vastgehouden:::ils ont tenu:(MANNELIJK) PASSÉ COMPOSÉ
+zij hebben vastgehouden:::elles ont tenu:(VROUWELIJK) PASSÉ COMPOSÉ
+ik heb gezien:::j'ai vu:PASSÉ COMPOSÉ
+jij hebt gezien:::tu as vu:PASSÉ COMPOSÉ
+hij heeft gezien:::il a vu:PASSÉ COMPOSÉ
+zij heeft gezien:::elle a vu:PASSÉ COMPOSÉ
+het heeft gezien:::on a vu:PASSÉ COMPOSÉ
+wij hebben gezien:::nous avons vu:PASSÉ COMPOSÉ
+jullie hebben gezien:::vous avez vu:PASSÉ COMPOSÉ
+zij hebben gezien:::ils ont vu:(MANNELIJK) PASSÉ COMPOSÉ
+zij hebben gezien:::elles ont vu:(VROUWELIJK) PASSÉ COMPOSÉ
+ik heb gewild:::j'ai voulu:PASSÉ COMPOSÉ
+jij hebt gewild:::tu as voulu:PASSÉ COMPOSÉ
+hij heeft gewild:::il a voulu:PASSÉ COMPOSÉ
+zij heeft gewild:::elle a voulu:PASSÉ COMPOSÉ
+het heeft gewild:::on a voulu:PASSÉ COMPOSÉ
+wij hebben gewild:::nous avons voulu:PASSÉ COMPOSÉ
+jullie hebben gewild:::vous avez voulu:PASSÉ COMPOSÉ
+zij hebben gewild:::ils ont voulu:(MANNELIJK) PASSÉ COMPOSÉ
+zij hebben gewild:::elles ont voulu:(VROUWELIJK) PASSÉ COMPOSÉ
+ik heb gestuurd:::j'ai envoyé:PASSÉ COMPOSÉ
+jij hebt gestuurd:::tu as envoyé:PASSÉ COMPOSÉ
+hij heeft gestuurd:::il a envoyé:PASSÉ COMPOSÉ
+zij heeft gestuurd:::elle a envoyé:PASSÉ COMPOSÉ
+het heeft gestuurd:::on a envoyé:PASSÉ COMPOSÉ
+wij hebben gestuurd:::nous avons envoyé:PASSÉ COMPOSÉ
+jullie hebben gestuurd:::vous avez envoyé:PASSÉ COMPOSÉ
+zij hebben gestuurd:::ils ont envoyé:(MANNELIJK) PASSÉ COMPOSÉ
+zij hebben gestuurd:::elles ont envoyé:(VROUWELIJK) PASSÉ COMPOSÉ

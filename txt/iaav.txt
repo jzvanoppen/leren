@@ -1,0 +1,18 @@
+de brede laan:::le boulevard:
+het kruispunt:::le carrefour:
+de weg:::le chemin:c...
+de hoek:::le coin:
+de verkeerslichten:les(m)::les feux:
+het zebrapad:::le passage pour piétons:
+het plan:::le plan:
+het stadsplan:::le plan de ville:
+de brug:::le pont:
+de rotonde, het rondpunt:::le rond-point:
+het verkeer:::le trafic:
+het trottoir, voetpad:::le trottoir:
+de tunnel:::le tunnel:
+het viaduct:::le viaduc:
+de laan:l'(f)::l'avenue
+het fietspad:::la piste cyclable:
+de weg:::la route:r...
+de straat:::la rue:

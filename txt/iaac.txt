@@ -1,0 +1,180 @@
+ik heb:::j'ai:INDICATIF PRÉSENT
+jij hebt:::tu as:INDICATIF PRÉSENT
+hij heeft:::il a:INDICATIF PRÉSENT
+zij heeft:::elle a:INDICATIF PRÉSENT
+het heeft:::on a:INDICATIF PRÉSENT
+wij hebben:::nous avons:INDICATIF PRÉSENT
+jullie hebben:::vous avez:INDICATIF PRÉSENT
+zij hebben:::ils ont:(MANNELIJK) INDICATIF PRÉSENT
+zij hebben:::elles ont:(VROUWELIJK) INDICATIF PRÉSENT
+ik ben:::je suis:INDICATIF PRÉSENT
+jij bent:::tu es:INDICATIF PRÉSENT
+hij is:::il est:INDICATIF PRÉSENT
+zij is:::elle est:INDICATIF PRÉSENT
+het is:::on est:INDICATIF PRÉSENT
+wij zijn:::nous sommes:INDICATIF PRÉSENT
+jullie zijn:::vous êtes:INDICATIF PRÉSENT
+zij zijn:::ils sont:(MANNELIJK) INDICATIF PRÉSENT
+zij zijn:::elles sont:(VROUWELIJK) INDICATIF PRÉSENT
+ik ga:::je vais:INDICATIF PRÉSENT
+jij gaat:::tu vas:INDICATIF PRÉSENT
+hij gaat:::il va:INDICATIF PRÉSENT
+zij gaat:::elle va:INDICATIF PRÉSENT
+het gaat:::on va:INDICATIF PRÉSENT
+wij gaan:::nous allons:INDICATIF PRÉSENT
+jullie gaan:::vous allez:INDICATIF PRÉSENT
+zij gaan:::ils vont:(MANNELIJK) INDICATIF PRÉSENT
+zij gaan:::elles vont:(VROUWELIJK) INDICATIF PRÉSENT
+ik drink:::je bois:INDICATIF PRÉSENT
+jij drinkt:::tu bois:INDICATIF PRÉSENT
+hij drinkt:::il boit:INDICATIF PRÉSENT
+zij drinkt:::elle boit:INDICATIF PRÉSENT
+het drinkt:::on boit:INDICATIF PRÉSENT
+wij drinken:::nous buvons:INDICATIF PRÉSENT
+jullie drinken:::vous buvez:INDICATIF PRÉSENT
+zij drinken:::ils boivent:(MANNELIJK) INDICATIF PRÉSENT
+zij drinken:::elles boivent:(VROUWELIJK) INDICATIF PRÉSENT
+ik ken:::je connais:INDICATIF PRÉSENT
+jij kent:::tu connais:INDICATIF PRÉSENT
+hij kent:::il connaît:INDICATIF PRÉSENT
+zij kent:::elle connaît:INDICATIF PRÉSENT
+het kent:::on connaît:INDICATIF PRÉSENT
+wij kennen:::nous connaissons:INDICATIF PRÉSENT
+jullie kennen:::vous connaissez:INDICATIF PRÉSENT
+zij kennen:::ils connaissent:(MANNELIJK) INDICATIF PRÉSENT
+zij kennen:::elles connaissent:(VROUWELIJK) INDICATIF PRÉSENT
+ik moet:::je dois:INDICATIF PRÉSENT
+jij moet:::tu dois:INDICATIF PRÉSENT
+hij moet:::il doit:INDICATIF PRÉSENT
+zij moet:::elle doit:INDICATIF PRÉSENT
+het moet:::on doit:INDICATIF PRÉSENT
+wij moeten:::nous devons:INDICATIF PRÉSENT
+jullie moeten:::vous devez:INDICATIF PRÉSENT
+zij moeten:::ils doivent:(MANNELIJK) INDICATIF PRÉSENT
+zij moeten:::elles doivent:(VROUWELIJK) INDICATIF PRÉSENT
+ik zeg:::je dis:INDICATIF PRÉSENT
+jij zegt:::tu dis:INDICATIF PRÉSENT
+hij zegt:::il dit:INDICATIF PRÉSENT
+zij zegt:::elle dit:INDICATIF PRÉSENT
+het zegt:::on dit:INDICATIF PRÉSENT
+wij zeggen:::nous disons:INDICATIF PRÉSENT
+jullie zeggen:::vous dites:INDICATIF PRÉSENT
+zij zeggen:::ils disent:(MANNELIJK) INDICATIF PRÉSENT
+zij zeggen:::elles disent:(VROUWELIJK) INDICATIF PRÉSENT
+ik schrijf:::je écris:INDICATIF PRÉSENT
+jij schrijft:::tu écris:INDICATIF PRÉSENT
+hij schrijft:::il écrit:INDICATIF PRÉSENT
+zij schrijft:::elle écrit:INDICATIF PRÉSENT
+het schrijft:::on écrit:INDICATIF PRÉSENT
+wij schrijven:::nous écrivons:INDICATIF PRÉSENT
+jullie schrijven:::vous écrivez:INDICATIF PRÉSENT
+zij schrijven:::ils écrivent:(MANNELIJK) INDICATIF PRÉSENT
+zij schrijven:::elles écrivent:(VROUWELIJK) INDICATIF PRÉSENT
+ik doe/maak:::je fais:INDICATIF PRÉSENT
+jij doet/maakt:::tu fais:INDICATIF PRÉSENT
+hij doet/maakt:::il fait:INDICATIF PRÉSENT
+zij doet/maakt:::elle fait:INDICATIF PRÉSENT
+het doet/maakt:::on fait:INDICATIF PRÉSENT
+wij doen/maken:::nous faisons:INDICATIF PRÉSENT
+jullie doen/maken:::vous faites:INDICATIF PRÉSENT
+zij doen/maken:::ils font:(MANNELIJK) INDICATIF PRÉSENT
+zij doen/maken:::elles font:(VROUWELIJK) INDICATIF PRÉSENT
+ik lees:::je lis:INDICATIF PRÉSENT
+jij leest:::tu lis:INDICATIF PRÉSENT
+hij leest:::il lit:INDICATIF PRÉSENT
+zij leest:::elle lit:INDICATIF PRÉSENT
+het leest:::on lit:INDICATIF PRÉSENT
+wij lezen:::nous lisons:INDICATIF PRÉSENT
+jullie lezen:::vous lisez:INDICATIF PRÉSENT
+zij lezen:::ils lisent:(MANNELIJK) INDICATIF PRÉSENT
+zij lezen:::elles lisent:(VROUWELIJK) INDICATIF PRÉSENT
+ik zet/leg:::je mets:INDICATIF PRÉSENT
+jij zet/legt:::tu mets:INDICATIF PRÉSENT
+hij zet/legt:::il met:INDICATIF PRÉSENT
+zij zet/legt:::elle met:INDICATIF PRÉSENT
+het zet/legt:::on met:INDICATIF PRÉSENT
+wij zetten/leggen:::nous mettons:INDICATIF PRÉSENT
+jullie zetten/leggen:::vous mettez:INDICATIF PRÉSENT
+zij zetten/leggen:::ils mettent:(MANNELIJK) INDICATIF PRÉSENT
+zij zetten/leggen:::elles mettent:(VROUWELIJK) INDICATIF PRÉSENT
+ik neem:::je prends:INDICATIF PRÉSENT
+jij neemt:::tu prends:INDICATIF PRÉSENT
+hij neemt:::il prend:INDICATIF PRÉSENT
+zij neemt:::elle prend:INDICATIF PRÉSENT
+het neemt:::on prend:INDICATIF PRÉSENT
+wij nemen:::nous prenons:INDICATIF PRÉSENT
+jullie nemen:::vous prenez:INDICATIF PRÉSENT
+zij nemen:::ils prennent:(MANNELIJK) INDICATIF PRÉSENT
+zij nemen:::elles prennent:(VROUWELIJK) INDICATIF PRÉSENT
+ik kan/mag:::je peux:INDICATIF PRÉSENT
+jij kan/mag:::tu peux:INDICATIF PRÉSENT
+hij kan/mag:::il peut:INDICATIF PRÉSENT
+zij kan/mag:::elle peut:INDICATIF PRÉSENT
+het kan/mag:::on peut:INDICATIF PRÉSENT
+wij kunnen/mogen:::nous pouvons:INDICATIF PRÉSENT
+jullie kunnen/mogen:::vous pouvez:INDICATIF PRÉSENT
+zij kunnen/mogen:::ils peuvent:(MANNELIJK) INDICATIF PRÉSENT
+zij kunnen/mogen:::elles peuvent:(VROUWELIJK) INDICATIF PRÉSENT
+ik ontvang:::je reçois:INDICATIF PRÉSENT
+jij ontvangt:::tu reçois:INDICATIF PRÉSENT
+hij ontvangt:::il reçoit:INDICATIF PRÉSENT
+zij ontvangt:::elle reçoit:INDICATIF PRÉSENT
+het ontvangt:::on reçoit:INDICATIF PRÉSENT
+wij ontvangen:::nous recevons:INDICATIF PRÉSENT
+jullie ontvangen:::vous recevez:INDICATIF PRÉSENT
+zij ontvangen:::ils reçoivent:(MANNELIJK) INDICATIF PRÉSENT
+zij ontvangen:::elles reçoivent:(VROUWELIJK) INDICATIF PRÉSENT
+ik weet:::je sais:INDICATIF PRÉSENT
+jij weet:::tu sais:INDICATIF PRÉSENT
+hij weet:::il sait:INDICATIF PRÉSENT
+zij weet:::elle sait:INDICATIF PRÉSENT
+het weet:::on sait:INDICATIF PRÉSENT
+wij weten:::nous savons:INDICATIF PRÉSENT
+jullie weten:::vous savez:INDICATIF PRÉSENT
+zij weten:::ils savent:(MANNELIJK) INDICATIF PRÉSENT
+zij weten:::elles savent:(VROUWELIJK) INDICATIF PRÉSENT
+ik kom:::je viens:INDICATIF PRÉSENT
+jij komt:::tu viens:INDICATIF PRÉSENT
+hij komt:::il vient:INDICATIF PRÉSENT
+zij komt:::elle vient:INDICATIF PRÉSENT
+het komt:::on vient:INDICATIF PRÉSENT
+wij komen:::nous venons:INDICATIF PRÉSENT
+jullie komen:::vous venez:INDICATIF PRÉSENT
+zij komen:::ils viennent:(MANNELIJK) INDICATIF PRÉSENT
+zij komen:::elles viennent:(VROUWELIJK) INDICATIF PRÉSENT
+ik houd vast:::je tiens:INDICATIF PRÉSENT
+jij houdt vast:::tu tiens:INDICATIF PRÉSENT
+hij houdt vast:::il tient:INDICATIF PRÉSENT
+zij houdt vast:::elle tient:INDICATIF PRÉSENT
+het houdt vast:::on tient:INDICATIF PRÉSENT
+wij houden vast:::nous tenons:INDICATIF PRÉSENT
+jullie houden vast:::vous tenez:INDICATIF PRÉSENT
+zij houden vast:::ils tiennent:(MANNELIJK) INDICATIF PRÉSENT
+zij houden vast:::elles tiennent:(VROUWELIJK) INDICATIF PRÉSENT
+ik zie:::je vois:INDICATIF PRÉSENT
+jij ziet:::tu vois:INDICATIF PRÉSENT
+hij ziet:::il voit:INDICATIF PRÉSENT
+zij ziet:::elle voit:INDICATIF PRÉSENT
+het ziet:::on voit:INDICATIF PRÉSENT
+wij zien:::nous voyons:INDICATIF PRÉSENT
+jullie zien:::vous voyez:INDICATIF PRÉSENT
+zij zien:::ils voient:(MANNELIJK) INDICATIF PRÉSENT
+zij zien:::elles voient:(VROUWELIJK) INDICATIF PRÉSENT
+ik wil:::je veux:INDICATIF PRÉSENT
+jij wilt:::tu veux:INDICATIF PRÉSENT
+hij wil:::il veut:INDICATIF PRÉSENT
+zij wil:::elle veut:INDICATIF PRÉSENT
+het wil:::on veut:INDICATIF PRÉSENT
+wij willen:::nous voulons:INDICATIF PRÉSENT
+jullie willen:::vous voulez:INDICATIF PRÉSENT
+zij willen:::ils veulent:(MANNELIJK) INDICATIF PRÉSENT
+zij willen:::elles veulent:(VROUWELIJK) INDICATIF PRÉSENT
+ik stuur:::j'envoie:INDICATIF PRÉSENT
+jij stuurt:::tu envoies:INDICATIF PRÉSENT
+hij stuurt:::il envoie:INDICATIF PRÉSENT
+zij stuurt:::elle envoie:INDICATIF PRÉSENT
+het stuurt:::on envoie:INDICATIF PRÉSENT
+wij sturen:::nous envoyons:INDICATIF PRÉSENT
+jullie sturen:::vous envoyez:INDICATIF PRÉSENT
+zij sturen:::ils envoient:(MANNELIJK) INDICATIF PRÉSENT
+zij sturen:::elles envoient:(VROUWELIJK) INDICATIF PRÉSENT

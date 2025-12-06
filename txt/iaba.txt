@@ -1,0 +1,29 @@
+de astma:(l'(m)::l'asthme:
+de verkoudheid:::le rhume:
+de diarree:::la diarrhée:
+de verstuking, verzwikking:l'(f)::l'entorse
+de koorts:::la fièvre:
+de griep:::la grippe:
+gedeprimeerd, neerslachtig:::déprimé:MANNELIJK
+gedeprimeerd, neerslachtig:::déprimée:VROUWELIJK
+het ziekenhuis:l'(m)::l'hôpital:h…
+de ziekenwagen:l'(f)::l'ambulance
+het ziekhuis:::la clinique:c…
+de apotheek:::la pharmacie:
+de (tand)beugel:l'(m)::l'appareil dentaire:
+het ijsblokje:::le glaçon:
+de pleister:::le sparadrap:
+het tabletje:::la pastille:
+helpen:::aider:
+roepen, opbellen:::appeler:
+vooruitgaan:::avancer:
+zich draaierig voelen:::avoir le vertige:
+een gebroken arm hebben:::avoir le bras cassé:
+kloppen (van het hart):::battre:
+lopen, rennen:::courir:
+in bed blijven:::garder le lit:
+stappen:::marcher:
+blijven:::rester:
+stoppen:::s'arrêter:
+zich verbranden:::se brûler:
+vallen:::tomber:

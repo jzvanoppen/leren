@@ -1,0 +1,38 @@
+de acteur:l'(m)::l'acteur:
+de actrice:l'(f)::l'actrice:
+de politieagent:l'(m)::l'agent de police:
+de camionchauffeur:::le camionneur:MANNELIJK
+de camionchauffeur:::la camioneuse:VROUWELIJK
+de kapper:::le coiffeur:
+de kapster:::la coiffeuse:
+de verpleeghulp:l'(m)::l'aide-soignant:MANNELIJK
+de verpleeghulp:l'(f)::l'aide-soignante:VROUWELIJK
+de kok:::le cuisinier:
+de kokkin:::la cuisinière:
+de elektricien:l'(m)::l'électricien:MANNELIJK
+de elektricien:l'(f)::l'électricienne:VROUWELIJK
+de bankmedewerker:l'(m)::l'employé de banque:MANNELIJK
+de bankmedewerker:l'(f)::l'employée de banque:VROUWELIJK
+de medewerker:l'(m)::l'employé:MANNELIJK
+de medewerker:l'(f)::l'employée:VROUWELIJK
+de postbode:::le facteur:
+de tuinman:::le jardinier:
+de tuinvrouw:::la jardinière:
+de journalist:::le journaliste:
+de journaliste:::la journaliste:
+de verver:::le peintre:
+de apotheker:::le pharmacien:MAN
+de apothekeres:::la pharmacienne:VROUW
+de loodgieter:::le plombier:
+de regisseur (film):::le metteur en scène:MANNELIJK
+de regisseur (film):::la metteuse en scène:VROUWELIJK
+de presentator:::le présentateur:
+de presentatrice:::la présentatrice:
+de cateraar (eten bij een feest):::le traiteur:
+de verkoper:::le vendeur:
+de verkoopster:::la vendeuse:
+de verkoper van:::le vendeur de:
+de verkoopster van:::la vendeuse de:
+de secrataris:::le secrétaire:
+de secretaresse:::la secrétaire:
+de omroepster (televisie):::la speakerine:

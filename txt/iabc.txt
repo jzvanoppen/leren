@@ -1,0 +1,35 @@
+Cornflakes:::cereal:
+Kaas:::cheese:
+Een ei:::an egg:
+Rijst:::rice:
+Een broodje:::a sandwich:
+Yoghurt:::yoghurt:
+Gerechten:::dishes:
+Worst met puree:::bangers and mash:
+Cake:::cake:
+Vis met frieten:::fish and chips:
+Ijs:::ice cream:
+Taart:::a pie:
+Een slaatje:::a salad:
+Roerei:::scrambled eggs:
+Soep:::soup:
+Drinken:::drinks:
+Koffie:::coffee:
+Cola:::coke:
+Lemonade:::lemonade:
+Appelsiensap:::orange juice:
+Bruiswater:::sparkling water:
+Plat water:::still water:
+Thee:::tea:
+Melk:::milk:
+Versnaperingen en zoetigheden:::snacks and sweets:
+Koek:::biscuits:
+Chocolade:::chocolate:
+Chips:::crisps:
+Snoep:::sweets:
+ik probeerde:::i tried:
+het leek:::it looked:
+het rook naar:::it smelled:
+het proefde:::it tasted:
+Wat ik er goed aan vond.:::What I liked about it.:
+Wat ik er slecht aan vond.:::What I hated about it:

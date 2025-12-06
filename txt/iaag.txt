@@ -1,0 +1,180 @@
+ik had:::j'avais:IMPARFAIT
+jij had:::tu avais:IMPARFAIT
+hij had:::il avait:IMPARFAIT
+zij had:::elle avait:IMPARFAIT
+het had:::on avait:IMPARFAIT
+wij hadden:::nous avions:IMPARFAIT
+jullie hadden:::vous aviez:IMPARFAIT
+zij hadden:::ils avaient:(MANNELIJK) IMPARFAIT
+zij hadden:::elles avaient:(VROUWELIJK) IMPARFAIT
+ik was:::j'étais:IMPARFAIT
+jij was:::tu étais:IMPARFAIT
+hij was:::il était:IMPARFAIT
+zij was:::elle était:IMPARFAIT
+het was:::on était:IMPARFAIT
+wij waren:::nous étions:IMPARFAIT
+jullie waren:::vous étiez:IMPARFAIT
+zij waren:::ils étaient:(MANNELIJK) IMPARFAIT
+zij waren:::elles étaient:(VROUWELIJK) IMPARFAIT
+ik ging:::j'allais:IMPARFAIT
+jij ging:::tu allais:IMPARFAIT
+hij ging:::il allait:IMPARFAIT
+zij ging:::elle allait:IMPARFAIT
+het ging:::on allait:IMPARFAIT
+wij gingen:::nous allions:IMPARFAIT
+jullie gingen:::vous alliez:IMPARFAIT
+zij gingen:::ils allaient:(MANNELIJK) IMPARFAIT
+zij gingen:::elles allaient:(VROUWELIJK) IMPARFAIT
+ik dronk:::je buvais:IMPARFAIT
+jij dronk:::tu buvais:IMPARFAIT
+hij dronk:::il buvait:IMPARFAIT
+zij dronk:::elle buvait:IMPARFAIT
+het dronk:::on buvait:IMPARFAIT
+wij dronken:::nous buvions:IMPARFAIT
+jullie dronken:::vous buviez:IMPARFAIT
+zij dronken:::ils buvaient:(MANNELIJK) IMPARFAIT
+zij dronken:::elles buvaient:(VROUWELIJK) IMPARFAIT
+ik kende:::je connaissais:IMPARFAIT
+jij kende:::tu connaissais:IMPARFAIT
+hij kende:::il connaissait:IMPARFAIT
+zij kende:::elle connaissait:IMPARFAIT
+het kende:::on connaissait:IMPARFAIT
+wij kenden:::nous connaissions:IMPARFAIT
+jullie kenden:::vous connaissiez:IMPARFAIT
+zij kenden:::ils connaissaient:(MANNELIJK) IMPARFAIT
+zij kenden:::elles connaissaient:(VROUWELIJK) IMPARFAIT
+ik moest:::je devais:IMPARFAIT
+jij moest:::tu devais:IMPARFAIT
+hij moest:::il devait:IMPARFAIT
+zij moest:::elle devait:IMPARFAIT
+het moest:::on devait:IMPARFAIT
+wij moesten:::nous devions:IMPARFAIT
+jullie moesten:::vous deviez:IMPARFAIT
+zij moesten:::ils devaient:(MANNELIJK) IMPARFAIT
+zij moesten:::elles devaient:(VROUWELIJK) IMPARFAIT
+ik zei:::je disais:IMPARFAIT
+jij zei:::tu disais:IMPARFAIT
+hij zei:::il disait:IMPARFAIT
+zij zei:::elle disait:IMPARFAIT
+het zei:::on disait:IMPARFAIT
+wij zeiden:::nous disions:IMPARFAIT
+jullie zeiden:::vous disiez:IMPARFAIT
+zij zeiden:::ils disaient:(MANNELIJK) IMPARFAIT
+zij zeiden:::elles disaient:(VROUWELIJK) IMPARFAIT
+ik schreef:::j'écrivais:IMPARFAIT
+jij schreef:::tu écrivais:IMPARFAIT
+hij schreef:::il écrivait:IMPARFAIT
+zij schreef:::elle écrivait:IMPARFAIT
+het schreef:::on écrivait:IMPARFAIT
+wij schreven:::nous écrivions:IMPARFAIT
+jullie schreven:::vous écriviez:IMPARFAIT
+zij schreven:::ils écrivaient:(MANNELIJK) IMPARFAIT
+zij schreven:::elles écrivaient:(VROUWELIJK) IMPARFAIT
+ik deed/maakte:::je faisais:IMPARFAIT
+jij deed/maakte:::tu faisais:IMPARFAIT
+hij deed/maakte:::il faisait:IMPARFAIT
+zij deed/maakte:::elle faisait:IMPARFAIT
+het deed/maakte:::on faisait:IMPARFAIT
+wij deden/maakten:::nous faisions:IMPARFAIT
+jullie deden/maakten:::vous faisiez:IMPARFAIT
+zij deden/maakten:::ils faisaient:(MANNELIJK) IMPARFAIT
+zij deden/maakten:::elles faisaient:(VROUWELIJK) IMPARFAIT
+ik las:::je lisais:IMPARFAIT
+jij las:::tu lisais:IMPARFAIT
+hij las:::il lisait:IMPARFAIT
+zij las:::elle lisait:IMPARFAIT
+het las:::on lisait:IMPARFAIT
+wij lazen:::nous lisions:IMPARFAIT
+jullie lazen:::vous lisiez:IMPARFAIT
+zij lazen:::ils lisaient:(MANNELIJK) IMPARFAIT
+zij lazen:::elles lisaient:(VROUWELIJK) IMPARFAIT
+ik zette/legde:::je mettais:IMPARFAIT
+jij zette/legde:::tu mettais:IMPARFAIT
+hij zette/legde:::il mettait:IMPARFAIT
+zij zette/legde:::elle mettait:IMPARFAIT
+het zette/legde:::on mettait:IMPARFAIT
+wij zetten/legden:::nous mettions:IMPARFAIT
+jullie zetten/legden:::vous mettiez:IMPARFAIT
+zij zetten/legden:::ils mettaient:(MANNELIJK) IMPARFAIT
+zij zetten/legden:::elles mettaient:(VROUWELIJK) IMPARFAIT
+ik nam:::je prenais:IMPARFAIT
+jij nam:::tu prenais:IMPARFAIT
+hij nam:::il prenait:IMPARFAIT
+zij nam:::elle prenait:IMPARFAIT
+het nam:::on prenait:IMPARFAIT
+wij namen:::nous prenions:IMPARFAIT
+jullie namen:::vous preniez:IMPARFAIT
+zij namen:::ils prenaient:(MANNELIJK) IMPARFAIT
+zij namen:::elles prenaient:(VROUWELIJK) IMPARFAIT
+ik kon/mocht:::je pouvais:IMPARFAIT
+jij kon/mocht:::tu pouvais:IMPARFAIT
+hij kon/mocht:::il pouvait:IMPARFAIT
+zij kon/mocht:::elle pouvait:IMPARFAIT
+het kon/mocht:::on pouvait:IMPARFAIT
+wij konden/mochten:::nous pouvions:IMPARFAIT
+jullie konden/mochten:::vous pouviez:IMPARFAIT
+zij konden/mochten:::ils pouvaient:(MANNELIJK) IMPARFAIT
+zij konden/mochten:::elles pouvaient:(VROUWELIJK) IMPARFAIT
+ik ontving:::je recevais:IMPARFAIT
+jij ontving:::tu recevais:IMPARFAIT
+hij ontving:::il recevait:IMPARFAIT
+zij ontving:::elle recevait:IMPARFAIT
+het ontving:::on recevait:IMPARFAIT
+wij ontvingen:::nous recevions:IMPARFAIT
+jullie ontvingen:::vous receviez:IMPARFAIT
+zij ontvingen:::ils recevaient:(MANNELIJK) IMPARFAIT
+zij ontvingen:::elles recevaient:(VROUWELIJK) IMPARFAIT
+ik wist:::je savais:IMPARFAIT
+jij wist:::tu savais:IMPARFAIT
+hij wist:::il savait:IMPARFAIT
+zij wist:::elle savait:IMPARFAIT
+het wist:::on savait:IMPARFAIT
+wij wisten:::nous savions:IMPARFAIT
+jullie wisten:::vous saviez:IMPARFAIT
+zij wisten:::ils savaient:(MANNELIJK) IMPARFAIT
+zij wisten:::elles savaient:(VROUWELIJK) IMPRFAIT
+ik kwam:::je venais:IMPARFAIT
+jij kwam:::tu venais:IMPARFAIT
+hij kwam:::il venait:IMPARFAIT
+zij kwam:::elle venait:IMPARFAIT
+het kwam:::on venait:IMPARFAIT
+wij kwamen:::nous venions:IMPARFAIT
+jullie kwamen:::vous veniez:IMPARFAIT
+zij kwamen:::ils venaient:(MANNELIJK) IMPARFAIT
+zij kwamen:::elles venaient:(VROUWELIJK) IMPARFAIT
+ik hield vast:::je tenais:IMPARFAIT
+jij hield vast:::tu tenais:IMPARFAIT
+hij hield vast:::il tenait:IMPARFAIT
+zij hield vast:::elle tenait:IMPARFAIT
+het hield vast:::on tenait:IMPARFAIT
+wij hielden vast:::nous tenions:IMPARFAIT
+jullie hielden vast:::vous teniez:IMPARFAIT
+zij hielden vast:::ils tenaient:(MANNELIJK) IMPARFAIT
+zij hielden vast:::elles tenaient:(VROUWELIJK) IMPARFAIT
+ik zag:::je voyais:IMPARFAIT
+jij zag:::tu voyais:IMPARFAIT
+hij zag:::il voyait:IMPARFAIT
+zij zag:::elle voyait:IMPARFAIT
+het zag:::on voyait:IMPARFAIT
+wij zagen:::nous voyions:IMPARFAIT
+jullie zagen:::vous voyiez:IMPARFAIT
+zij zagen:::ils voyaient:(MANNELIJK) IMPARFAIT
+zij zagen:::elles voyaient:(VROUWELIJK) IMPARFAIT
+ik wilde:::je voulais:IMPARFAIT
+jij wilde:::tu voulais:IMPARFAIT
+hij wilde:::il voulait:IMPARFAIT
+zij wilde:::elle voulait:IMPARFAIT
+het wilde:::on voulait:IMPARFAIT
+wij wilden:::nous voulions:IMPARFAIT
+jullie wilden:::vous vouliez:IMPARFAIT
+zij wilden:::ils voulaient:(MANNELIJK) IMPARFAIT
+zij wilden:::elles voulaient:(VROUWELIJK) IMPARFAIT
+ik stuurde:::j'envoyais:IMPARFAIT
+jij stuurde:::tu envoyais:IMPARFAIT
+hij stuurde:::il envoyait:IMPARFAIT
+zij stuurde:::elle envoyait:IMPARFAIT
+het stuurde:::on envoyait:IMPARFAIT
+wij stuurden:::nous envoyions:IMPARFAIT
+jullie stuurden:::vous envoyiez:IMPARFAIT
+zij stuurden:::ils envoyaient:(MANNELIJK) IMPARFAIT
+zij stuurden:::elles envoyaient:(VROUWELIJK) IMPARFAIT
