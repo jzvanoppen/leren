@@ -1,0 +1,22 @@
+lang:::long:
+kort:::short:
+heel klein / piepklein:::tiny:
+groot / lang (voor personen):::tall:
+steil:::straight:
+krullend:::curly:
+enorm / reusachtig:::huge:
+puntig:::pointed:
+een zakdoek:::a handkerchief:
+een halsketting:::a necklace:
+een gouden zakhorloge:::a gold pocket watch:
+een horloge:::a watch:
+een bril:::glasses:
+een riem:::a belt:
+een dief:::a thief:
+een zakkenroller:::a pickpocket:
+stelen:::to steal:
+zakkenrollen:::to pickpocket:
+een overvaller:::a robber:
+overvallen:::to rob:
+een crimineel:::a criminal:
+een misdaad plegen:::to commit a crime:
