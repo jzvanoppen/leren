@@ -3,3 +3,12 @@ vervolgens:::next:
 dan:::then:
 en daarna:::after that:
 en slotte:::finally:
+een misdaad:::a crime:
+armoede:::poverty:
+onderwijs:::education:
+arresteren:::to arrest:
+dronken:::drunk:
+een bende:::a gang:
+rijk:::rich:
+arm:::poor:
+een bedelaar:::a beggar:
