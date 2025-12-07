@@ -1,0 +1,5 @@
+eerst:::first:
+vervolgens:::next:
+dan:::then:
+en daarna:::after that:
+en slotte:::finally:
