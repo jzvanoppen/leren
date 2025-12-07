@@ -12,3 +12,10 @@ een bende:::a gang:
 rijk:::rich:
 arm:::poor:
 een bedelaar:::a beggar:
+de mijne:::mine:POSSESSIVE PRONOUN
+de jouwe:::yours:POSSESSIVE PRONOUN
+de hare:::hers:POSSESSIVE PRONOUN
+de zijne:::his:POSSESSIVE PRONOUN
+de onze:::ours:POSSESSIVE PRONOUN
+de jouwe:::yours:POSSESSIVE PRONOUN
+de hunne:::their:POSSESSIVE PRONOUN
