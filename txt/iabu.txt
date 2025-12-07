@@ -1,16 +1,16 @@
-a head
-an eye
-a mouth
-a tooth
-teeth
-a chin
-a cheek
-an eyebrow
-an ear
-a nose
-a forehead
-hair
-a neck
-a shoulder
-an arm
-a hand
+een hoofd:::a head:
+een oog:::an eye:
+een mond:::a mouth:
+een tand:::a tooth:
+tanden:::teeth:
+een kin:::a chin:
+een wang:::a cheek:
+een wenkbrauw:::an eyebrow:
+een oor:::an ear:
+een neus:::a nose:
+een voorhoofd:::a forehead:
+haar:::hair:
+een nek:::a neck:
+een schouder:::a shoulder:
+een arm:::an arm:
+een hand:::a hand:
