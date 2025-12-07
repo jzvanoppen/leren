@@ -1,0 +1,17 @@
+een pols:::a wrist:
+een dij:::a thigh:
+een knie:::a knee:
+een enkel:::an ankle:
+een been:::a leg:
+een duim:::a thumb:
+een vinger:::a finger:
+een voet:::a foot:
+voeten:::feet:
+een achterwerk / een poep:::a bottom:
+een maag / een buik:::a stomach:
+een rug:::a back:
+een teen:::a toe:
+een nagel:::a nail:
+een litteken:::a scar:
+een puist:::a pimple:
+sproeten:::freckles:
