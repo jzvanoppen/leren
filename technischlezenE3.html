@@ -43,6 +43,8 @@
 </head>
 <body>
   <div class="container">
+    <div id="timer">Tijd: 10:00</div>
+    <div id="counter">Zin: 0</div>
     <div id="sentence">Klik op "Volgende" om te beginnen.</div>
     <button id="nextBtn">Volgende</button>
   </div>
@@ -215,8 +217,6 @@
 <p>We praten samen over dingen die we vandaag hebben meegemaakt.</p>
 <p>Mijn tante brengt fruit mee dat vers uit de tuin komt.</p>
 <p>We gaan naar binnen omdat het plots hard begint te regenen.</p>
-
-    
   </div>
 
   <script>
@@ -224,12 +224,32 @@
 // Schud de zinnen willekeurig
 sentences = sentences.sort(() => Math.random() - 0.5);
 let index = 0;
+let timerStarted = false;
+let timeLeft = 600;
+let countdown;
+
+function startTimer(){
+  countdown = setInterval(() => {
+    timeLeft--;
+    const minutes = String(Math.floor(timeLeft/60)).padStart(2,'0');
+    const seconds = String(timeLeft%60).padStart(2,'0');
+    document.getElementById('timer').textContent = `Tijd: ${minutes}:${seconds}`;
+    if(timeLeft <= 0){
+      document.getElementById('alarmSound').play();
+      clearInterval(countdown);
+      nextBtn.disabled = true;
+      sentenceBox.textContent = "De tijd is om! Goed gewerkt!";
+    }
+  },1000);
+}
 
     const sentenceBox = document.getElementById('sentence');
     const nextBtn = document.getElementById('nextBtn');
 
     nextBtn.addEventListener('click', () => {
+      if (!timerStarted){ timerStarted = true; startTimer(); }
       if (index < sentences.length) {
+        document.getElementById('counter').textContent = `Zin: ${index+1}`;
         sentenceBox.textContent = sentences[index];
         index++;
       } else {
@@ -238,5 +258,7 @@ let index = 0;
       }
     });
   </script>
+  <audio id="alarmSound" src="alarm.mp3" preload="auto"></audio>
 </body>
 </html>
+
