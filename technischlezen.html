@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zinnen Lezer</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .container {
+      background: #ffffff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      width: 400px;
+      text-align: center;
+    }
+    #sentence {
+      font-size: 1.4rem;
+      margin-bottom: 20px;
+      min-height: 60px;
+    }
+    button {
+      padding: 10px 20px;
+      border: none;
+      background: #007bff;
+      color: white;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+    button:hover {
+      background: #0056c7;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div id="sentence">Klik op "Volgende" om te beginnen.</div>
+    <button id="nextBtn">Volgende</button>
+  </div>
+
+  <!-- Verborgen zinnen in HTML (niet zichtbaar op pagina) -->
+  <div id="hidden-sentences" style="display:none;">
+    <p>De kat zit op de mat.</p>
+    <p>Vandaag schijnt de zon fel.</p>
+    <p>De leerling leest een spannend boek.</p>
+    <p>Het regent buiten maar binnen is het warm.</p>
+    <p>We gaan straks een spelletje spelen.</p>
+  </div>
+
+  <script>
+    const sentences = Array.from(document.querySelectorAll('#hidden-sentences p')).map(p => p.textContent);
+    let index = 0;
+
+    const sentenceBox = document.getElementById('sentence');
+    const nextBtn = document.getElementById('nextBtn');
+
+    nextBtn.addEventListener('click', () => {
+      if (index < sentences.length) {
+        sentenceBox.textContent = sentences[index];
+        index++;
+      } else {
+        sentenceBox.textContent = "Je hebt alle zinnen gelezen!";
+        nextBtn.disabled = true;
+      }
+    });
+  </script>
+</body>
+</html>
