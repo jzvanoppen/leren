@@ -57,8 +57,10 @@
   </div>
 
   <script>
-    const sentences = Array.from(document.querySelectorAll('#hidden-sentences p')).map(p => p.textContent);
-    let index = 0;
+    let sentences = Array.from(document.querySelectorAll('#hidden-sentences p')).map(p => p.textContent);
+// Schud de zinnen willekeurig
+sentences = sentences.sort(() => Math.random() - 0.5);
+let index = 0;
 
     const sentenceBox = document.getElementById('sentence');
     const nextBtn = document.getElementById('nextBtn');
