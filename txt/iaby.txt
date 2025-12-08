@@ -1,0 +1,8 @@
+Kleine:::small:
+Uiteindelijke:::eventual:
+Zeldzame:::rare:
+Slanke:::slim:
+Smalle:narrow:
+Eventuele:::possible:
+Rare:::strange:
+Slimme:::smart:
