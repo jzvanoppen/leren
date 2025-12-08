@@ -44,15 +44,17 @@
 <body>
   <div class="container">
     <div id="timer" style="display:none;">Tijd: 10:00</div>
-    <div id="counter">Zin: 0</div>
+    
     <div id="sentence">Klik op "Volgende" om te beginnen.</div>
     <button id="nextBtn">Volgende</button>
   </div>
 
   <!-- Verborgen zinnen in HTML (niet zichtbaar op pagina) -->
   <div id="hidden-sentences" style="display:none;">
-    <!--Geef 50 zinnen (leesniveau België E3) van elk ongeveer 10 woorden lang. Voor iedere zin start je een nieuwe regel. De zinnen zijn telkens vervat tussen <p> en </p>. Geef dit weer als code.-->
 
+
+    
+<!--Geef 50 zinnen (leesniveau België E3) van elk ongeveer 10 woorden lang. Voor iedere zin start je een nieuwe regel. De zinnen zijn telkens vervat tussen <p> en </p>. Geef dit weer als code.-->  
 <p>De kat loopt rustig rond terwijl wij in de tuin zitten.</p>
 <p>Mijn broer speelt voetbal op het plein achter onze school.</p>
 <p>De juf leest een verhaal voor dat iedereen heel leuk vindt.</p>
@@ -217,6 +219,9 @@
 <p>We praten samen over dingen die we vandaag hebben meegemaakt.</p>
 <p>Mijn tante brengt fruit mee dat vers uit de tuin komt.</p>
 <p>We gaan naar binnen omdat het plots hard begint te regenen.</p>
+
+
+    
   </div>
 
   <script>
@@ -249,8 +254,8 @@ function startTimer(){
     nextBtn.addEventListener('click', () => {
       if (!timerStarted){ timerStarted = true; startTimer(); }
       if (index < sentences.length) {
-        document.getElementById('counter').textContent = `Zin: ${index+1}`;
-        sentenceBox.textContent = `${index}. ${sentences[index]}`;
+        
+        sentenceBox.textContent = `${index+1}.  ${sentences[index]}`;
         index++;
       } else {
         sentenceBox.textContent = "Je hebt alle zinnen gelezen!";
