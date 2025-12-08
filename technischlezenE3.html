@@ -43,7 +43,7 @@
 </head>
 <body>
   <div class="container">
-    <div id="timer">Tijd: 10:00</div>
+    <div id="timer" style="display:none;">Tijd: 10:00</div>
     <div id="counter">Zin: 0</div>
     <div id="sentence">Klik op "Volgende" om te beginnen.</div>
     <button id="nextBtn">Volgende</button>
@@ -250,7 +250,7 @@ function startTimer(){
       if (!timerStarted){ timerStarted = true; startTimer(); }
       if (index < sentences.length) {
         document.getElementById('counter').textContent = `Zin: ${index+1}`;
-        sentenceBox.textContent = sentences[index];
+        sentenceBox.textContent = `${index}. ${sentences[index]}`;
         index++;
       } else {
         sentenceBox.textContent = "Je hebt alle zinnen gelezen!";
@@ -261,4 +261,3 @@ function startTimer(){
   <audio id="alarmSound" src="alarm.mp3" preload="auto"></audio>
 </body>
 </html>
-
