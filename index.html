@@ -1,4 +1,4 @@
-<html>
+<!--<html>
   <head>
     <link rel="icon" type="image/png" href="notitieboek.png">
   </head>
@@ -13,4 +13,78 @@
     
     <a href="technischlezenE3.html">Technisch lezen, niveau E4 (einde tweede leerjaar). Tien minuten!</a><br/>
   </body>
+</html>-->
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tegel Dashboard met Categorieën</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      margin-bottom: 20px;
+    }
+    .category {
+      margin-bottom: 40px;
+    }
+    .category h2 {
+      margin-bottom: 10px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill,minmax(180px,1fr));
+      gap: 16px;
+    }
+    .tile {
+      height: 130px;
+      border-radius: 14px;
+      padding: 12px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      text-decoration: none;
+      color: #000;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+<body>
+  <h1>Tegel Dashboard</h1>
+
+  <div class="category">
+    <h2>Werk</h2>
+    <div class="grid">
+      <a class="tile" href="https://mail.google.com" target="_blank" style="background:#F56565;">Gmail</a>
+      <a class="tile" href="https://drive.google.com" target="_blank" style="background:#ECC94B;">Google Drive</a>
+      <a class="tile" href="https://trello.com" target="_blank" style="background:#90CDF4;">Trello</a>
+    </div>
+  </div>
+
+  <div class="category">
+    <h2>Productiviteit</h2>
+    <div class="grid">
+      <a class="tile" href="https://www.notion.so" target="_blank" style="background:#C6F6D5;">Notion</a>
+      <a class="tile" href="https://calendar.google.com" target="_blank" style="background:#48BB78;">Google Calendar</a>
+    </div>
+  </div>
+
+  <div class="category">
+    <h2>Overige</h2>
+    <div class="grid">
+      <a class="tile" href="https://www.youtube.com" target="_blank" style="background:#ED64A6;">YouTube</a>
+    </div>
+  </div>
+
+</body>
 </html>
