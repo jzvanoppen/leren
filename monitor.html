@@ -4,8 +4,14 @@
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
 <title>Voorvallen Tracker</title>
+
 <style>
-  body { font-family: Arial, sans-serif; background:#f4f4f4; margin:0; padding:20px; }
+  body {
+    font-family: Arial, sans-serif;
+    background:#f2f2f2;
+    padding:20px;
+  }
+
   h1 { margin-top:0; }
 
   #grid {
@@ -16,30 +22,41 @@
   }
 
   .tile {
-    background:white;
     padding:15px;
     border-radius:12px;
     color:white;
-    box-shadow:0 2px 5px rgba(0,0,0,0.20);
-    transition:0.3s;
+    box-shadow:0 2px 5px rgba(0,0,0,0.25);
   }
 
-  .code { font-size:20px; font-weight:bold; }
-  .dates, .count { margin-top:5px; font-size:14px; }
-  canvas { margin-top:10px; width:100%; height:80px; }
+  .code {
+    font-size:22px;
+    font-weight:bold;
+  }
+
+  .count, .dates {
+    font-size:14px;
+    margin-top:6px;
+    line-height:1.4;
+  }
+
+  canvas {
+    margin-top:10px;
+    width:100%;
+    height:80px;
+  }
 </style>
 </head>
 <body>
 
 <h1>Voorvallen opvolgen</h1>
-<p>Voorvallen worden rechtstreeks in de HTML-code toegevoegd.</p>
+<p>Voorvallen worden rechtstreeks in deze HTML-code toegevoegd.</p>
 
 <div id="grid"></div>
 
 <script>
-// ------------------------------------------
-// HIER VOEG JE JE EIGEN VOORVALLEN TOE
-// ------------------------------------------
+// -------------------------------------------------------------
+// 1. HIER ZET JE JE VOORVALLEN (code:datum:score)
+// -------------------------------------------------------------
 const RAW_DATA = [
   "iaab:20250111:12/15",
   "iaab:20250302:10/15",
@@ -49,106 +66,121 @@ const RAW_DATA = [
   "iaad:20241209:8/10",
   "iaae:20240210:7/10"
 ];
-// ------------------------------------------
+// -------------------------------------------------------------
 
-let data = {}; // { code: [ {date, score} ] }
+let data = {};   // { iaab: [ {date, score} ] }
 
+// ----------------------
+// Helpers
+// ----------------------
 function parseItem(str) {
-  const parts = str.split(":");
-  const code = parts[0];
-  const date = parts[1];
-  const [s, m] = parts[2].split("/");
-  const score = (parseInt(s) / parseInt(m)) * 100;
-  return { code, date, score };
+  const [code, date, scoreStr] = str.split(":");
+  const [s, m] = scoreStr.split("/");
+  return {
+    code,
+    date,
+    score: (parseInt(s)/parseInt(m))*100
+  };
 }
 
+// Datum formatteren naar YYYY.MM.DD
 function fmt(dateStr) {
-  return dateStr.slice(0,4) + "." + dateStr.slice(4,6) + "." + dateStr.slice(6,8);
+  return (
+    dateStr.substring(0,4) + "." +
+    dateStr.substring(4,6) + "." +
+    dateStr.substring(6,8)
+  );
 }
 
-function drawChart(canvas, values) {
-  const ctx = canvas.getContext("2d");
-  ctx.clearRect(0, 0, canvas.width, canvas.height);
-
-  const w = canvas.width;
-  const h = canvas.height;
-  const max = 100, min = 0;
-
-  ctx.beginPath();
-  values.forEach((v,i)=>{
-    const x = (i/(values.length-1))*w;
-    const y = h - (v-min)/(max-min)*h;
-    if (i===0) ctx.moveTo(x,y);
-    else ctx.lineTo(x,y);
-  });
-  ctx.strokeStyle = "white";
-  ctx.lineWidth = 2;
-  ctx.stroke();
-}
-
-function computeTileColor(date, minDate, maxDate) {
-  // ratio 0..1
-  const d = new Date(date);
-  const min = new Date(minDate);
-  const max = new Date(maxDate);
-  const ratio = (d - min) / (max - min || 1);
-
-  // RED → GREEN interpolation:
-  // red   = rgb(170, 0, 0)
-  // green = rgb(0, 120, 0)
+// kleurinterpolatie tussen rood en groen
+function colorBlend(ratio) {
+  // rood: 170,0,0
+  // groen: 0,110,0
   const r = Math.round(170 + (0 - 170) * ratio);
-  const g = Math.round(0 + (120 - 0) * ratio);
+  const g = Math.round(0 + (110 - 0) * ratio);
   const b = 0;
-
   return `rgb(${r},${g},${b})`;
 }
 
-function updateGrid() {
-  const grid = document.querySelector("#grid");
+// grafiek tekenen
+function drawChart(canvas, values) {
+  const ctx = canvas.getContext("2d");
+  const w = canvas.width;
+  const h = canvas.height;
+
+  ctx.clearRect(0,0,w,h);
+  ctx.lineWidth = 2;
+  ctx.strokeStyle = "white";
+
+  ctx.beginPath();
+  for (let i=0;i<values.length;i++) {
+    const x = (i/(values.length-1))*w;
+    const y = h - (values[i]/100)*h;
+    if (i === 0) ctx.moveTo(x,y);
+    else ctx.lineTo(x,y);
+  }
+  ctx.stroke();
+}
+
+// ----------------------
+// Dataverwerking
+// ----------------------
+RAW_DATA.forEach(str => {
+  const item = parseItem(str);
+  if (!data[item.code]) data[item.code] = [];
+  data[item.code].push(item);
+});
+
+// ----------------------
+// Tegels opbouwen
+// ----------------------
+function buildTiles() {
+  const grid = document.getElementById("grid");
   grid.innerHTML = "";
 
-  // determine earliest and latest LAST date
-  const allLastDates = Object.values(data).map(list => {
-    list.sort((a,b)=>b.date.localeCompare(a.date));
-    return list[0].date;
+  // Bepaal oudste en nieuwste LAST date
+  const lastDates = Object.keys(data).map(code=>{
+    const sorted = data[code].sort((a,b)=>b.date.localeCompare(a.date));
+    return sorted[0].date;
   });
 
-  const minDate = allLastDates.reduce((a,b)=>a<b?a:b);
-  const maxDate = allLastDates.reduce((a,b)=>a>b?a:b);
+  const minDate = lastDates.reduce((a,b)=>a<b ? a:b);
+  const maxDate = lastDates.reduce((a,b)=>a>b ? a:b);
 
   Object.keys(data).sort().forEach(code => {
     const list = data[code].sort((a,b)=>b.date.localeCompare(a.date));
     const last = list[0];
 
+    // ratio voor kleur
+    const ratio = (new Date(last.date) - new Date(minDate)) /
+                  ((new Date(maxDate) - new Date(minDate)) || 1);
+
     const tile = document.createElement("div");
     tile.className = "tile";
-    tile.style.background = computeTileColor(last.date, minDate, maxDate);
+    tile.style.background = colorBlend(ratio);
 
-    const lastThree = list.slice(0,3).map(e => fmt(e.date)).join("<br>");
+    // laatste drie datums tonen
+    const lastThree = list
+      .slice(0,3)
+      .map(e => fmt(e.date))
+      .join("<br>");
 
     tile.innerHTML = `
       <div class="code">${code}</div>
       <div class="count"><b>Aantal:</b> ${list.length}</div>
-      <div class="dates"><b>Laatst (3x):</b><br>${lastThree}</div>
+      <div class="dates"><b>Laatst (3):</b><br>${lastThree}</div>
       <canvas></canvas>
     `;
 
     grid.appendChild(tile);
 
-    drawChart(tile.querySelector("canvas"), list.map(e=>e.score).reverse());
+    // scoregrafiek tekenen (waarden in oude volgorde)
+    const scores = list.map(e => e.score).reverse();
+    drawChart(tile.querySelector("canvas"), scores);
   });
 }
 
-// ------------------------
-// DATA INLADEN
-// ------------------------
-RAW_DATA.forEach(str => {
-  const it = parseItem(str);
-  if (!data[it.code]) data[it.code] = [];
-  data[it.code].push(it);
-});
-
-updateGrid();
+buildTiles();
 </script>
 
 </body>
