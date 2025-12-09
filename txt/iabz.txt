@@ -1,0 +1,21 @@
+klein:::petit:MANNELIJK
+jong:::jeune:VROUWELIJK
+goed/lekker:::bon:MANNELIJK
+mooi:::joli:MANNELIJK
+lang:::longue:::VROUWELIJK
+nieuw:::nouveau:MANNELIJK
+andere:::autre:
+eerste:::première:
+tweede:::deuxième:
+Belgisch:::belge:
+bruin:::bruns:MANNELIJK MEERVOUD
+sportief:::sportif:
+rond:::ronde:VROUWELIJK
+groot:::grand:MANNELIJK
+oud:::vieaux:MANNELIJK
+slecht:::mauvais:MANNELIJK
+mooi:::beau:MANNELIJK
+dik:::gros:MANNELIJK
+leuk:::chouette:MANNELIJK
+laatste:::dernière:VROUWELIJK
+tiende:::dixième:MANNELIJK
