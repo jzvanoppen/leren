@@ -1,62 +1,44 @@
 <!doctype html>
 <html lang="nl">
 <head>
-<meta charset="utf-8"/>
-<meta name="viewport" content="width=device-width,initial-scale=1"/>
-<title>Voorvallen Tracker</title>
-
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Voorvallen Tracker — Kleurschakering</title>
 <style>
   body {
     font-family: Arial, sans-serif;
     background:#f2f2f2;
     padding:20px;
   }
-
   h1 { margin-top:0; }
-
   #grid {
     margin-top:20px;
     display:grid;
     grid-template-columns:repeat(auto-fill,minmax(260px,1fr));
     gap:15px;
   }
-
   .tile {
     padding:15px;
     border-radius:12px;
     color:white;
-    box-shadow:0 2px 5px rgba(0,0,0,0.25);
+    box-shadow:0 2px 6px rgba(0,0,0,0.18);
   }
-
-  .code {
-    font-size:22px;
-    font-weight:bold;
-  }
-
-  .count, .dates {
-    font-size:14px;
-    margin-top:6px;
-    line-height:1.4;
-  }
-
-  canvas {
-    margin-top:10px;
-    width:100%;
-    height:80px;
-  }
+  .code { font-size:20px; font-weight:700; margin-bottom:6px; }
+  .count, .dates { font-size:14px; margin-top:6px; line-height:1.4; }
+  canvas { display:block; margin-top:10px; width:100%; height:80px; }
 </style>
 </head>
 <body>
 
 <h1>Voorvallen opvolgen</h1>
-<p>Voorvallen worden rechtstreeks in deze HTML-code toegevoegd.</p>
+<p>Voorvallen staan in de code (RAW_DATA). Elke tegel is gekleurd tussen rood (oudste) en groen (nieuwste) gebaseerd op de <em>laatste</em> datum.</p>
 
 <div id="grid"></div>
 
 <script>
-// -------------------------------------------------------------
-// 1. HIER ZET JE JE VOORVALLEN (code:datum:score)
-// -------------------------------------------------------------
+// ---------------------------
+// VOORBEELD-VOORVALLEN (kan je aanpassen)
+// ---------------------------
 const RAW_DATA = [
   "iaab:20250111:12/15",
   "iaab:20250302:10/15",
@@ -64,123 +46,144 @@ const RAW_DATA = [
   "iaac:20240618:14/15",
   "iaac:20240701:13/15",
   "iaad:20241209:8/10",
-  "iaae:20240210:7/10"
+  "iaae:20240210:7/10",
+  "iaaf:20250520:9/10"
 ];
-// -------------------------------------------------------------
+// ---------------------------
 
-let data = {};   // { iaab: [ {date, score} ] }
-
-// ----------------------
-// Helpers
-// ----------------------
+/* Helpers */
 function parseItem(str) {
   const [code, date, scoreStr] = str.split(":");
   const [s, m] = scoreStr.split("/");
-  return {
-    code,
-    date,
-    score: (parseInt(s)/parseInt(m))*100
-  };
+  return { code, date, score: (parseInt(s)/parseInt(m))*100 };
 }
 
-// Datum formatteren naar YYYY.MM.DD
+// parse YYYYMMDD into Date (local, safe)
+function parseYYYYMMDD(d) {
+  const y = parseInt(d.slice(0,4),10);
+  const mo = parseInt(d.slice(4,6),10) - 1;
+  const day = parseInt(d.slice(6,8),10);
+  return new Date(y, mo, day, 0, 0, 0, 0);
+}
+
 function fmt(dateStr) {
-  return (
-    dateStr.substring(0,4) + "." +
-    dateStr.substring(4,6) + "." +
-    dateStr.substring(6,8)
-  );
+  return dateStr.slice(0,4) + "." + dateStr.slice(4,6) + "." + dateStr.slice(6,8);
 }
 
-// kleurinterpolatie tussen rood en groen
-function colorBlend(ratio) {
-  // rood: 170,0,0
-  // groen: 0,110,0
-  const r = Math.round(170 + (0 - 170) * ratio);
-  const g = Math.round(0 + (110 - 0) * ratio);
-  const b = 0;
+// interpolate between two RGB colors (as arrays) by ratio 0..1
+function lerpColor(c1, c2, t) {
+  const r = Math.round(c1[0] + (c2[0]-c1[0]) * t);
+  const g = Math.round(c1[1] + (c2[1]-c1[1]) * t);
+  const b = Math.round(c1[2] + (c2[2]-c1[2]) * t);
   return `rgb(${r},${g},${b})`;
 }
 
-// grafiek tekenen
+// draw small line chart of scores (values 0..100)
 function drawChart(canvas, values) {
+  // ensure canvas pixel size matches CSS size for crisp lines
+  const rect = canvas.getBoundingClientRect();
+  canvas.width = Math.round(rect.width);
+  canvas.height = Math.round(rect.height);
+
   const ctx = canvas.getContext("2d");
-  const w = canvas.width;
-  const h = canvas.height;
+  ctx.clearRect(0,0,canvas.width,canvas.height);
 
-  ctx.clearRect(0,0,w,h);
+  if (!values.length) return;
+
   ctx.lineWidth = 2;
-  ctx.strokeStyle = "white";
-
+  ctx.strokeStyle = 'rgba(255,255,255,0.95)';
   ctx.beginPath();
-  for (let i=0;i<values.length;i++) {
-    const x = (i/(values.length-1))*w;
-    const y = h - (values[i]/100)*h;
-    if (i === 0) ctx.moveTo(x,y);
+
+  for (let i=0;i<values.length;i++){
+    const x = (i/(values.length-1 || 1)) * canvas.width;
+    const y = canvas.height - (values[i]/100) * canvas.height;
+    if (i===0) ctx.moveTo(x,y);
     else ctx.lineTo(x,y);
   }
   ctx.stroke();
+
+  // optional: draw small circles
+  ctx.fillStyle = 'rgba(255,255,255,0.9)';
+  for (let i=0;i<values.length;i++){
+    const x = (i/(values.length-1 || 1)) * canvas.width;
+    const y = canvas.height - (values[i]/100) * canvas.height;
+    ctx.beginPath();
+    ctx.arc(x,y,2,0,Math.PI*2);
+    ctx.fill();
+  }
 }
 
-// ----------------------
-// Dataverwerking
-// ----------------------
+/* Build data structure grouped by code */
+const data = {}; // { code: [ {date, score, dateObj} ] }
 RAW_DATA.forEach(str => {
-  const item = parseItem(str);
-  if (!data[item.code]) data[item.code] = [];
-  data[item.code].push(item);
+  const it = parseItem(str);
+  if (!data[it.code]) data[it.code] = [];
+  data[it.code].push({ date: it.date, score: it.score, dateObj: parseYYYYMMDD(it.date) });
 });
 
-// ----------------------
-// Tegels opbouwen
-// ----------------------
-function buildTiles() {
-  const grid = document.getElementById("grid");
-  grid.innerHTML = "";
+/* Determine per-code latest date and global min/max among last-dates */
+const codes = Object.keys(data).sort();
+if (codes.length === 0) {
+  document.getElementById('grid').innerHTML = '<p>Geen voorvallen ingesteld.</p>';
+} else {
+  // for each code, sort descending by date
+  codes.forEach(code => data[code].sort((a,b) => b.date.localeCompare(a.date)));
 
-  // Bepaal oudste en nieuwste LAST date
-  const lastDates = Object.keys(data).map(code=>{
-    const sorted = data[code].sort((a,b)=>b.date.localeCompare(a.date));
-    return sorted[0].date;
-  });
+  const lastDates = codes.map(code => data[code][0].dateObj);
 
-  const minDate = lastDates.reduce((a,b)=>a<b ? a:b);
-  const maxDate = lastDates.reduce((a,b)=>a>b ? a:b);
+  // find min (oldest) and max (newest) among last-dates
+  let minDate = lastDates[0], maxDate = lastDates[0];
+  for (let d of lastDates) {
+    if (d < minDate) minDate = d;
+    if (d > maxDate) maxDate = d;
+  }
 
-  Object.keys(data).sort().forEach(code => {
-    const list = data[code].sort((a,b)=>b.date.localeCompare(a.date));
+  // if min==max: all same time → colour all green
+  const sameMoment = (minDate.getTime() === maxDate.getTime());
+
+  // define colors: oldest = dark red, newest = dark green
+  const RED = [139,0,0];    // rgb for oldest
+  const GREEN = [0,100,0];  // rgb for newest
+
+  // Render tiles
+  const grid = document.getElementById('grid');
+  grid.innerHTML = '';
+
+  codes.forEach(code => {
+    const list = data[code];          // sorted desc by date
     const last = list[0];
+    // determine ratio: 0 => oldest (red), 1 => newest (green)
+    let ratio = 1;
+    if (!sameMoment) {
+      ratio = (last.dateObj - minDate) / (maxDate - minDate);
+      if (ratio < 0) ratio = 0;
+      if (ratio > 1) ratio = 1;
+    } // else ratio stays 1 => green
 
-    // ratio voor kleur
-    const ratio = (new Date(last.date) - new Date(minDate)) /
-                  ((new Date(maxDate) - new Date(minDate)) || 1);
+    const bg = lerpColor(RED, GREEN, ratio);
 
-    const tile = document.createElement("div");
-    tile.className = "tile";
-    tile.style.background = colorBlend(ratio);
+    const tile = document.createElement('div');
+    tile.className = 'tile';
+    tile.style.background = bg;
 
-    // laatste drie datums tonen
-    const lastThree = list
-      .slice(0,3)
-      .map(e => fmt(e.date))
-      .join("<br>");
+    // last up to 3 dates
+    const lastThree = list.slice(0,3).map(x => fmt(x.date)).join('<br>');
 
     tile.innerHTML = `
       <div class="code">${code}</div>
       <div class="count"><b>Aantal:</b> ${list.length}</div>
-      <div class="dates"><b>Laatst (3):</b><br>${lastThree}</div>
+      <div class="dates"><b>Laatste (max 3):</b><br>${lastThree}</div>
       <canvas></canvas>
     `;
 
     grid.appendChild(tile);
 
-    // scoregrafiek tekenen (waarden in oude volgorde)
-    const scores = list.map(e => e.score).reverse();
-    drawChart(tile.querySelector("canvas"), scores);
+    // draw chart with scores in chronological order left→right (old→new)
+    const scoresChron = list.slice().reverse().map(x => x.score);
+    const canvas = tile.querySelector('canvas');
+    drawChart(canvas, scoresChron);
   });
 }
-
-buildTiles();
 </script>
 
 </body>
