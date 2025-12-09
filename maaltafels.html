@@ -6,11 +6,13 @@
   <title>Maaltafels oefenen</title>
   <style>
     :root {
-      --bg: #f6f6f6;
+      --bg:#f6f6f6;
       --tile:#fff;
-      --shadow: rgba(0,0,0,0.1);
+      --shadow:rgba(0,0,0,0.1);
       --accent:#4a72ff;
       --radius:14px;
+      --good:#7cd67c;
+      --bad:#ff7c7c;
     }
 
     body{
@@ -23,10 +25,6 @@
     header{
       padding:20px;
       text-align:center;
-    }
-
-    h1{
-      margin:0 0 10px;
     }
 
     .controls{
@@ -56,13 +54,14 @@
       border-radius:var(--radius);
       font-size:16px;
       cursor:pointer;
+      margin-bottom:20px;
     }
 
     #oefeningen{
       max-width:900px;
       margin:0 auto;
       display:grid;
-      grid-template-columns:repeat(auto-fill,minmax(160px,1fr));
+      grid-template-columns:repeat(auto-fill,minmax(170px,1fr));
       gap:16px;
       padding:20px;
     }
@@ -73,8 +72,34 @@
       border-radius:var(--radius);
       box-shadow:0 4px 8px var(--shadow);
       text-align:center;
-      font-size:24px;
+      font-size:22px;
+      cursor:pointer;
+      user-select:none;
+      position:relative;
+      min-height:90px;
     }
+
+    .answer-box{
+      margin-top:10px;
+      display:flex;
+      justify-content:center;
+      gap:6px;
+    }
+
+    input[type="number"]{
+      padding:6px;
+      font-size:18px;
+      width:70px;
+      border-radius:var(--radius);
+      border:1px solid #ccc;
+      text-align:center;
+    }
+
+    .feedback{
+      margin-top:8px;
+      font-weight:bold;
+    }
+
   </style>
 </head>
 <body>
@@ -85,7 +110,6 @@
 </header>
 
 <div class="controls">
-  <!-- Checkboxes 1 t.e.m. 10 -->
   <label><input type="checkbox" class="tafel" value="1">Tafel 1</label>
   <label><input type="checkbox" class="tafel" value="2">Tafel 2</label>
   <label><input type="checkbox" class="tafel" value="3">Tafel 3</label>
@@ -119,21 +143,64 @@ function genereer() {
 
   let lijst = [];
 
-  // Genereer exercises: x × tafelnummer (1–10)
   geselecteerd.forEach(tafel => {
     for (let a = 1; a <= 10; a++) {
-      lijst.push(`${a} × ${tafel}`);
+      lijst.push({ 
+        vraag: `${a} × ${tafel}`,
+        a: a,
+        b: tafel,
+        oplossing: a * tafel
+      });
     }
   });
 
-  // Shuffle
   lijst.sort(() => Math.random() - 0.5);
 
-  // Toon als tegels
-  lijst.forEach(vraag => {
+  lijst.forEach(o => {
     const div = document.createElement("div");
     div.className = "tile";
-    div.textContent = vraag;
+    div.textContent = o.vraag;
+
+    // bij klikken invoerveld openen
+    div.addEventListener("click", function() {
+
+      // als er al een antwoordvak is, niets opnieuw maken
+      if (div.querySelector("input")) return;
+
+      const box = document.createElement("div");
+      box.className = "answer-box";
+
+      const input = document.createElement("input");
+      input.type = "number";
+      input.placeholder = "?";
+
+      const feedback = document.createElement("div");
+      feedback.className = "feedback";
+
+      box.appendChild(input);
+      div.appendChild(box);
+      div.appendChild(feedback);
+
+      input.focus();
+
+      // controle bij ENTER of verlies van focus
+      input.addEventListener("change", check);
+      input.addEventListener("keyup", function(e){
+        if (e.key === "Enter") check();
+      });
+
+      function check(){
+        const val = parseInt(input.value);
+        if (val === o.oplossing) {
+          div.style.background = "var(--good)";
+          feedback.textContent = "Juist!";
+        } else {
+          div.style.background = "var(--bad)";
+          feedback.textContent = `Fout (=${o.oplossing})`;
+        }
+      }
+    });
+
     vak.appendChild(div);
   });
 }
