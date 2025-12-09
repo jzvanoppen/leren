@@ -118,13 +118,11 @@ function kleurVoorDatum(datum) {
   const max = Number(nieuwsteDatum);
   const val = Number(datum);
 
-  // verhouding 0 (oudst) → 1 (nieuwst)
   const t = (val - min) / (max - min);
 
-  // rood → groen interpolatie
   const r = Math.round(255 * (1 - t));
   const g = Math.round(255 * t);
-  const b = 80; // kleine constante tint voor warm gevoel
+  const b = 80;
 
   return `rgb(${r},${g},${b})`;
 }
@@ -153,7 +151,7 @@ Object.entries(groepen).forEach(([code, items]) => {
   const laatsteDrie = items.slice(0,3);
 
   dates.innerHTML = laatsteDrie
-    .map(i => "• " + formatDatum(i.datum))
+    .map(i => `• ${formatDatum(i.datum)} — ${i.score}%`)
     .join("<br>");
 
   const canvas = document.createElement("canvas");
@@ -179,23 +177,19 @@ function drawChart(canvas, values) {
 
   if (!values.length) return;
 
-  // hulplijnen 100% en 0%
   ctx.lineWidth = 1;
   ctx.strokeStyle = "rgba(255,255,255,0.25)";
 
-  // 100% lijn
   ctx.beginPath();
   ctx.moveTo(0, 0);
   ctx.lineTo(canvas.width, 0);
   ctx.stroke();
 
-  // 0% lijn
   ctx.beginPath();
   ctx.moveTo(0, canvas.height - 1);
   ctx.lineTo(canvas.width, canvas.height - 1);
   ctx.stroke();
 
-  // hoofd-lijn
   ctx.lineWidth = 2;
   ctx.strokeStyle = "rgba(255,255,255,0.95)";
   ctx.beginPath();
@@ -208,7 +202,6 @@ function drawChart(canvas, values) {
   }
   ctx.stroke();
 
-  // punten
   ctx.fillStyle = "rgba(255,255,255,0.9)";
   for (let i = 0; i < values.length; i++) {
     const x = (i / (values.length - 1 || 1)) * canvas.width;
