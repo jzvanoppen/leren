@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Voorvallen Tracker</title>
+
+<style>
+  body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  #container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 18px;
+    margin-top: 20px;
+  }
+
+  .tile {
+    background: #ffffff;
+    padding: 16px;
+    border-radius: 14px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.12);
+    transition: background 0.4s ease;
+  }
+
+  .code {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .dates {
+    font-size: 14px;
+    margin-top: 6px;
+    line-height: 1.4;
+  }
+
+  canvas {
+    width: 100%;
+    height: 80px;
+    margin-top: 10px;
+    border-radius: 6px;
+  }
+</style>
+</head>
+<body>
+
+<h1>Voorvallen Tracker</h1>
+
+<script>
+// -----------------------------
+// 1. HARDCODED VOORVALLEN
+// -----------------------------
+// formaat: "code:YYYYMMDD:score"
+
+const voorvallen = [
+  "iaab:20250111:12",
+  "iaab:20250304:55",
+  "iaab:20251110:15",
+
+  "iaac:20240201:22",
+  "iaac:20240510:44",
+  "iaac:20240715:70",
+  "iaac:20241001:35",
+
+  "iaad:20230105:10",
+  "iaad:20240222:50",
+
+  "iaae:20250101:90",
+  "iaae:20250115:95",
+  "iaae:20250310:88",
+  "iaae:20250311:12",
+  "iaae:20250315:25",
+  "iaae:20250320:33",
+  "iaae:20250330:100",
+];
+
+// -----------------------------
+// 2. DATA PARSEN EN GROEPEREN
+// -----------------------------
+function formatDatum(d) {
+  return d.slice(0,4) + "." + d.slice(4,6) + "." + d.slice(6);
+}
+
+const groepen = {};
+
+voorvallen.forEach(item => {
+  const [code, datum, score] = item.split(":");
+  if (!groepen[code]) groepen[code] = [];
+  groepen[code].push({
+    datum,
+    score: Number(score)
+  });
+});
+
+// sorteer per code van nieuw naar oud
+Object.keys(groepen).forEach(code => {
+  groepen[code].sort((a,b) => b.datum.localeCompare(a.datum));
+});
+
+// bepaal oudste en nieuwste datum over ALLE codes
+let alleDatums = voorvallen.map(v => v.split(":")[1]);
+alleDatums.sort();
+const oudsteDatum = alleDatums[0];
+const nieuwsteDatum = alleDatums[alleDatums.length - 1];
+
+// functie om tussen rood → groen te interpoleren
+function kleurVoorDatum(datum) {
+  const min = Number(oudsteDatum);
+  const max = Number(nieuwsteDatum);
+  const val = Number(datum);
+
+  const t = (val - min) / (max - min);
+
+  const r = Math.round(255 * (1 - t));
+  const g = Math.round(255 * t);
+  const b = 80;
+
+  return `rgb(${r},${g},${b})`;
+}
+
+// -----------------------------
+// 3. TEGEL GENEREREN
+// -----------------------------
+const container = document.createElement("div");
+container.id = "container";
+document.body.appendChild(container);
+
+Object.entries(groepen).forEach(([code, items]) => {
+  const tegel = document.createElement("div");
+  tegel.className = "tile";
+
+  const laatste = items[0].datum;
+  tegel.style.background = kleurVoorDatum(laatste);
+
+  const title = document.createElement("div");
+  title.className = "code";
+  title.textContent = code;
+
+  const dates = document.createElement("div");
+  dates.className = "dates";
+
+  const laatsteDrie = items.slice(0,3);
+
+  dates.innerHTML = laatsteDrie
+    .map(i => `• ${formatDatum(i.datum)} — ${i.score}%`)
+    .join("<br>");
+
+  const canvas = document.createElement("canvas");
+
+  container.appendChild(tegel);
+  tegel.appendChild(title);
+  tegel.appendChild(dates);
+  tegel.appendChild(canvas);
+
+  drawChart(canvas, items.map(i => i.score));
+});
+
+// -----------------------------
+// 4. GRAFIEK-TEKENFUNCTIE
+// -----------------------------
+function drawChart(canvas, values) {
+  const rect = canvas.getBoundingClientRect();
+  canvas.width = Math.round(rect.width);
+  canvas.height = Math.round(rect.height);
+
+  const ctx = canvas.getContext("2d");
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+  if (!values.length) return;
+
+  ctx.lineWidth = 1;
+  ctx.strokeStyle = "rgba(255,255,255,0.25)";
+
+  ctx.beginPath();
+  ctx.moveTo(0, 0);
+  ctx.lineTo(canvas.width, 0);
+  ctx.stroke();
+
+  ctx.beginPath();
+  ctx.moveTo(0, canvas.height - 1);
+  ctx.lineTo(canvas.width, canvas.height - 1);
+  ctx.stroke();
+
+  ctx.lineWidth = 2;
+  ctx.strokeStyle = "rgba(255,255,255,0.95)";
+  ctx.beginPath();
+
+  for (let i = 0; i < values.length; i++) {
+    const x = (i / (values.length - 1 || 1)) * canvas.width;
+    const y = canvas.height - (values[i] / 100) * canvas.height;
+    if (i === 0) ctx.moveTo(x, y);
+    else ctx.lineTo(x, y);
+  }
+  ctx.stroke();
+
+  ctx.fillStyle = "rgba(255,255,255,0.9)";
+  for (let i = 0; i < values.length; i++) {
+    const x = (i / (values.length - 1 || 1)) * canvas.width;
+    const y = canvas.height - (values[i] / 100) * canvas.height;
+    ctx.beginPath();
+    ctx.arc(x, y, 2, 0, Math.PI * 2);
+    ctx.fill();
+  }
+}
+
+</script>
+
+</body>
+</html>
