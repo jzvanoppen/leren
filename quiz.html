@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Woordoefeningen — Frans ↔ Nederlands</title>
+<style>
+  :root { font-family: system-ui, sans-serif; }
+  body { max-width: 900px; margin: 30px auto; padding: 20px; line-height: 1.45; }
+  .panel { border: 1px solid #ccc; background: #fafafa; padding: 16px; border-radius: 10px; }
+
+  .sentence { font-size: 20px; margin-bottom: 18px; }
+  .choices, .choices2 { display: flex; flex-wrap: wrap; gap: 10px; }
+  .btn { 
+    padding: 10px 16px; border-radius: 8px; background: white; border: 1px solid #888; 
+    cursor: pointer; min-width: 160px; text-align: center;
+  }
+  .btn:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.08); transform: translateY(-2px); }
+  .correct { background: #e8f8ea !important; border-color: #2b8a2b !important; }
+  .incorrect { background: #fdeaea !important; border-color: #c22 !important; }
+
+  #secChanceArea { margin-top: 20px; border-top: 1px dashed #aaa; padding-top: 20px; display:none; }
+  .scoreboard { margin-top: 14px; font-weight: bold; }
+  #nextBtn { margin-top: 14px; }
+</style>
+</head>
+<body>
+
+<h2>Frans → Nederlands oefening met tweede kans</h2>
+<p>Kies eerst het juiste Franse woord. Indien fout, kies daarna de juiste Nederlandse zin.</p>
+
+<div class="panel">
+
+  <div class="sentence" id="sentence">...</div>
+  <div class="choices" id="choices"></div>
+
+  <div id="secChanceArea">
+    <p><strong>Tweede kans:</strong> kies de correcte Nederlandse vertaling:</p>
+    <div class="choices2" id="choices2"></div>
+  </div>
+
+  <div class="scoreboard">
+    Juist: <span id="scRight">0</span> — Fout: <span id="scWrong">0</span>
+  </div>
+
+  <button id="nextBtn" class="btn">Volgende</button>
+</div>
+
+<script>
+/* ----------------------------- */
+/*  20 ITEMS, VOLLEDIG INGEBOUWD */
+/* ----------------------------- */
+
+const entries = [
+  {word:"appel", fr:"pomme", frSentence:"Je mange une pomme chaque matin.", nl:"Ik eet elke ochtend een appel."},
+  {word:"huis", fr:"maison", frSentence:"Il habite dans une grande maison.", nl:"Hij woont in een groot huis."},
+  {word:"kat", fr:"chat", frSentence:"Le chat dort sur le canapé.", nl:"De kat slaapt op de bank."},
+  {word:"water", fr:"eau", frSentence:"Puis-je avoir un verre d’eau ?", nl:"Mag ik een glas water?"},
+  {word:"boek", fr:"livre", frSentence:"Elle lit un livre passionnant.", nl:"Zij leest een spannend boek."},
+  {word:"stoel", fr:"chaise", frSentence:"La chaise se trouve à côté de la table.", nl:"De stoel staat naast de tafel."},
+  {word:"auto", fr:"voiture", frSentence:"Ma voiture est garée sur le parking.", nl:"Mijn auto staat op de parking."},
+  {word:"fiets", fr:"vélo", frSentence:"Je vais à l’école à vélo.", nl:"Ik ga met de fiets naar school."},
+  {word:"brood", fr:"pain", frSentence:"Nous achetons du pain frais chaque jour.", nl:"We kopen elke dag vers brood."},
+  {word:"vogel", fr:"oiseau", frSentence:"L’oiseau vole haut dans le ciel.", nl:"De vogel vliegt hoog in de lucht."},
+  {word:"boom", fr:"arbre", frSentence:"Les enfants jouent sous l’arbre.", nl:"De kinderen spelen onder de boom."},
+  {word:"deur", fr:"porte", frSentence:"La porte est grande ouverte.", nl:"De deur staat wijd open."},
+  {word:"tafel", fr:"table", frSentence:"Le repas est déjà sur la table.", nl:"Het eten staat al op de tafel."},
+  {word:"zon", fr:"soleil", frSentence:"Le soleil brille fortement aujourd’hui.", nl:"De zon schijnt vandaag fel."},
+  {word:"regen", fr:"pluie", frSentence:"À cause de la pluie, j’ai été complètement mouillé.", nl:"Door de regen werd ik helemaal nat."},
+  {word:"vriend", fr:"ami", frSentence:"Mon meilleur ami habite loin.", nl:"Mijn beste vriend woont ver weg."},
+  {word:"school", fr:"école", frSentence:"L’école commence à huit heures.", nl:"De school begint om acht uur."},
+  {word:"stad", fr:"ville", frSentence:"La ville est très animée aujourd’hui.", nl:"De stad is erg druk vandaag."},
+  {word:"hond", fr:"chien", frSentence:"Le chien aboie contre le facteur.", nl:"De hond blaft naar de postbode."},
+  {word:"bloem", fr:"fleur", frSentence:"La fleur sent très bon.", nl:"De bloem ruikt heerlijk."}
+];
+
+/* ----------------------------- */
+/* Helpers                       */
+/* ----------------------------- */
+
+function shuffle(a){
+  for(let i=a.length-1;i>0;i--){
+    const j = Math.floor(Math.random()*(i+1));
+    [a[i],a[j]]=[a[j],a[i]];
+  }
+}
+
+function mask(sentence, word){
+  const reg = new RegExp(word, "i");
+  return sentence.replace(reg, "______");
+}
+
+/* ----------------------------- */
+/* DOM ELEMENTEN                 */
+/* ----------------------------- */
+
+const sentenceEl = document.getElementById("sentence");
+const choicesEl = document.getElementById("choices");
+const secChanceArea = document.getElementById("secChanceArea");
+const choices2El = document.getElementById("choices2");
+const scRight = document.getElementById("scRight");
+const scWrong = document.getElementById("scWrong");
+const nextBtn = document.getElementById("nextBtn");
+
+/* ----------------------------- */
+
+let current = null;
+let waitingSecondChance = false;
+
+/* ----------------------------- */
+
+function newQuestion(){
+  waitingSecondChance = false;
+  secChanceArea.style.display = "none";
+  choices2El.innerHTML = "";
+
+  current = entries[Math.floor(Math.random()*entries.length)];
+
+  // zin maskeren
+  sentenceEl.textContent = mask(current.frSentence, current.fr);
+
+  // Franse woordkeuze
+  choicesEl.innerHTML = "";
+  const opts = [current.fr];
+
+  while(opts.length < 3){
+    const r = entries[Math.floor(Math.random()*entries.length)].fr;
+    if(!opts.includes(r)) opts.push(r);
+  }
+
+  shuffle(opts);
+
+  opts.forEach(o=>{
+    const b = document.createElement("button");
+    b.className = "btn";
+    b.textContent = o;
+    b.onclick = ()=> firstChoice(b, o);
+    choicesEl.appendChild(b);
+  });
+}
+
+/* ----------------------------- */
+
+function firstChoice(btn, chosen){
+  // disable alle knoppen
+  Array.from(choicesEl.children).forEach(b=>b.disabled = true);
+
+  if(chosen === current.fr){
+    btn.classList.add("correct");
+    scRight.textContent = Number(scRight.textContent)+1;
+  } else {
+    btn.classList.add("incorrect");
+    // correcte markeren
+    Array.from(choicesEl.children)
+         .find(b=>b.textContent===current.fr)
+         .classList.add("correct");
+
+    startSecondChance();
+  }
+}
+
+/* ----------------------------- */
+/*  TWEEDE KANS                  */
+/* ----------------------------- */
+
+function startSecondChance(){
+  waitingSecondChance = true;
+  secChanceArea.style.display = "block";
+
+  // Nederlandse opties: juiste + 2 andere
+  const opts = [current.nl];
+  while(opts.length < 3){
+    const r = entries[Math.floor(Math.random()*entries.length)].nl;
+    if(!opts.includes(r)) opts.push(r);
+  }
+  shuffle(opts);
+
+  choices2El.innerHTML = "";
+  opts.forEach(o=>{
+    const b = document.createElement("button");
+    b.className = "btn";
+    b.textContent = o;
+    b.onclick = ()=> secondChoice(b, o);
+    choices2El.appendChild(b);
+  });
+}
+
+function secondChoice(btn, chosen){
+  Array.from(choices2El.children).forEach(b=>b.disabled=true);
+
+  if(chosen === current.nl){
+    btn.classList.add("correct");
+    scRight.textContent = Number(scRight.textContent)+1;
+  } else {
+    btn.classList.add("incorrect");
+    Array.from(choices2El.children)
+         .find(b=>b.textContent===current.nl)
+         .classList.add("correct");
+    scWrong.textContent = Number(scWrong.textContent)+1;
+  }
+}
+
+/* ----------------------------- */
+
+nextBtn.onclick = newQuestion;
+
+newQuestion();
+</script>
+
+</body>
+</html>
