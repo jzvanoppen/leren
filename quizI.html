@@ -9,7 +9,7 @@
   body { max-width: 900px; margin: 30px auto; padding: 20px; line-height: 1.45; }
   .panel { border: 1px solid #ccc; background: #fafafa; padding: 16px; border-radius: 10px; }
 
-  .sentence { font-size: 20px; margin-bottom: 8px; display: flex; align-items: center; gap: 12px; }
+  .sentence { font-size: 20px; margin-bottom: 8px; }
   .choices, .choices2 { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 12px; }
   .btn { 
     padding: 10px 16px; border-radius: 8px; background: white; border: 1px solid #888; 
@@ -24,19 +24,17 @@
 
   .scoreboard { margin-top: 14px; font-weight: bold; }
   #nextBtn { margin-top: 14px; }
-  #ttsBtn { font-size: 18px; padding:4px 8px; }
 </style>
 </head>
 <body>
 
 <h2>Frans → Nederlands oefening met TTS</h2>
-<p>Kies eerst het juiste Franse woord. Indien fout, kies daarna de juiste Nederlandse zin. Je kunt op ▶️ klikken om de Franse zin te horen.</p>
+<p>Kies eerst het juiste Franse woord. Indien fout, kies daarna de juiste Nederlandse zin. De Franse zin wordt automatisch uitgesproken.</p>
 
 <div class="panel">
 
   <div class="sentence" id="sentence">
     <span id="sentenceText">...</span>
-    <button id="ttsBtn" class="btn">▶️ Luister</button>
   </div>
 
   <div class="choices" id="choices"></div>
@@ -81,6 +79,7 @@ const entries = [
 
 function shuffle(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}}
 function mask(sentence, word){return sentence.replace(new RegExp(word,"i"),"______");}
+function speakFrench(text){if('speechSynthesis' in window){const u=new SpeechSynthesisUtterance(text);u.lang='fr-FR';speechSynthesis.speak(u);} }
 
 const sentenceText = document.getElementById("sentenceText");
 const choicesEl = document.getElementById("choices");
@@ -90,21 +89,8 @@ const translationEl = document.getElementById("translation");
 const scRight = document.getElementById("scRight");
 const scWrong = document.getElementById("scWrong");
 const nextBtn = document.getElementById("nextBtn");
-const ttsBtn = document.getElementById("ttsBtn");
 
 let current = null;
-
-function speakFrench(text){
-  if('speechSynthesis' in window){
-    const utter = new SpeechSynthesisUtterance(text);
-    utter.lang = 'fr-FR';
-    speechSynthesis.speak(utter);
-  } else {
-    alert("Text-to-Speech wordt niet ondersteund in deze browser.");
-  }
-}
-
-ttsBtn.onclick = ()=>{ if(current) speakFrench(current.frSentence); };
 
 function newQuestion(){
   translationEl.style.display = "none";
@@ -132,6 +118,8 @@ function newQuestion(){
 
 function firstChoice(btn, chosen){
   Array.from(choicesEl.children).forEach(b=>b.disabled=true);
+  speakFrench(current.frSentence); // ★★ automatisch afspelen
+
   if(chosen===current.fr){
     btn.classList.add("correct");
     scRight.textContent=Number(scRight.textContent)+1;
