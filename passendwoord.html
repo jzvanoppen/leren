@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Woordoefeningen — multiple choice</title>
+<style>
+  :root { font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; }
+  body { max-width: 900px; margin: 28px auto; padding: 18px; line-height:1.45; }
+  h1 { margin: 0 0 8px 0; font-size: 24px; }
+  p.lead { margin: 0 0 18px 0; color: #444; }
+  .panel { border:1px solid #ddd; padding:12px; border-radius:8px; background:#fbfbfb; margin-bottom:12px; }
+  .exercise { margin: 18px 0; }
+  .sentence { font-size:18px; margin-bottom:12px; }
+  .choices { display:flex; gap:10px; flex-wrap:wrap; }
+  .choice-btn { padding:10px 14px; border-radius:8px; border:1px solid #bbb; background:white; cursor:pointer; min-width:160px; text-align:center; }
+  .choice-btn:hover { transform:translateY(-2px); box-shadow:0 6px 14px rgba(0,0,0,0.06); }
+  .choice-btn.correct { border-color: #2b8a3e; background:#e8f8ea; }
+  .choice-btn.incorrect { border-color: #c03a2b; background:#fdecea; opacity:0.95; }
+  .meta { margin-top:12px; display:flex; gap:16px; align-items:center; flex-wrap:wrap; }
+  .score { font-weight:700; }
+  .translation { font-size:14px; color:#666; margin-top:8px; display:none; }
+  .btn { padding:8px 12px; border-radius:8px; border:1px solid #bbb; background:white; cursor:pointer; }
+</style>
+</head>
+<body>
+  <h1>Woordoefeningen — multiple choice</h1>
+  <p class="lead">Kies het juiste woord dat in de zin hoort. De score wordt automatisch bijgehouden.</p>
+
+  <div id="exerciseArea" class="panel">
+    <div class="exercise">
+      <div class="sentence" id="sentence">Zin wordt geladen...</div>
+      <div class="choices" id="choices"></div>
+      <div class="translation" id="translation"></div>
+      <div class="meta">
+        <div class="score">Juist: <span id="correctCount">0</span> — Fout: <span id="wrongCount">0</span></div>
+        <div class="small">Gekozen: <span id="pickedWord">—</span></div>
+        <div style="margin-left:auto;">
+          <button id="nextBtn" class="btn">Volgende</button>
+          <button id="resetBtn" class="btn">Reset scores</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<script>
+/* --- 20 voorbeeldwoorden rechtstreeks ingebakken --- */
+
+let rawData = `
+appel:::pomme:INFO:Ik eet elke ochtend een appel.
+huis:::maison:INFO:Hij woont in een groot huis.
+kat:::chat:INFO:De kat slaapt op de bank.
+water:::eau:INFO:Mag ik een glas water?
+boek:::livre:INFO:Zij leest een spannend boek.
+stoel:::chaise:INFO:De stoel staat naast de tafel.
+auto:::voiture:INFO:Mijn auto staat op de parking.
+fiets:::vélo:INFO:Ik ga met de fiets naar school.
+brood:::pain:INFO:We kopen elke dag vers brood.
+vogel:::oiseau:INFO:De vogel vliegt hoog in de lucht.
+boom:::arbre:INFO:De kinderen spelen onder de boom.
+deur:::porte:INFO:De deur staat wijd open.
+tafel:::table:INFO:Het eten staat al op de tafel.
+zon:::soleil:INFO:De zon schijnt vandaag fel.
+regen:::pluie:INFO:Door de regen werd ik helemaal nat.
+vriend:::ami:INFO:Mijn beste vriend woont ver weg.
+school:::école:INFO:De school begint om acht uur.
+stad:::ville:INFO:De stad is erg druk vandaag.
+hond:::chien:INFO:De hond blaft naar de postbode.
+bloem:::fleur:INFO:De bloem ruikt heerlijk.
+`;
+
+const exerciseArea = document.getElementById('exerciseArea');
+const sentenceEl = document.getElementById('sentence');
+const choicesEl = document.getElementById('choices');
+const translationEl = document.getElementById('translation');
+const correctCountEl = document.getElementById('correctCount');
+const wrongCountEl = document.getElementById('wrongCount');
+const pickedWordEl = document.getElementById('pickedWord');
+const nextBtn = document.getElementById('nextBtn');
+const resetBtn = document.getElementById('resetBtn');
+
+let entries = [];
+let current = null;
+let stats = { correct: 0, wrong: 0 };
+let lastIndex = -1;
+
+function parseRaw(raw) {
+  const lines = raw.split(/\r?\n/).map(l => l.trim()).filter(l => l);
+  const out = [];
+  for (const line of lines) {
+    const p = line.split(':::');
+    if (p.length < 2) continue;
+    const word = p[0].trim();
+    const rest = p[1].trim();
+    const infoIdx = rest.indexOf("INFO:");
+    const translation = rest.slice(0, infoIdx).replace(/:$/, '').trim();
+    const sentence = rest.slice(infoIdx + 5).trim();
+    out.push({ word, translation, sentence });
+  }
+  return out;
+}
+
+function escapeRegExp(string) {
+  return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+function maskSentence(sentence, word) {
+  const w = word.trim();
+  const plain = new RegExp(escapeRegExp(w), "i");
+  return sentence.replace(plain, "______");
+}
+
+function pickRandomIndex(exclude) {
+  let idx;
+  do idx = Math.floor(Math.random()*entries.length);
+  while (idx === exclude);
+  return idx;
+}
+
+function shuffle(arr) {
+  for (let i=arr.length-1;i>0;i--) {
+    const j = Math.floor(Math.random()*(i+1));
+    [arr[i],arr[j]]=[arr[j],arr[i]];
+  }
+}
+
+function nextQuestion() {
+  const idx = pickRandomIndex(lastIndex);
+  lastIndex = idx;
+  current = entries[idx];
+
+  sentenceEl.textContent = maskSentence(current.sentence, current.word);
+  translationEl.style.display = "none";
+  pickedWordEl.textContent = "—";
+
+  const choices = [current.word];
+  while (choices.length < 3) {
+    const r = entries[Math.floor(Math.random()*entries.length)].word;
+    if (!choices.includes(r)) choices.push(r);
+  }
+  shuffle(choices);
+
+  choicesEl.innerHTML = "";
+  choices.forEach(c => {
+    const btn = document.createElement("button");
+    btn.className = "choice-btn";
+    btn.textContent = c;
+    btn.onclick = () => handleChoice(btn, c);
+    choicesEl.appendChild(btn);
+  });
+}
+
+function handleChoice(btn, chosen) {
+  Array.from(choicesEl.children).forEach(b => b.disabled = true);
+  pickedWordEl.textContent = chosen;
+
+  if (chosen.toLowerCase() === current.word.toLowerCase()) {
+    btn.classList.add("correct");
+    stats.correct++;
+  } else {
+    btn.classList.add("incorrect");
+    stats.wrong++;
+    Array.from(choicesEl.children).forEach(b => {
+      if (b.textContent.toLowerCase() === current.word.toLowerCase()) {
+        b.classList.add("correct");
+      }
+    });
+  }
+
+  correctCountEl.textContent = stats.correct;
+  wrongCountEl.textContent = stats.wrong;
+  translationEl.textContent = "Vertaling: " + current.translation;
+  translationEl.style.display = "block";
+}
+
+nextBtn.onclick = nextQuestion;
+
+resetBtn.onclick = () => {
+  stats = { correct: 0, wrong: 0 };
+  correctCountEl.textContent = 0;
+  wrongCountEl.textContent = 0;
+};
+
+entries = parseRaw(rawData);
+nextQuestion();
+</script>
+</body>
+</html>
