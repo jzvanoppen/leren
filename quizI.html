@@ -3,14 +3,14 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Woordoefeningen — Frans ↔ Nederlands</title>
+<title>Woordoefeningen — Frans ↔ Nederlands met TTS</title>
 <style>
   :root { font-family: system-ui, sans-serif; }
   body { max-width: 900px; margin: 30px auto; padding: 20px; line-height: 1.45; }
   .panel { border: 1px solid #ccc; background: #fafafa; padding: 16px; border-radius: 10px; }
 
-  .sentence { font-size: 20px; margin-bottom: 18px; }
-  .choices, .choices2 { display: flex; flex-wrap: wrap; gap: 10px; }
+  .sentence { font-size: 20px; margin-bottom: 8px; display: flex; align-items: center; gap: 12px; }
+  .choices, .choices2 { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 12px; }
   .btn { 
     padding: 10px 16px; border-radius: 8px; background: white; border: 1px solid #888; 
     cursor: pointer; min-width: 160px; text-align: center;
@@ -24,16 +24,21 @@
 
   .scoreboard { margin-top: 14px; font-weight: bold; }
   #nextBtn { margin-top: 14px; }
+  #ttsBtn { font-size: 18px; padding:4px 8px; }
 </style>
 </head>
 <body>
 
-<h2>Frans → Nederlands oefening met tweede kans</h2>
-<p>Kies eerst het juiste Franse woord. Indien fout, kies daarna de juiste Nederlandse zin.</p>
+<h2>Frans → Nederlands oefening met TTS</h2>
+<p>Kies eerst het juiste Franse woord. Indien fout, kies daarna de juiste Nederlandse zin. Je kunt op ▶️ klikken om de Franse zin te horen.</p>
 
 <div class="panel">
 
-  <div class="sentence" id="sentence">...</div>
+  <div class="sentence" id="sentence">
+    <span id="sentenceText">...</span>
+    <button id="ttsBtn" class="btn">▶️ Luister</button>
+  </div>
+
   <div class="choices" id="choices"></div>
 
   <div id="translation"></div>
@@ -51,7 +56,6 @@
 </div>
 
 <script>
-/* 20 items */
 const entries = [
   {word:"appel", fr:"pomme", frSentence:"Je mange une pomme chaque matin.", nl:"Ik eet elke ochtend een appel."},
   {word:"huis", fr:"maison", frSentence:"Il habite dans une grande maison.", nl:"Hij woont in een groot huis."},
@@ -75,20 +79,10 @@ const entries = [
   {word:"bloem", fr:"fleur", frSentence:"La fleur sent très bon.", nl:"De bloem ruikt heerlijk."}
 ];
 
-/* helpers */
-function shuffle(a){
-  for(let i=a.length-1;i>0;i--){
-    const j = Math.floor(Math.random()*(i+1));
-    [a[i],a[j]]=[a[j],a[i]];
-  }
-}
-function mask(sentence, word){
-  const reg = new RegExp(word, "i");
-  return sentence.replace(reg, "______");
-}
+function shuffle(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}}
+function mask(sentence, word){return sentence.replace(new RegExp(word,"i"),"______");}
 
-/* DOM */
-const sentenceEl = document.getElementById("sentence");
+const sentenceText = document.getElementById("sentenceText");
 const choicesEl = document.getElementById("choices");
 const secChanceArea = document.getElementById("secChanceArea");
 const choices2El = document.getElementById("choices2");
@@ -96,8 +90,21 @@ const translationEl = document.getElementById("translation");
 const scRight = document.getElementById("scRight");
 const scWrong = document.getElementById("scWrong");
 const nextBtn = document.getElementById("nextBtn");
+const ttsBtn = document.getElementById("ttsBtn");
 
 let current = null;
+
+function speakFrench(text){
+  if('speechSynthesis' in window){
+    const utter = new SpeechSynthesisUtterance(text);
+    utter.lang = 'fr-FR';
+    speechSynthesis.speak(utter);
+  } else {
+    alert("Text-to-Speech wordt niet ondersteund in deze browser.");
+  }
+}
+
+ttsBtn.onclick = ()=>{ if(current) speakFrench(current.frSentence); };
 
 function newQuestion(){
   translationEl.style.display = "none";
@@ -106,88 +113,67 @@ function newQuestion(){
   choices2El.innerHTML = "";
 
   current = entries[Math.floor(Math.random()*entries.length)];
-
-  sentenceEl.textContent = mask(current.frSentence, current.fr);
+  sentenceText.textContent = mask(current.frSentence, current.fr);
 
   choicesEl.innerHTML = "";
   const opts = [current.fr];
-
   while(opts.length < 3){
     const r = entries[Math.floor(Math.random()*entries.length)].fr;
     if(!opts.includes(r)) opts.push(r);
   }
-
   shuffle(opts);
-
   opts.forEach(o=>{
-    const b = document.createElement("button");
-    b.className = "btn";
-    b.textContent = o;
-    b.onclick = ()=> firstChoice(b, o);
+    const b=document.createElement("button");
+    b.className="btn"; b.textContent=o;
+    b.onclick=()=>firstChoice(b,o);
     choicesEl.appendChild(b);
   });
 }
 
 function firstChoice(btn, chosen){
   Array.from(choicesEl.children).forEach(b=>b.disabled=true);
-
-  if(chosen === current.fr){
+  if(chosen===current.fr){
     btn.classList.add("correct");
-    scRight.textContent = Number(scRight.textContent)+1;
-
-    // ★★ NIEUW: vertaling direct tonen
-    translationEl.textContent = current.nl;
-    translationEl.style.display = "block";
-
+    scRight.textContent=Number(scRight.textContent)+1;
+    translationEl.textContent=current.nl;
+    translationEl.style.display="block";
   } else {
     btn.classList.add("incorrect");
-
-    Array.from(choicesEl.children)
-         .find(b=>b.textContent===current.fr)
-         .classList.add("correct");
-
+    Array.from(choicesEl.children).find(b=>b.textContent===current.fr).classList.add("correct");
     startSecondChance();
   }
 }
 
 function startSecondChance(){
-  secChanceArea.style.display = "block";
-
-  const opts = [current.nl];
-  while(opts.length < 3){
-    const r = entries[Math.floor(Math.random()*entries.length)].nl;
+  secChanceArea.style.display="block";
+  const opts=[current.nl];
+  while(opts.length<3){
+    const r=entries[Math.floor(Math.random()*entries.length)].nl;
     if(!opts.includes(r)) opts.push(r);
   }
   shuffle(opts);
-
-  choices2El.innerHTML = "";
+  choices2El.innerHTML="";
   opts.forEach(o=>{
-    const b = document.createElement("button");
-    b.className = "btn";
-    b.textContent = o;
-    b.onclick = ()=> secondChoice(b, o);
+    const b=document.createElement("button");
+    b.className="btn"; b.textContent=o;
+    b.onclick=()=>secondChoice(b,o);
     choices2El.appendChild(b);
   });
 }
 
 function secondChoice(btn, chosen){
   Array.from(choices2El.children).forEach(b=>b.disabled=true);
-
-  if(chosen === current.nl){
+  if(chosen===current.nl){
     btn.classList.add("correct");
-    scRight.textContent = Number(scRight.textContent)+1;
+    scRight.textContent=Number(scRight.textContent)+1;
   } else {
     btn.classList.add("incorrect");
-
-    Array.from(choices2El.children)
-         .find(b=>b.textContent===current.nl)
-         .classList.add("correct");
-
-    scWrong.textContent = Number(scWrong.textContent)+1;
+    Array.from(choices2El.children).find(b=>b.textContent===current.nl).classList.add("correct");
+    scWrong.textContent=Number(scWrong.textContent)+1;
   }
 }
 
-nextBtn.onclick = newQuestion;
+nextBtn.onclick=newQuestion;
 
 newQuestion();
 </script>
