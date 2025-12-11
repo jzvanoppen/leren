@@ -20,6 +20,8 @@
   .incorrect { background: #fdeaea !important; border-color: #c22 !important; }
 
   #secChanceArea { margin-top: 20px; border-top: 1px dashed #aaa; padding-top: 20px; display:none; }
+  #translation { margin-top: 15px; font-size: 18px; font-style: italic; color:#333; display:none; }
+
   .scoreboard { margin-top: 14px; font-weight: bold; }
   #nextBtn { margin-top: 14px; }
 </style>
@@ -34,6 +36,8 @@
   <div class="sentence" id="sentence">...</div>
   <div class="choices" id="choices"></div>
 
+  <div id="translation"></div>
+
   <div id="secChanceArea">
     <p><strong>Tweede kans:</strong> kies de correcte Nederlandse vertaling:</p>
     <div class="choices2" id="choices2"></div>
@@ -47,10 +51,7 @@
 </div>
 
 <script>
-/* ----------------------------- */
-/*  20 ITEMS, VOLLEDIG INGEBOUWD */
-/* ----------------------------- */
-
+/* 20 items */
 const entries = [
   {word:"appel", fr:"pomme", frSentence:"Je mange une pomme chaque matin.", nl:"Ik eet elke ochtend een appel."},
   {word:"huis", fr:"maison", frSentence:"Il habite dans une grande maison.", nl:"Hij woont in een groot huis."},
@@ -74,52 +75,40 @@ const entries = [
   {word:"bloem", fr:"fleur", frSentence:"La fleur sent très bon.", nl:"De bloem ruikt heerlijk."}
 ];
 
-/* ----------------------------- */
-/* Helpers                       */
-/* ----------------------------- */
-
+/* helpers */
 function shuffle(a){
   for(let i=a.length-1;i>0;i--){
     const j = Math.floor(Math.random()*(i+1));
     [a[i],a[j]]=[a[j],a[i]];
   }
 }
-
 function mask(sentence, word){
   const reg = new RegExp(word, "i");
   return sentence.replace(reg, "______");
 }
 
-/* ----------------------------- */
-/* DOM ELEMENTEN                 */
-/* ----------------------------- */
-
+/* DOM */
 const sentenceEl = document.getElementById("sentence");
 const choicesEl = document.getElementById("choices");
 const secChanceArea = document.getElementById("secChanceArea");
 const choices2El = document.getElementById("choices2");
+const translationEl = document.getElementById("translation");
 const scRight = document.getElementById("scRight");
 const scWrong = document.getElementById("scWrong");
 const nextBtn = document.getElementById("nextBtn");
 
-/* ----------------------------- */
-
 let current = null;
-let waitingSecondChance = false;
-
-/* ----------------------------- */
 
 function newQuestion(){
-  waitingSecondChance = false;
+  translationEl.style.display = "none";
+  translationEl.textContent = "";
   secChanceArea.style.display = "none";
   choices2El.innerHTML = "";
 
   current = entries[Math.floor(Math.random()*entries.length)];
 
-  // zin maskeren
   sentenceEl.textContent = mask(current.frSentence, current.fr);
 
-  // Franse woordkeuze
   choicesEl.innerHTML = "";
   const opts = [current.fr];
 
@@ -139,18 +128,20 @@ function newQuestion(){
   });
 }
 
-/* ----------------------------- */
-
 function firstChoice(btn, chosen){
-  // disable alle knoppen
-  Array.from(choicesEl.children).forEach(b=>b.disabled = true);
+  Array.from(choicesEl.children).forEach(b=>b.disabled=true);
 
   if(chosen === current.fr){
     btn.classList.add("correct");
     scRight.textContent = Number(scRight.textContent)+1;
+
+    // ★★ NIEUW: vertaling direct tonen
+    translationEl.textContent = current.nl;
+    translationEl.style.display = "block";
+
   } else {
     btn.classList.add("incorrect");
-    // correcte markeren
+
     Array.from(choicesEl.children)
          .find(b=>b.textContent===current.fr)
          .classList.add("correct");
@@ -159,15 +150,9 @@ function firstChoice(btn, chosen){
   }
 }
 
-/* ----------------------------- */
-/*  TWEEDE KANS                  */
-/* ----------------------------- */
-
 function startSecondChance(){
-  waitingSecondChance = true;
   secChanceArea.style.display = "block";
 
-  // Nederlandse opties: juiste + 2 andere
   const opts = [current.nl];
   while(opts.length < 3){
     const r = entries[Math.floor(Math.random()*entries.length)].nl;
@@ -193,14 +178,14 @@ function secondChoice(btn, chosen){
     scRight.textContent = Number(scRight.textContent)+1;
   } else {
     btn.classList.add("incorrect");
+
     Array.from(choices2El.children)
          .find(b=>b.textContent===current.nl)
          .classList.add("correct");
+
     scWrong.textContent = Number(scWrong.textContent)+1;
   }
 }
-
-/* ----------------------------- */
 
 nextBtn.onclick = newQuestion;
 
