@@ -3,7 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Woordoefeningen — Frans ↔ Nederlands met TTS</title>
+<title>Franse oefenquiz</title>
+
 <style>
   :root { font-family: system-ui, sans-serif; }
   body { max-width: 900px; margin: 30px auto; padding: 20px; line-height: 1.45; }
@@ -24,12 +25,21 @@
 
   .scoreboard { margin-top: 14px; font-weight: bold; }
   #nextBtn { margin-top: 14px; }
+
+  #modeSelect { margin-bottom: 20px; padding: 6px 10px; font-size:16px; }
 </style>
 </head>
+
 <body>
 
-<h2>Frans → Nederlands oefening met TTS</h2>
-<p>Kies eerst het juiste Franse woord. Indien fout, kies daarna de juiste Nederlandse zin. De Franse zin wordt automatisch uitgesproken.</p>
+<h2>Frans → Nederlands oefening</h2>
+<p>Kies eerst het juiste Franse woord. Bij een fout krijg je de Nederlandse zinnen. De Franse zin wordt automatisch uitgesproken.</p>
+
+<label><strong>Kies oefenmodus:</strong></label><br>
+<select id="modeSelect">
+  <option value="vocab">Vocabulaire (woordjes)</option>
+  <option value="verbes">Werkwoorden (verbes)</option>
+</select>
 
 <div class="panel">
 
@@ -54,60 +64,71 @@
 </div>
 
 <script>
-const entries = [
+/* --------------------------
+   ⭐ TWEE LOSSE LIJSTEN
+--------------------------- */
+const entriesVocab = [
   {word:"appel", fr:"pomme", frSentence:"Je mange une pomme chaque matin.", nl:"Ik eet elke ochtend een appel."},
   {word:"huis", fr:"maison", frSentence:"Il habite dans une grande maison.", nl:"Hij woont in een groot huis."},
   {word:"kat", fr:"chat", frSentence:"Le chat dort sur le canapé.", nl:"De kat slaapt op de bank."},
   {word:"water", fr:"eau", frSentence:"Puis-je avoir un verre d’eau ?", nl:"Mag ik een glas water?"},
   {word:"boek", fr:"livre", frSentence:"Elle lit un livre passionnant.", nl:"Zij leest een spannend boek."},
-  {word:"stoel", fr:"chaise", frSentence:"La chaise se trouve à côté de la table.", nl:"De stoel staat naast de tafel."},
-  {word:"auto", fr:"voiture", frSentence:"Ma voiture est garée sur le parking.", nl:"Mijn auto staat op de parking."},
-  {word:"fiets", fr:"vélo", frSentence:"Je vais à l’école à vélo.", nl:"Ik ga met de fiets naar school."},
-  {word:"brood", fr:"pain", frSentence:"Nous achetons du pain frais chaque jour.", nl:"We kopen elke dag vers brood."},
-  {word:"vogel", fr:"oiseau", frSentence:"L’oiseau vole haut dans le ciel.", nl:"De vogel vliegt hoog in de lucht."},
-  {word:"boom", fr:"arbre", frSentence:"Les enfants jouent sous l’arbre.", nl:"De kinderen spelen onder de boom."},
-  {word:"deur", fr:"porte", frSentence:"La porte est grande ouverte.", nl:"De deur staat wijd open."},
-  {word:"tafel", fr:"table", frSentence:"Le repas est déjà sur la table.", nl:"Het eten staat al op de tafel."},
-  {word:"zon", fr:"soleil", frSentence:"Le soleil brille fortement aujourd’hui.", nl:"De zon schijnt vandaag fel."},
-  {word:"regen", fr:"pluie", frSentence:"À cause de la pluie, j’ai été complètement mouillé.", nl:"Door de regen werd ik helemaal nat."},
-  {word:"vriend", fr:"ami", frSentence:"Mon meilleur ami habite loin.", nl:"Mijn beste vriend woont ver weg."},
-  {word:"school", fr:"école", frSentence:"L’école commence à huit heures.", nl:"De school begint om acht uur."},
-  {word:"stad", fr:"ville", frSentence:"La ville est très animée aujourd’hui.", nl:"De stad is erg druk vandaag."},
-  {word:"hond", fr:"chien", frSentence:"Le chien aboie contre le facteur.", nl:"De hond blaft naar de postbode."},
-  {word:"bloem", fr:"fleur", frSentence:"La fleur sent très bon.", nl:"De bloem ruikt heerlijk."}
+  {word:"stoel", fr:"chaise", frSentence:"La chaise se trouve à côté de la table.", nl:"De stoel staat naast de tafel."}
 ];
+
+/* --------------------------
+   ⭐ AFZONDERLIJKE LIJST VOOR WERKWOORDEN
+--------------------------- */
+const entriesVerbes = [
+  {word:"lopen", fr:"marcher", frSentence:"Je dois marcher deux kilomètres.", nl:"Ik moet twee kilometer wandelen."},
+  {word:"eten", fr:"manger", frSentence:"Nous aimons manger ensemble.", nl:"Wij eten graag samen."},
+  {word:"drinken", fr:"boire", frSentence:"Il va boire un jus d’orange.", nl:"Hij gaat sinaasappelsap drinken."},
+  {word:"slapen", fr:"dormir", frSentence:"Les enfants doivent dormir tôt.", nl:"De kinderen moeten vroeg slapen."},
+  {word:"nemen", fr:"prendre", frSentence:"Je vais prendre le bus.", nl:"Ik ga de bus nemen."},
+  {word:"zien", fr:"voir", frSentence:"Je veux voir ce film.", nl:"Ik wil die film zien."}
+];
+
+/* --------------------------
+   QUIZ LOGICA (ongewijzigd)
+--------------------------- */
+
+let activeList = entriesVocab;
+document.getElementById("modeSelect").onchange = function() {
+  activeList = (this.value === "vocab") ? entriesVocab : entriesVerbes;
+  newQuestion();
+};
 
 function shuffle(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}}
 function mask(sentence, word){return sentence.replace(new RegExp(word,"i"),"______");}
-function speakFrench(text){if('speechSynthesis' in window){const u=new SpeechSynthesisUtterance(text);u.lang='fr-FR';speechSynthesis.speak(u);} }
+function speakFrench(text){ if('speechSynthesis' in window){ const u=new SpeechSynthesisUtterance(text); u.lang='fr-FR'; speechSynthesis.speak(u); } }
 
-const sentenceText = document.getElementById("sentenceText");
-const choicesEl = document.getElementById("choices");
-const secChanceArea = document.getElementById("secChanceArea");
-const choices2El = document.getElementById("choices2");
-const translationEl = document.getElementById("translation");
-const scRight = document.getElementById("scRight");
-const scWrong = document.getElementById("scWrong");
-const nextBtn = document.getElementById("nextBtn");
+const sentenceText=document.getElementById("sentenceText");
+const choicesEl=document.getElementById("choices");
+const secChanceArea=document.getElementById("secChanceArea");
+const choices2El=document.getElementById("choices2");
+const translationEl=document.getElementById("translation");
+const scRight=document.getElementById("scRight");
+const scWrong=document.getElementById("scWrong");
 
-let current = null;
+let current=null;
 
 function newQuestion(){
-  translationEl.style.display = "none";
-  translationEl.textContent = "";
-  secChanceArea.style.display = "none";
-  choices2El.innerHTML = "";
+  translationEl.style.display="none";
+  translationEl.textContent="";
+  secChanceArea.style.display="none";
+  choices2El.innerHTML="";
 
-  current = entries[Math.floor(Math.random()*entries.length)];
+  current = activeList[Math.floor(Math.random()*activeList.length)];
   sentenceText.textContent = mask(current.frSentence, current.fr);
 
-  choicesEl.innerHTML = "";
-  const opts = [current.fr];
-  while(opts.length < 3){
-    const r = entries[Math.floor(Math.random()*entries.length)].fr;
+  choicesEl.innerHTML="";
+  const opts=[current.fr];
+  while(opts.length<3){
+    const r=activeList[Math.floor(Math.random()*activeList.length)].fr;
     if(!opts.includes(r)) opts.push(r);
   }
   shuffle(opts);
+
   opts.forEach(o=>{
     const b=document.createElement("button");
     b.className="btn"; b.textContent=o;
@@ -118,7 +139,7 @@ function newQuestion(){
 
 function firstChoice(btn, chosen){
   Array.from(choicesEl.children).forEach(b=>b.disabled=true);
-  speakFrench(current.frSentence); // ★★ automatisch afspelen
+  speakFrench(current.frSentence);
 
   if(chosen===current.fr){
     btn.classList.add("correct");
@@ -134,12 +155,14 @@ function firstChoice(btn, chosen){
 
 function startSecondChance(){
   secChanceArea.style.display="block";
+
   const opts=[current.nl];
   while(opts.length<3){
-    const r=entries[Math.floor(Math.random()*entries.length)].nl;
+    const r=activeList[Math.floor(Math.random()*activeList.length)].nl;
     if(!opts.includes(r)) opts.push(r);
   }
   shuffle(opts);
+
   choices2El.innerHTML="";
   opts.forEach(o=>{
     const b=document.createElement("button");
@@ -161,7 +184,7 @@ function secondChoice(btn, chosen){
   }
 }
 
-nextBtn.onclick=newQuestion;
+document.getElementById("nextBtn").onclick=newQuestion;
 
 newQuestion();
 </script>
