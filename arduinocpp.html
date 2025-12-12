@@ -21,16 +21,24 @@
 
         .exercise {
             background: #ffffff;
-            padding: 20px;
-            margin-bottom: 20px;
             border-radius: 10px;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin-bottom: 15px;
+            overflow: hidden;
+            cursor: pointer;
         }
 
         .exercise-title {
-            font-size: 1.4em;
+            padding: 15px 20px;
+            font-size: 1.2em;
             font-weight: bold;
-            margin-bottom: 10px;
+            background: #e8e8e8;
+        }
+
+        .exercise-content {
+            display: none; /* ingeklapt */
+            padding: 20px;
+            border-top: 1px solid #ddd;
         }
 
         pre {
@@ -48,9 +56,10 @@
 <!-- ========================================== -->
 <div class="exercise">
     <div class="exercise-title">Oefening 1: LED laten knipperen</div>
-    <p>Laat een LED knipperen met een interval van 1 seconde.</p>
+    <div class="exercise-content">
+        <p>Laat een LED knipperen met een interval van 1 seconde.</p>
 
-    <pre><code class="language-cpp">
+        <pre><code class="language-cpp">
 // LED op pin 13 knipperen
 void setup() {
   pinMode(13, OUTPUT);
@@ -62,7 +71,8 @@ void loop() {
   digitalWrite(13, LOW);
   delay(1000);
 }
-    </code></pre>
+        </code></pre>
+    </div>
 </div>
 
 <!-- ========================================== -->
@@ -70,9 +80,10 @@ void loop() {
 <!-- ========================================== -->
 <div class="exercise">
     <div class="exercise-title">Oefening 2: Drukknop LED aan/uit</div>
-    <p>Gebruik een drukknop om een LED te schakelen.</p>
+    <div class="exercise-content">
+        <p>Gebruik een drukknop om een LED te schakelen.</p>
 
-    <pre><code class="language-cpp">
+        <pre><code class="language-cpp">
 int button = 2;
 int led = 8;
 
@@ -88,7 +99,8 @@ void loop() {
     digitalWrite(led, LOW);
   }
 }
-    </code></pre>
+        </code></pre>
+    </div>
 </div>
 
 <!-- ========================================== -->
@@ -96,9 +108,10 @@ void loop() {
 <!-- ========================================== -->
 <div class="exercise">
     <div class="exercise-title">Oefening 3: Fade een LED met PWM</div>
-    <p>Laat een LED geleidelijk faden op pin 9.</p>
+    <div class="exercise-content">
+        <p>Laat een LED geleidelijk faden op pin 9.</p>
 
-    <pre><code class="language-cpp">
+        <pre><code class="language-cpp">
 int led = 9;
 
 void setup() {
@@ -115,7 +128,8 @@ void loop() {
     delay(5);
   }
 }
-    </code></pre>
+        </code></pre>
+    </div>
 </div>
 
 <!-- ========================================== -->
@@ -123,9 +137,10 @@ void loop() {
 <!-- ========================================== -->
 <div class="exercise">
     <div class="exercise-title">Oefening 4: Temperatuur meten (LM35)</div>
-    <p>Lees een LM35-sensor uit en print de temperatuur in °C.</p>
+    <div class="exercise-content">
+        <p>Lees een LM35-sensor uit en print de temperatuur in °C.</p>
 
-    <pre><code class="language-cpp">
+        <pre><code class="language-cpp">
 int sensor = A0;
 
 void setup() {
@@ -143,26 +158,40 @@ void loop() {
 
   delay(500);
 }
-    </code></pre>
+        </code></pre>
+    </div>
 </div>
 
+
 <!-- ========================================== -->
-<!-- Template voor nieuwe oefeningen -->
+<!-- TEMPLATE VOOR NIEUWE OEFENINGEN -->
 <!-- ========================================== -->
 <!--
 <div class="exercise">
     <div class="exercise-title">Oefening X: Titel hier</div>
-    <p>Korte beschrijving hier.</p>
+    <div class="exercise-content">
+        <p>Korte beschrijving hier.</p>
 
-    <pre><code class="language-cpp">
+        <pre><code class="language-cpp">
 // Arduino C++ code hier
-    </code></pre>
+        </code></pre>
+    </div>
 </div>
 -->
 
 <!-- Highlight.js script -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
 <script>hljs.highlightAll();</script>
+
+<!-- Uitklap-script -->
+<script>
+    document.querySelectorAll('.exercise').forEach(ex => {
+        ex.addEventListener('click', () => {
+            const content = ex.querySelector('.exercise-content');
+            content.style.display = (content.style.display === 'block') ? 'none' : 'block';
+        });
+    });
+</script>
 
 </body>
 </html>
