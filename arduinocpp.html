@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <title>Arduino Oefeningen</title>
 
+    <!-- Highlight.js CSS -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.min.css">
+
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -30,11 +34,7 @@
         }
 
         pre {
-            background: #272822;
-            color: #f8f8f2;
-            padding: 15px;
             border-radius: 6px;
-            overflow-x: auto;
         }
     </style>
 </head>
@@ -43,14 +43,14 @@
 
 <h1>Arduino Oefeningen</h1>
 
-<!-- ============================= -->
+<!-- ========================================== -->
 <!-- OEFENING 1 -->
-<!-- ============================= -->
+<!-- ========================================== -->
 <div class="exercise">
     <div class="exercise-title">Oefening 1: LED laten knipperen</div>
     <p>Laat een LED knipperen met een interval van 1 seconde.</p>
 
-    <pre><code>
+    <pre><code class="language-cpp">
 // LED op pin 13 knipperen
 void setup() {
   pinMode(13, OUTPUT);
@@ -65,15 +65,14 @@ void loop() {
     </code></pre>
 </div>
 
-
-<!-- ============================= -->
+<!-- ========================================== -->
 <!-- OEFENING 2 -->
-<!-- ============================= -->
+<!-- ========================================== -->
 <div class="exercise">
     <div class="exercise-title">Oefening 2: Drukknop LED aan/uit</div>
-    <p>Gebruik een drukknop om een LED handmatig in en uit te schakelen.</p>
+    <p>Gebruik een drukknop om een LED te schakelen.</p>
 
-    <pre><code>
+    <pre><code class="language-cpp">
 int button = 2;
 int led = 8;
 
@@ -92,15 +91,14 @@ void loop() {
     </code></pre>
 </div>
 
-
-<!-- ============================= -->
+<!-- ========================================== -->
 <!-- OEFENING 3 -->
-<!-- ============================= -->
+<!-- ========================================== -->
 <div class="exercise">
     <div class="exercise-title">Oefening 3: Fade een LED met PWM</div>
-    <p>Laat een LED geleidelijk faden met behulp van PWM op pin 9.</p>
+    <p>Laat een LED geleidelijk faden op pin 9.</p>
 
-    <pre><code>
+    <pre><code class="language-cpp">
 int led = 9;
 
 void setup() {
@@ -108,11 +106,11 @@ void setup() {
 }
 
 void loop() {
-  for (int i = 0; i &lt;= 255; i++) {
+  for (int i = 0; i <= 255; i++) {
     analogWrite(led, i);
     delay(5);
   }
-  for (int i = 255; i &gt;= 0; i--) {
+  for (int i = 255; i >= 0; i--) {
     analogWrite(led, i);
     delay(5);
   }
@@ -120,15 +118,14 @@ void loop() {
     </code></pre>
 </div>
 
-
-<!-- ============================= -->
+<!-- ========================================== -->
 <!-- OEFENING 4 -->
-<!-- ============================= -->
+<!-- ========================================== -->
 <div class="exercise">
     <div class="exercise-title">Oefening 4: Temperatuur meten (LM35)</div>
-    <p>Lees een LM35-sensor uit en stuur de temperatuur naar de seriële monitor.</p>
+    <p>Lees een LM35-sensor uit en print de temperatuur in °C.</p>
 
-    <pre><code>
+    <pre><code class="language-cpp">
 int sensor = A0;
 
 void setup() {
@@ -149,22 +146,23 @@ void loop() {
     </code></pre>
 </div>
 
-
-
-
-<!-- ============================= -->
-<!-- TEMPLATE VOOR NIEUWE OEFENINGEN -->
-<!-- ============================= -->
+<!-- ========================================== -->
+<!-- Template voor nieuwe oefeningen -->
+<!-- ========================================== -->
 <!--
 <div class="exercise">
     <div class="exercise-title">Oefening X: Titel hier</div>
     <p>Korte beschrijving hier.</p>
 
-    <pre><code>
+    <pre><code class="language-cpp">
 // Arduino C++ code hier
     </code></pre>
 </div>
 -->
+
+<!-- Highlight.js script -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
 
 </body>
 </html>
