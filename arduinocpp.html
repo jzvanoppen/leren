@@ -25,14 +25,31 @@
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
             margin-bottom: 15px;
             overflow: hidden;
+        }
+
+        .exercise-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 20px;
+            background: #e8e8e8;
             cursor: pointer;
         }
 
         .exercise-title {
-            padding: 15px 20px;
             font-size: 1.2em;
             font-weight: bold;
-            background: #e8e8e8;
+        }
+
+        /* Pijltje rechts */
+        .arrow {
+            transition: transform 0.25s ease;
+            font-size: 20px;
+        }
+
+        /* Gedraaide staat (opengeklapt) */
+        .open .arrow {
+            transform: rotate(90deg);
         }
 
         .exercise-content {
@@ -55,7 +72,10 @@
 <!-- OEFENING 1 -->
 <!-- ========================================== -->
 <div class="exercise">
-    <div class="exercise-title">Oefening 1: LED laten knipperen</div>
+    <div class="exercise-header">
+        <div class="exercise-title">Oefening 1: LED laten knipperen</div>
+        <div class="arrow">▶</div>
+    </div>
     <div class="exercise-content">
         <p>Laat een LED knipperen met een interval van 1 seconde.</p>
 
@@ -79,7 +99,10 @@ void loop() {
 <!-- OEFENING 2 -->
 <!-- ========================================== -->
 <div class="exercise">
-    <div class="exercise-title">Oefening 2: Drukknop LED aan/uit</div>
+    <div class="exercise-header">
+        <div class="exercise-title">Oefening 2: Drukknop LED aan/uit</div>
+        <div class="arrow">▶</div>
+    </div>
     <div class="exercise-content">
         <p>Gebruik een drukknop om een LED te schakelen.</p>
 
@@ -107,7 +130,10 @@ void loop() {
 <!-- OEFENING 3 -->
 <!-- ========================================== -->
 <div class="exercise">
-    <div class="exercise-title">Oefening 3: Fade een LED met PWM</div>
+    <div class="exercise-header">
+        <div class="exercise-title">Oefening 3: Fade een LED met PWM</div>
+        <div class="arrow">▶</div>
+    </div>
     <div class="exercise-content">
         <p>Laat een LED geleidelijk faden op pin 9.</p>
 
@@ -136,7 +162,10 @@ void loop() {
 <!-- OEFENING 4 -->
 <!-- ========================================== -->
 <div class="exercise">
-    <div class="exercise-title">Oefening 4: Temperatuur meten (LM35)</div>
+    <div class="exercise-header">
+        <div class="exercise-title">Oefening 4: Temperatuur meten (LM35)</div>
+        <div class="arrow">▶</div>
+    </div>
     <div class="exercise-content">
         <p>Lees een LM35-sensor uit en print de temperatuur in °C.</p>
 
@@ -162,18 +191,19 @@ void loop() {
     </div>
 </div>
 
-
 <!-- ========================================== -->
-<!-- TEMPLATE VOOR NIEUWE OEFENINGEN -->
+<!-- TEMPLATE -->
 <!-- ========================================== -->
 <!--
 <div class="exercise">
-    <div class="exercise-title">Oefening X: Titel hier</div>
+    <div class="exercise-header">
+        <div class="exercise-title">Oefening X: Titel hier</div>
+        <div class="arrow">▶</div>
+    </div>
     <div class="exercise-content">
         <p>Korte beschrijving hier.</p>
-
         <pre><code class="language-cpp">
-// Arduino C++ code hier
+// Arduino code hier
         </code></pre>
     </div>
 </div>
@@ -183,12 +213,23 @@ void loop() {
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
 <script>hljs.highlightAll();</script>
 
-<!-- Uitklap-script -->
+<!-- Open/dicht klap script -->
 <script>
     document.querySelectorAll('.exercise').forEach(ex => {
-        ex.addEventListener('click', () => {
+        ex.querySelector('.exercise-header').addEventListener('click', () => {
             const content = ex.querySelector('.exercise-content');
-            content.style.display = (content.style.display === 'block') ? 'none' : 'block';
+            const arrow = ex.querySelector('.arrow');
+
+            // Toggle zichtbaarheid
+            const isOpen = content.style.display === 'block';
+            content.style.display = isOpen ? 'none' : 'block';
+
+            // Klasse 'open' voor rotatie
+            if (isOpen) {
+                ex.classList.remove('open');
+            } else {
+                ex.classList.add('open');
+            }
         });
     });
 </script>
