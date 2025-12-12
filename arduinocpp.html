@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Arduino Oefeningen</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 30px;
+            background: #f3f3f3;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .exercise {
+            background: #ffffff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .exercise-title {
+            font-size: 1.4em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        pre {
+            background: #272822;
+            color: #f8f8f2;
+            padding: 15px;
+            border-radius: 6px;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>Arduino Oefeningen</h1>
+
+<!-- ============================= -->
+<!-- OEFENING 1 -->
+<!-- ============================= -->
+<div class="exercise">
+    <div class="exercise-title">Oefening 1: LED laten knipperen</div>
+    <p>Laat een LED knipperen met een interval van 1 seconde.</p>
+
+    <pre><code>
+// LED op pin 13 knipperen
+void setup() {
+  pinMode(13, OUTPUT);
+}
+
+void loop() {
+  digitalWrite(13, HIGH);
+  delay(1000);
+  digitalWrite(13, LOW);
+  delay(1000);
+}
+    </code></pre>
+</div>
+
+
+<!-- ============================= -->
+<!-- OEFENING 2 -->
+<!-- ============================= -->
+<div class="exercise">
+    <div class="exercise-title">Oefening 2: Drukknop LED aan/uit</div>
+    <p>Gebruik een drukknop om een LED handmatig in en uit te schakelen.</p>
+
+    <pre><code>
+int button = 2;
+int led = 8;
+
+void setup() {
+  pinMode(button, INPUT_PULLUP);
+  pinMode(led, OUTPUT);
+}
+
+void loop() {
+  if (digitalRead(button) == LOW) {
+    digitalWrite(led, HIGH);
+  } else {
+    digitalWrite(led, LOW);
+  }
+}
+    </code></pre>
+</div>
+
+
+<!-- ============================= -->
+<!-- OEFENING 3 -->
+<!-- ============================= -->
+<div class="exercise">
+    <div class="exercise-title">Oefening 3: Fade een LED met PWM</div>
+    <p>Laat een LED geleidelijk faden met behulp van PWM op pin 9.</p>
+
+    <pre><code>
+int led = 9;
+
+void setup() {
+  pinMode(led, OUTPUT);
+}
+
+void loop() {
+  for (int i = 0; i &lt;= 255; i++) {
+    analogWrite(led, i);
+    delay(5);
+  }
+  for (int i = 255; i &gt;= 0; i--) {
+    analogWrite(led, i);
+    delay(5);
+  }
+}
+    </code></pre>
+</div>
+
+
+<!-- ============================= -->
+<!-- OEFENING 4 -->
+<!-- ============================= -->
+<div class="exercise">
+    <div class="exercise-title">Oefening 4: Temperatuur meten (LM35)</div>
+    <p>Lees een LM35-sensor uit en stuur de temperatuur naar de seriële monitor.</p>
+
+    <pre><code>
+int sensor = A0;
+
+void setup() {
+  Serial.begin(9600);
+}
+
+void loop() {
+  int value = analogRead(sensor);
+  float voltage = value * (5.0 / 1023.0);
+  float temp = voltage * 100; // LM35: 10mV per °C
+
+  Serial.print("Temperatuur: ");
+  Serial.print(temp);
+  Serial.println(" °C");
+
+  delay(500);
+}
+    </code></pre>
+</div>
+
+
+
+
+<!-- ============================= -->
+<!-- TEMPLATE VOOR NIEUWE OEFENINGEN -->
+<!-- ============================= -->
+<!--
+<div class="exercise">
+    <div class="exercise-title">Oefening X: Titel hier</div>
+    <p>Korte beschrijving hier.</p>
+
+    <pre><code>
+// Arduino C++ code hier
+    </code></pre>
+</div>
+-->
+
+</body>
+</html>
