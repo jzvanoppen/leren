@@ -27,8 +27,8 @@
     }
 
     .card {
-      width: 68px; /* 15% kleiner dan 80px */
-      height: 102px; /* 15% kleiner dan 120px */
+      width: 54px; /* 20% kleiner dan 68px */
+      height: 82px; /* 20% kleiner dan 102px */
       border-radius: 10px;
       display: flex;
       align-items: center;
@@ -38,7 +38,7 @@
       position: relative;
       transition: transform 0.2s, box-shadow 0.2s;
       color: white;
-      font-size: 27px; /* 15% kleiner dan 32px */
+      font-size: 21px; /* 20% kleiner dan 27px */
       text-shadow: 1px 1px 2px rgba(0,0,0,0.6);
     }
 
@@ -84,12 +84,33 @@
     .liar-flash {
       animation: liarFlash 0.5s ease-in-out 6;
     }
+
+    .history {
+      margin-top: 20px;
+      display: flex;
+      gap: 10px;
+    }
+
+    .history-slot {
+      width: 54px;
+      height: 82px;
+      border-radius: 10px;
+      border: 2px dashed #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 21px;
+      background: #000;
+    }
   </style>
 </head>
 <body>
   <h1>UNO Liar – kaarten</h1>
 
   <div class="cards" id="cardContainer"></div>
+
+  <div class="history" id="historyContainer"></div>
 
   <audio id="liarSound">
     <source src="https://actions.google.com/sounds/v1/cartoon/clang_and_wobble.ogg" type="audio/ogg">
@@ -105,7 +126,9 @@
     };
 
     const container = document.getElementById('cardContainer');
+    const historyContainer = document.getElementById('historyContainer');
     const selected = [];
+    const history = [];
     const liarSound = document.getElementById('liarSound');
 
     function renderSelections() {
@@ -122,6 +145,22 @@
         badge.textContent = index + 1;
         card.appendChild(badge);
       });
+    }
+
+    function renderHistory() {
+      historyContainer.innerHTML = '';
+      for(let i = 0; i < 13; i++) {
+        const slot = document.createElement('div');
+        slot.className = 'history-slot';
+        const card = history[history.length - 13 + i];
+        if(card) {
+          slot.style.background = card.style.background;
+          slot.textContent = card.textContent;
+          if(card.classList.contains('wild')) slot.classList.add('wild');
+          if(card.style.color) slot.style.color = card.style.color;
+        }
+        historyContainer.appendChild(slot);
+      }
     }
 
     const colors = {
@@ -149,7 +188,6 @@
         }
 
         div.addEventListener('click', () => {
-          // Speciaal effect voor LIAR-kaart
           if(color === 'zwart' && value === 'LIAR') {
             div.classList.add('liar-flash');
             liarSound.pause();
@@ -159,12 +197,14 @@
           }
 
           const index = selected.indexOf(div);
-          if (index !== -1) {
-            selected.splice(index, 1);
-          }
+          if (index !== -1) selected.splice(index, 1);
           selected.push(div);
           if (selected.length > 3) selected.shift();
           renderSelections();
+
+          history.push(div);
+          if(history.length > 13) history.shift();
+          renderHistory();
         });
 
         row.appendChild(div);
