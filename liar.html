@@ -27,8 +27,8 @@
     }
 
     .card {
-      width: 80px;
-      height: 120px;
+      width: 68px; /* 15% kleiner dan 80px */
+      height: 102px; /* 15% kleiner dan 120px */
       border-radius: 10px;
       display: flex;
       align-items: center;
@@ -38,7 +38,7 @@
       position: relative;
       transition: transform 0.2s, box-shadow 0.2s;
       color: white;
-      font-size: 32px;
+      font-size: 27px; /* 15% kleiner dan 32px */
       text-shadow: 1px 1px 2px rgba(0,0,0,0.6);
     }
 
@@ -76,29 +76,6 @@
       font-size: 14px;
     }
 
-    .selection {
-      display: flex;
-      gap: 20px;
-    }
-
-    .slot {
-      width: 100px;
-      height: 150px;
-      border: 2px dashed #fff;
-      border-radius: 10px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: white;
-      position: relative;
-    }
-
-    .slot .label {
-      position: absolute;
-      bottom: -25px;
-      color: white;
-    }
-
     @keyframes liarFlash {
       0%, 100% { background: #222; color: white; }
       50% { background: white; color: #222; }
@@ -113,12 +90,6 @@
   <h1>UNO Liar – kaarten</h1>
 
   <div class="cards" id="cardContainer"></div>
-
-  <div class="selection">
-    <div class="slot"><span class="label">1e kaart</span></div>
-    <div class="slot"><span class="label">2e kaart</span></div>
-    <div class="slot"><span class="label">3e kaart</span></div>
-  </div>
 
   <audio id="liarSound">
     <source src="https://actions.google.com/sounds/v1/cartoon/clang_and_wobble.ogg" type="audio/ogg">
@@ -181,7 +152,6 @@
           // Speciaal effect voor LIAR-kaart
           if(color === 'zwart' && value === 'LIAR') {
             div.classList.add('liar-flash');
-            // Zorg dat geluid afgespeeld wordt
             liarSound.pause();
             liarSound.currentTime = 0;
             liarSound.play().catch(e => console.log('Autoplay blocked:', e));
