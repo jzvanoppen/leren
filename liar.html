@@ -102,10 +102,20 @@
       justify-content: center;
       color: white;
       font-size: 21px;
-      background: #000;
       text-align: center;
       overflow: hidden;
       white-space: nowrap;
+    }
+
+    .history-slot.wild {
+      background: conic-gradient(
+        #d32f2f 0deg 90deg,
+        #1976d2 90deg 180deg,
+        #388e3c 180deg 270deg,
+        #fbc02d 270deg 360deg
+      );
+      color: #000;
+      border: 2px solid white;
     }
   </style>
 </head>
@@ -158,11 +168,14 @@
         slot.className = 'history-slot';
         const card = history[history.length - 13 + i];
         if(card) {
-          // Kopieer stijl maar niet de volledige textContent
-          slot.style.background = card.style.background;
-          slot.textContent = card.textContent;
-          slot.style.color = card.style.color || 'white';
-          if(card.classList.contains('wild')) slot.classList.add('wild');
+          if(card.classList.contains('wild') && card.dataset.value !== 'LIAR') {
+            slot.classList.add('wild');
+            slot.textContent = card.dataset.value; // +4 of leeg
+          } else {
+            slot.style.background = card.style.background;
+            slot.textContent = card.dataset.value;
+            slot.style.color = card.style.color || 'white';
+          }
         }
         historyContainer.appendChild(slot);
       }
