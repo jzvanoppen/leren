@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <title>UNO Liar – Kaartselectie</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #0b5;
+      padding: 20px;
+    }
+
+    h1 {
+      color: white;
+    }
+
+    .cards {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      margin-bottom: 30px;
+    }
+
+    .row {
+      display: flex;
+      gap: 10px;
+    }
+
+    .card {
+      width: 80px;
+      height: 120px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      font-weight: bold;
+      position: relative;
+      transition: transform 0.2s, box-shadow 0.2s;
+      color: white;
+      font-size: 32px;
+      text-shadow: 1px 1px 2px rgba(0,0,0,0.6);
+    }
+
+    .wild {
+      background: conic-gradient(
+        #d32f2f 0deg 90deg,
+        #1976d2 90deg 180deg,
+        #388e3c 180deg 270deg,
+        #fbc02d 270deg 360deg
+      );
+      color: #000;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .selected {
+      transform: translateY(-15px) scale(1.1);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+    }
+
+    .order {
+      position: absolute;
+      top: -10px;
+      right: -10px;
+      background: red;
+      color: white;
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 14px;
+    }
+
+    .selection {
+      display: flex;
+      gap: 20px;
+    }
+
+    .slot {
+      width: 100px;
+      height: 150px;
+      border: 2px dashed #fff;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      position: relative;
+    }
+
+    .slot .label {
+      position: absolute;
+      bottom: -25px;
+      color: white;
+    }
+
+    @keyframes liarFlash {
+      0%, 100% { background: #222; color: white; }
+      50% { background: white; color: #222; }
+    }
+
+    .liar-flash {
+      animation: liarFlash 0.5s ease-in-out 6;
+    }
+  </style>
+</head>
+<body>
+  <h1>UNO Liar – kaarten</h1>
+
+  <div class="cards" id="cardContainer"></div>
+
+  <div class="selection">
+    <div class="slot"><span class="label">1e kaart</span></div>
+    <div class="slot"><span class="label">2e kaart</span></div>
+    <div class="slot"><span class="label">3e kaart</span></div>
+  </div>
+
+  <audio id="liarSound">
+    <source src="https://actions.google.com/sounds/v1/cartoon/clang_and_wobble.ogg" type="audio/ogg">
+  </audio>
+
+  <script>
+    const cardNames = {
+      rood: ['0','1','2','3','4','5','6','7','8','9','+2','⛔','⟲'],
+      blauw: ['0','1','2','3','4','5','6','7','8','9','+2','⛔','⟲'],
+      groen: ['0','1','2','3','4','5','6','7','8','9','+2','⛔','⟲'],
+      geel: ['0','1','2','3','4','5','6','7','8','9','+2','⛔','⟲'],
+      zwart: ['','+4','LIAR']
+    };
+
+    const container = document.getElementById('cardContainer');
+    const selected = [];
+    const liarSound = document.getElementById('liarSound');
+
+    function renderSelections() {
+      document.querySelectorAll('.card').forEach(card => {
+        card.classList.remove('selected');
+        const badge = card.querySelector('.order');
+        if (badge) badge.remove();
+      });
+
+      selected.forEach((card, index) => {
+        card.classList.add('selected');
+        const badge = document.createElement('div');
+        badge.className = 'order';
+        badge.textContent = index + 1;
+        card.appendChild(badge);
+      });
+    }
+
+    const colors = {
+      rood: '#d32f2f',
+      blauw: '#1976d2',
+      groen: '#388e3c',
+      geel: '#fbc02d',
+      zwart: '#222'
+    };
+
+    Object.keys(cardNames).forEach(color => {
+      const row = document.createElement('div');
+      row.className = 'row';
+
+      cardNames[color].forEach(value => {
+        const div = document.createElement('div');
+        div.className = 'card';
+        div.textContent = value === '' ? '' : value;
+
+        if (color === 'zwart' && value !== 'LIAR') {
+          div.classList.add('wild');
+        } else {
+          div.style.background = colors[color];
+          if (color === 'geel') div.style.color = '#000';
+        }
+
+        div.addEventListener('click', () => {
+          // Speciaal effect voor LIAR-kaart
+          if(color === 'zwart' && value === 'LIAR') {
+            div.classList.add('liar-flash');
+            // Zorg dat geluid afgespeeld wordt
+            liarSound.pause();
+            liarSound.currentTime = 0;
+            liarSound.play().catch(e => console.log('Autoplay blocked:', e));
+            setTimeout(() => { div.classList.remove('liar-flash'); }, 3000);
+          }
+
+          const index = selected.indexOf(div);
+          if (index !== -1) {
+            selected.splice(index, 1);
+          }
+          selected.push(div);
+          if (selected.length > 3) selected.shift();
+          renderSelections();
+        });
+
+        row.appendChild(div);
+      });
+
+      container.appendChild(row);
+    });
+  </script>
+</body>
+</html>
