@@ -1,0 +1,15 @@
+het bos:::le bois:
+het platteland:::la campagne:
+de bioscoop:::le cinéma:
+de school:::l'école:
+het ziekenhuis:::l'hôpital:
+de tuin:::le jardin:
+de kledingwinkel:::le magasin de vêtements:
+de winkel:::le magasin:
+de markt:::le marché:
+het plein:::la place:
+het restaurant:::le restaurant:
+de supermarkt:::le supermarché:
+het toilet, de wc:::les toilettes:
+het dorp:::le village:
+de stad:::la ville:
