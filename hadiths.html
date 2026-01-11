@@ -2,6 +2,7 @@
 <html lang="nl">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Hadith Verzameling</title>
 
 <style>
@@ -10,12 +11,11 @@
         background: linear-gradient(#fdf6e3, #eef3f1);
         color: #2e3d49;
         margin: 0;
-        padding: 0;
     }
 
     .container {
         max-width: 900px;
-        margin: 40px auto;
+        margin: 30px auto;
         padding: 20px;
         text-align: center;
     }
@@ -23,34 +23,57 @@
     h1 {
         color: #0b5d4b;
         font-size: 2.2rem;
-        margin-bottom: 10px;
+        margin-bottom: 5px;
     }
 
     .subtitle {
+        color: #5b7d72;
+        margin-bottom: 20px;
         font-style: italic;
-        color: #4f6f64;
-        margin-bottom: 25px;
     }
 
-    select {
-        font-size: 1.1rem;
+    .controls {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+
+    input {
         padding: 10px;
+        font-size: 1rem;
         border-radius: 8px;
         border: 2px solid #0b5d4b;
-        background-color: #ffffff;
+        width: 220px;
+    }
+
+    button {
+        padding: 10px 16px;
+        font-size: 1rem;
+        border-radius: 8px;
+        border: none;
+        cursor: pointer;
+        background-color: #0b5d4b;
+        color: white;
+    }
+
+    button:disabled {
+        background-color: #9fbdb4;
+        cursor: not-allowed;
     }
 
     .hadith-box {
-        margin-top: 30px;
-        background-color: #ffffff;
+        margin-top: 20px;
+        background-color: white;
         border-radius: 14px;
         padding: 20px;
-        box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+        box-shadow: 0 6px 16px rgba(0,0,0,0.12);
     }
 
     img {
         max-width: 100%;
-        border-radius: 10px;
+        border-radius: 12px;
         border: 3px solid #e0e0e0;
     }
 
@@ -60,14 +83,15 @@
         background-color: #eaf4f2;
         border-left: 6px solid #0b5d4b;
         border-radius: 8px;
-        font-size: 1.05rem;
         text-align: left;
+        font-size: 1.05rem;
+        line-height: 1.6;
     }
 
     footer {
-        margin-top: 40px;
+        margin-top: 30px;
         font-size: 0.9rem;
-        color: #6b7f78;
+        color: #6c8079;
     }
 </style>
 </head>
@@ -76,15 +100,19 @@
 
 <div class="container">
     <h1>📖 Hadith Verzameling</h1>
-    <div class="subtitle">Een selectie van authentieke overleveringen</div>
+    <div class="subtitle">Doorzoek en lees authentieke overleveringen</div>
 
-    <select id="hadithSelect">
-        <option value="">— Kies een Hadith —</option>
-    </select>
+    <div class="controls">
+        <input id="search" type="text" placeholder="Zoek: H00012 of 12">
+        <button onclick="prevHadith()">◀ Vorige</button>
+        <button onclick="nextHadith()">Volgende ▶</button>
+    </div>
 
-    <div class="hadith-box" id="hadithBox" style="display:none;">
+    <div id="currentLabel"></div>
+
+    <div class="hadith-box">
         <img id="hadithImage" alt="Hadith afbeelding">
-        <div class="text" id="hadithText"></div>
+        <div class="text" id="hadithText">Typ een hadith-nummer om te beginnen.</div>
     </div>
 
     <footer>
@@ -93,46 +121,50 @@
 </div>
 
 <script>
-const hadiths = [
-    {
-        id: "H00001",
-        image: "hadiths/H00001.png",
-        text: "De Boodschapper van Allah ﷺ zei: De islam is gebouwd op vijf pijlers..."
-    },
-    {
-        id: "H00002",
-        image: "hadiths/H00002.png",
-        text: "Voorwaar, de daden zijn slechts volgens de intenties..."
-    },
-    {
-        id: "H00003",
-        image: "hadiths/H00003.png",
-        text: "Wie in Allah en de Laatste Dag gelooft, laat hem het goede spreken of zwijgen."
+const TOTAL_HADITHS = 500; // ← pas dit aan
+let current = 1;
+
+// Voorbeeldteksten (optioneel uitbreiden)
+const hadithText = {
+    1: "De Boodschapper van Allah ﷺ zei: De islam is gebouwd op vijf pijlers...",
+    2: "Voorwaar, de daden zijn slechts volgens de intenties...",
+    3: "Wie in Allah en de Laatste Dag gelooft, laat hem het goede spreken of zwijgen."
+};
+
+function pad(n) {
+    return String(n).padStart(5, "0");
+}
+
+function loadHadith(n) {
+    if (n < 1 || n > TOTAL_HADITHS) return;
+
+    current = n;
+    document.getElementById("currentLabel").textContent = "Hadith: H" + pad(n);
+    document.getElementById("hadithImage").src = `hadiths/H${pad(n)}.png`;
+    document.getElementById("hadithText").textContent =
+        hadithText[n] || "Geen tekst beschikbaar voor deze hadith.";
+
+    document.querySelector("button[onclick='prevHadith()']").disabled = (n === 1);
+    document.querySelector("button[onclick='nextHadith()']").disabled = (n === TOTAL_HADITHS);
+}
+
+function nextHadith() {
+    loadHadith(current + 1);
+}
+
+function prevHadith() {
+    loadHadith(current - 1);
+}
+
+document.getElementById("search").addEventListener("input", e => {
+    let val = e.target.value.trim().replace("H", "");
+    if (/^\d{1,5}$/.test(val)) {
+        loadHadith(parseInt(val));
     }
-];
-
-const select = document.getElementById("hadithSelect");
-const image = document.getElementById("hadithImage");
-const text = document.getElementById("hadithText");
-const box = document.getElementById("hadithBox");
-
-hadiths.forEach(h => {
-    const option = document.createElement("option");
-    option.value = h.id;
-    option.textContent = h.id;
-    select.appendChild(option);
 });
 
-select.addEventListener("change", () => {
-    const h = hadiths.find(x => x.id === select.value);
-    if (h) {
-        image.src = h.image;
-        text.textContent = h.text;
-        box.style.display = "block";
-    } else {
-        box.style.display = "none";
-    }
-});
+// Start met eerste hadith
+loadHadith(1);
 </script>
 
 </body>
