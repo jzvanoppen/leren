@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<title>Hadith Verzameling</title>
+
+<style>
+    body {
+        font-family: "Segoe UI", Tahoma, sans-serif;
+        background: linear-gradient(#fdf6e3, #eef3f1);
+        color: #2e3d49;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        max-width: 900px;
+        margin: 40px auto;
+        padding: 20px;
+        text-align: center;
+    }
+
+    h1 {
+        color: #0b5d4b;
+        font-size: 2.2rem;
+        margin-bottom: 10px;
+    }
+
+    .subtitle {
+        font-style: italic;
+        color: #4f6f64;
+        margin-bottom: 25px;
+    }
+
+    select {
+        font-size: 1.1rem;
+        padding: 10px;
+        border-radius: 8px;
+        border: 2px solid #0b5d4b;
+        background-color: #ffffff;
+    }
+
+    .hadith-box {
+        margin-top: 30px;
+        background-color: #ffffff;
+        border-radius: 14px;
+        padding: 20px;
+        box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+    }
+
+    img {
+        max-width: 100%;
+        border-radius: 10px;
+        border: 3px solid #e0e0e0;
+    }
+
+    .text {
+        margin-top: 18px;
+        padding: 15px;
+        background-color: #eaf4f2;
+        border-left: 6px solid #0b5d4b;
+        border-radius: 8px;
+        font-size: 1.05rem;
+        text-align: left;
+    }
+
+    footer {
+        margin-top: 40px;
+        font-size: 0.9rem;
+        color: #6b7f78;
+    }
+</style>
+</head>
+
+<body>
+
+<div class="container">
+    <h1>📖 Hadith Verzameling</h1>
+    <div class="subtitle">Een selectie van authentieke overleveringen</div>
+
+    <select id="hadithSelect">
+        <option value="">— Kies een Hadith —</option>
+    </select>
+
+    <div class="hadith-box" id="hadithBox" style="display:none;">
+        <img id="hadithImage" alt="Hadith afbeelding">
+        <div class="text" id="hadithText"></div>
+    </div>
+
+    <footer>
+        © Hadith Project • In shā’ Allāh
+    </footer>
+</div>
+
+<script>
+const hadiths = [
+    {
+        id: "H00001",
+        image: "hadiths/H00001.png",
+        text: "De Boodschapper van Allah ﷺ zei: De islam is gebouwd op vijf pijlers..."
+    },
+    {
+        id: "H00002",
+        image: "hadiths/H00002.png",
+        text: "Voorwaar, de daden zijn slechts volgens de intenties..."
+    },
+    {
+        id: "H00003",
+        image: "hadiths/H00003.png",
+        text: "Wie in Allah en de Laatste Dag gelooft, laat hem het goede spreken of zwijgen."
+    }
+];
+
+const select = document.getElementById("hadithSelect");
+const image = document.getElementById("hadithImage");
+const text = document.getElementById("hadithText");
+const box = document.getElementById("hadithBox");
+
+hadiths.forEach(h => {
+    const option = document.createElement("option");
+    option.value = h.id;
+    option.textContent = h.id;
+    select.appendChild(option);
+});
+
+select.addEventListener("change", () => {
+    const h = hadiths.find(x => x.id === select.value);
+    if (h) {
+        image.src = h.image;
+        text.textContent = h.text;
+        box.style.display = "block";
+    } else {
+        box.style.display = "none";
+    }
+});
+</script>
+
+</body>
+</html>
