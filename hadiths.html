@@ -37,7 +37,7 @@
         flex-wrap: wrap;
         justify-content: center;
         gap: 10px;
-        margin-bottom: 20px;
+        margin-bottom: 15px;
     }
 
     input {
@@ -45,7 +45,7 @@
         font-size: 1rem;
         border-radius: 8px;
         border: 2px solid #0b5d4b;
-        width: 220px;
+        width: 240px;
     }
 
     button {
@@ -63,8 +63,14 @@
         cursor: not-allowed;
     }
 
+    .current {
+        margin-bottom: 10px;
+        font-weight: bold;
+        color: #0b5d4b;
+    }
+
     .hadith-box {
-        margin-top: 20px;
+        margin-top: 10px;
         background-color: white;
         border-radius: 14px;
         padding: 20px;
@@ -79,13 +85,16 @@
 
     .text {
         margin-top: 18px;
-        padding: 15px;
+        padding: 18px;
         background-color: #eaf4f2;
         border-left: 6px solid #0b5d4b;
         border-radius: 8px;
         text-align: left;
         font-size: 1.05rem;
         line-height: 1.6;
+
+        /* DIT IS CRUCIAAL */
+        white-space: pre-line;
     }
 
     footer {
@@ -108,11 +117,13 @@
         <button onclick="nextHadith()">Volgende ▶</button>
     </div>
 
-    <div id="currentLabel"></div>
+    <div class="current" id="currentLabel"></div>
 
     <div class="hadith-box">
         <img id="hadithImage" alt="Hadith afbeelding">
-        <div class="text" id="hadithText">Typ een hadith-nummer om te beginnen.</div>
+        <div class="text" id="hadithText">
+Typ een hadith-nummer of gebruik de knoppen om te beginnen.
+        </div>
     </div>
 
     <footer>
@@ -121,26 +132,40 @@
 </div>
 
 <script>
-const TOTAL_HADITHS = 500; // ← pas dit aan
+const TOTAL_HADITHS = 500; // pas dit aan
 let current = 1;
 
-// Voorbeeldteksten (optioneel uitbreiden)
+/* Lange teksten met paragrafen */
 const hadithText = {
-    1: `Overgeleverd door Ibn ‘Oemar. De Boodschapper van Allah ﷺ zei:
-De islam is gebouwd op (de volgende) vijf (pijlers):
+    1: `
+Overgeleverd door Ibn ‘Oemar (رضي الله عنه):
 
-Te getuigen dat niemand het recht heeft om aanbeden te worden behalve Allah, en dat Mohammed de Boodschapper van Allah is.
+De Boodschapper van Allah ﷺ zei:
 
-Het zorgvuldig en volmaakt verrichten van de (verplichte, gezamenlijke) gebeden.
+"De islam is gebouwd op vijf (pijlers):
+– het getuigen dat er geen god is behalve Allah en dat Mohammed de Boodschapper van Allah is,
+– het verrichten van het gebed,
+– het geven van de zakāt,
+– het verrichten van de hadj,
+– en het vasten in de maand Ramadan."
 
-Het betalen van de zakāt (d.w.z. verplichte liefdadigheid).
+Bron:
+Sahih al-Bukhari & Sahih Muslim
+`,
 
-Het verrichten van de hadj (d.w.z. de bedevaart naar Mekka).
+    2: `
+Overgeleverd door ‘Oemar ibn al-Khattab (رضي الله عنه):
 
-Het vasten tijdens de maand Ramadan.`,
-    
-    2: "Voorwaar, de daden zijn slechts volgens de intenties...",
-    3: "Wie in Allah en de Laatste Dag gelooft, laat hem het goede spreken of zwijgen."
+De Boodschapper van Allah ﷺ zei:
+
+"Voorwaar, de daden zijn slechts volgens de intenties,
+en voor ieder mens is wat hij heeft bedoeld."
+
+Deze hadith vormt een fundament van de islam.
+
+Bron:
+Sahih al-Bukhari, Hadith 1
+`
 };
 
 function pad(n) {
@@ -151,8 +176,13 @@ function loadHadith(n) {
     if (n < 1 || n > TOTAL_HADITHS) return;
 
     current = n;
-    document.getElementById("currentLabel").textContent = "Hadith: H" + pad(n);
-    document.getElementById("hadithImage").src = `hadiths/H${pad(n)}.png`;
+
+    document.getElementById("currentLabel").textContent =
+        "Hadith: H" + pad(n);
+
+    document.getElementById("hadithImage").src =
+        `hadiths/H${pad(n)}.png`;
+
     document.getElementById("hadithText").textContent =
         hadithText[n] || "Geen tekst beschikbaar voor deze hadith.";
 
@@ -169,13 +199,13 @@ function prevHadith() {
 }
 
 document.getElementById("search").addEventListener("input", e => {
-    let val = e.target.value.trim().replace("H", "");
+    const val = e.target.value.trim().replace("H", "");
     if (/^\d{1,5}$/.test(val)) {
         loadHadith(parseInt(val));
     }
 });
 
-// Start met eerste hadith
+/* Start */
 loadHadith(1);
 </script>
 
