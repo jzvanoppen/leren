@@ -1,0 +1,14 @@
+de (handels)zaak:::le commerce
+de kerk:::l'église
+de frituur:::la friterie
+het station:::la gare
+het hotel:::l'hôtel
+het museum:::le musée
+het park:::le parc
+de apotheek:::la pharmacie
+het zwembad:::la piscine
+de pizzeria:::la pizzéria
+het postkantoor:::la poste
+de straat:::la rue
+de winkelstraat:::la rue commerçante
+de sporthal:::la salle de sport
