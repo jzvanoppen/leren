@@ -1,0 +1,12 @@
+de toeristische attractie:::l'attraction touristique
+de bank:::la banque
+het gebouw:::le bâtiment
+de bibliotheek:::la bibliothèque
+de slagerij:::la boucherie
+de bakkerij:::la boulangerie
+de boetiek:::la boutique
+het café:::le café
+de kathedraal:::la cathédrale
+het centrum:::le centre
+het stadscentrum:::le centre-ville
+het kasteel:::le château
