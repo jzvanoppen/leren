@@ -12,8 +12,6 @@
     #quiz{display:none;margin-top:16px}
     .big{font-size:1.25rem}
     #resultaat{margin-top:8px}
-    table,th,td{border:1px solid #444;border-collapse:collapse;padding:6px}
-    th{background:#f0f0f0}
     .correct{color:green}
     .wrong{color:red}
     .hint{font-style:italic;color:#333}
@@ -46,13 +44,12 @@
 
 <button type="button" onclick="loadFile()">Start Oefenen</button>
 
-<div id="quiz" aria-live="polite">
+<div id="quiz">
   <p class="big" id="vraagNL"></p>
   <input id="antwoord" placeholder="Typ hier de vertaling en druk Enter" autocomplete="off" />
   <button id="controleerBtn" type="button">Controleer</button>
   <p id="resultaat"></p>
   <p id="score" class="hint"></p>
-  <div id="einde" style="display:none;margin-top:12px"></div>
 </div>
 
 <script>
@@ -64,12 +61,10 @@
   const resultaat=document.getElementById('resultaat');
   const scoreEl=document.getElementById('score');
   const quiz=document.getElementById('quiz');
-  const einde=document.getElementById('einde');
   const ttsLang=document.getElementById('ttsLang');
 
   function norm(s){return(s||'').trim().toLowerCase();}
   function escapeHtml(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;');}
-  function shuffle(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
 
   function speak(text){
     if(!window.speechSynthesis) return;
@@ -91,7 +86,7 @@
       .then(t=>{
         allSelected=t.split(/\n/).map(parseLine).filter(x=>x);
         stateByKey={};
-        allSelected.forEach(w=>stateByKey[w.nl]={wrongs:0,done:false,waiting:false});
+        allSelected.forEach(w=>stateByKey[w.nl]={done:false,waiting:false});
         quiz.style.display='block';
         nieuwWoord();
       });
@@ -99,7 +94,7 @@
 
   function nieuwWoord(){
     const a=allSelected.filter(w=>!stateByKey[w.nl].done);
-    if(!a.length) return einde.innerHTML='Klaar!';
+    if(!a.length) return;
     huidige=a[Math.floor(Math.random()*a.length)];
     vraagNL.innerHTML='<b>'+escapeHtml(huidige.nl)+'</b>';
     antwoord.value='';
@@ -108,13 +103,12 @@
   function controleer(){
     const st=stateByKey[huidige.nl];
 
-    // ✅ TEL TOTAAL ALLEEN BIJ EERSTE POGING OP DIT WOORD
-    if(!st.waiting){
-      totaal++;
-    }
+    if(!st.waiting) totaal++;
 
     if(norm(antwoord.value)===norm(huidige.fr)){
-      juist++;
+      if(!st.waiting){     // ✅ FIX
+        juist++;
+      }
       resultaat.innerHTML='<span class="correct">Juist!</span>';
       speak(huidige.fr);
       st.done=true;
