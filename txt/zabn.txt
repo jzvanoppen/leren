@@ -1,0 +1,19 @@
+klimmen:::faire de l'escalade:
+logeren:::loger:
+bezoeken:::visiter:
+aangenaam:::agréable:
+bruisend, levendig:::animé:MANNELIJK
+bruisend, levendig:::animée:VROUWELIJK
+kalm, rustig:::calme
+charmant, leuk:::charmant:MANNELIJK
+charmant, leuk:::charmante:VROUWELIJK
+vervelend, saai:::ennuyeux:MANNELIJK
+vervelend, saai:::ennuyeuse:VROUWELIJK
+prachtig:::magnifique
+levendig:::vivant:MANNELIJK
+levendig:::vivante:VROUWELIJK
+naast:::à côté de:
+tegenover:::en face de:
+dichtbij:::près de:
+heel dichtbij:::tout près de:
+vaak:::souvent:
