@@ -21,148 +21,110 @@
   </style>
 </head>
 <body>
-  <h1>Woordjes Oefenen</h1>
+<h1>Woordjes Oefenen</h1>
 
-  <label class="inline">Bestandsnaam (4 tekens):</label>
-  <input id="fileInput" maxlength="4" placeholder="bv. iaab" />
-  <br>
-  <label class="inline">Hoeveel woorden oefenen?</label>
-  <select id="limietSelect">
-    <option value="0">Alles</option>
-    <option value="10">10</option>
-    <option value="15">15</option>
-    <option value="20">20</option>
-    <option value="25">25</option>
-  </select>
-  <br>
-  <button id="startBtn" type="button" onclick="loadFile()">Start Oefenen</button>
+<label class="inline">Bestandsnaam (4 tekens):</label>
+<input id="fileInput" maxlength="4" placeholder="bv. iaab" />
+<br>
 
-  <div id="quiz" aria-live="polite">
-    <p class="big" id="vraagNL"></p>
-    <input id="antwoord" placeholder="Typ hier de vertaling en druk Enter" autocomplete="off" />
-    <button id="controleerBtn" type="button">Controleer</button>
-    <p id="resultaat"></p>
-    <p id="score" class="hint"></p>
-    <div id="einde" style="display:none;margin-top:12px"></div>
-  </div>
+<label class="inline">Hoeveel woorden oefenen?</label>
+<select id="limietSelect">
+  <option value="0">Alles</option>
+  <option value="10">10</option>
+  <option value="15">15</option>
+  <option value="20">20</option>
+  <option value="25">25</option>
+</select>
+<br>
+
+<!-- 🔊 TOEGEVOEGD -->
+<label class="inline">Uitspraak:</label>
+<select id="ttsLang">
+  <option value="fr-FR">Frans</option>
+  <option value="en-US">Engels</option>
+</select>
+<br>
+
+<button type="button" onclick="loadFile()">Start Oefenen</button>
+
+<div id="quiz" aria-live="polite">
+  <p class="big" id="vraagNL"></p>
+  <input id="antwoord" placeholder="Typ hier de vertaling en druk Enter" autocomplete="off" />
+  <button id="controleerBtn" type="button">Controleer</button>
+  <p id="resultaat"></p>
+  <p id="score" class="hint"></p>
+  <div id="einde" style="display:none;margin-top:12px"></div>
+</div>
 
 <script>
 (function(){
-  let allSelected = [];
-  let huidige = null;
-  let stateByKey = {};
-  let juist = 0, totaal = 0;
+  let allSelected=[], huidige=null, stateByKey={}, juist=0, totaal=0;
 
-  const fileInput = document.getElementById('fileInput');
-  const limSel = document.getElementById('limietSelect');
-  const controleerBtn = document.getElementById('controleerBtn');
-  const antwoord = document.getElementById('antwoord');
-  const vraagNL = document.getElementById('vraagNL');
-  const resultaat = document.getElementById('resultaat');
-  const scoreEl = document.getElementById('score');
-  const quiz = document.getElementById('quiz');
-  const einde = document.getElementById('einde');
+  const antwoord=document.getElementById('antwoord');
+  const vraagNL=document.getElementById('vraagNL');
+  const resultaat=document.getElementById('resultaat');
+  const scoreEl=document.getElementById('score');
+  const quiz=document.getElementById('quiz');
+  const einde=document.getElementById('einde');
+  const ttsLang=document.getElementById('ttsLang');
 
-  function norm(s){ return (s||'').replace(/\s+/g,' ').trim().toLowerCase(); }
-  function escapeHtml(s){ return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
-  function shuffle(a){ for(let i=a.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]] } return a }
+  function norm(s){return(s||'').trim().toLowerCase();}
+  function escapeHtml(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;');}
+  function shuffle(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
 
-  /* ====== TEXT TO SPEECH TOEVOEGING ====== */
+  /* 🔊 TEXT TO SPEECH */
   function speak(text){
-    if(!('speechSynthesis' in window)) return;
-    const u = new SpeechSynthesisUtterance(text);
-    if (/[àâçéèêëîïôûùüÿœæ]/i.test(text)) {
-      u.lang = 'fr-FR';
-    } else {
-      u.lang = 'en-US';
-    }
-    window.speechSynthesis.cancel();
-    window.speechSynthesis.speak(u);
-  }
-  /* ===================================== */
-
-  function parseLine(line){
-    const idx = line.indexOf(':::');
-    if(idx===-1) return null;
-    const nl = line.slice(0,idx).trim();
-    const rest = line.slice(idx+3);
-    const parts = rest.split(':');
-    const fr = (parts[0]||'').trim();
-    const info = parts.slice(1).join(':').trim();
-    if(!nl || !fr) return null;
-    return {nl,fr,info};
+    if(!window.speechSynthesis) return;
+    const u=new SpeechSynthesisUtterance(text);
+    u.lang=ttsLang.value;
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
   }
 
-  window.loadFile = function(){
-    const naam = (fileInput.value||'').trim();
-    if(!/^[a-zA-Z0-9]{4}$/.test(naam)) { alert('Geef exact 4 letters/cijfers in.'); return; }
-    const path = 'txt/' + naam + '.txt';
+  function parseLine(l){
+    const i=l.indexOf(':::');
+    if(i===-1) return null;
+    return {nl:l.slice(0,i).trim(), fr:l.slice(i+3).split(':')[0].trim()};
+  }
 
-    fetch(path).then(r=>{
-      if(!r.ok) throw new Error();
-      return r.text();
-    }).then(text=>{
-      const lines = text.split(/\r?\n/).map(l=>l.trim()).filter(l=>l.length>0);
-      const parsed = lines.map(parseLine).filter(x=>x);
-      if(parsed.length===0){ alert('Geen geldige regels'); return; }
-
-      allSelected = parsed.map((w,i)=>Object.assign({},w,{_id:i}));
-      stateByKey = {};
-      allSelected.forEach(w=> stateByKey[w.nl] = {wrongs:0,done:false,waiting:false});
-      juist = 0; totaal = 0;
-
-      quiz.style.display = 'block';
-      nieuwWoord();
-    }).catch(()=>alert('Bestand niet gevonden'));
+  window.loadFile=function(){
+    fetch('txt/'+fileInput.value+'.txt')
+      .then(r=>r.text())
+      .then(t=>{
+        allSelected=t.split(/\n/).map(parseLine).filter(x=>x);
+        stateByKey={};
+        allSelected.forEach(w=>stateByKey[w.nl]={wrongs:0,done:false,waiting:false});
+        quiz.style.display='block';
+        nieuwWoord();
+      });
   };
 
-  function pickActive(){ return allSelected.filter(w=> !stateByKey[w.nl].done); }
-
   function nieuwWoord(){
-    const active = pickActive();
-    if(active.length===0) return toonEinde();
-    huidige = active[Math.floor(Math.random()*active.length)];
-    vraagNL.innerHTML = '<b>'+escapeHtml(huidige.nl)+'</b>';
-    resultaat.innerHTML = '';
-    antwoord.value = '';
-    antwoord.focus();
-    updateScore();
+    const a=allSelected.filter(w=>!stateByKey[w.nl].done);
+    if(!a.length) return einde.innerHTML='Klaar!';
+    huidige=a[Math.floor(Math.random()*a.length)];
+    vraagNL.innerHTML='<b>'+escapeHtml(huidige.nl)+'</b>';
+    antwoord.value='';
   }
 
   function controleer(){
-    if(!huidige) return;
-    const st = stateByKey[huidige.nl];
-    const given = antwoord.value.trim();
-    if(!given) return;
-
+    const st=stateByKey[huidige.nl];
     totaal++;
-
-    if(norm(given) === norm(huidige.fr)){
+    if(norm(antwoord.value)===norm(huidige.fr)){
       juist++;
-      resultaat.innerHTML = '<span class="correct">Juist!</span>';
+      resultaat.innerHTML='<span class="correct">Juist!</span>';
       speak(huidige.fr);
-      st.done = true;
-      updateScore();
+      st.done=true;
       setTimeout(nieuwWoord,700);
-    } else {
-      st.wrongs++;
-      resultaat.innerHTML = '<span class="wrong">Fout. Juiste antwoord: <b>'+escapeHtml(huidige.fr)+'</b></span>';
+    }else{
+      resultaat.innerHTML='<span class="wrong">Fout. Juiste antwoord: <b>'+escapeHtml(huidige.fr)+'</b></span>';
       speak(huidige.fr);
-      updateScore();
     }
+    scoreEl.textContent=juist+'/'+totaal;
   }
 
-  function updateScore(){ scoreEl.textContent = juist + '/' + totaal; }
-
-  function toonEinde(){
-    quiz.style.display = 'none';
-    einde.style.display = 'block';
-    einde.innerHTML = '<h3>Eindscore: '+juist+'/'+totaal+'</h3>';
-  }
-
-  controleerBtn.addEventListener('click', controleer);
-  antwoord.addEventListener('keydown', e=>{ if(e.key==='Enter') controleer(); });
-
+  controleerBtn.onclick=controleer;
+  antwoord.onkeydown=e=>{if(e.key==='Enter') controleer();};
 })();
 </script>
 </body>
