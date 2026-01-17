@@ -4,40 +4,25 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Woordjes Oefenen</title>
-  <link rel="icon" type="image/png" href="img/favicon_F56565_192.png">
-  <link rel="apple-touch-icon" href="img/favicon_F56565_192.png">
   <style>
     body{font-family:Arial,Helvetica,sans-serif;max-width:900px;margin:24px auto;padding:0 12px}
     input,select,button{font-size:1rem;padding:8px;margin:6px 0}
     #quiz{display:none;margin-top:16px}
     .big{font-size:1.25rem}
-    #resultaat{margin-top:8px}
-    table,th,td{border:1px solid #444;border-collapse:collapse;padding:6px}
-    th{background:#f0f0f0}
     .correct{color:green}
     .wrong{color:red}
-    .hint{font-style:italic;color:#333}
+    .hint{font-style:italic}
     .inline{display:inline-block;margin-right:8px}
   </style>
 </head>
 <body>
+
 <h1>Woordjes Oefenen</h1>
 
-<label class="inline">Bestandsnaam (4 tekens):</label>
-<input id="fileInput" maxlength="4" placeholder="bv. iaab" />
+<label class="inline">Bestandsnaam:</label>
+<input id="fileInput" maxlength="4" placeholder="bv. iaab">
 <br>
 
-<label class="inline">Hoeveel woorden oefenen?</label>
-<select id="limietSelect">
-  <option value="0">Alles</option>
-  <option value="10">10</option>
-  <option value="15">15</option>
-  <option value="20">20</option>
-  <option value="25">25</option>
-</select>
-<br>
-
-<!-- 🔊 TOEGEVOEGD -->
 <label class="inline">Uitspraak:</label>
 <select id="ttsLang">
   <option value="fr-FR">Frans</option>
@@ -45,43 +30,37 @@
 </select>
 <br>
 
-<button type="button" onclick="loadFile()">Start Oefenen</button>
+<button onclick="loadFile()">Start</button>
 
-<div id="quiz" aria-live="polite">
+<div id="quiz">
   <p class="big" id="vraagNL"></p>
-  <input id="antwoord" placeholder="Typ hier de vertaling en druk Enter" autocomplete="off" />
-  <button id="controleerBtn" type="button">Controleer</button>
+  <input id="antwoord" autocomplete="off">
+  <button id="controleerBtn">Controleer</button>
   <p id="resultaat"></p>
   <p id="score" class="hint"></p>
-  <div id="einde" style="display:none;margin-top:12px"></div>
 </div>
 
 <script>
 (function(){
-  let allSelected=[], huidige=null, stateByKey={}, juist=0, totaal=0;
+  let woorden=[], huidige=null, state={}, juist=0, totaal=0;
 
-  const antwoord=document.getElementById('antwoord');
   const vraagNL=document.getElementById('vraagNL');
+  const antwoord=document.getElementById('antwoord');
   const resultaat=document.getElementById('resultaat');
   const scoreEl=document.getElementById('score');
   const quiz=document.getElementById('quiz');
-  const einde=document.getElementById('einde');
   const ttsLang=document.getElementById('ttsLang');
 
   function norm(s){return(s||'').trim().toLowerCase();}
-  function escapeHtml(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;');}
-  function shuffle(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
-
-  /* 🔊 TEXT TO SPEECH */
   function speak(text){
-    if(!window.speechSynthesis) return;
+    if(!speechSynthesis) return;
     const u=new SpeechSynthesisUtterance(text);
     u.lang=ttsLang.value;
     speechSynthesis.cancel();
     speechSynthesis.speak(u);
   }
 
-  function parseLine(l){
+  function parse(l){
     const i=l.indexOf(':::');
     if(i===-1) return null;
     return {nl:l.slice(0,i).trim(), fr:l.slice(i+3).split(':')[0].trim()};
@@ -91,35 +70,56 @@
     fetch('txt/'+fileInput.value+'.txt')
       .then(r=>r.text())
       .then(t=>{
-        allSelected=t.split(/\n/).map(parseLine).filter(x=>x);
-        stateByKey={};
-        allSelected.forEach(w=>stateByKey[w.nl]={wrongs:0,done:false,waiting:false});
+        woorden=t.split(/\n/).map(parse).filter(x=>x);
+        state={};
+        woorden.forEach(w=>{
+          state[w.nl]={done:false, asked:false};
+        });
+        juist=0; totaal=0;
         quiz.style.display='block';
         nieuwWoord();
       });
   };
 
   function nieuwWoord(){
-    const a=allSelected.filter(w=>!stateByKey[w.nl].done);
-    if(!a.length) return einde.innerHTML='Klaar!';
-    huidige=a[Math.floor(Math.random()*a.length)];
-    vraagNL.innerHTML='<b>'+escapeHtml(huidige.nl)+'</b>';
+    const actief=woorden.filter(w=>!state[w.nl].done);
+    if(!actief.length){
+      resultaat.innerHTML='<b>Klaar!</b>';
+      return;
+    }
+    huidige=actief[Math.floor(Math.random()*actief.length)];
+    vraagNL.innerHTML='<b>'+huidige.nl+'</b>';
     antwoord.value='';
+    resultaat.innerHTML='';
+    antwoord.focus();
+    updateScore();
   }
 
   function controleer(){
-    const st=stateByKey[huidige.nl];
-    totaal++;
+    const st=state[huidige.nl];
+
+    // ✅ TELT TOTAAL SLECHTS ÉÉN KEER PER WOORD
+    if(!st.asked){
+      totaal++;
+      st.asked=true;
+    }
+
     if(norm(antwoord.value)===norm(huidige.fr)){
-      juist++;
+      if(!st.done){
+        juist++;
+        st.done=true;
+      }
       resultaat.innerHTML='<span class="correct">Juist!</span>';
       speak(huidige.fr);
-      st.done=true;
       setTimeout(nieuwWoord,700);
     }else{
-      resultaat.innerHTML='<span class="wrong">Fout. Juiste antwoord: <b>'+escapeHtml(huidige.fr)+'</b></span>';
+      resultaat.innerHTML='<span class="wrong">Fout. Juiste antwoord: <b>'+huidige.fr+'</b></span>';
       speak(huidige.fr);
     }
+    updateScore();
+  }
+
+  function updateScore(){
     scoreEl.textContent=juist+'/'+totaal;
   }
 
@@ -127,5 +127,6 @@
   antwoord.onkeydown=e=>{if(e.key==='Enter') controleer();};
 })();
 </script>
+
 </body>
 </html>
