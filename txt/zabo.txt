@@ -1,0 +1,10 @@
+een activiteit doen:::faire une activité:
+een sportactiviteit doen:::faire une activité sportive:
+het spijt me:::je suis désolé:MANNELIJK
+het spijt me:::je suis désolée:VROUWELIJK
+we gaan er samen heen:::on y va ensemble:
+geen zorgen:::pas de soucis:
+een glas drinken:::prendre un verre:
+het voetbalstadion:::le stade de foot:
+de superette:::la supérette:
+het terras:::la terrasse:
