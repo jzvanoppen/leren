@@ -8,3 +8,6 @@ een glas drinken:::prendre un verre:
 het voetbalstadion:::le stade de foot:
 de superette:::la supérette:
 het terras:::la terrasse:
+prachtig:::magnifique
+naast:::à côté de:
+levendig:::vivante:VROUWELIJK
