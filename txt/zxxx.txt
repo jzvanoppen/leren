@@ -1,40 +1,10 @@
-gamen, computerspelletjes spelen:::jouer à des jeux vidéo:
-tof:::chouette:
-de strand-cabine:::la cabine de plage:
-de vriend:::le copain:
-de vriendin:::la copine:
-de zeilplank, het windsurfen:::la planche à voile:
-de man, de echtgenoot:::le mari:
-de Fransman:::le Français:
-de taal:::la langue:
-de basket (sport):::le basket:
-de gymnastiek / het turnen:::la gym:
-de voornaam:::le prénom:
-de graad:::le degré:
-het volleybal:::le volley:
-de drinkfles:::la gourde:
-de trainer:::le coach:
-de groep:::le groupe:
-Het is tijd:::Il est l'heure:
-naar muziek luisteren:::écouter de la musique:
-lezen:::lire:
-shoppen:::faire du shopping:
-snel:::vite:
-naar films kijken:::regarder des films:
-piano spelen:::jouer du piano:
-berichtjes sturen:::envoyer des messages:
-vriendelijk:::gentil:MANNELIJK:
-grappig:::drôle:
-slim:::malin:MANNELIJK
-ernstig:::sérieux:MANNELIJK
-streng:::sévère:
-ziehier:::voici:
-hoe:::comment:
-veel:::beaucoup:
-verstandig, slim:::intelligent:MANNELIJK
-ook:::aussi:
-dus:::donc:
-ziedaar:::voilà:
-te veel:::trop:
-tof, leuk:::chouette:
-hoeveel:::combien de:
+een activiteit doen:::faire une activité:
+een sportactiviteit doen:::faire une activité sportive:
+het spijt me:::je suis désolé:MANNELIJK
+het spijt me:::je suis désolée:VROUWELIJK
+we gaan er samen heen:::on y va ensemble:
+geen zorgen:::pas de soucis:
+een glas drinken:::prendre un verre:
+het voetbalstadion:::le stade de foot:
+de superette:::la supérette:
+het terras:::la terrasse:
