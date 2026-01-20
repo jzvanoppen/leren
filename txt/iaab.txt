@@ -23,5 +23,5 @@ nemen:::prendre:L’INFINITIF
 hebben:::avoir:L’INFINITIF
 houden van:::aimer:L’INFINITIF
 spreken:::parler:L’INFINITIF
-ezen:::lire:L’INFINITIF
+lezen:::lire:L’INFINITIF
 doorbrengen:::passer:L’INFINITIF
