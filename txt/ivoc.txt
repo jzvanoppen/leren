@@ -1,0 +1,918 @@
+het karakter:le:caractère:le caractère:
+het uiterlijk/de looks:l'(f):apparence:l'apparence:l'apparence:
+hip:::branché:MANNELIJK
+hip:::branchée:VROUWELIJK
+interessant:::intéressant:MANNELIJK
+interessant:::intéressante:VROUWELIJK
+bedrukt:::imprimé:MANNELIJK
+bedrukt:::imprimée:VROUWELIJK
+vallen voor:::craquer pour:
+grapjes maken:::plaisanter:
+dromen over:::rêver de:
+een goede smaak hebben:::avoir bon goût:
+lijken/eruit zien:::avoir l'air:
+dat is maar (uiterlijke) schijn:::ce n'est que l'apparence:
+ik mis hem:::il me manque:
+het lijkt me dat:::il me semble que:
+het puistje:le:bouton:le bouton:
+de make-up:le:maquillage:le maquillage:
+de baard:la:barbe:la barbe:
+het kapsel:la:coiffure:la coiffure:
+de snor:la:moustache:la moustache:
+bejaard:::âgé:MANNELIJK
+bejaard:::âgée:VROUWELIJK
+gekruld:::bouclé:
+gebruind:::bronzé:MANNELIJK
+gebruind:::bronzée:VROUWELIJK
+kaal:::chauve:
+lelijk:::laid:MANNELIJK
+lelijk:::laide:VROUWELIJK
+lang:::long:MANNELIJK
+lang:::longue:VROUWELIJK
+steil:::lisse:
+schattig:::mignon:MANNELIJK
+schattig:::mignonne:VROUWELIJK
+halflang:::mi-long:MANNELIJK
+halflang:::mi-longue:VROUWELIJK
+slank, dun:::mince:
+gespierd:::musculé:MANNELIJK
+gespierd:::musculée:VROUWELIJK
+actief:::actif:MANNELIJK
+actief:::active:VROUWELIJK
+agressief:::agressif:MANNELIJK
+agressief:::agressive:VROUWELIJK
+rustig:::calme:
+grappig:::drôle:(D...)
+beleefd:::poli:MANNELIJK
+beleefd:::polie:VROUWELIJK
+onbeleefd:::impoli:MANNELIJK
+onbeleefd:::impolie:VROUWELIJK
+verstandig:::intelligent:MANNELIJK
+verstandig:::intelligente:VROUWELIJK
+macho:::macho:
+grappig:::marrant:(M...) MANNELIJK
+grappig:::marrante:(M...) VROUWELIJK
+stout, kwaadaardig:::méchant:MANNELIJK
+kwaadaardig:::méchante:VROUWELIJK
+ernstig:::sérieux:MANNELIJK
+ernstig:::sérieuse:VROUWELIJK
+verlegen:::timide:
+het juweel:le:bijou:le bijou:
+de aanwijzing:l'(m):indice:l'indice:
+de spiegel:le:miroir:le miroir:
+de oorring:la:boucle d'oreille:la boucle d'oreille:
+de riem:la:ceinture:la ceinture:
+de hoes:la:coque:la coque:
+de verrassing:la:surprise:la surprise:
+duur:::cher:MANNELIJK
+duur:::chère:VROUWELIJK
+belangrijk:::important:MANNELIJK
+belangrijk:::importante:VROUWELIJK
+praktisch:::pratique:
+genoeg:::assez:
+iets:::quelque chose de:
+beginnen met:::commencer par:
+doorgaan/verdergaan:::continuer:
+raden:::deviner:
+inpakken:::emballer:
+beschermen:::protéger:
+beige:::beige:
+wit:::blanc:MANNELIJK
+wit:::blanche:VROUWELIJK
+bruin:::brun:MANNELIJK
+bruin:::brune:VROUWELIJK
+kaki:::kaki:
+paars:::mauve:
+geel:::jaune:
+rood:::rouge:
+groen:::vert:MANNELIJK
+groen:::verte:VROUWELIJK
+zwart:::noir:MANNELIJK
+zwart:::noire:VROUWELIJK
+oranje:::orange:
+blauw:::bleu:MANNELIJK
+blauw:::bleue:VROUWELIJK
+licht (kleur):::clair:MANNELIJK
+licht (kleur):::claire:VROUWELIJK
+effen (kleur):::uni:MANNELIJK
+effen (kleur):::unie:VROUWELIJK
+kastanjebruin:::marron:
+de centimeter:le:centimètre:le centimètre:
+de meter:le:mètre:le mètre:
+het model:le:modèle:le modèle:
+het (onder)deel:la:partie:la partie:
+scherp:::aigu:MANNELIJK
+scherp:::aiguë:VROUWELIJK
+vierkant:::carré:MANNELIJK
+vierkant:::carrée:VROUWELIJK
+zacht:::doux:MANNELIJK
+zacht:::douce:VROUWELIJK
+recht:::droit:MANNELIJK
+recht:::droite:VROUWELIJK
+hard:::dur:MANNELIJK
+hard:::dure:VROUWELIJK
+dik:::épais:MANNELIJK
+dik:::épaisse:VROUWELIJK
+fijn:::fin:MANNELIJK
+fijn:::fine:VROUWELIJK
+licht:::léger:MANNELIJK
+licht:::légère:VROUWELIJK
+zwaar:::lourd:MANNELIJK
+zwaar:::lourde:VROUWELIJK
+ovaal:::ovale:
+plat:::plat:MANNELIJK
+plat:::plate:VROUWELIJK
+puntig, spits:::pointu:MANNELIJK
+puntig, spits:::pointue:VROUWELIJK
+rechthoekig:::rectangulaire:
+rond:::rond:MANNELIJK
+rond:::ronde:VROUWELIJK
+stevig:::solide:
+driehoekig:::triangulaire:
+het hout:le:bois:le bois:
+van hout:::en bois:
+het karton:le:carton:le carton:
+van karton:::en carton:
+het leder:le:cuir:le cuir:
+van leder:::en cuir:
+het metaal:le:métal:le métal:
+van metaal:::en métal:
+het plastic:le:plastique:le plastique:
+van plastic:::en plastique:
+de stof:le:tissu:le tissu:
+van stof:::en tissu:
+het glas:le:verre:le verre:
+van glas:::en verre:
+ontbreken:::manquer:
+meten:::mesurer:
+dienen:::servir:
+dienen voor:::servir à:
+bezet/niet vrij:::occupé:MANNELIJK
+bezet/niet vrij:::occupée:VROUWELIJK
+aanvaarden:::accepter:
+uitleggen:::expliquer:
+op het einde van:::au bout de:
+met veel plezier:::avec grand plaisir:
+Graag gedaan.:::De rien.:D...
+sorry/het spijt me:::désolé:MANNELIJK d...
+sorry/het spijt me:::désolée:VROUWELIJK d...
+Graag gedaan.:::Il n'y a pas de quoi.:I...
+sorry/het spijt me:::je regrette:j...
+tot aan:::jusqu'à:
+Tout à fait.:::Inderdaad.:
+dichtbij:::tout près:
+Graag!:::Volontiers!:
+het centrum:::le centre:
+het stadscentrum:::le centreville:
+het park:::le parc:
+de parking:::le parking:
+de wijk:::le quartier:
+het (trein)station:::la gare:
+de Grote Markt:::la Grand-Place:
+het plein, de (markt)plaats:::la place:
+de brede laan:::le boulevard:
+het kruispunt:::le carrefour:
+de weg:::le chemin:c...
+de hoek:::le coin:
+de verkeerslichten:les(m)::les feux:
+het zebrapad:::le passage pour piétons:
+het plan:::le plan:
+het stadsplan:::le plan de ville:
+de brug:::le pont:
+de rotonde, het rondpunt:::le rond-point:
+het verkeer:::le trafic:
+het trottoir, voetpad:::le trottoir:
+de tunnel:::le tunnel:
+het viaduct:::le viaduc:
+de laan:l'(f)::l'avenue
+het fietspad:::la piste cyclable:
+de weg:::la route:r...
+de straat:::la rue:
+de weg:::le sens:
+de bestemming:::la destination:
+de richting:::la direction:
+de wandeling:::la promenade:
+gaan:::aller:
+rechtdoor gaan:::aller tout droit:
+stoppen:::s'arrêter:
+aankomen:::arriver:
+verder gaan/doorgaan:::continuer:
+binnenkomen:::entrer:
+stappen:::marcher:
+terugkeren:::rentrer:
+wandelen:::se promener:
+zich bevinden:::se trouver:
+zich oriënteren:s'orienter:
+uitgaan, buitengaan:::sortir:
+volgen:::suivre:
+naar links afslaan:::tourner à gauche:
+naar rechts afslaan:::tourner à droite:
+oversteken:::traverser:
+komen:::venir:
+het hoofd:::la tête:
+het hart:::le cœur:
+de schouder:l'(f)::l'épaule:
+de rug:::le dos:
+de buik:::le ventre:
+het been:::la jambe:
+de knie:::le genou:
+de teen:l'(m)::l'orteil:
+de voet:::le pied:
+de hand:::la main:
+de arm:::le bras:
+de tand:::la dent:
+de schouder:l'(f)::l'épaule:
+de keel:::la gorge:
+de nek:::la nuque:
+de borstkas:::la poitrine:
+de vinger:::le doigt:
+de neus:::le nez:
+de mond:::la bouche:
+de ogen:les(m)::les yeux:
+het oog:::l'oeil:
+het oor:l'(f)::l'oreille:
+het gezicht:::le visage:
+Ik heb pijn aan het been.:::J'ai mal à la jambe.:
+Ik heb pijn aan de knie.:::J'ai mal au genou.:
+Ik heb pijn aan de ogen.:::J'ai mal aux yeux.:
+Waar heb je pijn?:::Tu as mal où?:
+Wat is er?:::Qu'est-ce qu'il y a?:
+Wat is het probleem?:::Que lest le problème?:
+het verband:::le bandage:
+de pil:::le comprimé:
+het lichaam:::le corps:
+de dokter:::le docteur:
+de verpleger:::l'infirmier:
+de verpleegster:::l'infirmière:
+de pijnstiller:::l'antidouleur:
+de zalf:::la pommade:
+pijn hebben aan:::avoir mal à:
+bewegen:::bouger:
+onderzoeken:::examiner:
+opheffen:::lever:
+zich kwetsen aan:::se blesser à:
+breken:::se casser:
+zich snijden:::se couper:
+hoesten:::tousser:
+behalve dat/daarnaast:::à part ça:
+in topvorm zijn:::être en plein forme:
+verkouden zijn:::être enrhumé:MANNELIJK
+verkouden zijn:::être enrhumée:VROUWELIJK
+zwak zijn:::être faible:
+moe zijn:::être fatigué:MANNELIJK
+moe zijn:::être fatiguée:VROUWELIJK
+de astma:(l'(m)::l'asthme:
+de verkoudheid:::le rhume:
+de diarree:::la diarrhée:
+de verstuking, verzwikking:l'(f)::l'entorse
+de koorts:::la fièvre:
+de griep:::la grippe:
+gedeprimeerd, neerslachtig:::déprimé:MANNELIJK
+gedeprimeerd, neerslachtig:::déprimée:VROUWELIJK
+het ziekenhuis:l'(m)::l'hôpital:h…
+de ziekenwagen:l'(f)::l'ambulance
+het ziekhuis:::la clinique:c…
+de apotheek:::la pharmacie:
+de (tand)beugel:l'(m)::l'appareil dentaire:
+het ijsblokje:::le glaçon:
+de pleister:::le sparadrap:
+het tabletje:::la pastille:
+helpen:::aider:
+roepen, opbellen:::appeler:
+vooruitgaan:::avancer:
+zich draaierig voelen:::avoir le vertige:
+een gebroken arm hebben:::avoir le bras cassé:
+kloppen (van het hart):::battre:
+lopen, rennen:::courir:
+in bed blijven:::garder le lit:
+stappen:::marcher:
+blijven:::rester:
+stoppen:::s'arrêter:
+zich verbranden:::se brûler:
+vallen:::tomber:
+de acteur:l'(m)::l'acteur:
+de actrice:l'(f)::l'actrice:
+de politieagent:l'(m)::l'agent de police:
+de camionchauffeur:::le camionneur:MANNELIJK
+de camionchauffeur:::la camioneuse:VROUWELIJK
+de kapper:::le coiffeur:
+de kapster:::la coiffeuse:
+de verpleeghulp:l'(m)::l'aide-soignant:MANNELIJK
+de verpleeghulp:l'(f)::l'aide-soignante:VROUWELIJK
+de kok:::le cuisinier:
+de kokkin:::la cuisinière:
+de elektricien:l'(m)::l'électricien:MANNELIJK
+de elektricien:l'(f)::l'électricienne:VROUWELIJK
+de bankmedewerker:l'(m)::l'employé de banque:MANNELIJK
+de bankmedewerker:l'(f)::l'employée de banque:VROUWELIJK
+de medewerker:l'(m)::l'employé:MANNELIJK
+de medewerker:l'(f)::l'employée:VROUWELIJK
+de postbode:::le facteur:
+de tuinman:::le jardinier:
+de tuinvrouw:::la jardinière:
+de journalist:::le journaliste:
+de journaliste:::la journaliste:
+de verver:::le peintre:
+de apotheker:::le pharmacien:MAN
+de apothekeres:::la pharmacienne:VROUW
+de loodgieter:::le plombier:
+de regisseur (film):::le metteur en scène:MANNELIJK
+de regisseur (film):::la metteuse en scène:VROUWELIJK
+de presentator:::le présentateur:
+de presentatrice:::la présentatrice:
+de cateraar (eten bij een feest):::le traiteur:
+de verkoper:::le vendeur:
+de verkoopster:::la vendeuse:
+de verkoper van:::le vendeur de:
+de verkoopster van:::la vendeuse de:
+de secrataris:::le secrétaire:
+de secretaresse:::la secrétaire:
+de omroepster (televisie):::la speakerine:
+de leeftijd:(m)::l'âge:
+de kandidaat:::le candidat:MANNELIJK
+de kandidaat:::la candidate:VROUWELIJK
+de fan:::le fan:MANNELIJK
+de fan:::la fan:VROUWELIJK
+de vrijetijdsbesteding:::le loisir:
+de keuze:::le choix:
+de wijk:::le quartier:
+de droom:::le rêve:
+de ervaring:(f)::l'expérience:
+de fiche, het formulier:::la fiche:
+het interview:(f)::l'interview:
+het idool:::la vedette:V…
+het idool:::la star:::S…
+het leven:::la vie:
+bekend/beroemd:::célèbre:
+heerlijk:::délicieux:MANNELIJK
+heerlijk:::délicieuse:VROUWELIJK
+Franstalig:::francophone:
+filmen/opnemen:::enregistrer:
+inspireren:::inspirer:
+interviewen:::interviewer:
+bedanken:::remercier:
+grote fan zijn van:::être très fan de:
+lid zijn van:::être membre de:
+gepassioneerd zijn door:::être passionné par:MANNELIJK ONDERWERP
+gepassioneerd zijn door:::être passionnée par:VROUWELIJK ONDERWERP
+(dol)blij zijn met:::être ravi de:MANNELIJK ONDERWERP
+(dol)blij zijn met:::être ravie de:VROUWELIJK ONDERWERP
+realistisch blijven/beide voeten  op de grond houden:garder les pieds sur terre:
+dankzij:::grâce à:
+te midden van/onder:::parmi:
+eerder/liever:::plutôt:
+wat:::quoi:
+waar:::où:
+welke:::quel:
+hoe:::comment:
+hoe laat:::à quelle heure:
+waarom:::pourquoi:
+wie:::qui:
+hoeveel:::combien de:
+wanneer:::quand:
+spin:::une araignée:
+bezem:::un balai:
+snoepjes:::des bonbons:
+zwarte kat:::un chat noir:
+pompoen:::une citrouille:
+duivel:::un diable:
+spook:::un fantôme:
+weerwolf:::un loup garou:
+masker:::un masque:
+mummie:::une momie:
+monster:::un monstre:
+skelet:::un squelette:
+heks:::une sorcière:
+vampier:::un vampire:
+zombie:::un zombie:
+verkleedkostuum:::un déguisement:
+vogelverschrikker:::un épouvantail:
+toverdrank:::une potion:
+kabouter:::un lutin:
+pompoen:::un potiron:
+doodskist:::un cercueil:
+spookhuis:::une maison hantée:
+vleermuis:::une chauve souris:
+kaars:::une bougie:
+klein:::petit:MANNELIJK
+jong:::jeune:VROUWELIJK
+goed/lekker:::bon:MANNELIJK
+mooi:::joli:MANNELIJK
+lang:::longue:::VROUWELIJK
+nieuw:::nouveau:MANNELIJK
+andere:::autre:
+eerste:::première:
+tweede:::deuxième:
+Belgisch:::belge:
+bruin:::bruns:MANNELIJK MEERVOUD
+sportief:::sportif:
+rond:::ronde:VROUWELIJK
+groot:::grand:MANNELIJK
+oud:::vieaux:MANNELIJK
+slecht:::mauvais:MANNELIJK
+mooi:::beau:MANNELIJK
+dik:::gros:MANNELIJK
+leuk:::chouette:MANNELIJK
+laatste:::dernière:VROUWELIJK
+tiende:::dixième:MANNELIJK
+de soep:la:soupe:la soupe:
+de salade:la:salade:la salade:
+de wortel:la:carotte:la carotte:
+de aardappel:la:pomme de terre:la pomme de terre:
+de groente:le:légume:le légume:
+het middageten:le:dîner:le dîner:
+de grootouders:les(m):grands-parents:les grands-parents:
+de grootvader:le:grand-père:le grand-père:
+de grootmoeder:la:grand-mère:la grand-mère:
+de laars:la:botte:la botte:
+aandoen:::mettre:
+ik doe aan:::je mets:
+naar buiten gaan/terugkeren naar:::rentrer:
+zin hebben in:::avoir envie de:
+honger hebben:::avoir faim:
+dorst hebben:::avoir soif:
+Aan tafel!:::À table!:
+Het is lekker!:::C'est bon!:
+Nee, dank je.:::Non, merci.:
+Tot morgen!:::À demain!:
+de tafel:::la table:
+de broel:::le pantalon:
+rood:::rouge:VROUWELIJK+MANNELIJK  
+de rode tafel:::la table rouge:  
+de rode broek:::le pantalon rouge:  
+blauw:::bleu:MANNELIJK  
+blauw:::bleue:VROUWELIJK  
+de blauwe tafel:::la table bleue:  
+de blauwe broek:::le pantalon bleu:
+geel:::jaune:VROUWELIJK+MANNELIJK  
+de gele tafel:::la table jaune:  
+de gele broek:::le pantalon jaune:  
+groen:::vert:MANNELIJK  
+groen:::verte:VROUWELIJK  
+de groene tafel:::la table verte:  
+de groene broek:::le pantalon vert:  
+zwart:::noir:MANNELIJK  
+zwart:::noire:VROUWELIJK  
+de zwarte tafel:::la table noire:  
+de zwarte broek:::le pantalon noir:  
+wit:::blanc:MANNELIJK  
+wit:::blanche:VROUWELIJK  
+de witte tafel:::la table blanche:  
+de witte broek:::le pantalon blanc: 
+oranje:::orange:VROUWELIJK+MANNELIJK  
+de oranje tafel:::la table orange:  
+de oranje broek:::le pantalon orange:
+paars:::mauve:VROUWELIJK+MANNELIJK  
+de paarse tafel:::la table mauve:  
+de paarse broek:::le pantalon mauve:  
+bruin:::brun:MANNELIJK  
+bruin:::brune:VROUWELIJK  
+de bruine tafel:::la table brune:  
+de bruine broek:::le pantalon brun:
+roze:::rose:VROUWELIJK+MANNELIJK  
+de roze tafel:::la table rose:  
+de roze broek:::le pantalon rose:
+de kilometer:le:kilomètre:le kilomètre:
+de reiskoffer:la:valise:la valise:
+de trein:le:train:le train:
+het vliegtuig:l'(m):avion:l'avion:
+de ingang:l'(f):entrée:l'entrée:
+de uitgang:la:sortie:la sortie:
+de hoek:le:coin:le coin:
+de paraplu:le:parapluie:le parapluie:
+de pet:la:casquette:la casquette:
+de gsm:le:portable:le portable:
+de telefoon:le:téléphone:le téléphone:
+de reis:le:voyage:le voyage:
+Europa:l'(f):Europe:l'Europe:
+Vlaanderen:la:Flandre:la Flandre:
+Wallonië:la:Wallonie:la Wallonie:
+stoppen:::s'arrêter:
+binnenkomen:::entrer:
+sluiten:::fermer:
+telefoneren naar:::téléphoner à:
+Hallo?:::Allô?:
+Waar is Zeyneb?:::Où est Zeyneb?:
+zonder:::sans:
+Ik ga te voet.:::Je vais à pied.:
+Jij gaat met het vliegtuig.:::Tu vas en avion.:
+met het vliegtuig:::en avion:
+met de tram:::en tram:
+met de trein:::en train:
+met de auto:::en voiture:
+te voet:::à pied:
+met de fiets:::à vélo:
+met de step:::à trottinette:
+met de moto:::à moto:
+de olijf:l'(f):olive:l'olive:
+de frieten:les(f):frites:les frites:
+het vlees:la:viande:la viande:
+de fijne vleeswaren:la:charcuterie:la charcuterie:
+het menu:le:menu:le menu:
+het dessert:le:dessert:le dessert:
+de saus:la:sauce:la sauce:
+de mayonaise:la:mayonnaise:la mayonnaise:
+het ijsje:la:glace:la glace:
+de wijn:le:vin:le vin:
+het bier(tje):la:bière:la bière:
+het blad:la:feuille:la feuille:
+de mond:la:bouche:la bouche:
+het glas:le:verre:le verre:
+de fles:la:bouteille:la bouteille:
+het restaurant:le:restaurant:le restaurant:
+openen, opendoen:::ouvrir:
+de prijs:le:prix:le prix:
+een kopje ...:::une tasse de:
+een kopje koffie:::une tasse de café:
+een glas ...:::un verre de:
+een glas water:::un verre d'eau:
+een fles ...:::une bouteille de:
+een fles cola:::une bouteille de coca:
+slecht:::mauvais:MANNELIJK (als bijvoeglijke naamwoord: een slechte film)
+slecht:::mauvaise:VROUWELIJK (als bijvoeglijke naamwoord: een slechte film)
+goed:::bon:MANNELIJK (als bijvoeglijke naamwoord: een goede film)
+goed:::bonne:VROUWELIJK (als bijvoeglijke naamwoord: een goede film)
+goed:::bien:(voorbeeld: jij werkt goed)
+slecht:::mal:(voorbeeld: jij werkt slecht)
+omdat:::parce que:
+nog een beetje ...:::encore un peu de:
+nog een beetje melk:::encore un peu de lait:
+voor:::avant:(in tijd: voor de maaltijd)
+wat:::qu'est-ce que:
+voor hem:::pour lui:
+honderd gram ...:::cent grammes de:
+honderd gram ham:::cent grammes de jambon:
+de kilo:le:kilo:le kilo:
+een kilo...:::un kilo de:
+een kilo aardappelen:::un kilo de pommes de terre:
+hoeveel kost het?:::ça fait combien?:
+Gelukkige verjaardag:::Bon anniversaire!:
+Bravo!:::Bravo!:
+Ik heb gewonnen!:::J'ai gagné!:
+de schoen:la:chaussure:la chaussure:
+het hemd:la:chemise:la chemise:
+de pyjama:le:pyjama:le pyjama:
+de knie:le:genou:le genou:
+de vinger:le:doigt:le doigt:
+de tand:la:dent:la dent:
+ziek:::malade:
+vallen:::tomber:
+het plein:la:place:la place:
+het nummer:le:numéro:le numéro:
+het adres:l'(f):adresse:l'adresse:
+de vrachtwagen:le:camion:le camion:
+de film:le:film:le film:
+de seconde:la:seconde:la seconde:
+de politieagent:l'(m):agentde police:l'agent de police:
+jongedame, juffrouw:::mademoiselle:
+mogen, kunnen:::pouvoir:
+willen:::vouloir:
+naar de wc gaan:::aller aux toilettes:
+natuurlijk:::bien sûr:
+daar, daarginds:::là-bas:
+waarom:::pourquoi:
+gisteren:::hier:
+Het is tien over negen.:::Il est neuf heures dix.:
+succes:::bonne chance:
+mij, ik:::moi:
+jou:::toi:
+hem:::lui:
+haar:::elle:
+ons:::nous:
+jullie/u:::vous:
+hen:::eux:MANNELIJK
+hen:::elles:VROUWELIJK
+van mij:::à moi:
+voor jou:::pour toi:
+voor hem:::pour lui:
+met hem:::avec lui:
+zonder haar:::sans elle:
+van:::à:
+voor:::pour:
+met:::avec:
+zonder:::sans:
+0:::zéro:
+1:::un:
+2:::deux:
+3:::trois:
+4:::quatre:
+5:::cinq:
+6:::six:
+7:::sept:
+8:::huit:
+9:::neuf:
+10:::dix:
+11:::onze:
+12:::douze:
+13:::treize:
+14:::quatorze:
+15:::quinze:
+16:::seize:
+17:::dix-sept:
+18:::dix-huit:
+19:::dix-neuf:
+20:::vingt:
+30:::trente:
+40:::quarante:
+50:::cinquante:
+60:::soixante:
+61:::soixante et un:
+54:::cinquante-quatre:
+48:::quarante-huit:
+39:::trente-neuf:
+70:::septante:
+71:::septante et un:
+72:::septante-deux:
+73:::septante-trois:
+74:::septante-quatre:
+75:::septante-cinq:
+76:::septante-six:
+77:::septante-sept:
+78:::septante-huit:
+79:::septante-neuf:
+80:::quatre-vingts:(let op de -s bij 80 zelf, zonder -s van 81 tot 89)
+81:::quatre-vingt-un:
+82:::quatre-vingt-deux:
+83:::quatre-vingt-trois:
+84:::quatre-vingt-quatre:
+85:::quatre-vingt-cinq:
+86:::quatre-vingt-six:
+87:::quatre-vingt-sept:
+88:::quatre-vingt-huit:
+89:::quatre-vingt-neuf:
+90:::nonante:
+91:::nonante et un:
+92:::nonante-deux:
+93:::nonante-trois:
+94:::nonante-quatre:
+95:::nonante-cinq:
+96:::nonante-six:
+97:::nonante-sept:
+98:::nonante-huit:
+99:::nonante-neuf:
+100:::cent:
+100:::cent:
+200:::deux cents:
+300:::trois cents:
+700:::sept cents:
+1000:::mille:
+2000:::deux mille:
+10 000:::dix mille:
+200 000:::deux cent mille:
+1 000 000:::un million:
+de leeftijd:(m)::l'âge:
+de vriend:(m)::l'ami:A...
+de vriendin:(f)::l'amie:A...
+het jaar:(m)::l'an:N
+het jaar:(f)::l'année:NN
+de verjaardag:(f)::l'anniversaire:
+de bal:::le ballon:
+de voetbal:::le ballon de foot:
+de banaan:::la banane:
+de sneaker / de basketschoen:::la basket:
+de basket (sport):::le basket:
+de kat:::le chat:
+de hond:::le chien:
+de bioscoop:::le cinéma:
+de klas:::la classe:
+de vriend:::le copain:C...
+de vriendin:::la copine:C...
+de school:(f)::l'école:
+de leerlinge:(f)::l'élève:
+de leerling:(m)::l'élève:
+het meisje, de dochter:::la fille:
+de zoon:::le fils:
+het voetbal:::le foot:
+de broer:::le frère:
+de jongen:::le garçon:
+de gymnastiek / het turnen:::la gym:
+de hobby:::le hobby:
+de jeans(broek):::le jean:
+het bericht, de boodschap:::le message:
+de muziek:::la musique:
+de naam:::le nom:
+de familienaam:::le nom de famille:
+de appel:::la pomme:
+de voornaam:::le prénom:
+de leerkracht:::le professeur:MANNELIJK
+de leerkracht:::la professeur:VROUWELIJK
+de short, de korte broek:::le short:
+het T-shirt:::le teeshirt:
+de fiets:::le vélo:
+het badminton:::le badminton:
+de pet:::la casquette:
+de trainer:::le coach:
+de les:::le cours:
+de wielersport:::le cyclisme:
+de dans:::la danse:
+de graad:::le degré:
+de kerk:(f)::l'église:
+de drinkfles:::la gourde:
+de groep:::le groupe:
+de klok:(f)::l'horloge:
+het videospel:::le jeu vidéo:
+de hobby, de vrije tijd:::le loisir:
+de spiegel:::le miroir:
+de padel:::le padel:
+de sociale media:(m)::les réseaux sociaux:
+de rugzak:::le sac à dos:
+de danszaal:::la salle de danse:
+de sportzaal:::la salle de sport:
+de zaal:::la salle:
+het volleybal:::le volley:
+koken:::cuisiner:
+tekenen:::dessiner:
+naar muziek luisteren:::écouter de la musique:
+berichtjes sturen:::envoyer des messages:
+shoppen:::faire du shopping:
+piano spelen:::jouer du piano:
+lezen:::lire:
+stappen, wandelen:::marcher:
+zwemmen:::nager:
+spreken, praten:::parler:
+naar films kijken:::regarder des films:
+rondhangen:::trainer:
+(Nog een) prettige dag!:::Bonne journée!:
+Het is tijd:::Il est l'heure:
+Het is tijd om:::Il est l'heure de:
+snel:::vite:
+grappig:::drôle:
+geniaal:::génial:MANNELIJK:
+geniaal:::géniale:VROUWELIJK
+vriendelijk:::gentil:MANNELIJK:
+vriendelijk:::gentille:VROUWELIJK:
+slim:::malin:MANNELIJK
+slim:::maligne:VROUWELIJK
+ernstig:::sérieux:MANNELIJK
+ernstig:::sérieuse:VROUWELIJK
+streng:::sévère:
+sociaal:::sociable:
+sportief:::sportif:MANNELIJK
+sportief:::sportive:VROUWELIJK
+het Engels:::l'anglais:
+de baby:::le bébé:
+het kind:(m)::l'enfant:
+de familie, het gezin:::la famille:
+de dochter, het meisje:::la fille:
+de zoon:::le fils:
+het Frans:::le français:
+Frankrijk:::la France:
+de broer:::le frère:
+de jongen:::le garçon:
+de grootmoeder:::la grand-mère:
+de grootvader:::le grand-père:
+de grootouder:::le grand-parent:
+de mama:::la maman:
+in het eerste jaar zitten:::être en première année:
+voetballen:::jouer au foot:
+gamen, computerspelletjes spelen:::jouer à des jeux vidéo:
+niet ver van:::pas loin de:
+tof:::chouette:
+geniaal:::génial:VOOR VROUWELIJK MOET JE + e
+groot:::grand:VOOR VROUWELIJK MOET JE + e
+jong:::jeune:
+nieuw:::nouveau:MANNELIJK
+nieuw:::nouvelle:VROUWELIJK
+klein:::petit:VOOR VROUWELIJK MOET JE + e
+sympathiek:::sympa:
+de moeder:::la mère:
+het Nederlands:::le néerlandais:
+de naam:::le nom:
+de familienaam:::le nom de famille:
+de oom, de nonkel:(m)::l'oncle:
+de papa:::le papa:
+de ouder:::le parent:
+de vader:::le père:
+de zus:::la soeur:
+de tante:::la tante:
+de oudste:(m)::l'ainé:MANNELIJK
+de oudste:(f)::l'ainée:VROUWELIJK
+de schoonbroer:::le beau-frère:
+de schoonvader, de stiefvader:::le beau-père:
+de schoonmoeder, de stiefmoeder:::la belle-mère:
+de schoonzus:::la belle-soeur:
+de strand-cabine:::la cabine de plage:
+de vriend:::le copain:
+de vriendin:::la copine:
+de neef:::le cousin:
+de nicht:::la cousine:
+de halfbroer, de stiefbroer:::le demi-frère:
+de halfzus, de stiefzus:::la demi-soeur:
+de tekening:::le dessin:
+het enige kind:(m)::l'enfant unique:
+de vrouw, de echtgenote:::la femme:
+de Fransman:::le Français:
+de mensen:(m)::les gens:
+de tweeling:::le jumeau:MANNELIJK
+de tweelinge:::la jumelle:VROUWELIJK
+de taal:::la langue:
+de oma:::la mamie:
+de man, de echtgenoot:::le mari:
+de opa:::le papi:
+de parasol:::le parasol:
+de kleindochter:::la petite-fille:
+de kleinzoon:::le petit-fils:
+de zeilplank, het windsurfen:::la planche à voile:
+het Portugees:::le portugais:
+het zuiden:::le sud:
+ook:::aussi:
+veel:::beaucoup:
+hoeveel:::combien de:
+hoe:::comment:
+al, reeds:::déjà:
+dus:::donc:
+en jij:::et toi:
+ver van:::loin de:
+niet ver van:::pas loin de:
+hallo:::salut:
+te veel:::trop:
+ziehier:::voici:
+ziedaar:::voilà:
+tof, leuk:::chouette:
+verstandig, slim:::intelligent:MANNELIJK
+verstandig, slim:::intelligente:VROUWELIJK
+nieuw:::nouveau:MANNELIJK
+nieuw:::nouvelle:VROUWELIJK
+eerst:::premier:MANNELIJK
+eerst:::première:VROUWELIJK
+super:::super:
+tof, sympathiek:::sympa:
+goeiedag:::bonjour:
+dat komt goed uit:::ça tombe bien:
+gaat het:::ça va:
+het gaat goed:::ça va bien
+ik woon in Brussel:::j'habite à Bruxelles:
+waar woon jij:::tu habites où:
+hoe oud ben jij:::tu as quel âge:
+ik ben 12 jaar:::j'ai 12 ans:
+ik heet Zeyneb:::je m'appelle Zeyneb:
+het bos:::le bois:
+het platteland:::la campagne:
+de bioscoop:::le cinéma:
+de school:::l'école:
+het ziekenhuis:::l'hôpital:
+de tuin:::le jardin:
+de kledingwinkel:::le magasin de vêtements:
+de winkel:::le magasin:
+de markt:::le marché:
+het plein:::la place:
+het restaurant:::le restaurant:
+de supermarkt:::le supermarché:
+het toilet, de wc:::les toilettes:
+het dorp:::le village:
+de stad:::la ville:
+de toeristische attractie:::l'attraction touristique
+de bank:::la banque
+het gebouw:::le bâtiment
+de bibliotheek:::la bibliothèque
+de slagerij:::la boucherie
+de bakkerij:::la boulangerie
+de boetiek:::la boutique
+het café:::le café
+de kathedraal:::la cathédrale
+het centrum:::le centre
+het stadscentrum:::le centre-ville
+het kasteel:::le château
+de (handels)zaak:::le commerce
+de kerk:::l'église
+de frituur:::la friterie
+het station:::la gare
+het hotel:::l'hôtel
+het museum:::le musée
+het park:::le parc
+de apotheek:::la pharmacie
+het zwembad:::la piscine
+de pizzeria:::la pizzéria
+het postkantoor:::la poste
+de straat:::la rue
+de winkelstraat:::la rue commerçante
+de sporthal:::la salle de sport
+klimmen:::faire de l'escalade:
+logeren:::loger:
+bezoeken:::visiter:
+aangenaam:::agréable:
+bruisend, levendig:::animé:MANNELIJK
+bruisend, levendig:::animée:VROUWELIJK
+kalm, rustig:::calme
+charmant, leuk:::charmant:MANNELIJK
+charmant, leuk:::charmante:VROUWELIJK
+vervelend, saai:::ennuyeux:MANNELIJK
+vervelend, saai:::ennuyeuse:VROUWELIJK
+prachtig:::magnifique
+levendig:::vivant:MANNELIJK
+levendig:::vivante:VROUWELIJK
+naast:::à côté de:
+tegenover:::en face de:
+dichtbij:::près de:
+heel dichtbij:::tout près de:
+vaak:::souvent:
+een activiteit doen:::faire une activité:
+een sportactiviteit doen:::faire une activité sportive:
+het spijt me:::je suis désolé:MANNELIJK
+het spijt me:::je suis désolée:VROUWELIJK
+we gaan er samen heen:::on y va ensemble:
+geen zorgen:::pas de soucis:
+een glas drinken:::prendre un verre:
+het voetbalstadion:::le stade de foot:
+de superette:::la supérette:
+het terras:::la terrasse:
