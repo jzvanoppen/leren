@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Woordjes Oefenen</title>
+  <link rel="icon" type="image/png" href="img/favicon_F56565_192.png">
+  <link rel="apple-touch-icon" href="img/favicon_F56565_192.png">
+
+  <!-- EmailJS -->
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script>
+    (function(){
+      emailjs.init("itEiyMbJypwkic8kJ");
+    })();
+  </script>
+
+  <style>
+    body{font-family:Arial,Helvetica,sans-serif;max-width:900px;margin:24px auto;padding:0 12px}
+    input,select,button{font-size:1rem;padding:8px;margin:6px 0}
+    #quiz{display:none;margin-top:16px}
+    .big{font-size:1.25rem}
+    #resultaat{margin-top:8px}
+    table,th,td{border:1px solid #444;border-collapse:collapse;padding:6px}
+    th{background:#f0f0f0}
+    .correct{color:green}
+    .wrong{color:red}
+    .hint{font-style:italic;color:#333}
+    .inline{display:inline-block;margin-right:8px}
+  </style>
+</head>
+<body>
+  <h1>Woordjes Oefenen</h1>
+
+  <label class="inline">Bestandsnaam (4 tekens):</label>
+  <input id="fileInput" maxlength="4" placeholder="bv. iaab" />
+  <br>
+  <label class="inline">Hoeveel woorden oefenen?</label>
+  <select id="limietSelect">
+    <option value="0">Alles</option>
+    <option value="10">10</option>
+    <option value="15">15</option>
+    <option value="20">20</option>
+    <option value="25">25</option>
+  </select>
+  <br>
+
+  <label class="inline">Uitspraak:</label>
+  <select id="ttsSelect">
+    <option value="none">Geen audio</option>
+    <option value="fr">Frans</option>
+    <option value="en">Engels</option>
+  </select>
+  <br>
+
+  <button id="startBtn" type="button" onclick="loadFile()">Start Oefenen</button>
+
+  <div id="quiz" aria-live="polite">
+    <p class="big" id="vraagNL"></p>
+    <input id="antwoord" placeholder="Typ hier de vertaling en druk Enter" autocomplete="off" />
+    <button id="controleerBtn" type="button">Controleer</button>
+    <p id="resultaat"></p>
+    <p id="score" class="hint"></p>
+    <div id="einde" style="display:none;margin-top:12px"></div>
+  </div>
+
+  <p id="footer-note">Bestanden moeten zich bevinden in de map <code>txt/</code> en heten bijvoorbeeld <code>txt/iaab.txt</code>.<br>
+  Formaat per regel: <code>nl:::fr:info</code>.</p>
+
+<script>
+(function(){
+  let allSelected = [];
+  let huidige = null;
+  let stateByKey = {};
+  let juist = 0, totaal = 0;
+
+  const fileInput = document.getElementById('fileInput');
+  const limSel = document.getElementById('limietSelect');
+  const controleerBtn = document.getElementById('controleerBtn');
+  const antwoord = document.getElementById('antwoord');
+  const vraagNL = document.getElementById('vraagNL');
+  const resultaat = document.getElementById('resultaat');
+  const scoreEl = document.getElementById('score');
+  const quiz = document.getElementById('quiz');
+  const einde = document.getElementById('einde');
+
+  let ttsLang = 'none';
+  const ttsSelect = document.getElementById('ttsSelect');
+
+  ttsSelect.addEventListener('change', function(){
+    ttsLang = this.value;
+  });
+
+  function speak(text){
+    if(ttsLang === 'none') return;
+    const utterance = new SpeechSynthesisUtterance(text);
+    utterance.lang = (ttsLang === 'fr') ? 'fr-FR' : 'en-US';
+    speechSynthesis.cancel();
+    speechSynthesis.speak(utterance);
+  }
+
+  function norm(s){ return (s||'').replace(/\s+/g,' ').trim().toLowerCase(); }
+  function escapeHtml(s){ return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+  function shuffle(a){ for(let i=a.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]] } return a }
+
+  function parseLine(line){
+    const idx = line.indexOf(':::');
+    if(idx===-1) return null;
+    const nl = line.slice(0,idx).trim();
+    const rest = line.slice(idx+3);
+    const parts = rest.split(':');
+    const fr = (parts[0]||'').trim();
+    const info = parts.slice(1).join(':').trim();
+    if(!nl || !fr) return null;
+    return {nl,fr,info};
+  }
+
+  window.loadFile = function(){
+    const naam = (fileInput.value||'').trim();
+    if(!/^[a-zA-Z0-9]{4}$/.test(naam)) { alert('Geef exact 4 letters/cijfers in.'); return; }
+    const path = 'txt/' + naam + '.txt';
+
+    fetch(path).then(r=>{
+      if(!r.ok) throw new Error('notfound');
+      return r.text();
+    }).then(text=>{
+      const lines = text.split(/\r?\n/).map(l=>l.trim()).filter(l=>l.length>0);
+      const parsed = lines.map(parseLine).filter(x=>x);
+      if(parsed.length===0){ alert('Bestand bevat geen regels met het verwachte formaat nl:::fr:info'); return; }
+
+      const lim = parseInt(limSel.value,10)||0;
+      let pool = parsed.slice();
+      if(lim>0 && lim < pool.length){ pool = shuffle(pool).slice(0, lim); }
+
+      allSelected = pool.map((w,i)=>Object.assign({},w,{_id:i}));
+      stateByKey = {};
+      allSelected.forEach(w=> stateByKey[w.nl] = {attempts:0,wrongs:0,done:false,pendingRepeat:false,waitingForRetype:false});
+      juist = 0; totaal = 0;
+
+      quiz.style.display = 'block';
+      einde.style.display = 'none';
+      antwoord.value = '';
+      antwoord.focus();
+      nieuwWoord();
+    }).catch(err=>{
+      alert('Kon bestand ' + path + ' niet laden.');
+    });
+  };
+
+  function pickActivePool(){ return allSelected.filter(w=> !stateByKey[w.nl].done); }
+
+  function nieuwWoord(){
+    const active = pickActivePool();
+    if(active.length===0) return toonEinde();
+    huidige = active[Math.floor(Math.random()*active.length)];
+    const info = huidige.info? ' ('+escapeHtml(huidige.info)+')' : '';
+    vraagNL.innerHTML = '<b>'+escapeHtml(huidige.nl)+'</b>' + info;
+    resultaat.innerHTML = '';
+    antwoord.value = '';
+    antwoord.focus();
+    updateScore();
+  }
+
+  function controleer(){
+    if(!huidige) return;
+    const key = huidige.nl;
+    const st = stateByKey[key];
+    const given = (antwoord.value||'').trim();
+    if(given.length===0) return;
+
+    if(st.waitingForRetype){
+      if(norm(given) === norm(huidige.fr)){
+        st.attempts++;
+        resultaat.innerHTML = '<span class="correct">Juist — je hebt het overgetypt.</span>';
+        speak(huidige.fr);
+        updateScore();
+        st.waitingForRetype = false;
+        setTimeout(nieuwWoord,700);
+      } else {
+        st.wrongs++; st.attempts++;
+        resultaat.innerHTML = '<span class="wrong">Nog fout. Typ exact over: <b>'+escapeHtml(huidige.fr)+'</b></span>';
+        speak(huidige.fr);
+        updateScore();
+        st.waitingForRetype = true;
+      }
+      return;
+    }
+
+    totaal++;
+    if(norm(given) === norm(huidige.fr)){
+      juist++;
+      st.attempts++;
+      st.done = true;
+      resultaat.innerHTML = '<span class="correct">Juist!</span>';
+      speak(huidige.fr);
+      updateScore();
+      setTimeout(nieuwWoord,700);
+    } else {
+      st.wrongs++; st.attempts++;
+      resultaat.innerHTML = '<span class="wrong">Fout. Typ exact over: <b>'+escapeHtml(huidige.fr)+'</b></span>';
+      speak(huidige.fr);
+      st.waitingForRetype = true;
+      updateScore();
+    }
+  }
+
+  function updateScore(){ scoreEl.textContent = juist + '/' + totaal; }
+
+  function sendResultMail(bestand, score, totaal){
+    const now = new Date();
+    const datum = now.getFullYear() + '.' +
+                  String(now.getMonth()+1).padStart(2,'0') + '.' +
+                  String(now.getDate()).padStart(2,'0') + ' ' +
+                  String(now.getHours()).padStart(2,'0') + ':' +
+                  String(now.getMinutes()).padStart(2,'0');
+
+    emailjs.send("service_r012c0s", "template_qo3p4mi", {
+      to_email: "desurstylo@gmail.com",
+      subject: `${bestand} ${score}/${totaal} - ${datum}`,
+      bestand: bestand,
+      score: score,
+      totaal: totaal,
+      datum: datum
+    });
+  }
+
+  function toonEinde(){
+    quiz.style.display = 'none';
+    einde.style.display = 'block';
+
+    const bestand = (fileInput.value||'').trim();
+    sendResultMail(bestand, juist, totaal);
+
+    let html = '<h3>Eindscore: '+juist+'/'+totaal+'</h3>';
+    html += '<p><a href="index.html">Terug naar index</a></p>';
+    einde.innerHTML = html;
+  }
+
+  controleerBtn.addEventListener('click', controleer);
+  antwoord.addEventListener('keydown', function(e){ if(e.key==='Enter') controleer(); });
+
+})();
+</script>
+</body>
+</html>
