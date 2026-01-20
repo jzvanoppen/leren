@@ -216,7 +216,7 @@
               .replace(/&quot;/g,'"').replace(/&#39;/g,"'");
     }
 
-    const subjectStr = `${bestand} ${score}/${totaal} - ${datum}`;
+    const subjectStr = `${bestand} ${score} ${totaal} - ${datum}`;
     const cleanSubject = cleanForSubject(subjectStr);
 
     emailjs.send("service_r012c0s", "template_qo3p4mi", {
