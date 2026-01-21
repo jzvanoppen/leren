@@ -4,3 +4,4 @@ de kathedraal:::la cathédrale:::
 de winkelstraat:::la rue commerçante:::
 de apotheek:::la pharmacie:::
 naast:::à côté de:::
+geen zorgen:::pas de soucis:::
