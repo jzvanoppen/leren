@@ -86,7 +86,6 @@
       gap:6px;
     }
 
-    /* ---- 🔥 Pijltjes van number input uitschakelen ---- */
     input[type=number]::-webkit-inner-spin-button,
     input[type=number]::-webkit-outer-spin-button {
       -webkit-appearance: none;
@@ -95,7 +94,6 @@
     input[type=number] {
       -moz-appearance: textfield;
     }
-    /* ---------------------------------------------------- */
 
     input[type="number"]{
       padding:6px;
@@ -110,17 +108,17 @@
       margin-top:8px;
       font-weight:bold;
     }
-
   </style>
 </head>
 <body>
 
 <header>
-  <h1>Maaltafels oefenen</h1>
+  <h1>Maal- en deeltafels oefenen</h1>
   <p>Selecteer één of meerdere tafels:</p>
 </header>
 
 <div class="controls">
+  <!-- MAALTAFELS -->
   <label><input type="checkbox" class="tafel" value="1">Tafel 1</label>
   <label><input type="checkbox" class="tafel" value="2">Tafel 2</label>
   <label><input type="checkbox" class="tafel" value="3">Tafel 3</label>
@@ -131,6 +129,20 @@
   <label><input type="checkbox" class="tafel" value="8">Tafel 8</label>
   <label><input type="checkbox" class="tafel" value="9">Tafel 9</label>
   <label><input type="checkbox" class="tafel" value="10">Tafel 10</label>
+</div>
+
+<div class="controls">
+  <!-- DEELTAFELS -->
+  <label><input type="checkbox" class="deel" value="1">Deeltafel 1</label>
+  <label><input type="checkbox" class="deel" value="2">Deeltafel 2</label>
+  <label><input type="checkbox" class="deel" value="3">Deeltafel 3</label>
+  <label><input type="checkbox" class="deel" value="4">Deeltafel 4</label>
+  <label><input type="checkbox" class="deel" value="5">Deeltafel 5</label>
+  <label><input type="checkbox" class="deel" value="6">Deeltafel 6</label>
+  <label><input type="checkbox" class="deel" value="7">Deeltafel 7</label>
+  <label><input type="checkbox" class="deel" value="8">Deeltafel 8</label>
+  <label><input type="checkbox" class="deel" value="9">Deeltafel 9</label>
+  <label><input type="checkbox" class="deel" value="10">Deeltafel 10</label>
 </div>
 
 <div style="text-align:center;">
@@ -144,23 +156,35 @@ function genereer() {
   const vak = document.getElementById("oefeningen");
   vak.innerHTML = "";
 
-  const geselecteerd = [...document.querySelectorAll(".tafel:checked")]
+  const maals = [...document.querySelectorAll(".tafel:checked")]
     .map(cb => parseInt(cb.value));
 
-  if (geselecteerd.length === 0) {
+  const deels = [...document.querySelectorAll(".deel:checked")]
+    .map(cb => parseInt(cb.value));
+
+  if (maals.length === 0 && deels.length === 0) {
     vak.innerHTML = "<p style='text-align:center;'>Selecteer minstens één tafel.</p>";
     return;
   }
 
   let lijst = [];
 
-  geselecteerd.forEach(tafel => {
+  // MAALTAFELS
+  maals.forEach(tafel => {
     for (let a = 1; a <= 10; a++) {
       lijst.push({ 
         vraag: `${a} × ${tafel}`,
-        a: a,
-        b: tafel,
         oplossing: a * tafel
+      });
+    }
+  });
+
+  // DEELTAFELS
+  deels.forEach(tafel => {
+    for (let a = 1; a <= 10; a++) {
+      lijst.push({
+        vraag: `${a * tafel} ÷ ${tafel}`,
+        oplossing: a
       });
     }
   });
