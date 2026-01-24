@@ -157,10 +157,10 @@ function genereer() {
   vak.innerHTML = "";
 
   const maals = [...document.querySelectorAll(".tafel:checked")]
-    .map(cb => parseInt(cb.value));
+    .map(cb => Number(cb.value));
 
   const deels = [...document.querySelectorAll(".deel:checked")]
-    .map(cb => parseInt(cb.value));
+    .map(cb => Number(cb.value));
 
   if (maals.length === 0 && deels.length === 0) {
     vak.innerHTML = "<p style='text-align:center;'>Selecteer minstens één tafel.</p>";
@@ -179,11 +179,12 @@ function genereer() {
     }
   });
 
-  // DEELTAFELS
+  // DEELTAFELS (alleen correcte delingen)
   deels.forEach(tafel => {
     for (let a = 1; a <= 10; a++) {
+      const product = a * tafel;
       lijst.push({
-        vraag: `${a * tafel} ÷ ${tafel}`,
+        vraag: `${product} ÷ ${tafel}`,
         oplossing: a
       });
     }
@@ -222,7 +223,7 @@ function genereer() {
       });
 
       function check(){
-        const val = parseInt(input.value);
+        const val = Number(input.value);
         if (val === o.oplossing) {
           div.style.background = "var(--good)";
           feedback.textContent = "Juist!";
