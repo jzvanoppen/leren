@@ -1,0 +1,27 @@
+gaan:::aller:INFINITIEF
+ik ga:::je vais:
+jij gaat:::tu vas:
+hij gaat:::il va:
+zij gaat:::elle va:
+wij gaan:::nous allons:
+jullie gaan:::vous allez:
+zij gaan:::ils vont:MANNELIJK
+zij gaan:::elles vont:VROUWELIJK
+komen:::venir:INFINITIEF
+ik kom:::je viens:
+jij komt:::tu viens:
+hij komt:::il vient:
+zij komt:::elle vient:
+wij komen:::nous venons:
+jullie komen:::vous venez:
+zij komen:::ils viennent:MANNELIJK
+zij komen:::elles viennent:VROUWELIJK
+wachten:::attendre:INFINITIEF
+ik wacht:::j'attends
+jij wacht:::tu attends
+hij wacht:::il attend
+zij wacht:::elle attend
+wij wachten:::nous attendons
+jullie wachten:::vous attendez
+zij wachten:::ils attendent:MANNELIJK
+zij wachten:::elles attendent:VROUWELIJK
