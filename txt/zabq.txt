@@ -1,0 +1,96 @@
+ik wacht:::j’attends:ATTENDRE
+jij wacht:::tu attends:ATTENDRE
+hij wacht:::il attend:ATTENDRE
+zij wacht:::elle attend:ATTENDRE
+wij wachten:::nous attendons:ATTENDRE
+jullie wachten:::vous attendez:ATTENDRE
+zij wachten:::ils attendent:MANNELIJK ATTENDRE
+zij wachten:::elles attendent:VROUWELIJK ATTENDRE
+ik kom:::je viens:VENIR
+jij komt:::tu viens:VENIR
+hij komt:::il vient:VENIR
+zij komt:::elle vient:VENIR
+wij komen:::nous venons:VENIR
+jullie komen:::vous venez:VENIR
+zij komen:::ils viennent:MANNELIJK VENIR
+zij komen:::elles viennent:VROUWELIJK VENIR
+ik geef terug:::je rends:RENDRE
+jij geeft terug:::tu rends:RENDRE
+hij geeft terug:::il rend:RENDRE
+zij geeft terug:::elle rend:RENDRE
+wij geven terug:::nous rendons:RENDRE
+jullie geven terug:::vous rendez:RENDRE
+zij geven terug:::ils rendent:MANNELIJK RENDRE
+zij geven terug:::elles rendent:VROUWELIJK RENDRE
+ik hoor:::j’entends:ENTENDRE
+jij hoort:::tu entends:ENTENDRE
+hij hoort:::il entend:ENTENDRE
+zij hoort:::elle entend:ENTENDRE
+wij horen:::nous entendons:ENTENDRE
+jullie horen:::vous entendez:ENTENDRE
+zij horen:::ils entendent:MANNELIJK ENTENDRE
+zij horen:::elles entendent:VROUWELIJK ENTENDRE
+ik verkoop:::je vends:VENDRE
+jij verkoopt:::tu vends:VENDRE
+hij verkoopt:::il vend:VENDRE
+zij verkoopt:::elle vend:VENDRE
+wij verkopen:::nous vendons:VENDRE
+jullie verkopen:::vous vendez:VENDRE
+zij verkopen:::ils vendent:MANNELIJK VENDRE
+zij verkopen:::elles vendent:VROUWELIJK VENDRE
+ik bezoek:::je rends visite:RENDRE VISITE
+jij bezoekt:::tu rends visite:RENDRE VISITE
+hij bezoekt:::il rend visite:RENDRE VISITE
+zij bezoekt:::elle rend visite:RENDRE VISITE
+wij bezoeken:::nous rendons visite:RENDRE VISITE
+jullie bezoeken:::vous rendez visite:RENDRE VISITE
+zij bezoeken:::ils rendent visite:MANNELIJK RENDRE VISITE
+zij bezoeken:::elles rendent visite:VROUWELIJK RENDRE VISITE
+ik antwoord:::je réponds:RÉPONDRE
+jij antwoordt:::tu réponds:RÉPONDRE
+hij antwoordt:::il répond:RÉPONDRE
+zij antwoordt:::elle répond:RÉPONDRE
+wij antwoorden:::nous répondons:RÉPONDRE
+jullie antwoorden:::vous répondez:RÉPONDRE
+zij antwoorden:::ils répondent:MANNELIJK RÉPONDRE
+zij antwoorden:::elles répondent:VROUWELIJK RÉPONDRE
+ik kom terug:::je reviens:REVENIR
+jij komt terug:::tu reviens:REVENIR
+hij komt terug:::il revient:REVENIR
+zij komt terug:::elle revient:REVENIR
+wij komen terug:::nous revenons:REVENIR
+jullie komen terug:::vous revenez:REVENIR
+zij komen terug:::ils reviennent:MANNELIJK REVENIR
+zij komen terug:::elles reviennent:VROUWELIJK REVENIR
+ik houd:::je tiens:TENIR
+jij houdt:::tu tiens:TENIR
+hij houdt:::il tient:TENIR
+zij houdt:::elle tient:TENIR
+wij houden:::nous tenons:TENIR
+jullie houden:::vous tenez:TENIR
+zij houden:::ils tiennent:MANNELIJK TENIR
+zij houden:::elles tiennent:VROUWELIJK TENIR
+ik onthoud:::je retiens:RETENIR
+jij onthoudt:::tu retiens:RETENIR
+hij onthoudt:::il retient:RETENIR
+zij onthoudt:::elle retient:RETENIR
+wij onthouden:::nous retenons:RETENIR
+jullie onthouden:::vous retenez:RETENIR
+zij onthouden:::ils retiennent:MANNELIJK RETENIR
+zij onthouden:::elles retiennent:VROUWELIJK RETENIR
+ik daal:::je descends:DESCENDRE
+jij daalt:::tu descends:DESCENDRE
+hij daalt:::il descend:DESCENDRE
+zij daalt:::elle descend:DESCENDRE
+wij dalen:::nous descendons:DESCENDRE
+jullie dalen:::vous descendez:DESCENDRE
+zij dalen:::ils descendent:MANNELIJK DESCENDRE
+zij dalen:::elles descendent:VROUWELIJK DESCENDRE
+ik verlies:::je perds:PERDRE
+jij verliest:::tu perds:PERDRE
+hij verliest:::il perd:PERDRE
+zij verliest:::elle perd:PERDRE
+wij verliezen:::nous perdons:PERDRE
+jullie verliezen:::vous perdez:PERDRE
+zij verliezen:::ils perdent:MANNELIJK PERDRE
+zij verliezen:::elles perdent:VROUWELIJK PERDRE
