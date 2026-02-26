@@ -1,0 +1,22 @@
+op:::sur
+onder:::sous
+boven:::au-dessus de
+onder:::au-dessous de
+voor:::devant
+achter:::derrière
+dichtbij:::près de
+naast:::à côté de
+ver van:::loin de
+rondom:::autour de
+in het midden van:::au milieu de
+rechts van:::à droite de
+links van:::à gauche de
+binnenkant:::à l'intérieur de
+buiten:::à l'extérieur de
+buitenkant:::en dehors de
+in:::dans
+tussen:::entre
+op het einde van:::au bout de
+langs:::au bord de
+in de hoek van:::dans le coin de
+tegenover:::en face de
