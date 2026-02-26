@@ -1,7 +1,7 @@
 op:::sur
 onder:::sous
-boven:::au-dessus de
-onder:::au-dessous de
+ver boven:::au-dessus de
+ver onder:::au-dessous de
 voor:::devant
 achter:::derrière
 dichtbij:::près de
