@@ -8,13 +8,10 @@
 
     <style>
         :root {
-            --ucll-primary: #003DA5;      /* UCLL Blauw */
-            --ucll-accent: #00A3E0;       /* UCLL Lichtblauw */
-            --ucll-dark: #002B7A;         /* Donkerblauw */
+            --ucll-red: #E30613;      /* Officieel UCLL rood */
+            --ucll-dark: #1a1a1a;
+            --ucll-light-gray: #f5f5f5;
             --ucll-white: #ffffff;
-            --ucll-light-bg: #F4F8FD;     /* Zachte achtergrond */
-            --text-dark: #1A1A1A;
-            --text-light: #555;
         }
 
         * {
@@ -25,15 +22,14 @@
 
         body {
             font-family: 'Inter', sans-serif;
-            background-color: var(--ucll-light-bg);
-            color: var(--text-dark);
+            background-color: var(--ucll-light-gray);
+            color: var(--ucll-dark);
             line-height: 1.6;
         }
 
-        /* HEADER */
         header {
-            background-color: var(--ucll-primary);
-            color: var(--ucll-white);
+            background-color: var(--ucll-red);
+            color: white;
             padding: 2rem 8%;
         }
 
@@ -47,50 +43,43 @@
         }
 
         nav a {
-            color: var(--ucll-white);
+            color: white;
             text-decoration: none;
             margin-right: 2rem;
             font-weight: 500;
-            transition: 0.3s ease;
+            transition: 0.3s;
         }
 
         nav a:hover {
-            color: var(--ucll-accent);
+            opacity: 0.8;
         }
 
-        /* SECTIES */
         section {
             padding: 4rem 8%;
-            background: var(--ucll-white);
+            background: white;
             margin-bottom: 2rem;
         }
 
         h2 {
-            color: var(--ucll-primary);
             margin-bottom: 1.5rem;
-            border-left: 5px solid var(--ucll-accent);
+            border-left: 6px solid var(--ucll-red);
             padding-left: 1rem;
+            font-weight: 600;
         }
 
-        /* PROFIEL */
         .profile {
             display: flex;
             gap: 2rem;
-            align-items: center;
             flex-wrap: wrap;
+            align-items: center;
         }
 
         .profile img {
             width: 180px;
             border-radius: 10px;
-            border: 3px solid var(--ucll-primary);
+            border: 3px solid var(--ucll-red);
         }
 
-        .profile-text {
-            max-width: 600px;
-        }
-
-        /* CARDS */
         .card-container {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -98,48 +87,41 @@
         }
 
         .card {
-            background: var(--ucll-light-bg);
+            background: var(--ucll-light-gray);
             padding: 1.5rem;
-            border-radius: 10px;
-            border-top: 5px solid var(--ucll-primary);
-            transition: 0.3s ease;
+            border-radius: 8px;
+            border-top: 5px solid var(--ucll-red);
+            transition: 0.3s;
         }
 
         .card:hover {
-            transform: translateY(-6px);
-            box-shadow: 0 10px 25px rgba(0, 61, 165, 0.15);
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.08);
         }
 
-        .card h3 {
-            margin-bottom: 1rem;
-            color: var(--ucll-dark);
-        }
-
-        /* BUTTON */
         .btn {
             display: inline-block;
+            margin-top: 1rem;
             padding: 0.6rem 1.3rem;
-            background-color: var(--ucll-primary);
-            color: var(--ucll-white);
+            background-color: var(--ucll-red);
+            color: white;
             text-decoration: none;
             border-radius: 4px;
             font-weight: 500;
-            transition: 0.3s ease;
+            transition: 0.3s;
         }
 
         .btn:hover {
-            background-color: var(--ucll-dark);
+            background-color: #b3050f;
         }
 
-        /* FOOTER */
         footer {
             background-color: var(--ucll-dark);
-            color: var(--ucll-white);
+            color: white;
             text-align: center;
             padding: 2rem;
         }
 
-        /* RESPONSIVE */
         @media(max-width: 768px) {
             header, section {
                 padding: 2rem 5%;
@@ -166,22 +148,13 @@
     <h2>Over Mij</h2>
     <div class="profile">
         <img src="profiel.jpg" alt="Profielfoto">
-        <div class="profile-text">
-            <p>
-                Hallo, ik ben [Jouw Naam]. Dit is mijn professionele portfolio waarin ik mijn
-                voortgang, projecten en documenten van mijn opleiding presenteer.
-            </p>
-        </div>
+        <p>Hallo, ik ben [Jouw Naam]. Dit is mijn professionele portfolio waarin ik mijn voortgang en projecten presenteer.</p>
     </div>
 </section>
 
 <section id="opleiding">
     <h2>Mijn Opleiding</h2>
-    <p>
-        Ik volg momenteel de opleiding <strong>[Naam van je opleiding]</strong>.
-        Tijdens deze opleiding ontwikkel ik zowel theoretische als praktische vaardigheden
-        met focus op professionele groei en toepasbaarheid.
-    </p>
+    <p>Ik volg momenteel de opleiding <strong>[Naam van je opleiding]</strong> aan UCLL.</p>
 </section>
 
 <section id="projecten">
@@ -189,13 +162,7 @@
     <div class="card-container">
         <div class="card">
             <h3>Project 1</h3>
-            <p>Korte beschrijving van het project en leerresultaten.</p>
-            <a href="#" class="btn">Bekijk project</a>
-        </div>
-
-        <div class="card">
-            <h3>Project 2</h3>
-            <p>Korte beschrijving van het project en behaalde resultaten.</p>
+            <p>Beschrijving van het project.</p>
             <a href="#" class="btn">Bekijk project</a>
         </div>
     </div>
@@ -205,23 +172,16 @@
     <h2>Documenten</h2>
     <div class="card-container">
         <div class="card">
-            <h3>Verslag Semester 1</h3>
-            <p>Download hier mijn semesterproject.</p>
-            <a href="document.pdf" class="btn" target="_blank">Download PDF</a>
-        </div>
-
-        <div class="card">
-            <h3>Presentatie</h3>
-            <p>PowerPoint van mijn groepswerk.</p>
-            <a href="presentatie.pdf" class="btn" target="_blank">Bekijk document</a>
+            <h3>Semesterproject</h3>
+            <p>Download hier mijn verslag.</p>
+            <a href="document.pdf" class="btn" target="_blank">Download</a>
         </div>
     </div>
 </section>
 
 <section id="contact">
     <h2>Contact</h2>
-    <p>Email: jouwnaam@email.com</p>
-    <p>LinkedIn: linkedin.com/in/jouwnaam</p>
+    <p>Email: jouw@email.com</p>
 </section>
 
 <footer>
