@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opleidingsportfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --ucll-primary: #003DA5;      /* UCLL Blauw */
+            --ucll-accent: #00A3E0;       /* UCLL Lichtblauw */
+            --ucll-dark: #002B7A;         /* Donkerblauw */
+            --ucll-white: #ffffff;
+            --ucll-light-bg: #F4F8FD;     /* Zachte achtergrond */
+            --text-dark: #1A1A1A;
+            --text-light: #555;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--ucll-light-bg);
+            color: var(--text-dark);
+            line-height: 1.6;
+        }
+
+        /* HEADER */
+        header {
+            background-color: var(--ucll-primary);
+            color: var(--ucll-white);
+            padding: 2rem 8%;
+        }
+
+        header h1 {
+            font-size: 2rem;
+            font-weight: 700;
+        }
+
+        nav {
+            margin-top: 1rem;
+        }
+
+        nav a {
+            color: var(--ucll-white);
+            text-decoration: none;
+            margin-right: 2rem;
+            font-weight: 500;
+            transition: 0.3s ease;
+        }
+
+        nav a:hover {
+            color: var(--ucll-accent);
+        }
+
+        /* SECTIES */
+        section {
+            padding: 4rem 8%;
+            background: var(--ucll-white);
+            margin-bottom: 2rem;
+        }
+
+        h2 {
+            color: var(--ucll-primary);
+            margin-bottom: 1.5rem;
+            border-left: 5px solid var(--ucll-accent);
+            padding-left: 1rem;
+        }
+
+        /* PROFIEL */
+        .profile {
+            display: flex;
+            gap: 2rem;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .profile img {
+            width: 180px;
+            border-radius: 10px;
+            border: 3px solid var(--ucll-primary);
+        }
+
+        .profile-text {
+            max-width: 600px;
+        }
+
+        /* CARDS */
+        .card-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+        }
+
+        .card {
+            background: var(--ucll-light-bg);
+            padding: 1.5rem;
+            border-radius: 10px;
+            border-top: 5px solid var(--ucll-primary);
+            transition: 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 10px 25px rgba(0, 61, 165, 0.15);
+        }
+
+        .card h3 {
+            margin-bottom: 1rem;
+            color: var(--ucll-dark);
+        }
+
+        /* BUTTON */
+        .btn {
+            display: inline-block;
+            padding: 0.6rem 1.3rem;
+            background-color: var(--ucll-primary);
+            color: var(--ucll-white);
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: 500;
+            transition: 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: var(--ucll-dark);
+        }
+
+        /* FOOTER */
+        footer {
+            background-color: var(--ucll-dark);
+            color: var(--ucll-white);
+            text-align: center;
+            padding: 2rem;
+        }
+
+        /* RESPONSIVE */
+        @media(max-width: 768px) {
+            header, section {
+                padding: 2rem 5%;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Mijn Opleidingsportfolio</h1>
+    <nav>
+        <a href="#over">Over Mij</a>
+        <a href="#opleiding">Opleiding</a>
+        <a href="#projecten">Projecten</a>
+        <a href="#documenten">Documenten</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="over">
+    <h2>Over Mij</h2>
+    <div class="profile">
+        <img src="profiel.jpg" alt="Profielfoto">
+        <div class="profile-text">
+            <p>
+                Hallo, ik ben [Jouw Naam]. Dit is mijn professionele portfolio waarin ik mijn
+                voortgang, projecten en documenten van mijn opleiding presenteer.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section id="opleiding">
+    <h2>Mijn Opleiding</h2>
+    <p>
+        Ik volg momenteel de opleiding <strong>[Naam van je opleiding]</strong>.
+        Tijdens deze opleiding ontwikkel ik zowel theoretische als praktische vaardigheden
+        met focus op professionele groei en toepasbaarheid.
+    </p>
+</section>
+
+<section id="projecten">
+    <h2>Projecten</h2>
+    <div class="card-container">
+        <div class="card">
+            <h3>Project 1</h3>
+            <p>Korte beschrijving van het project en leerresultaten.</p>
+            <a href="#" class="btn">Bekijk project</a>
+        </div>
+
+        <div class="card">
+            <h3>Project 2</h3>
+            <p>Korte beschrijving van het project en behaalde resultaten.</p>
+            <a href="#" class="btn">Bekijk project</a>
+        </div>
+    </div>
+</section>
+
+<section id="documenten">
+    <h2>Documenten</h2>
+    <div class="card-container">
+        <div class="card">
+            <h3>Verslag Semester 1</h3>
+            <p>Download hier mijn semesterproject.</p>
+            <a href="document.pdf" class="btn" target="_blank">Download PDF</a>
+        </div>
+
+        <div class="card">
+            <h3>Presentatie</h3>
+            <p>PowerPoint van mijn groepswerk.</p>
+            <a href="presentatie.pdf" class="btn" target="_blank">Bekijk document</a>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Email: jouwnaam@email.com</p>
+    <p>LinkedIn: linkedin.com/in/jouwnaam</p>
+</section>
+
+<footer>
+    <p>© 2026 - Opleidingsportfolio</p>
+</footer>
+
+</body>
+</html>
