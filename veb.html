@@ -122,6 +122,27 @@
             padding: 2rem;
         }
 
+        /* NIEUWE STIJL VOOR ESSAYS */
+
+        .content-block {
+            display: flex;
+            gap: 2rem;
+            margin-bottom: 2rem;
+            align-items: flex-start;
+            flex-wrap: wrap;
+        }
+
+        .content-block img {
+            width: 250px;
+            border-radius: 8px;
+            border: 3px solid var(--ucll-red);
+        }
+
+        .content-block-text {
+            flex: 1;
+            min-width: 250px;
+        }
+
         @media(max-width: 768px) {
             header, section {
                 padding: 2rem 5%;
@@ -139,6 +160,7 @@
         <a href="#over">Over Mij</a>
         <a href="#opleiding">Opleiding</a>
         <a href="#projecten">Projecten</a>
+        <a href="#essays">Essays</a>
         <a href="#documenten">Documenten</a>
         <a href="#links">Links</a>
         <a href="#contact">Contact</a>
@@ -167,6 +189,34 @@
             <a href="#" class="btn">Bekijk project</a>
         </div>
     </div>
+</section>
+
+<section id="essays">
+    <h2>Essays</h2>
+
+    <div class="content-block">
+        <img src="img/essay1.jpg" alt="Essay afbeelding">
+        <div class="content-block-text">
+            <h3>Titel van essay</h3>
+            <p>
+                Hier kan je een essay of reflectietekst plaatsen met een bijhorende afbeelding.
+                Dit kan bijvoorbeeld gaan over een stage-ervaring, een pedagogisch vraagstuk
+                of een reflectie op je eigen leerproces.
+            </p>
+        </div>
+    </div>
+
+    <div class="content-block">
+        <img src="img/essay2.jpg" alt="Essay afbeelding">
+        <div class="content-block-text">
+            <h3>Titel van tweede essay</h3>
+            <p>
+                Je kan zoveel van deze blokken toevoegen als je wil. Kopieer gewoon
+                een content-block en pas de tekst en afbeelding aan.
+            </p>
+        </div>
+    </div>
+
 </section>
 
 <section id="documenten">
