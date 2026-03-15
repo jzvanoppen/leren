@@ -1,0 +1,17 @@
+gaan:::aller:
+hebben:::avoir:
+lopen:::courir:
+worden:::devenir:
+moeten:::devoir:
+verzenden:::envoyer:
+zijn:::être:
+maken, doen:::faire:
+moeten, nodig hebben:::falloir:
+sterven:::mourir:
+regenen:::pleuvoir:
+kunnen, mogen:::pouvoir:
+ontvangen, krijgen:::recevoir:
+weten, kunnen:::savoir:
+komen:::venir:
+zien:::voir:
+willen:::vouloir:
