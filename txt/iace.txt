@@ -1,0 +1,17 @@
+aller:::ir:
+avoir:::aur:
+courir:::courr:
+devenir:::deviendr:
+devoir:::devr:
+envoyer:::enverr:
+être:::ser:
+faire:::fer:
+falloir:::faudr:
+mourir:::mourr:
+pleuvoir:::pleuvr:
+pouvoir:::pourr:
+recevoir:::recevr:
+savoir:::saur:
+venir:::viendr:
+voir:::verr:
+vouloir:::voudr:
