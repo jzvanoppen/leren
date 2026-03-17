@@ -1,0 +1,21 @@
+het plein:::la place:
+de regio/streek:::la région:
+de straat:::la rue:
+de voetgangersstraat:::la rue piétonne:
+de afrit:::la sortie:
+het uitzicht:la vue:
+versperd:::barré:MANNELIJK
+versperd:::barrée:VROUWELIJK
+bekend:::connu:MANNELIJK
+bekend:::connue:VROUWELIJK
+beroemd/veelbesproken:::fameux:MANNELIJK
+beroemd/veelbesproken:::fameuse:VROUWELIJK
+aankomen:::arriver:
+verdergaan, doorgaan:::continuer:
+zich bevinden:::se situer:
+volgen:::suivre:
+afslaan:::tourner:
+oversteken:::traverser:
+uitgeven op:::donner sur:
+rechtsomkeer maken:::faire demi-tour:
+in de richting gaan van:::prendre la direction de:
