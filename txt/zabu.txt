@@ -1,0 +1,10 @@
+het ongeval:::l'accident:
+de halte:::l'arrêt:
+de buitenwijk:::la banlieue:
+de file, de opstopping:::le bouchon:
+het vervoersmiddel:::le moyen de transport:
+de parking:::le parking:
+het probleem:::le problème:
+de wijk:::le quartier:
+de verkeersring:::le ring:
+het verkeer:::le trafic:
