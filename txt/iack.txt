@@ -1,0 +1,12 @@
+dat is het belangrijkste:::c'est le plus important:
+dat is formidabel:::c'est formidable:
+dat is fantastisch:::c'est fantastique:
+dat is super:::c'est super:
+dat is geniaal:::c'est génial:
+dat is fenomenaal:::c'est phénoméal:
+dat is overbodig:::c'est inutile:
+dat is ouderwets:::c'est vieux jeu:
+dat is storend:::c'est gênant:
+dat is afschuwelijk:::c'est horrible:
+dat is verschrikkelijk:::c'est affreux:
+dat is vreselijk:::c'est terrible:
