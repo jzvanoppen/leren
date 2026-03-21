@@ -1,0 +1,13 @@
+het centrum:::le centre:
+het stadscentrum:::le centre-ville:
+de kilometer:::le kilomètre:
+de minuut:::la minute:
+de straat:::la rue:
+doen, maken:::faire:
+wonen:::habiter:
+(naar huis) terugkeren:::rentrer:
+vinden:::trouver:
+komen:::venir:
+komen van:::venir de:
+welk:::quel:MANNELIJK
+welk:::quelle:VROUWELIJK
