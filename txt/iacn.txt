@@ -1,0 +1,16 @@
+vechten:::se battre:
+trainen:::s'entraîner:
+aanvallen:::attaquer:
+bewegen:::bouger:
+dekking nemen::prendre sa garde:
+knock-out:::KO:
+de angst:::la peur:
+bang zijn:::avoir peur:
+het vertrouwen::la confiance:
+zich toevertrouwen:::se confier
+de focus:::le focus
+de inspiratiebron:::la source d'inspiration
+gevaarlijk(mannelijk):::dangereux
+gevaarlijk(vrouwelijk):::dangereuse
+aggressief(mannelijk):::agressif
+aggressief(vrouwelijk):::agressive
