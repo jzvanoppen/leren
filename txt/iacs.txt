@@ -1,0 +1,31 @@
+geweldig:::wonderful:
+adembenemend:::breathtaking:
+goed onderhouden:::well-kept:
+plezierig:::enjoyable:
+de moeite waard:::worthwhile:
+vreselijk:::dreadful:
+enthousiast:::enthousiastic:
+vreselijk:::terrible:
+vol:::crowded:
+ongeduldig:::impatient:
+duur:::expensive:
+opgewonden:::excited:
+opwindend:::exciting:
+schitterend:::brilliant:
+comfortabel:::comfortable:
+ontspannen:::relaxed:
+direct:::immediate:
+onbeleefd:::rude:
+snel:::rapid:R...
+griezelig:::scary:
+nieuwsgierig:::curious:
+sterk:::strong:
+slim:::clever:
+snel:::quick:Q...
+energiek:::energetic:
+fascinerend:::fascinating:
+fantastisch:::awesome:
+aangenaam:::pleasant:
+ongoocheld:::disappointed:
+verveeld:::bored:
+vervelend:::boring
