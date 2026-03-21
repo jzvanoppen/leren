@@ -1,0 +1,24 @@
+een baksteen:::brick
+hout:::wood
+plastic:::plastic
+stro:::straw
+glas:::glass
+beton:::concrete
+koper:::copper
+rubber:::rubber
+staal:::steel
+steen:::stone
+bamboe:::bamboo
+katoen:::cotton
+wol:::wool
+nylon:::nylon
+een rechthoek:::a rectangle
+een driehoek:::a triangle
+een cirkel:::a circle
+een ovaal:::an oval
+een vierkant:::a square
+een bol:::a sphere
+een kubus:::a cube
+een cilinder:::a cylinder
+een rechthoekig prisma:::a rectangular prism
+een piramide:::a pyramid
