@@ -1,0 +1,30 @@
+een giraf:::a giraffe
+een kameel:::a camel
+een struisvogel:::an ostrich
+een neushoorn:::a rhinoceros
+een wallaby:::a wallaby
+een eend:::a duck
+een gier:::a vulture
+een aap:::a monkey
+een tijger:::a tiger
+een leeuw:::a lion
+een zeeleeuw:::a sea lion
+een konijn:::a rabbit
+een cavia:::a guinea pig
+een fret:::a ferret
+een slang:::a snake
+een hagedis:::a lizard
+een schildpad:::a tortoise
+een tarantula:::a tarantula
+een pinguïn:::a penguin
+dieren in het wild:::wildlife:
+een soort:::a species:
+twee soorten:::two species:
+een buideldier:::a marsupial:
+een zoogdier:::a mammal:
+een roofdier:::a predator:
+een welp:::a cub:
+een buidel:::a pouch:
+een staart:::a tail:
+een vleugel:::a wing:
+een veer:::a feather:
