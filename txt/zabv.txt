@@ -1,0 +1,16 @@
+verdergaan:::avancer:
+uitstappen:::descendre:
+zich verplaatsen:::se déplacer:
+gevaarlijk:::dangereux:MANNELIJK
+gevaarlijk:::dangereuse:VROUWELIJK
+moeilijk:::difficile:
+perfect:::parfait:MANNELIJK
+perfect:::parfaite:VROUWELIJK
+volgende:::prochain:MANNELIJK
+volgende:::prochaine:VROUWELIJK
+snel, vlug:::rapide:
+nogal::assez:
+gewoonlijk:::d'habitude:
+in de richting van:::en direction de:
+precies:::exactement:
+normaal gezien:::normalement:
