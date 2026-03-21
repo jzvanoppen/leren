@@ -1,7 +1,7 @@
 een giraf:::a giraffe
 een kameel:::a camel
 een struisvogel:::an ostrich
-een neushoorn:::a rhinoceros
+een neushoorn:::a rhino
 een wallaby:::a wallaby
 een eend:::a duck
 een gier:::a vulture
