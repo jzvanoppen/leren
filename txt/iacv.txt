@@ -38,3 +38,43 @@ Elle revient ... Pays-Bas:::des:
 Nous parlons ... clients:::aux:
 Ils vont ... marché:::au:
 Tu sors ... restaurants:::des:
+Je vais ... école:::à l':VROUWELIJK
+Elle parle ... voisine:::à la:VROUWELIJK
+Nous venons ... école:::de l':VROUWELIJK
+Ils sortent ... maison:::de la:VROUWELIJK
+Tu vas ... hôpital:::à l':MANNELIJK
+Je parle ... directrice:::à la:VROUWELIJK
+Elle revient ... hôpital:::de l':MANNELIJK
+Nous sortons ... cuisine:::de la:VROUWELIJK
+Il va ... aéroport:::à l':MANNELIJK
+Tu parles ... mère:::à la:VROUWELIJK
+Je viens ... hôtel:::de l':MANNELIJK
+Elle sort ... chambre:::de la:VROUWELIJK
+Nous allons ... université:::à l':VROUWELIJK
+Ils parlent ... secrétaire:::à la:VROUWELIJK
+Tu viens ... université:::de l':VROUWELIJK
+Je vais ... église:::à l':VROUWELIJK
+Elle revient ... église:::de l':VROUWELIJK
+Nous parlons ... professeure:::à la:VROUWELIJK
+Ils vont ... école:::à l':VROUWELIJK
+Tu sors ... salle:::de la:VROUWELIJK
+Je vais ... île:::à l':VROUWELIJK
+Elle parle ... cousine:::à la:VROUWELIJK
+Nous venons ... île:::de l':VROUWELIJK
+Ils sortent ... bibliothèque:::de la:VROUWELIJK
+Tu vas ... immeuble:::à l':MANNELIJK
+Je parle ... tante:::à la:VROUWELIJK
+Elle revient ... immeuble:::de l':MANNELIJK
+Nous sortons ... salle de sport:::de la:VROUWELIJK
+Il va ... office:::à l':MANNELIJK
+Tu parles ... sœur:::à la:VROUWELIJK
+Je viens ... appartement:::de l':MANNELIJK
+Elle sort ... cuisine:::de la:VROUWELIJK
+Nous allons ... école:::à l':VROUWELIJK
+Ils parlent ... voisine:::à la:VROUWELIJK
+Tu viens ... école:::de l':VROUWELIJK
+Je vais ... usine:::à l':VROUWELIJK
+Elle revient ... usine:::de l':VROUWELIJK
+Nous parlons ... amie:::à la:VROUWELIJK
+Ils vont ... hôtel:::à l':MANNELIJK
+Tu sors ... maison:::de la:VROUWELIJK
