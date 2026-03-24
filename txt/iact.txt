@@ -1,0 +1,30 @@
+Dans le ring, il y a ... boxeur:::un:
+Sur la table, il y a ... pomme:::une:
+Je vois ... chien dans le jardin:::un:
+Elle mange ... orange:::une:
+Nous avons ... voiture rouge:::une:
+Tu regardes ... film intéressant:::un:
+Il prend ... livre sur la table:::le:
+Elle ferme ... porte:::la:
+Je vois ... enfants jouer:::les:
+Nous aimons ... fleurs:::les:
+Dans le parc, il y a ... oiseaux:::des:
+Nous achetons ... pommes:::des:
+Ils mangent ... bonbons:::des:
+Vous voyez ... voitures:::des:
+Elle a ... amis en France:::des:
+Je prends ... photos:::des:
+Nous avons ... idées:::des:
+Ils trouvent ... solutions:::des:
+Tu lis ... magazines:::des:
+Dans la rue, il y a ... chiens:::des:
+Dans la classe, il y a ... élève:::un:
+Elle porte ... robe bleue:::une:
+Je vois ... chat sur la chaise:::un:
+Nous avons ... maison:::une:
+Tu manges ... gâteau:::un:
+Il ouvre ... fenêtre:::la:
+Je prends ... stylo:::le:
+Nous regardons ... étoiles:::les:
+Vous fermez ... portes:::les:
+Elle aime ... musique:::la:
