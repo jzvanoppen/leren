@@ -1,0 +1,40 @@
+Je mange ... pain:::du:MANNELIJK
+Elle boit ... eau:::de l':VROUWELIJK
+Nous achetons ... viande:::de la:VROUWELIJK
+Ils prennent ... légumes:::des:MEERVOUD
+Tu veux ... fromage:::du:MANNELIJK
+Je bois ... jus d’orange:::du:MANNELIJK
+Elle mange ... salade:::de la:VROUWELIJK
+Nous avons ... amis:::des:MEERVOUD
+Il prend ... eau:::de l':VROUWELIJK
+Tu manges ... chocolat:::du:MANNELIJK
+Nous buvons ... lait:::du:MANNELIJK
+Elle achète ... farine:::de la:VROUWELIJK
+Ils mangent ... fruits:::des:MEERVOUD
+Je bois ... eau froide:::de l':VROUWELIJK
+Tu prends ... soupe:::de la:VROUWELIJK
+Nous mangeons ... riz:::du:MANNELIJK
+Elle veut ... argent:::de l':MANNELIJK
+Ils achètent ... pommes:::des:MEERVOUD
+Je mange ... poisson:::du:MANNELIJK
+Tu bois ... limonade:::de la:VROUWELIJK
+Je mange ... poulet:::du:MANNELIJK
+Elle boit ... limonade:::de la:VROUWELIJK
+Nous prenons ... eau:::de l':VROUWELIJK
+Ils mangent ... biscuits:::des:MEERVOUD
+Tu veux ... beurre:::du:MANNELIJK
+Je bois ... eau minérale:::de l':VROUWELIJK
+Elle mange ... confiture:::de la:VROUWELIJK
+Nous achetons ... œufs:::des:MEERVOUD
+Il prend ... café:::du:MANNELIJK
+Tu manges ... glace:::de la:VROUWELIJK
+Nous buvons ... thé:::du:MANNELIJK
+Elle achète ... huile:::de la:VROUWELIJK
+Ils mangent ... légumes verts:::des:MEERVOUD
+Je bois ... eau chaude:::de l':VROUWELIJK
+Tu prends ... viande:::de la:VROUWELIJK
+Nous mangeons ... pain:::du:MANNELIJK
+Elle veut ... argent liquide:::de l':MANNELIJK
+Ils achètent ... fraises:::des:MEERVOUD
+Je mange ... jambon:::du:MANNELIJK
+Tu bois ... soupe:::de la:VROUWELIJK
