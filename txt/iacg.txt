@@ -1,0 +1,90 @@
+... ton pizza !:::mange:MANGER
+... la porte !:::ferme:FERMER
+... ton lit !:::fais:FAIRE
+... attention !:::prends:PRENDRE
+... tes devoirs !:::finis:FINIR
+... tes mains !:::lave:LAVER
+... plus vite !:::cours:COURIR
+... ici !:::viens:VENIR
+... la vérité !:::dis:DIRE
+... du pain !:::achète:ACHETER
+... ton sac !:::prends:PRENDRE
+... la lumière !:::éteins:ÉTEINDRE
+... la fenêtre !:::ouvre:OUVRIR
+... la porte !:::ferme:FERMER
+... ton livre !:::lis:LIRE
+... à manger !:::donne:DONNER
+... calme !:::reste:RESTER
+... ton frère !:::aide:AIDER
+... chez moi !:::viens:VENIR
+... ton manteau !:::mets:METTRE
+... la table !:::mets:METTRE
+... ton téléphone !:::pose:POSER
+... plus fort !:::parle:PARLER
+... attention !:::fais:FAIRE
+... le bus !:::prends:PRENDRE
+... ici !:::reste:RESTER
+... ton nom !:::écris:ÉCRIRE
+... ton travail !:::finis:FINIR
+... à gauche !:::tourne:TOURNER
+... à droite !:::tourne:TOURNER
+... la musique !:::écoute:ÉCOUTER
+... la télévision !:::regarde:REGARDER
+... le silence !:::garde:GARDER
+... ton chien !:::appelle:APPELER
+... ton vélo !:::répare:RÉPARER
+... la porte !:::ouvre:OUVRIR
+... le feu !:::éteins:ÉTEINDRE
+... ton café !:::bois:BOIRE
+... lentement !:::marche:MARCHER
+... vite !:::viens:VENIR
+... ton bureau !:::range:RANGER
+... ton sac !:::porte:PORTER
+... la vérité !:::dis:DIRE
+... du lait !:::bois:BOIRE
+... ici !:::assieds-toi:S’ASSEOIR
+... debout !:::lève-toi:SE LEVER
+... tranquille !:::calme-toi:SE CALMER
+... les mains !:::lave-toi:SE LAVER
+... à moi !:::donne:DONNER
+... le ballon !:::lance:LANCER
+... ton exercice !:::fais:FAIRE
+... ton ami !:::appelle:APPELER
+... la réponse !:::donne:DONNER
+... bien !:::écoute:ÉCOUTER
+... lentement !:::écris:ÉCRIRE
+... la route !:::traverse:TRAVERSER
+... attention !:::regarde:REGARDER
+... ton chemin !:::continue:CONTINUER
+... la porte !:::pousse:POUSSER
+... ici !:::entre:ENTRER
+... la salle !:::sors:SORTIR
+... ton travail !:::commence:COMMENCER
+... ta veste !:::mets:METTRE
+... le livre !:::ouvre:OUVRIR
+... le bruit !:::arrête:ARRÊTER
+... le téléphone !:::réponds:RÉPONDRE
+... le problème !:::résous:RÉSOUDRE
+... ton temps !:::prends:PRENDRE
+... chez toi !:::rentre:RENTRER
+... la clé !:::prends:PRENDRE
+... ta chambre !:::nettoie:NETTOYER
+... la table !:::prépare:PRÉPARER
+... le dîner !:::cuisine:CUISINER
+... le dessert !:::mange:MANGER
+... ton verre !:::remplis:REMPLIR
+... le jus !:::bois:BOIRE
+... ton sac !:::ouvre:OUVRIR
+... tes chaussures !:::mets:METTRE
+... vite !:::dépêche-toi:SE DÉPÊCHER
+... prêt !:::prépare-toi:SE PRÉPARER
+... ton manteau !:::enlève:ENLEVER
+... la chaise !:::prends:PRENDRE
+... la porte !:::tire:TIRER
+... ton ami !:::invite:INVITER
+... le jeu !:::commence:COMMENCER
+... la musique !:::mets:METTRE
+... le volume !:::baisse:BAISSER
+... le volume !:::monte:MONTER
+... ton repas !:::termine:TERMINER
+... bien !:::travaille:TRAVAILLER
