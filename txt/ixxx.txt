@@ -1,10 +1,12 @@
-een tweedejaarsstudent:::a sophomore:
-een internaat:::a boarding school:
-een gang:::a corridor:
-een lesrooster:::a timetable:
-wetenschappen:::sciences:
-biologie:::biology:
-informatica (ICT):::Information and Communication Technology:
-chemie:::chemistry:
-Duits:::German:
-lichamelijke opvoeding:::Physical Education:
+afmeten, meten:::to measure:q
+afmeten, meten:::to measure:q
+breed:::wide:q
+een duim:::an inch:q
+een rechthoekig prisma:::a rectangular prism:p
+beton:::concrete:p
+een inheems zoogdier:::a native mammal:r
+een bedreigde diersoort:::an endangered species:r
+een bedreigde diersoort:::an endangered species:r
+overwinteren:::hibernate:r
+overwinteren:::hibernate:r
+een struisvogel:::an ostrich:o
