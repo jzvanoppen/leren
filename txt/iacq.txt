@@ -14,5 +14,5 @@ breedte:::width:
 hoogte:::height:
 een hoge toren:::a high tower:
 een lange wandeling:::a long walk:
-een brede rivier:::a wide river:
+breed:::wide:
 afmeten, meten:::to measure:
