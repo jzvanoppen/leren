@@ -19,3 +19,9 @@ veel:::beaucoup de:zabs
 akkoord:::d'accord:zabt
 ik ga naar mijn tante:::je vais chez ma tante:zabt
 het ligt in Brugge:::c'est à Bruges:zabt
+uitstappen:::descendre:v
+verdergaan:::avancer:v
+gevaarlijk:::dangereux:v MANNELIJK
+ik heb de bus gemist:::j'ai raté le bus:w
+jammer:::dommage:w
+verdorie:::zut:w
