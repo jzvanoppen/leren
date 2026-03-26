@@ -1,7 +1,11 @@
-de school:::l'école:::
-de supermarkt:::le supermarché:::
-de kathedraal:::la cathédrale:::
-de winkelstraat:::la rue commerçante:::
-de apotheek:::la pharmacie:::
-naast:::à côté de:::
-geen zorgen:::pas de soucis:::
+het gebouw:::le bâtiment:zabl
+de bank:::la banque:zabl
+de frituur:::la friterie:zabm
+tegenover:::en face de:zabn
+dichtbij:::près de:::zabn
+bezoeken:::visiter:::zabn
+doen, maken:::faire:zabr
+komen van:::venir de:zabr
+(naar huis) terugkeren:::rentrer:zabr
+(naar huis) terugkeren:::rentrer:zabr
+vinden:::trouver:zabr
