@@ -25,3 +25,4 @@ gevaarlijk:::dangereux:v MANNELIJK
 ik heb de bus gemist:::j'ai raté le bus:w
 jammer:::dommage:w
 verdorie:::zut:w
+de buitenwijk:::la banlieue:u
