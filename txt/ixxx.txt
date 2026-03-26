@@ -10,3 +10,10 @@ een bedreigde diersoort:::an endangered species:r
 overwinteren:::hibernate:r
 overwinteren:::hibernate:r
 een struisvogel:::an ostrich:o
+opwindend:::exciting:s
+fantastisch:::awesome:s
+vreselijk:::terrible:s
+ongeduldig:::impatient:s
+opgewonden:::excited:s
+schitterend:::brilliant:s
+ongeduldig:::impatient:s
