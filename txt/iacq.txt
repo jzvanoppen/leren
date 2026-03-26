@@ -1,8 +1,8 @@
-een ronde tafel:::a round table:
-een ovaal gezicht:::an oval face:
-een vierkant schilderij:::a square painting:
-een rechthoekig gebouw:::a rectangular building:
-een driehoekig verkeersbord:::a triangular traffic sign:
+rond:::round:
+ovaal:::oval:
+vierkant:::square:
+rechthoekig:::rectangular:
+driehoekig:::triangular:
 een centimeter:::a centimetre:
 een meter:::a metre:
 een kilometer:::a kilometre:
@@ -12,7 +12,7 @@ een voet:::a foot:
 lengte:::length:
 breedte:::width:
 hoogte:::height:
-een hoge toren:::a high tower:
-een lange wandeling:::a long walk:
+hoog:::high:
+lang:::long:
 breed:::wide:
 afmeten, meten:::to measure:
