@@ -33,7 +33,8 @@
 <body>
 
 <h2>Frans → Nederlands oefening</h2>
-<p>Kies eerst het juiste Franse woord. Bij een fout krijg je de Nederlandse zinnen. De Franse zin wordt automatisch uitgesproken.</p>
+<p>Kies eerst het juiste Franse woord <u>OF kies de infinitief bij een werkwoord.</u></p>
+<p>Bij een fout krijg je de Nederlandse zinnen. De Franse zin wordt automatisch uitgesproken.</p>
 
 <label><strong>Kies oefenmodus:</strong></label><br>
 <select id="modeSelect">
@@ -65,12 +66,30 @@
 
 <script>
 /*
+  ***********************************************************************************************************************
+  Ik geef je een oplijsting, haal per regel er enkel het Frans woord uit en laat ook telkens het lidwoord weg.
+
+  Bijvoorbeeld: "de vriend:(m)::l'ami:A..." moet worden "ami". Plaats ieder Frans woord ook op een nieuwe regel.
+
+  ***********************************************************************************************************************
   Ik geef je een lijst van woorden. Herwerk deze naar volgende structuur:
   {word:"water", fr:"eau", frSentence:"Puis-je avoir un verre d’eau ?", nl:"Mag ik een glas water?"},
   {word:"boek", fr:"livre", frSentence:"Elle lit un livre passionnant.", nl:"Zij leest een spannend boek."},
   {word:"stoel", fr:"chaise", frSentence:"La chaise se trouve à côté de la table.", nl:"De stoel staat naast de tafel."}
 
   Bedenk voor ieder woord een bijpassende zin:
+
+  ***********************************************************************************************************************
+  
+  ************************************************
+  ***** OPLETTEN MET "," OP EINDE VAN DE ZIN *****
+  ************************************************
+
+  ***********************************************************************************************************************
+
+  OK ...
+
+  WW ...
 */
 /* --------------------------
    ⭐ TWEE LOSSE LIJSTEN
@@ -81,7 +100,161 @@ const entriesVocab = [
   {word:"kat", fr:"chat", frSentence:"Le chat dort sur le canapé.", nl:"De kat slaapt op de bank."},
   {word:"water", fr:"eau", frSentence:"Puis-je avoir un verre d’eau ?", nl:"Mag ik een glas water?"},
   {word:"boek", fr:"livre", frSentence:"Elle lit un livre passionnant.", nl:"Zij leest een spannend boek."},
-  {word:"stoel", fr:"chaise", frSentence:"La chaise se trouve à côté de la table.", nl:"De stoel staat naast de tafel."}
+  {word:"stoel", fr:"chaise", frSentence:"La chaise se trouve à côté de la table.", nl:"De stoel staat naast de tafel."},
+{word:"soep", fr:"soupe", frSentence:"Je mange une soupe chaude.", nl:"Ik eet een warme soep."},
+{word:"salade", fr:"salade", frSentence:"Elle prépare une salade fraîche.", nl:"Zij maakt een frisse salade."},
+{word:"wortel", fr:"carotte", frSentence:"Le lapin mange une carotte.", nl:"Het konijn eet een wortel."},
+{word:"aardappel", fr:"pomme de terre", frSentence:"Je coupe la pomme de terre.", nl:"Ik snijd de aardappel."},
+{word:"groente", fr:"légume", frSentence:"Ce légume est sain.", nl:"Deze groente is gezond."},
+{word:"middageten", fr:"dîner", frSentence:"Nous prenons le dîner ensemble.", nl:"Wij nemen samen het middageten."},
+{word:"grootouders", fr:"grands-parents", frSentence:"Mes grands-parents viennent.", nl:"Mijn grootouders komen."},
+{word:"grootvader", fr:"grand-père", frSentence:"Mon grand-père raconte une histoire.", nl:"Mijn grootvader vertelt een verhaal."},
+{word:"grootmoeder", fr:"grand-mère", frSentence:"Ma grand-mère cuisine.", nl:"Mijn grootmoeder kookt."},
+{word:"laars", fr:"botte", frSentence:"Je mets une botte.", nl:"Ik doe een laars aan."},
+{word:"aandoen", fr:"mettre", frSentence:"Je vais mettre mon manteau.", nl:"Ik ga mijn jas aandoen."},
+{word:"ik doe aan", fr:"je mets", frSentence:"Je mets une veste.", nl:"Ik doe een jas aan."},
+{word:"terugkeren", fr:"rentrer", frSentence:"Je rentre à la maison.", nl:"Ik keer terug naar huis."},
+{word:"zin hebben in", fr:"avoir envie de", frSentence:"J’ai envie de manger.", nl:"Ik heb zin om te eten."},
+{word:"honger hebben", fr:"avoir faim", frSentence:"J’ai faim maintenant.", nl:"Ik heb nu honger."},
+{word:"dorst hebben", fr:"avoir soif", frSentence:"J’ai soif après le sport.", nl:"Ik heb dorst na het sporten."},
+{word:"Aan tafel!", fr:"À table!", frSentence:"À table, le repas est prêt !", nl:"Aan tafel, het eten is klaar!"},
+{word:"Het is lekker!", fr:"C'est bon!", frSentence:"C’est bon, j’aime ça.", nl:"Het is lekker, ik hou ervan."},
+{word:"Nee, dank je.", fr:"Non, merci.", frSentence:"Non, merci, je refuse.", nl:"Nee, dank je, ik weiger."},
+{word:"Tot morgen!", fr:"À demain!", frSentence:"À demain à l’école !", nl:"Tot morgen op school!"},
+{word:"tafel", fr:"table", frSentence:"La table est grande.", nl:"De tafel is groot."},
+{word:"broek", fr:"pantalon", frSentence:"Le pantalon est neuf.", nl:"De broek is nieuw."},
+{word:"rood", fr:"rouge", frSentence:"La pomme est rouge.", nl:"De appel is rood."},
+{word:"rode tafel", fr:"table rouge", frSentence:"La table rouge est belle.", nl:"De rode tafel is mooi."},
+{word:"rode broek", fr:"pantalon rouge", frSentence:"Le pantalon rouge est cher.", nl:"De rode broek is duur."},
+{word:"blauw (m)", fr:"bleu", frSentence:"Le ciel est bleu.", nl:"De lucht is blauw."},
+{word:"blauw (v)", fr:"bleue", frSentence:"La mer est bleue.", nl:"De zee is blauw."},
+{word:"blauwe tafel", fr:"table bleue", frSentence:"La table bleue est propre.", nl:"De blauwe tafel is proper."},
+{word:"blauwe broek", fr:"pantalon bleu", frSentence:"Le pantalon bleu est confortable.", nl:"De blauwe broek is comfortabel."},
+{word:"geel", fr:"jaune", frSentence:"Le soleil est jaune.", nl:"De zon is geel."},
+{word:"gele tafel", fr:"table jaune", frSentence:"La table jaune brille.", nl:"De gele tafel glanst."},
+{word:"gele broek", fr:"pantalon jaune", frSentence:"Le pantalon jaune est drôle.", nl:"De gele broek is grappig."},
+{word:"groen (m)", fr:"vert", frSentence:"L’arbre est vert.", nl:"De boom is groen."},
+{word:"groen (v)", fr:"verte", frSentence:"La feuille est verte.", nl:"Het blad is groen."},
+{word:"groene tafel", fr:"table verte", frSentence:"La table verte est ancienne.", nl:"De groene tafel is oud."},
+{word:"groene broek", fr:"pantalon vert", frSentence:"Le pantalon vert est sale.", nl:"De groene broek is vuil."},
+{word:"zwart (m)", fr:"noir", frSentence:"Le chat est noir.", nl:"De kat is zwart."},
+{word:"zwart (v)", fr:"noire", frSentence:"La voiture est noire.", nl:"De auto is zwart."},
+{word:"zwarte tafel", fr:"table noire", frSentence:"La table noire est élégante.", nl:"De zwarte tafel is elegant."},
+{word:"zwarte broek", fr:"pantalon noir", frSentence:"Le pantalon noir est chic.", nl:"De zwarte broek is chic."},
+{word:"wit (m)", fr:"blanc", frSentence:"Le mur est blanc.", nl:"De muur is wit."},
+{word:"wit (v)", fr:"blanche", frSentence:"La neige est blanche.", nl:"De sneeuw is wit."},
+{word:"witte tafel", fr:"table blanche", frSentence:"La table blanche est propre.", nl:"De witte tafel is proper."},
+{word:"witte broek", fr:"pantalon blanc", frSentence:"Le pantalon blanc est neuf.", nl:"De witte broek is nieuw."},
+{word:"oranje", fr:"orange", frSentence:"L’orange est orange.", nl:"De sinaasappel is oranje."},
+{word:"oranje tafel", fr:"table orange", frSentence:"La table orange est unique.", nl:"De oranje tafel is uniek."},
+{word:"oranje broek", fr:"pantalon orange", frSentence:"Le pantalon orange est voyant.", nl:"De oranje broek valt op."},
+{word:"paars", fr:"mauve", frSentence:"La fleur est mauve.", nl:"De bloem is paars."},
+{word:"paarse tafel", fr:"table mauve", frSentence:"La table mauve est rare.", nl:"De paarse tafel is zeldzaam."},
+{word:"paarse broek", fr:"pantalon mauve", frSentence:"Le pantalon mauve est original.", nl:"De paarse broek is origineel."},
+{word:"bruin (m)", fr:"brun", frSentence:"Le chien est brun.", nl:"De hond is bruin."},
+{word:"bruin (v)", fr:"brune", frSentence:"La terre est brune.", nl:"De aarde is bruin."},
+{word:"bruine tafel", fr:"table brune", frSentence:"La table brune est solide.", nl:"De bruine tafel is stevig."},
+{word:"bruine broek", fr:"pantalon brun", frSentence:"Le pantalon brun est vieux.", nl:"De bruine broek is oud."},
+{word:"roze", fr:"rose", frSentence:"La robe est rose.", nl:"De jurk is roze."},
+{word:"roze tafel", fr:"table rose", frSentence:"La table rose est douce.", nl:"De roze tafel is zacht."},
+{word:"roze broek", fr:"pantalon rose", frSentence:"Le pantalon rose est à la mode.", nl:"De roze broek is in de mode."},
+{word:"kilometer", fr:"kilomètre", frSentence:"Je marche un kilomètre.", nl:"Ik wandel een kilometer."},
+{word:"reiskoffer", fr:"valise", frSentence:"La valise est lourde.", nl:"De reiskoffer is zwaar."},
+{word:"trein", fr:"train", frSentence:"Le train arrive à l’heure.", nl:"De trein komt op tijd."},
+{word:"vliegtuig", fr:"avion", frSentence:"L’avion décolle maintenant.", nl:"Het vliegtuig stijgt nu op."},
+{word:"ingang", fr:"entrée", frSentence:"L’entrée est fermée.", nl:"De ingang is gesloten."},
+{word:"uitgang", fr:"sortie", frSentence:"La sortie est là-bas.", nl:"De uitgang is daar."},
+{word:"hoek", fr:"coin", frSentence:"Le magasin est au coin.", nl:"De winkel is op de hoek."},
+{word:"paraplu", fr:"parapluie", frSentence:"Je prends un parapluie.", nl:"Ik neem een paraplu."},
+{word:"pet", fr:"casquette", frSentence:"Il porte une casquette.", nl:"Hij draagt een pet."},
+{word:"gsm", fr:"portable", frSentence:"Mon portable sonne.", nl:"Mijn gsm gaat af."},
+{word:"telefoon", fr:"téléphone", frSentence:"Le téléphone est sur la table.", nl:"De telefoon ligt op tafel."},
+{word:"reis", fr:"voyage", frSentence:"Le voyage est long.", nl:"De reis is lang."},
+{word:"Europa", fr:"Europe", frSentence:"L’Europe est grande.", nl:"Europa is groot."},
+{word:"Vlaanderen", fr:"Flandre", frSentence:"La Flandre est belle.", nl:"Vlaanderen is mooi."},
+{word:"Wallonië", fr:"Wallonie", frSentence:"La Wallonie est verte.", nl:"Wallonië is groen."},
+{word:"stoppen", fr:"s'arrêter", frSentence:"Le bus s’arrête ici.", nl:"De bus stopt hier."},
+{word:"binnenkomen", fr:"entrer", frSentence:"Il entre dans la maison.", nl:"Hij komt het huis binnen."},
+{word:"sluiten", fr:"fermer", frSentence:"Je ferme la porte.", nl:"Ik sluit de deur."},
+{word:"telefoneren naar", fr:"téléphoner à", frSentence:"Je téléphone à Marie.", nl:"Ik telefoneer naar Marie."},
+{word:"Hallo?", fr:"Allô?", frSentence:"Allô, qui est là ?", nl:"Hallo, wie is daar?"},
+{word:"Waar is Zeyneb?", fr:"Où est Zeyneb?", frSentence:"Où est Zeyneb maintenant ?", nl:"Waar is Zeyneb nu?"},
+{word:"zonder", fr:"sans", frSentence:"Je bois du café sans sucre.", nl:"Ik drink koffie zonder suiker."},
+{word:"Ik ga te voet.", fr:"Je vais à pied.", frSentence:"Je vais à pied à l’école.", nl:"Ik ga te voet naar school."},
+{word:"Jij gaat met het vliegtuig.", fr:"Tu vas en avion.", frSentence:"Tu vas en avion en Espagne.", nl:"Jij gaat met het vliegtuig naar Spanje."},
+{word:"met het vliegtuig", fr:"en avion", frSentence:"Nous voyageons en avion.", nl:"Wij reizen met het vliegtuig."},
+{word:"met de tram", fr:"en tram", frSentence:"Il va au travail en tram.", nl:"Hij gaat met de tram naar het werk."},
+{word:"met de trein", fr:"en train", frSentence:"Je vais à Bruxelles en train.", nl:"Ik ga met de trein naar Brussel."},
+{word:"met de auto", fr:"en voiture", frSentence:"Ils partent en voiture.", nl:"Zij vertrekken met de auto."},
+{word:"te voet", fr:"à pied", frSentence:"Elle rentre à pied.", nl:"Zij gaat te voet naar huis."},
+{word:"met de fiets", fr:"à vélo", frSentence:"Je vais à vélo au parc.", nl:"Ik ga met de fiets naar het park."},
+{word:"met de step", fr:"à trottinette", frSentence:"Il se déplace à trottinette.", nl:"Hij verplaatst zich met de step."},
+{word:"met de moto", fr:"à moto", frSentence:"Elle roule à moto.", nl:"Zij rijdt met de moto."},
+{word:"olijf", fr:"olive", frSentence:"Je mange une olive verte.", nl:"Ik eet een groene olijf."},
+{word:"frieten", fr:"frites", frSentence:"Nous mangeons des frites croustillantes.", nl:"Wij eten knapperige frieten."},
+{word:"vlees", fr:"viande", frSentence:"La viande est très tendre.", nl:"Het vlees is erg mals."},
+{word:"fijne vleeswaren", fr:"charcuterie", frSentence:"J’aime la charcuterie au dîner.", nl:"Ik hou van fijne vleeswaren bij het avondeten."},
+{word:"menu", fr:"menu", frSentence:"Je choisis le menu du jour.", nl:"Ik kies het dagmenu."},
+{word:"dessert", fr:"dessert", frSentence:"Le dessert est délicieux ce soir.", nl:"Het dessert is vanavond heerlijk."},
+{word:"saus", fr:"sauce", frSentence:"La sauce est un peu piquante.", nl:"De saus is een beetje pikant."},
+{word:"mayonaise", fr:"mayonnaise", frSentence:"Je mets de la mayonnaise sur les frites.", nl:"Ik doe mayonaise op de frieten."},
+{word:"ijsje", fr:"glace", frSentence:"Je mange une glace au chocolat.", nl:"Ik eet een chocolade-ijsje."},
+{word:"wijn", fr:"vin", frSentence:"Nous buvons du vin rouge.", nl:"Wij drinken rode wijn."},
+{word:"bier", fr:"bière", frSentence:"Il boit une bière froide.", nl:"Hij drinkt een koud biertje."},
+{word:"blad", fr:"feuille", frSentence:"La feuille tombe de l’arbre.", nl:"Het blad valt van de boom."},
+{word:"mond", fr:"bouche", frSentence:"Ouvre la bouche s’il te plaît.", nl:"Doe je mond open alstublieft."},
+{word:"glas", fr:"verre", frSentence:"Le verre est plein d’eau.", nl:"Het glas is vol water."},
+{word:"fles", fr:"bouteille", frSentence:"La bouteille est sur la table.", nl:"De fles staat op tafel."},
+{word:"restaurant", fr:"restaurant", frSentence:"Nous allons au restaurant ce soir.", nl:"Wij gaan vanavond naar het restaurant."},
+{word:"openen", fr:"ouvrir", frSentence:"J’ouvre la porte du restaurant.", nl:"Ik open de deur van het restaurant."},
+{word:"prijs", fr:"prix", frSentence:"Le prix est très élevé.", nl:"De prijs is heel hoog."},
+{word:"een kopje", fr:"une tasse de", frSentence:"Je bois une tasse de thé.", nl:"Ik drink een kopje thee."},
+{word:"een kopje koffie", fr:"une tasse de café", frSentence:"Elle prend une tasse de café.", nl:"Zij neemt een kopje koffie."},
+{word:"een glas", fr:"un verre de", frSentence:"Je veux un verre de jus.", nl:"Ik wil een glas sap."},
+{word:"een glas water", fr:"un verre d'eau", frSentence:"Il boit un verre d’eau.", nl:"Hij drinkt een glas water."},
+{word:"een fles", fr:"une bouteille de", frSentence:"Nous achetons une bouteille de vin.", nl:"Wij kopen een fles wijn."},
+{word:"een fles cola", fr:"une bouteille de coca", frSentence:"Elle boit une bouteille de coca.", nl:"Zij drinkt een fles cola."},
+{word:"slecht", fr:"mauvais", frSentence:"C’est un mauvais film.", nl:"Het is een slechte film."},
+{word:"slecht", fr:"mauvaise", frSentence:"C’est une mauvaise idée.", nl:"Het is een slecht idee."},
+{word:"goed", fr:"bon", frSentence:"C’est un bon repas.", nl:"Het is een goede maaltijd."},
+{word:"goed", fr:"bonne", frSentence:"C’est une bonne soupe.", nl:"Het is een goede soep."},
+{word:"goed", fr:"bien", frSentence:"Tu travailles bien à l’école.", nl:"Je werkt goed op school."},
+{word:"slecht", fr:"mal", frSentence:"Il travaille mal en classe.", nl:"Hij werkt slecht in de klas."},
+{word:"omdat", fr:"parce que", frSentence:"Je reste parce que je suis fatigué.", nl:"Ik blijf omdat ik moe ben."},
+{word:"nog een beetje", fr:"encore un peu de", frSentence:"Je veux encore un peu de pain.", nl:"Ik wil nog een beetje brood."},
+{word:"nog een beetje melk", fr:"encore un peu de lait", frSentence:"Ajoute encore un peu de lait.", nl:"Voeg nog een beetje melk toe."},
+{word:"voor", fr:"avant", frSentence:"Je mange avant le dîner.", nl:"Ik eet voor het avondeten."},
+{word:"wat", fr:"qu'est-ce que", frSentence:"Qu’est-ce que tu fais ?", nl:"Wat doe je?"},
+{word:"voor hem", fr:"pour lui", frSentence:"Ce cadeau est pour lui.", nl:"Dit cadeau is voor hem."},
+{word:"honderd gram", fr:"cent grammes de", frSentence:"Je prends cent grammes de jambon.", nl:"Ik neem honderd gram ham."},
+{word:"honderd gram ham", fr:"cent grammes de jambon", frSentence:"Il achète cent grammes de jambon.", nl:"Hij koopt honderd gram ham."},
+{word:"kilo", fr:"kilo", frSentence:"Le kilo de pommes coûte cher.", nl:"De kilo appels is duur."},
+{word:"een kilo", fr:"un kilo de", frSentence:"J’achète un kilo de pommes de terre.", nl:"Ik koop een kilo aardappelen."},
+{word:"een kilo aardappelen", fr:"un kilo de pommes de terre", frSentence:"Elle prend un kilo de pommes de terre.", nl:"Zij neemt een kilo aardappelen."},
+{word:"hoeveel kost het?", fr:"ça fait combien?", frSentence:"Ça fait combien au total ?", nl:"Hoeveel kost het in totaal?"},
+{word:"Gelukkige verjaardag!", fr:"Bon anniversaire!", frSentence:"Bon anniversaire, Marie !", nl:"Gelukkige verjaardag, Marie!"},
+{word:"Bravo!", fr:"Bravo!", frSentence:"Bravo, tu as gagné !", nl:"Bravo, je hebt gewonnen!"},
+{word:"Ik heb gewonnen!", fr:"J'ai gagné!", frSentence:"J’ai gagné le jeu !", nl:"Ik heb het spel gewonnen!"},
+{word:"chaussure", fr:"chaussure", frSentence:"La chaussure est neuve.", nl:"De schoen is nieuw."},
+{word:"chemise", fr:"chemise", frSentence:"Je porte une chemise blanche.", nl:"Ik draag een wit hemd."},
+{word:"pyjama", fr:"pyjama", frSentence:"Il dort en pyjama.", nl:"Hij slaapt in pyjama."},
+{word:"genou", fr:"genou", frSentence:"Mon genou fait mal.", nl:"Mijn knie doet pijn."},
+{word:"doigt", fr:"doigt", frSentence:"Je montre avec mon doigt.", nl:"Ik wijs met mijn vinger."},
+{word:"dent", fr:"dent", frSentence:"J’ai mal à la dent.", nl:"Ik heb tandpijn."},
+{word:"malade", fr:"malade", frSentence:"Je suis malade aujourd’hui.", nl:"Ik ben ziek vandaag."},
+{word:"tomber", fr:"tomber", frSentence:"Il va tomber de son vélo.", nl:"Hij gaat van zijn fiets vallen."},
+{word:"place", fr:"place", frSentence:"La place est pleine de gens.", nl:"Het plein is vol mensen."},
+{word:"numéro", fr:"numéro", frSentence:"Quel est ton numéro ?", nl:"Wat is je nummer?"},
+{word:"adresse", fr:"adresse", frSentence:"J’écris mon adresse.", nl:"Ik schrijf mijn adres."},
+{word:"camion", fr:"camion", frSentence:"Le camion est très grand.", nl:"De vrachtwagen is heel groot."},
+{word:"film", fr:"film", frSentence:"Le film est intéressant.", nl:"De film is interessant."},
+{word:"seconde", fr:"seconde", frSentence:"Attends une seconde.", nl:"Wacht een seconde."},
+{word:"agent de police", fr:"agent de police", frSentence:"L’agent de police arrive.", nl:"De politieagent komt aan."},
+{word:"mademoiselle", fr:"mademoiselle", frSentence:"Mademoiselle, s’il vous plaît.", nl:"Juffrouw, alstublieft."},
+{word:"pouvoir", fr:"pouvoir", frSentence:"Je peux entrer ?", nl:"Mag ik binnenkomen?"},
+{word:"vouloir", fr:"vouloir", frSentence:"Je veux partir maintenant.", nl:"Ik wil nu vertrekken."},
+{word:"aller aux toilettes", fr:"aller aux toilettes", frSentence:"Je dois aller aux toilettes.", nl:"Ik moet naar de wc gaan."},
+{word:"bien sûr", fr:"bien sûr", frSentence:"Bien sûr, je t’aide.", nl:"Natuurlijk help ik je."}
 ];
   
 /*
