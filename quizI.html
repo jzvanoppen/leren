@@ -159,7 +159,7 @@ function firstChoice(btn, chosen){
 
   if(chosen===current.fr){
     btn.classList.add("correct");
-    scRight.textContent=Number(scRight.textContent)+1;
+    scRight.textContent = (Number(scRight.textContent) + 0.25).toFixed(2);
     translationEl.textContent=current.nl;
     translationEl.style.display="block";
   } else {
