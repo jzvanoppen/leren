@@ -1,0 +1,15 @@
+de kelder:::une cave:
+de slaapkamer:::une chambre à coucher:
+de keuken:::une cuisine:
+de hal:::un hall:
+de gang:::un couloir:
+de garage:::un garage:
+de zolder:::un grenier:
+de tuin:::un jardin:
+de eetkamer:::une salle à manger:
+de badkamer:::une salle de bains:
+de woonkamer:::un salon:S...
+de woonkamer:::un living:L...
+het terras:::une terrasse:
+het bureau / de werkkamer:::un bureau:
+het toilet:::des toilettes:
