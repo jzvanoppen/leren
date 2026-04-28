@@ -1,0 +1,20 @@
+het fornuis:::la cuisinière:
+de magnetron:::le four à micro-ondes:
+de koelkast:::le frigo:FR...
+de koelkast:::le réfrigérateur:R...
+de vriezer:::le congélateur:
+de vaatwasser:::le lave-vaisselle:
+de wasmachine:::la machine à laver:
+de droogkast:::le sèche-linge:
+de stofzuiger:::l’aspirateur:
+de oven:::le four:
+de broodrooster:::le grille-pain:
+de mixer:::le mixeur:...EU...
+de mixer:::le mixer:...E...
+het strijkijzer:::le fer à repasser:
+de stekker:::la fiche:
+de draad:::le fil:
+de kabel:::le câble:
+het elektrisch scheerapparaat:::le rasoir électrique:
+de haardroger:::le sèche-cheveux:
+de elektrische tandenborstel:::la brosse à dents électrique:
