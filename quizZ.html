@@ -593,7 +593,7 @@ function secondChoice(btn, chosen){
   Array.from(choices2El.children).forEach(b=>b.disabled=true);
   if(chosen===current.nl){
     btn.classList.add("correct");
-    scRight.textContent = (Number(scRight.textContent) + 0.1).toFixed(2);
+    scRight.textContent = (Number(scRight.textContent) + 0.10).toFixed(2);
   } else {
     btn.classList.add("incorrect");
     Array.from(choices2El.children).find(b=>b.textContent===current.nl).classList.add("correct");
