@@ -5,7 +5,7 @@ de vriezer::le congélateur:
 de vaatwasser:::le lave-vaisselle:
 de wasmachine:::la machine à laver:
 de droogkast:::le sèche-linge:
-de stofzuiger:::l’aspirateur:
+de stofzuiger:::l'aspirateur:
 de oven:::le four:
 de broodrooster:::le grille-pain:
 de mixer::le mixeur:...EU...
@@ -15,4 +15,4 @@ de stekker:::la fiche:
 de kabel:::le câble:
 het elektrisch scheerapparaat::le rasoir électrique:
 de haardroger:::le sèche-cheveux:
-de elektrische tandenborstel:::la brosse à dents :
+de elektrische tandenborstel:::la brosse à dents:
