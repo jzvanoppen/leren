@@ -3,8 +3,8 @@ de slaapkamer:::la chambre à coucher:
 de logeerkamer:::la chambre d'amis:
 de gang:::le couloir:
 de dressing:::le dressing:
-de trap:::l’escalier:
-de ruimte:::l’espace:
+de trap:::l'escalier:
+de ruimte:::l'espace:
 de zolder:::le grenier:
 de hal:::le hall:
 de kamer, het vertrek:::la pièce:
