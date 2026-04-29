@@ -1,28 +1,3 @@
-het gebouw:::le bâtiment:zabl
-de bank:::la banque:zabl
-de frituur:::la friterie:zabm
-tegenover:::en face de:zabn
-dichtbij:::près de:::zabn
-bezoeken:::visiter:::zabn
-doen, maken:::faire:zabr
-komen van:::venir de:zabr
-(naar huis) terugkeren:::rentrer:zabr
-(naar huis) terugkeren:::rentrer:zabr
-vinden:::trouver:zabr
-altijd:::toujours:zabs
-hier:::ici:zabs
-tussen:::entre:zabs
-hoe:::comment:zabs
-altijd:::toujours:zabs
-veel:::beaucoup de:zabs
-veel:::beaucoup de:zabs
-akkoord:::d'accord:zabt
-ik ga naar mijn tante:::je vais chez ma tante:zabt
-het ligt in Brugge:::c'est à Bruges:zabt
-uitstappen:::descendre:v
-verdergaan:::avancer:v
-gevaarlijk:::dangereux:v MANNELIJK
-ik heb de bus gemist:::j'ai raté le bus:w
-jammer:::dommage:w
-verdorie:::zut:w
-de buitenwijk:::la banlieue:u
+de zolder:::le grenier:::
+de berging:::la remise:::
+de ruimte:::l'espace:::
