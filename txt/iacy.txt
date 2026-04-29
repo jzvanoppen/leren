@@ -1,7 +1,6 @@
 het fornuis:::la cuisinière:
 de magnetron:::le four à micro-ondes:
 de koelkast:::le frigo:FR...
-de koelkast::le réfrigérateur:R...
 de vriezer::le congélateur:
 de vaatwasser:::le lave-vaisselle:
 de wasmachine:::la machine à laver:
