@@ -1,0 +1,15 @@
+de kelder:::la cave:
+de slaapkamer:::la chambre à coucher:
+de logeerkamer:::la chambre d'amis:
+de gang:::le couloir:
+de dressing:::le dressing:
+de trap:::l’escalier:
+de ruimte:::l’espace:
+de zolder:::le grenier:
+de hal:::le hall:
+de kamer, het vertrek:::la pièce:
+de berging:::la remise:
+de benedenverdieping, het gelijkvloers:::le rez-de-chaussée:
+de eetkamer:::la salle à manger:
+het salon, de zitruimte:::le salon:
+de leefruimte, de living:::le séjour:
