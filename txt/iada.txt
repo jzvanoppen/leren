@@ -1,0 +1,31 @@
+knoflook:::garlic
+prei:::leek
+paddenstoel:::mushroom
+ui:::onion
+pastinaak:::parsnip
+aardappel:::potato
+raap:::turnip
+broccoli:::broccoli
+spruitjes:::Brussels sprouts
+selderij:::celery
+courgette:::courgette:ook zucchini
+komkommer:::cucumber
+sperziebonen:::green beans
+groene paprika:::green pepper
+sla:::lettuce
+erwt:::pea
+spinazie:::spinach
+aubergine:::aubergine:ook eggplant
+biet:::beetroot
+rode kool:::red cabbage
+rundvlees:::beef
+kip:::chicken
+lam:::lamb
+tofu:::tofu
+gehakt:::minced meat
+varkensvlees:::pork
+worst:::sausage
+kabeljauw:::cod
+zalm:::salmon
+zeevruchten:::seafood
+garnaal:::shrimp:ook prawn
