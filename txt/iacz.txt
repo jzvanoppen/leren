@@ -1,0 +1,33 @@
+water in flessen:::bottled water
+ijsthee:::iced tea
+grapefruitsap:::grapefruit juice
+limonade:::lemonade
+ontbijt:::breakfast
+brunch:::brunch
+middagmaal:::lunch
+warme maaltijd:::dinner
+voorgerecht:::appetizer
+soep:::soup
+hoofdgerecht:::main dish
+dessert:::dessert
+groentesoep:::vegetable soup
+kippenboutjes:::chicken drumsticks
+lamsstoofpot:::lamb stew
+vis- en spinazieschotel:::fish and spinach casserole
+pastagerecht:::pasta dish
+driebonensalade:::3-bean salad
+groene salade:::green salad
+groentebijgerecht:::veggie side dish
+chocoladetaart:::chocolate cake
+fruitsalade:::fruit salad
+koekjes:::cookies:ook biscuits (BrE)
+broodjes:::rolls
+kruiden:::herbs
+specerijen:::spices
+vork:::fork
+bord:::plate
+mes:::knife
+lepel:::spoon
+kom:::bowl
+glas:::glass
+servet:::napkin
