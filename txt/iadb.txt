@@ -1,0 +1,34 @@
+kers:::cherry
+grapefruit:::grapefruit
+granaatappel:::pomegranate
+framboos:::raspberry
+rode appel:::red apple
+rode druif:::red grape
+aardbei:::strawberry
+watermeloen:::watermelon
+citroen:::lemon
+mango:::mango
+meloen:::melon
+sinaasappel:::orange
+perzik:::peach
+peer:::pear
+ananas:::pineapple
+banaan:::banana
+noten:::nuts
+groene appel:::green apple
+groene druif:::green grape
+kiwi:::kiwi
+limoen:::lime
+braam:::blackberry
+bosbes:::blueberry
+pruim:::plum
+radijs:::radish
+rode ui:::red onion
+rode paprika:::red pepper
+rabarber:::rhubarb
+tomaat:::tomato
+wortel:::carrot
+pompoen:::pumpkin
+maïs:::corn
+asperge:::asparagus
+bloemkool:::cauliflower
