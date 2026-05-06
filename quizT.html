@@ -5,14 +5,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Franse oefenquiz</title>
 
-<!-- EmailJS TOEGEVOEGD -->
-<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
-<script>
-(function(){
-  emailjs.init("itEiyMbJypwkic8kJ");
-})();
-</script>
-
 <style>
   :root { font-family: system-ui, sans-serif; }
   body { max-width: 900px; margin: 30px auto; padding: 20px; line-height: 1.45; }
@@ -20,7 +12,12 @@
 
   .sentence { font-size: 20px; margin-bottom: 8px; }
   .choices, .choices2 { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 12px; }
-  .btn { padding: 10px 16px; border-radius: 8px; background: white; border: 1px solid #888; cursor: pointer; min-width: 160px; text-align: center; }
+
+  .btn {
+    padding: 10px 16px; border-radius: 8px; background: white; border: 1px solid #888;
+    cursor: pointer; min-width: 160px; text-align: center;
+  }
+
   .btn:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.08); transform: translateY(-2px); }
   .correct { background: #e8f8ea !important; border-color: #2b8a2b !important; }
   .incorrect { background: #fdeaea !important; border-color: #c22 !important; }
@@ -30,15 +27,14 @@
 
   .scoreboard { margin-top: 14px; font-weight: bold; }
   #nextBtn { margin-top: 14px; }
-
-  #modeSelect { margin-bottom: 20px; padding: 6px 10px; font-size:16px; }
 </style>
 </head>
 
 <body>
 
 <div class="panel">
-  <div class="sentence" id="sentence">
+
+  <div class="sentence">
     <span id="sentenceText">...</span>
   </div>
 
@@ -47,7 +43,7 @@
   <div id="translation"></div>
 
   <div id="secChanceArea">
-    <p><strong>Tweede kans:</strong> kies de correcte Nederlandse vertaling:</p>
+    <p><strong>Tweede kans:</strong></p>
     <div class="choices2" id="choices2"></div>
   </div>
 
@@ -58,33 +54,47 @@
   <button id="nextBtn" class="btn">Volgende</button>
 </div>
 
-<br/>
+<br>
+
 <label><strong>Kies oefenmodus:</strong></label><br>
 <select id="modeSelect">
-  <option value="vocab">Vocabulaire (woordjes)</option>
-  <option value="verbes">Werkwoorden (verbes)</option>
+  <option value="vocab">Vocabulaire</option>
+  <option value="verbes">Werkwoorden</option>
 </select>
 
+<!-- EmailJS -->
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
 <script>
+(function(){
+  emailjs.init("itEiyMbJypwkic8kJ");
+})();
+</script>
+
+<script>
+
+/* ---------------- DATA ---------------- */
+
 const entriesVocab = [
-{word:"appel", fr:"pomme", frSentence:"Je mange une pomme chaque matin.", nl:"Ik eet elke ochtend een appel."},
-{word:"de living", fr:"séjour", frSentence:"Le séjour est moderne.", nl:"De living is modern."}
+  {word:"appel", fr:"pomme", frSentence:"Je mange une pomme chaque matin.", nl:"Ik eet elke ochtend een appel."},
+  {word:"de living", fr:"séjour", frSentence:"Le séjour est moderne.", nl:"De living is modern."}
 ];
 
 const entriesVerbes = [
   {word:"lopen", fr:"marcher", frSentence:"Je dois marcher deux kilomètres.", nl:"Ik moet twee kilometer wandelen."},
-  {word:"eten", fr:"manger", frSentence:"Nous aimons manger ensemble.", nl:"Wij eten graag samen."}
+  {word:"eten", fr:"manger", frSentence:"Nous aimons manger ensemble.", nl:"Wij eten graag samen."},
+  {word:"drinken", fr:"boire", frSentence:"Il boit un jus.", nl:"Hij drinkt sap."},
+  {word:"slapen", fr:"dormir", frSentence:"Les enfants dorment tôt.", nl:"De kinderen slapen vroeg."},
+  {word:"nemen", fr:"prendre", frSentence:"Je prends le bus.", nl:"Ik neem de bus."},
+  {word:"zien", fr:"voir", frSentence:"Je vois le film.", nl:"Ik zie de film."}
 ];
 
-let activeList = entriesVocab;
-document.getElementById("modeSelect").onchange = function() {
-  activeList = (this.value === "vocab") ? entriesVocab : entriesVerbes;
-  newQuestion();
-};
+/* ---------------- STATE ---------------- */
 
-function shuffle(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}}
-function mask(sentence, word){return sentence.replace(new RegExp(word,"i"),"______");}
-function speakFrench(text){ if('speechSynthesis' in window){ const u=new SpeechSynthesisUtterance(text); u.lang='fr-FR'; speechSynthesis.speak(u); } }
+let activeList = entriesVocab;
+let current = null;
+
+let mailJuist = 0;
+let mailFout = 0;
 
 const sentenceText=document.getElementById("sentenceText");
 const choicesEl=document.getElementById("choices");
@@ -94,61 +104,77 @@ const translationEl=document.getElementById("translation");
 const scRight=document.getElementById("scRight");
 const scWrong=document.getElementById("scWrong");
 
-let current=null;
-let answered=false;
+/* ---------------- HELPERS ---------------- */
 
-/* MAIL FUNCTIE TOEGEVOEGD */
-function sendResultMail(scoreRight, scoreWrong){
+function escapeRegExp(s){
+  return String(s).replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
+}
+
+function mask(sentence, word){
+  if(!sentence || !word) return sentence || "";
+  return sentence.replace(new RegExp(escapeRegExp(word),"i"),"______");
+}
+
+function shuffle(a){
+  for(let i=a.length-1;i>0;i--){
+    const j=Math.floor(Math.random()*(i+1));
+    [a[i],a[j]]=[a[j],a[i]];
+  }
+}
+
+/* ---------------- EMAIL ---------------- */
+
+function sendMailIfNeeded(){
+  const totaal = mailJuist + mailFout;
+
+  if(totaal < 25) return;
+
   const now = new Date();
-  const datum = now.toLocaleString();
+  const datum =
+    now.getFullYear() + "." +
+    String(now.getMonth()+1).padStart(2,'0') + "." +
+    String(now.getDate()).padStart(2,'0') + " " +
+    String(now.getHours()).padStart(2,'0') + ":" +
+    String(now.getMinutes()).padStart(2,'0');
 
   emailjs.send("service_r012c0s", "template_0apj5vh", {
-    to_email: "desurstylo@gmail.com",
-    subject: `Quiz score: ${scoreRight} juist / ${scoreWrong} fout - ${datum}`,
-    score_juist: scoreRight,
-    score_fout: scoreWrong,
+    score_juist: mailJuist,
+    score_fout: mailFout,
     datum: datum
+  }).then(()=>{
+    console.log("Email verzonden");
+
+    mailJuist = 0;
+    mailFout = 0;
   });
 }
 
-/* CHECK TOEGEVOEGD */
-function checkScoreAndSend(){
-  let right = Number(scRight.textContent);
-  let wrong = Number(scWrong.textContent);
-
-  if(right >= 25){
-    sendResultMail(right, wrong);
-
-    // reset scores
-    scRight.textContent = 0;
-    scWrong.textContent = 0;
-
-    alert("Score verzonden! Teller wordt opnieuw gestart.");
-  }
-}
+/* ---------------- QUIZ ---------------- */
 
 function newQuestion(){
-  answered=false;
-
   translationEl.style.display="none";
-  translationEl.textContent="";
   secChanceArea.style.display="none";
+  choicesEl.innerHTML="";
   choices2El.innerHTML="";
 
   current = activeList[Math.floor(Math.random()*activeList.length)];
+  if(!current) return;
+
   sentenceText.textContent = mask(current.frSentence, current.fr);
 
-  choicesEl.innerHTML="";
   const opts=[current.fr];
+
   while(opts.length<3){
-    const r=activeList[Math.floor(Math.random()*activeList.length)].fr;
-    if(!opts.includes(r)) opts.push(r);
+    const r=activeList[Math.floor(Math.random()*activeList.length)]?.fr;
+    if(r && !opts.includes(r)) opts.push(r);
   }
+
   shuffle(opts);
 
   opts.forEach(o=>{
     const b=document.createElement("button");
-    b.className="btn"; b.textContent=o;
+    b.className="btn";
+    b.textContent=o;
     b.onclick=()=>firstChoice(b,o);
     choicesEl.appendChild(b);
   });
@@ -156,36 +182,41 @@ function newQuestion(){
 
 function firstChoice(btn, chosen){
   Array.from(choicesEl.children).forEach(b=>b.disabled=true);
-  speakFrench(current.frSentence);
 
   if(chosen===current.fr){
     btn.classList.add("correct");
     scRight.textContent=Number(scRight.textContent)+1;
+    mailJuist++;
     translationEl.textContent=current.nl;
     translationEl.style.display="block";
-    answered=true;
-    checkScoreAndSend(); // TOEGEVOEGD
   } else {
     btn.classList.add("incorrect");
-    Array.from(choicesEl.children).find(b=>b.textContent===current.fr).classList.add("correct");
+    const correctBtn=[...choicesEl.children].find(b=>b.textContent===current.fr);
+    if(correctBtn) correctBtn.classList.add("correct");
     startSecondChance();
   }
+
+  sendMailIfNeeded();
 }
 
 function startSecondChance(){
   secChanceArea.style.display="block";
 
   const opts=[current.nl];
+
   while(opts.length<3){
-    const r=activeList[Math.floor(Math.random()*activeList.length)].nl;
-    if(!opts.includes(r)) opts.push(r);
+    const r=activeList[Math.floor(Math.random()*activeList.length)]?.nl;
+    if(r && !opts.includes(r)) opts.push(r);
   }
+
   shuffle(opts);
 
   choices2El.innerHTML="";
+
   opts.forEach(o=>{
     const b=document.createElement("button");
-    b.className="btn"; b.textContent=o;
+    b.className="btn";
+    b.textContent=o;
     b.onclick=()=>secondChoice(b,o);
     choices2El.appendChild(b);
   });
@@ -193,27 +224,33 @@ function startSecondChance(){
 
 function secondChoice(btn, chosen){
   Array.from(choices2El.children).forEach(b=>b.disabled=true);
+
   if(chosen===current.nl){
     btn.classList.add("correct");
-    scRight.textContent = (Number(scRight.textContent) + 0.20).toFixed(2);
+    scRight.textContent=(Number(scRight.textContent)+0.20).toFixed(2);
+    mailJuist++;
   } else {
     btn.classList.add("incorrect");
-    Array.from(choices2El.children).find(b=>b.textContent===current.nl).classList.add("correct");
+    const correctBtn=[...choices2El.children].find(b=>b.textContent===current.nl);
+    if(correctBtn) correctBtn.classList.add("correct");
     scWrong.textContent=Number(scWrong.textContent)+1;
+    mailFout++;
   }
-  answered=true;
-  checkScoreAndSend(); // TOEGEVOEGD
+
+  sendMailIfNeeded();
 }
 
-document.getElementById("nextBtn").onclick=function(){
-  if(!answered){
-    alert("Geef eerst een antwoord voordat je verdergaat.");
-    return;
-  }
+/* ---------------- MODE ---------------- */
+
+document.getElementById("modeSelect").onchange=function(){
+  activeList=(this.value==="vocab")?entriesVocab:entriesVerbes;
   newQuestion();
 };
 
+document.getElementById("nextBtn").onclick=newQuestion;
+
 newQuestion();
+
 </script>
 
 </body>
