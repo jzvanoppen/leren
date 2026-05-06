@@ -1,19 +1,16 @@
-afmeten, meten:::to measure:q
-afmeten, meten:::to measure:q
-breed:::wide:q
-een duim:::an inch:q
-een rechthoekig prisma:::a rectangular prism:p
-beton:::concrete:p
-een inheems zoogdier:::a native mammal:r
-een bedreigde diersoort:::an endangered species:r
-een bedreigde diersoort:::an endangered species:r
-overwinteren:::hibernate:r
-overwinteren:::hibernate:r
-een struisvogel:::an ostrich:o
-opwindend:::exciting:s
-fantastisch:::awesome:s
-vreselijk:::terrible:s
-ongeduldig:::impatient:s
-opgewonden:::excited:s
-schitterend:::brilliant:s
-ongeduldig:::impatient:s
+biet:::beetroot:::
+gehakt:::minced meat:::
+raap:::turnip:::
+prei:::leek:::
+pastinaak:::parsnip:::
+garnaal:::shrimp:::ook prawn
+sperziebonen:::green beans:::
+erwt:::pea:::
+koekjes:::cookies:::ook biscuits (BrE)
+groentesoep:::vegetable soup:::
+ijsthee:::iced tea:::
+vis- en spinazieschotel:::fish and spinach casserole:::
+water in flessen:::bottled water:::
+koekjes:::cookies:::ook biscuits (BrE)
+vis- en spinazieschotel:::fish and spinach casserole:::
+bord:::plate:::
