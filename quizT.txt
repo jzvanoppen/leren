@@ -51,7 +51,7 @@
     Juist: <span id="scRight">0</span> — Fout: <span id="scWrong">0</span>
   </div>
 
-  <!-- TOEGEVOEGD -->
+  <!-- ✅ TOEGEVOEGD -->
   <div class="scoreboard">
     SCORE: <span id="score">0</span>
   </div>
@@ -65,11 +65,30 @@
   <option value="vocab">Vocabulaire (woordjes)</option>
   <option value="verbes">Werkwoorden (verbes)</option>
 </select>
-  
+
 <p>Kies eerst het juiste Franse woord, de infinitief bij een werkwoord of een passend begrip.</p>
 <p>Bij een fout krijg je de Nederlandse zinnen. De Franse zin wordt automatisch uitgesproken.</p>
-  
+
 <script>
+/* =========================
+   SCORE LOGICA TOEGEVOEGD
+   ========================= */
+function updateScore(){
+  const right = Number(scRight.textContent);
+  const wrong = Number(scWrong.textContent);
+  const score = right - wrong;
+
+  document.getElementById("score").textContent = score;
+
+  if(score >= 25){
+    alert("Doel van 25 juiste antwoorden behaald!");
+  }
+}
+
+/* =========================
+   BESTAANDE CODE (ONAANGEROERD)
+   ========================= */
+
 let activeList = entriesVocab;
 document.getElementById("modeSelect").onchange = function() {
   activeList = (this.value === "vocab") ? entriesVocab : entriesVerbes;
@@ -87,19 +106,9 @@ const choices2El=document.getElementById("choices2");
 const translationEl=document.getElementById("translation");
 const scRight=document.getElementById("scRight");
 const scWrong=document.getElementById("scWrong");
-const scoreEl=document.getElementById("score");
 
 let current=null;
 let answered=false;
-
-function updateScore(){
-  const score = Number(scRight.textContent) - Number(scWrong.textContent);
-  scoreEl.textContent = score;
-
-  if(score >= 25){
-    alert("Doel van 25 juiste antwoorden behaald!");
-  }
-}
 
 function newQuestion(){
   answered=false;
@@ -140,12 +149,13 @@ function firstChoice(btn, chosen){
     translationEl.textContent=current.nl;
     translationEl.style.display="block";
     answered=true;
-    updateScore();
   } else {
     btn.classList.add("incorrect");
     Array.from(choicesEl.children).find(b=>b.textContent===current.fr).classList.add("correct");
     startSecondChance();
   }
+
+  updateScore();
 }
 
 function startSecondChance(){
@@ -169,6 +179,7 @@ function startSecondChance(){
 
 function secondChoice(btn, chosen){
   Array.from(choices2El.children).forEach(b=>b.disabled=true);
+
   if(chosen===current.nl){
     btn.classList.add("correct");
     scRight.textContent = (Number(scRight.textContent) + 0.20).toFixed(2);
@@ -177,6 +188,7 @@ function secondChoice(btn, chosen){
     Array.from(choices2El.children).find(b=>b.textContent===current.nl).classList.add("correct");
     scWrong.textContent=Number(scWrong.textContent)+1;
   }
+
   answered=true;
   updateScore();
 }
