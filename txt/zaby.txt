@@ -1,25 +1,50 @@
 ik heb getekend:::j'ai dessiné:dessiner
+jij hebt getekend:::tu as dessiné:dessiner
 ik heb geholpen:::j'ai aidé:aider
+wij hebben geholpen:::nous avons aidé:aider
 ik heb gesurft:::j'ai surfé:surfer
+hij heeft gesurft:::il a surfé:surfer
 ik ben vertrokken:::j'ai quitté:quitter
+zij heeft verlaten:::elle a quitté:quitter
 ik ben opgestegen / naar boven gegaan:::je suis monté:monter
+wij zijn naar boven gegaan:::nous sommes montés:monter
 ik heb gekeken:::j'ai regardé:regarder
+jullie hebben gekeken:::vous avez regardé:regarder
 ik heb gekocht:::j'ai acheté:acheter
+zij hebben gekocht:::ils ont acheté:acheter
 ik heb gevonden:::j'ai trouvé:trouver
+jij hebt gevonden:::tu as trouvé:trouver
 ik heb opgeruimd:::j'ai rangé:ranger
+hij heeft opgeruimd:::il a rangé:ranger
 ik heb verloren:::j'ai perdu:perdre
+wij hebben verloren:::nous avons perdu:perdre
 ik heb gewacht:::j'ai attendu:attendre
+zij heeft gewacht:::elle a attendu:attendre
 ik heb gekozen:::j'ai choisi:choisir
+jullie hebben gekozen:::vous avez choisi:choisir
 ik heb geëindigd / afgewerkt:::j'ai fini:finir
+zij hebben afgewerkt:::ils ont fini:finir
 ik heb geserveerd:::j'ai servi:servir
+hij heeft geserveerd:::il a servi:servir
 ik heb verkocht:::j'ai vendu:vendre
+wij hebben verkocht:::nous avons vendu:vendre
 ik heb teruggegeven:::j'ai rendu:rendre
+jij hebt teruggegeven:::tu as rendu:rendre
 ik heb gevuld:::j'ai rempli:remplir
+zij heeft gevuld:::elle a rempli:remplir
 ik heb geslapen:::j'ai dormi:dormir
+jullie hebben geslapen:::vous avez dormi:dormir
 ik heb gehad:::j'ai eu:avoir - ONREGELMATIG
-ik ben geweest:::j'ai été:être - ONREGELMATIG
+hij heeft gehad:::il a eu:avoir - ONREGELMATIG
+ik ben geweest:::j'ai été:::être - ONREGELMATIG
+wij zijn geweest:::nous avons été:être - ONREGELMATIG
 ik heb gedaan / gemaakt:::j'ai fait:faire - ONREGELMATIG
+zij hebben gedaan / gemaakt:::ils ont fait:faire - ONREGELMATIG
 ik heb gezet:::j'ai mis:mettre - ONREGELMATIG
+jij hebt gezet:::tu as mis:mettre - ONREGELMATIG
 ik heb genomen:::j'ai pris:prendre - ONREGELMATIG
+hij heeft genomen:::il a pris:prendre - ONREGELMATIG
 ik heb vastgehouden:::j'ai tenu:tenir - ONREGELMATIG
+wij hebben vastgehouden:::nous avons tenu:tenir - ONREGELMATIG
 ik heb onthouden / tegengehouden:::j'ai retenu:retenir - ONREGELMATIG
+zij heeft onthouden / tegengehouden:::elle a retenu:retenir - ONREGELMATIG
