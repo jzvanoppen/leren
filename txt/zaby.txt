@@ -1,25 +1,25 @@
-ik heb getekend:::j'ai dessiné:::dessiner
-ik heb geholpen:::j'ai aidé:::aider
-ik heb gesurft:::j'ai surfé:::surfer
-ik ben vertrokken:::j'ai quitté:::quitter
-ik ben opgestegen / naar boven gegaan:::je suis monté:::monter
-ik heb gekeken:::j'ai regardé:::regarder
-ik heb gekocht:::j'ai acheté:::acheter
-ik heb gevonden:::j'ai trouvé:::trouver
-ik heb opgeruimd:::j'ai rangé:::ranger
-ik heb verloren:::j'ai perdu:::perdre
-ik heb gewacht:::j'ai attendu:::attendre
-ik heb gekozen:::j'ai choisi:::choisir
-ik heb geëindigd / afgewerkt:::j'ai fini:::finir
-ik heb geserveerd:::j'ai servi:::servir
-ik heb verkocht:::j'ai vendu:::vendre
-ik heb teruggegeven:::j'ai rendu:::rendre
-ik heb gevuld:::j'ai rempli:::remplir
-ik heb geslapen:::j'ai dormi:::dormir
-ik heb gehad:::j'ai eu:::avoir - ONREGELMATIG
-ik ben geweest:::j'ai été:::être - ONREGELMATIG
-ik heb gedaan / gemaakt:::j'ai fait:::faire - ONREGELMATIG
-ik heb gezet:::j'ai mis:::mettre - ONREGELMATIG
-ik heb genomen:::j'ai pris:::prendre - ONREGELMATIG
-ik heb vastgehouden:::j'ai tenu:::tenir - ONREGELMATIG
-ik heb onthouden / tegengehouden:::j'ai retenu:::retenir - ONREGELMATIG
+ik heb getekend:::j'ai dessiné:dessiner
+ik heb geholpen:::j'ai aidé:aider
+ik heb gesurft:::j'ai surfé:surfer
+ik ben vertrokken:::j'ai quitté:quitter
+ik ben opgestegen / naar boven gegaan:::je suis monté:monter
+ik heb gekeken:::j'ai regardé:regarder
+ik heb gekocht:::j'ai acheté:acheter
+ik heb gevonden:::j'ai trouvé:trouver
+ik heb opgeruimd:::j'ai rangé:ranger
+ik heb verloren:::j'ai perdu:perdre
+ik heb gewacht:::j'ai attendu:attendre
+ik heb gekozen:::j'ai choisi:choisir
+ik heb geëindigd / afgewerkt:::j'ai fini:finir
+ik heb geserveerd:::j'ai servi:servir
+ik heb verkocht:::j'ai vendu:vendre
+ik heb teruggegeven:::j'ai rendu:rendre
+ik heb gevuld:::j'ai rempli:remplir
+ik heb geslapen:::j'ai dormi:dormir
+ik heb gehad:::j'ai eu:avoir - ONREGELMATIG
+ik ben geweest:::j'ai été:être - ONREGELMATIG
+ik heb gedaan / gemaakt:::j'ai fait:faire - ONREGELMATIG
+ik heb gezet:::j'ai mis:mettre - ONREGELMATIG
+ik heb genomen:::j'ai pris:prendre - ONREGELMATIG
+ik heb vastgehouden:::j'ai tenu:tenir - ONREGELMATIG
+ik heb onthouden / tegengehouden:::j'ai retenu:retenir - ONREGELMATIG
