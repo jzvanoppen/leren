@@ -6,8 +6,8 @@ ik heb gesurft:::j'ai surfé:surfer
 hij heeft gesurft:::il a surfé:surfer
 ik ben vertrokken:::j'ai quitté:quitter
 zij heeft verlaten:::elle a quitté:quitter
-ik ben opgestegen / naar boven gegaan:::je suis monté:monter
-wij zijn naar boven gegaan:::nous sommes montés:monter
+ik heb naar boven gebracht:::j'ai monté:monter
+wij hebben naar boven gebracht:::nous avons monté:monter
 ik heb gekeken:::j'ai regardé:regarder
 jullie hebben gekeken:::vous avez regardé:regarder
 ik heb gekocht:::j'ai acheté:acheter
