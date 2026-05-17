@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Nederlandse oefenquiz</title>
+<title>Franse woordenschat quiz</title>
 
 <style>
   :root { font-family: system-ui, sans-serif; }
@@ -50,36 +50,19 @@
     transform: translateY(-2px);
   }
 
-  .correct {
-    background: #e8f8ea !important;
-    border-color: #2b8a2b !important;
-  }
+  .correct { background: #e8f8ea !important; border-color: #2b8a2b !important; }
+  .incorrect { background: #fdeaea !important; border-color: #c22 !important; }
 
-  .incorrect {
-    background: #fdeaea !important;
-    border-color: #c22 !important;
+  #feedback {
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
   }
 
   .scoreboard {
     margin-top: 14px;
     font-weight: bold;
     font-size: 18px;
-  }
-
-  #nextBtn {
-    margin-top: 14px;
-  }
-
-  #modeSelect {
-    margin-bottom: 20px;
-    padding: 6px 10px;
-    font-size: 16px;
-  }
-
-  #feedback {
-    margin-top: 15px;
-    font-size: 20px;
-    font-weight: bold;
   }
 </style>
 </head>
@@ -104,78 +87,34 @@
 
 </div>
 
-<br>
-
-<label><strong>Kies oefenmodus:</strong></label><br>
-
-<select id="modeSelect">
-  <option value="vocab">Woordjes</option>
-  <option value="verbes">Werkwoorden</option>
-</select>
-
-<p>Kies het juiste woord dat past in de zin.</p>
-
-  <!--
-  Geef 100 zinnen op het niveau van een kind van acht jaar. In elke zin laat je een WOORD weg. DOe dit volgens de structuur:
-  {word:"appel", sentence:"Ik eet elke ochtend een _____.", answer:"appel"},
-  {word:"boek", sentence:"Ik lees een spannend _____.", answer:"boek"},
-  {word:"stoel", sentence:"De _____ staat naast de tafel.", answer:"stoel"},
-  -->
-
-  <!--
-  Geef 100 zinnen op het niveau van een kind van acht jaar. In elke zin laat je een WERKWOORD weg. DOe dit volgens de structuur:
-  {word:"lopen", sentence:"Wij gaan samen _____ in het park.", answer:"lopen"},
-  {word:"eten", sentence:"Wij willen straks _____ .", answer:"eten"},
-  {word:"drinken", sentence:"Ik wil graag water _____ .", answer:"drinken"},
-  -->
-
-  <!--
-  VERGEET NIET DE KOMMA OP HET IENDE VAN ELKE REGEL, BEHALVE OP DE LAATSTE REGEL
-  -->
 <script>
 
-const entriesVocab = [
-{word:"broer", fr:"frère", frSentence:"C'est mon frère.", nl:"Dat is mijn broer."},
-{word:"zus", fr:"soeur", frSentence:"Voici ma soeur.", nl:"Dit is mijn zus."},
-{word:"moeder", fr:"mère", frSentence:"Ma mère travaille à la maison.", nl:"Mijn moeder werkt thuis."},
-{word:"vader", fr:"père", frSentence:"Mon père aime cuisiner.", nl:"Mijn vader kookt graag."},
-{word:"tante", fr:"tante", frSentence:"Ma tante habite en France.", nl:"Mijn tante woont in Frankrijk."},
-{word:"oom", fr:"oncle", frSentence:"Mon oncle vient ce soir.", nl:"Mijn oom komt vanavond."},
-{word:"dochter", fr:"fille", frSentence:"Leur fille joue dehors.", nl:"Hun dochter speelt buiten."},
-{word:"zoon", fr:"fils", frSentence:"Le fils de Paul a huit ans.", nl:"De zoon van Paul is acht jaar."},
-{word:"grootmoeder", fr:"grand-mère", frSentence:"Ma grand-mère raconte une histoire.", nl:"Mijn grootmoeder vertelt een verhaal."},
-{word:"grootvader", fr:"grand-père", frSentence:"Mon grand-père lit le journal.", nl:"Mijn grootvader leest de krant."}
+const entries = [
+  {word:"broer", fr:"frère", frSentence:"C'est mon frère.", nl:"Dat is mijn broer."},
+  {word:"zus", fr:"soeur", frSentence:"Voici ma soeur.", nl:"Dit is mijn zus."},
+  {word:"moeder", fr:"mère", frSentence:"Ma mère travaille à la maison.", nl:"Mijn moeder werkt thuis."},
+  {word:"vader", fr:"père", frSentence:"Mon père aime cuisiner.", nl:"Mijn vader kookt graag."},
+  {word:"tante", fr:"tante", frSentence:"Ma tante habite en France.", nl:"Mijn tante woont in Frankrijk."},
+  {word:"oom", fr:"oncle", frSentence:"Mon oncle vient ce soir.", nl:"Mijn oom komt vanavond."},
+  {word:"dochter", fr:"fille", frSentence:"Leur fille joue dehors.", nl:"Hun dochter speelt buiten."},
+  {word:"zoon", fr:"fils", frSentence:"Le fils de Paul a huit ans.", nl:"De zoon van Paul is acht jaar."},
+  {word:"grootmoeder", fr:"grand-mère", frSentence:"Ma grand-mère raconte une histoire.", nl:"Mijn grootmoeder vertelt een verhaal."},
+  {word:"grootvader", fr:"grand-père", frSentence:"Mon grand-père lit le journal.", nl:"Mijn grootvader leest de krant."}
 ];
-
-const entriesVerbes = [
-  {word:"lopen", sentence:"Wij gaan samen _____ in het park.", answer:"lopen"}
-];
-
-let activeList = entriesVocab;
-
-document.getElementById("modeSelect").onchange = function() {
-  activeList = (this.value === "vocab") ? entriesVocab : entriesVerbes;
-  newQuestion();
-};
 
 function shuffle(a){
-  for(let i = a.length - 1; i > 0; i--){
-    const j = Math.floor(Math.random() * (i + 1));
-    [a[i], a[j]] = [a[j], a[i]];
+  for(let i=a.length-1;i>0;i--){
+    const j=Math.floor(Math.random()*(i+1));
+    [a[i],a[j]]=[a[j],a[i]];
   }
 }
 
-function speakDutch(text){
-
+function speakFrench(text){
   if('speechSynthesis' in window){
-
     speechSynthesis.cancel();
-
     const u = new SpeechSynthesisUtterance(text);
-
-    u.lang = 'nl-BE';
+    u.lang = "fr-FR";
     u.rate = 0.9;
-
     speechSynthesis.speak(u);
   }
 }
@@ -191,87 +130,66 @@ let current = null;
 let answered = false;
 
 function newQuestion(){
-
   answered = false;
-
   feedbackEl.textContent = "";
 
-  current = activeList[Math.floor(Math.random() * activeList.length)];
+  current = entries[Math.floor(Math.random()*entries.length)];
 
-  sentenceText.textContent = current.sentence;
+  sentenceText.textContent = current.frSentence;
 
   choicesEl.innerHTML = "";
 
-  const opts = [current.answer];
+  let opts = [current.fr];
 
   while(opts.length < 3){
-
-    const r = activeList[Math.floor(Math.random() * activeList.length)].answer;
-
-    if(!opts.includes(r)){
-      opts.push(r);
-    }
+    const r = entries[Math.floor(Math.random()*entries.length)].fr;
+    if(!opts.includes(r)) opts.push(r);
   }
 
   shuffle(opts);
 
-  opts.forEach(o => {
+  opts.forEach(o=>{
+    const b=document.createElement("button");
+    b.className="btn";
+    b.textContent=o;
 
-    const b = document.createElement("button");
-
-    b.className = "btn";
-    b.textContent = o;
-
-    b.onclick = () => checkAnswer(b, o);
+    b.onclick=()=>checkAnswer(b,o);
 
     choicesEl.appendChild(b);
   });
 }
 
 function checkAnswer(btn, chosen){
-
   if(answered) return;
-
   answered = true;
 
-  Array.from(choicesEl.children).forEach(b => b.disabled = true);
+  Array.from(choicesEl.children).forEach(b=>b.disabled=true);
 
-  const fullSentence = current.sentence.replace("_____", current.answer);
+  const fullSentence = current.frSentence;
 
-  if(chosen === current.answer){
-
+  if(chosen === current.fr){
     btn.classList.add("correct");
-
-    feedbackEl.textContent = "Goed gedaan! 😊";
-
-    scRight.textContent = Number(scRight.textContent) + 1;
-
+    feedbackEl.textContent = "Correct! 👍";
+    scRight.textContent = Number(scRight.textContent)+1;
   } else {
-
     btn.classList.add("incorrect");
 
     Array.from(choicesEl.children)
-      .find(b => b.textContent === current.answer)
+      .find(b=>b.textContent===current.fr)
       .classList.add("correct");
 
-    feedbackEl.textContent = "Oeps! Het juiste antwoord was: " + current.answer;
-
-    scWrong.textContent = Number(scWrong.textContent) + 1;
+    feedbackEl.textContent = "Fout! Juist: " + current.fr;
+    scWrong.textContent = Number(scWrong.textContent)+1;
   }
 
-  // Spreek de volledige juiste zin uit
-  speakDutch(fullSentence);
+  speakFrench(fullSentence);
 }
 
 document.getElementById("nextBtn").onclick = function(){
-
   if(!answered){
-
     alert("Kies eerst een antwoord.");
-
     return;
   }
-
   newQuestion();
 };
 
