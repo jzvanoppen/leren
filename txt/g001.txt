@@ -1,0 +1,8 @@
+zijn:::être:INFINITIEF
+ik ben:::je suis:le présent (tegenwoordige tijd)
+jij bent:::tu es:le présent (tegenwoordige tijd)
+hij is:::il est:le présent (tegenwoordige tijd)
+zij is:::elle est:le présent (tegenwoordige tijd)
+wij zijn:::nous sommes:le présent (tegenwoordige tijd)
+jullie zijn:::vous êtes:le présent (tegenwoordige tijd)
+zij zijn:::ils sont:le présent (tegenwoordige tijd)
