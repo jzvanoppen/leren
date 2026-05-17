@@ -1,0 +1,10 @@
+de broer:::le frère:
+de zus:::la soeur:
+de moeder:::la mère:
+de vader:::le père:
+de tante:::la tante:
+de oom:::l'oncle:
+de dochter:::la fille:
+de zoon:::le fils:
+de grootmoeder:::la grand-mère:
+de grootvader:::le grand-père:
