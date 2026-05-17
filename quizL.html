@@ -115,6 +115,11 @@ function speakFrench(text){
     const u = new SpeechSynthesisUtterance(text);
     u.lang = "fr-FR";
     u.rate = 0.9;
+
+    const voices = speechSynthesis.getVoices();
+    const frVoice = voices.find(v => v.lang && v.lang.includes("fr"));
+    if(frVoice) u.voice = frVoice;
+
     speechSynthesis.speak(u);
   }
 }
@@ -129,13 +134,17 @@ const scWrong = document.getElementById("scWrong");
 let current = null;
 let answered = false;
 
+function makeGapSentence(sentence, word){
+  return sentence.replace(word, "________");
+}
+
 function newQuestion(){
   answered = false;
   feedbackEl.textContent = "";
 
   current = entries[Math.floor(Math.random()*entries.length)];
 
-  sentenceText.textContent = current.frSentence;
+  sentenceText.textContent = makeGapSentence(current.frSentence, current.fr);
 
   choicesEl.innerHTML = "";
 
@@ -149,11 +158,11 @@ function newQuestion(){
   shuffle(opts);
 
   opts.forEach(o=>{
-    const b=document.createElement("button");
-    b.className="btn";
-    b.textContent=o;
+    const b = document.createElement("button");
+    b.className = "btn";
+    b.textContent = o;
 
-    b.onclick=()=>checkAnswer(b,o);
+    b.onclick = () => checkAnswer(b, o);
 
     choicesEl.appendChild(b);
   });
@@ -163,23 +172,23 @@ function checkAnswer(btn, chosen){
   if(answered) return;
   answered = true;
 
-  Array.from(choicesEl.children).forEach(b=>b.disabled=true);
+  Array.from(choicesEl.children).forEach(b => b.disabled = true);
 
   const fullSentence = current.frSentence;
 
   if(chosen === current.fr){
     btn.classList.add("correct");
     feedbackEl.textContent = "Correct! 👍";
-    scRight.textContent = Number(scRight.textContent)+1;
+    scRight.textContent = Number(scRight.textContent) + 1;
   } else {
     btn.classList.add("incorrect");
 
     Array.from(choicesEl.children)
-      .find(b=>b.textContent===current.fr)
+      .find(b => b.textContent === current.fr)
       .classList.add("correct");
 
     feedbackEl.textContent = "Fout! Juist: " + current.fr;
-    scWrong.textContent = Number(scWrong.textContent)+1;
+    scWrong.textContent = Number(scWrong.textContent) + 1;
   }
 
   speakFrench(fullSentence);
