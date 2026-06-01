@@ -1,0 +1,15 @@
+komen:::venir:INFINITIEF
+aankomen:::arriver:INFINITIEF
+naar boven gaan:::monter:INFINITIEF
+binnenkomen:::entrer:INFINITIEF
+voorbijkomen:::passer:INFINITIEF
+blijven:::rester:INFINITIEF
+weggaan:::sortir:INFINITIEF
+(af)draaien:::tourner:INFINITIEF
+terugkeren:::retourner:INFINITIEF
+geboren worden:::naître:INFINITIEF
+sterven:::mourir:INFINITIEF
+naar beneden gaan:::descendre:INFINITIEF
+vallen:::tomber:INFINITIEF
+vertrekken:::partir:INFINITIEF
+gaan:::aller:INFINITIEF
