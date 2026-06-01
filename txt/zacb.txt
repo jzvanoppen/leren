@@ -1,0 +1,45 @@
+ik ben gekomen:::je suis venu:venir
+wij zijn gekomen:::nous sommes venus:venir
+hij is gekomen:::il est venu:venir
+ik ben aangekomen:::je suis arrivé:arriver
+wij zijn aangekomen:::nous sommes arrivés:arriver
+hij is aangekomen:::il est arrivé:arriver
+ik ben naar boven gegaan:::je suis monté:monter
+wij zijn naar boven gegaan:::nous sommes montés:monter
+hij is naar boven gegaan:::il est monté:monter
+ik ben binnengekomen:::je suis entré:entrer
+wij zijn binnengekomen:::nous sommes entrés:entrer
+hij is binnengekomen:::il est entré:entrer
+ik ben voorbijgekomen:::je suis passé:passer
+wij zijn voorbijgekomen:::nous sommes passés:passer
+hij is voorbijgekomen:::il est passé:passer
+ik ben gebleven:::je suis resté:rester
+wij zijn gebleven:::nous sommes restés:rester
+hij is gebleven:::il est resté:rester
+ik ben weggegaan:::je suis sorti:sortir
+wij zijn weggegaan:::nous sommes sortis:sortir
+hij is weggegaan:::il est sorti:sortir
+ik ben afgedraaid:::je suis tourné:tourner
+wij zijn afgedraaid:::nous sommes tournés:tourner
+hij is afgedraaid:::il est tourné:tourner
+ik ben teruggekeerd:::je suis retourné:retourner
+wij zijn teruggekeerd:::nous sommes retournés:retourner
+hij is teruggekeerd:::il est retourné:retourner
+ik ben geboren:::je suis né:naître
+wij zijn geboren:::nous sommes nés:naître
+hij is geboren:::il est né:naître
+ik ben gestorven:::je suis mort:mourir
+wij zijn gestorven:::nous sommes morts:mourir
+hij is gestorven:::il est mort:mourir
+ik ben naar beneden gegaan:::je suis descendu:descendre
+wij zijn naar beneden gegaan:::nous sommes descendus:descendre
+hij is naar beneden gegaan:::il est descendu:descendre
+ik ben gevallen:::je suis tombé:tomber
+wij zijn gevallen:::nous sommes tombés:tomber
+hij is gevallen:::il est tombé:tomber
+ik ben vertrokken:::je suis parti:partir
+wij zijn vertrokken:::nous sommes partis:partir
+hij is vertrokken:::il est parti:partir
+ik ben gegaan:::je suis allé:aller
+wij zijn gegaan:::nous sommes allés:aller
+hij is gegaan:::il est allé:aller
