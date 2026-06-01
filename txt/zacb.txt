@@ -43,3 +43,33 @@ hij is vertrokken:::il est parti:partir
 ik ben gegaan:::je suis allé:aller
 wij zijn gegaan:::nous sommes allés:aller
 hij is gegaan:::il est allé:aller
+zij is gekomen:::elle est venue:venir
+zij zijn gekomen:::elles sont venues:venir
+zij is aangekomen:::elle est arrivée:arriver
+zij zijn aangekomen:::elles sont arrivées:arriver
+zij is naar boven gegaan:::elle est montée:monter
+zij zijn naar boven gegaan:::elles sont montées:monter
+zij is binnengekomen:::elle est entrée:entrer
+zij zijn binnengekomen:::elles sont entrées:entrer
+zij is voorbijgekomen:::elle est passée:passer
+zij zijn voorbijgekomen:::elles sont passées:passer
+zij is gebleven:::elle est restée:rester
+zij zijn gebleven:::elles sont restées:rester
+zij is weggegaan:::elle est sortie:sortir
+zij zijn weggegaan:::elles sont sorties:sortir
+zij is afgedraaid:::elle est tournée:tourner
+zij zijn afgedraaid:::elles sont tournées:tourner
+zij is teruggekeerd:::elle est retournée:retourner
+zij zijn teruggekeerd:::elles sont retournées:retourner
+zij is geboren:::elle est née:naître
+zij zijn geboren:::elles sont nées:naître
+zij is gestorven:::elle est morte:mourir
+zij zijn gestorven:::elles sont mortes:mourir
+zij is naar beneden gegaan:::elle est descendue:descendre
+zij zijn naar beneden gegaan:::elles sont descendues:descendre
+zij is gevallen:::elle est tombée:tomber
+zij zijn gevallen:::elles sont tombées:tomber
+zij is vertrokken:::elle est partie:partir
+zij zijn vertrokken:::elles sont parties:partir
+zij is gegaan:::elle est allée:aller
+zij zijn gegaan:::elles sont allées:aller
