@@ -43,6 +43,52 @@ hij is vertrokken:::il est parti:partir
 ik ben gegaan:::je suis allé:aller
 wij zijn gegaan:::nous sommes allés:aller
 hij is gegaan:::il est allé:aller
+zij is gekomen:::elle est venue:venir VROUWELIJK
+zij zijn gekomen:::elles sont venues:venir VROUWELIJK
+zij is aangekomen:::elle est arrivée:arriver VROUWELIJK
+zij zijn aangekomen:::elles sont arrivées:arriver VROUWELIJK
+zij is naar boven gegaan:::elle est montée:monter VROUWELIJK
+zij zijn naar boven gegaan:::elles sont montées:monter VROUWELIJK
+zij is binnengekomen:::elle est entrée:entrer VROUWELIJK
+zij zijn binnengekomen:::elles sont entrées:entrer VROUWELIJK
+zij is voorbijgekomen:::elle est passée:passer VROUWELIJK
+zij zijn voorbijgekomen:::elles sont passées:passer VROUWELIJK
+zij is gebleven:::elle est restée:rester VROUWELIJK
+zij zijn gebleven:::elles sont restées:rester VROUWELIJK
+zij is weggegaan:::elle est sortie:sortir VROUWELIJK
+zij zijn weggegaan:::elles sont sorties:sortir VROUWELIJK
+zij is afgedraaid:::elle est tournée:tourner VROUWELIJK
+zij zijn afgedraaid:::elles sont tournées:tourner VROUWELIJK
+zij is teruggekeerd:::elle est retournée:retourner VROUWELIJK
+zij zijn teruggekeerd:::elles sont retournées:retourner VROUWELIJK
+zij is geboren:::elle est née:naître VROUWELIJK
+zij zijn geboren:::elles sont nées:naître VROUWELIJK
+zij is gestorven:::elle est morte:mourir VROUWELIJK
+zij zijn gestorven:::elles sont mortes:mourir VROUWELIJK
+zij is naar beneden gegaan:::elle est descendue:descendre VROUWELIJK
+zij zijn naar beneden gegaan:::elles sont descendues:descendre VROUWELIJK
+zij is gevallen:::elle est tombée:tomber VROUWELIJK
+zij zijn gevallen:::elles sont tombées:tomber VROUWELIJK
+zij is vertrokken:::elle est partie:partir VROUWELIJK
+zij zijn vertrokken:::elles sont parties:partir VROUWELIJK
+zij is gegaan:::elle est allée:aller VROUWELIJK
+zij zijn gegaan:::elles sont allées:aller VROUWELIJK
+hij is gekomen:::il est venu:venir
+zij zijn gekomen:::ils sont venus:venir - MANNELIJK
+hij is aangekomen:::il est arrivé:arriver
+zij zijn aangekomen:::ils sont arrivés:arriver - MANNELIJK
+hij is naar boven gegaan:::il est monté:monter
+zij zijn naar boven gegaan:::ils sont montés:monter - MANNELIJK
+hij is binnengekomen:::il est entré:entrer
+zij zijn binnengekomen:::ils sont entrés:entrer - MANNELIJK
+hij is gebleven:::il est resté:rester
+zij zijn gebleven:::ils sont restés:rester - MANNELIJK
+hij is gestorven:::il est mort:mourir
+zij zijn gestorven:::ils sont morts:mourir - MANNELIJK
+hij is vertrokken:::il est parti:partir
+zij zijn vertrokken:::ils sont partis:partir - MANNELIJK
+hij is gegaan:::il est allé:aller
+zij zijn gegaan:::ils sont allés:aller - MANNELIJK
 ik heb getekend:::j'ai dessiné:dessiner
 jij hebt getekend:::tu as dessiné:dessiner
 ik heb geholpen:::j'ai aidé:aider
@@ -56,7 +102,7 @@ wij hebben naar boven gebracht:::nous avons monté:monter
 ik heb gekeken:::j'ai regardé:regarder
 jullie hebben gekeken:::vous avez regardé:regarder
 ik heb gekocht:::j'ai acheté:acheter
-zij hebben gekocht:::ils ont acheté:acheter
+zij hebben gekocht:::ils ont acheté:acheter - MANNELIJK
 ik heb gevonden:::j'ai trouvé:trouver
 jij hebt gevonden:::tu as trouvé:trouver
 ik heb opgeruimd:::j'ai rangé:ranger
@@ -68,7 +114,7 @@ zij heeft gewacht:::elle a attendu:attendre
 ik heb gekozen:::j'ai choisi:choisir
 jullie hebben gekozen:::vous avez choisi:choisir
 ik heb geëindigd / afgewerkt:::j'ai fini:finir
-zij hebben afgewerkt:::ils ont fini:finir
+zij hebben afgewerkt:::ils ont fini:finir - MANNELIJK
 ik heb geserveerd:::j'ai servi:servir
 hij heeft geserveerd:::il a servi:servir
 ik heb verkocht:::j'ai vendu:vendre
@@ -79,17 +125,17 @@ ik heb gevuld:::j'ai rempli:remplir
 zij heeft gevuld:::elle a rempli:remplir
 ik heb geslapen:::j'ai dormi:dormir
 jullie hebben geslapen:::vous avez dormi:dormir
-ik heb gehad:::j'ai eu:avoir - ONREGELMATIG
-hij heeft gehad:::il a eu:avoir - ONREGELMATIG
-ik ben geweest:::j'ai été:::être - ONREGELMATIG
-wij zijn geweest:::nous avons été:être - ONREGELMATIG
-ik heb gedaan / gemaakt:::j'ai fait:faire - ONREGELMATIG
-zij hebben gedaan / gemaakt:::ils ont fait:faire - ONREGELMATIG
-ik heb gezet:::j'ai mis:mettre - ONREGELMATIG
-jij hebt gezet:::tu as mis:mettre - ONREGELMATIG
-ik heb genomen:::j'ai pris:prendre - ONREGELMATIG
-hij heeft genomen:::il a pris:prendre - ONREGELMATIG
-ik heb vastgehouden:::j'ai tenu:tenir - ONREGELMATIG
-wij hebben vastgehouden:::nous avons tenu:tenir - ONREGELMATIG
-ik heb onthouden / tegengehouden:::j'ai retenu:retenir - ONREGELMATIG
-zij heeft onthouden / tegengehouden:::elle a retenu:retenir - ONREGELMATIG
+ik heb gehad:::j'ai eu:avoir
+hij heeft gehad:::il a eu:avoir
+ik ben geweest:::j'ai été:::être
+wij zijn geweest:::nous avons été:être
+ik heb gedaan / gemaakt:::j'ai fait:faire
+zij hebben gedaan / gemaakt:::ils ont fait:faire - MANNELIJK
+ik heb gezet:::j'ai mis:mettre
+jij hebt gezet:::tu as mis:mettre
+ik heb genomen:::j'ai pris:prendre
+hij heeft genomen:::il a pris:prendre
+ik heb vastgehouden:::j'ai tenu:tenir
+wij hebben vastgehouden:::nous avons tenu:tenir
+ik heb onthouden / tegengehouden:::j'ai retenu:retenir
+zij heeft onthouden / tegengehouden:::elle a retenu:retenir
