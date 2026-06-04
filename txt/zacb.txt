@@ -73,3 +73,19 @@ zij is vertrokken:::elle est partie:partir VROUWELIJK
 zij zijn vertrokken:::elles sont parties:partir VROUWELIJK
 zij is gegaan:::elle est allée:aller VROUWELIJK
 zij zijn gegaan:::elles sont allées:aller VROUWELIJK
+hij is gekomen:::il est venu:venir
+zij zijn gekomen:::ils sont venus:venir - MANNELIJK
+hij is aangekomen:::il est arrivé:arriver
+zij zijn aangekomen:::ils sont arrivés:arriver - MANNELIJK
+hij is naar boven gegaan:::il est monté:monter
+zij zijn naar boven gegaan:::ils sont montés:monter - MANNELIJK
+hij is binnengekomen:::il est entré:entrer
+zij zijn binnengekomen:::ils sont entrés:entrer - MANNELIJK
+hij is gebleven:::il est resté:rester
+zij zijn gebleven:::ils sont restés:rester - MANNELIJK
+hij is gestorven:::il est mort:mourir
+zij zijn gestorven:::ils sont morts:mourir - MANNELIJK
+hij is vertrokken:::il est parti:partir
+zij zijn vertrokken:::ils sont partis:partir - MANNELIJK
+hij is gegaan:::il est allé:aller
+zij zijn gegaan:::ils sont allés:aller - MANNELIJK
