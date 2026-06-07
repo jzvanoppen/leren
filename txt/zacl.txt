@@ -1,0 +1,17 @@
+het appartement:::l'appartement:
+het balkon:::le balcon:
+de studio:::le studio:
+het dak:::le toit:
+de rondleiding:::le tour:
+naar boven gaan:::monter:
+verlaten:::quitter:
+ander:::autre:
+open:::ouvert:MANNELIJK
+beneden:::en bas:
+boven:::en haut:
+welkom bij:::bienvenue chez:
+goed idee:::bonne idée:
+de trap afgaan:::descendre l'escalier:
+uitstekend idee:::excellente idée:
+en hier zijn we dan:::et nous voilà:
+de trap opgaan:::monter l'escalier:
