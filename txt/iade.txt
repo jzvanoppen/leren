@@ -1,10 +1,10 @@
-mooi weer:::Il fait beau.
-slecht weer:::Il fait mauvais.
-koud:::Il fait froid.
-fris:::Il fait frais.
-warm:::Il fait chaud.
-grijs (bewolkt):::Il fait gris.
-X graden:::Il fait X degrés.
+het is mooi weer:::Il fait beau.
+het is slecht weer:::Il fait mauvais.
+het is koud:::Il fait froid.
+het is fris:::Il fait frais.
+het is warm:::Il fait chaud.
+het is grijs (bewolkt):::Il fait gris.
+het is 10 graden:::Il fait 10 degrés.
 het regent:::Il pleut.
 het sneeuwt:::Il neige.
 het vriest:::Il gèle.
@@ -18,7 +18,7 @@ er zijn buien:::Il y a des averses.
 er zijn opklaringen:::Il y a des éclaircies.
 er zijn bliksemschichten:::Il y a des éclairs.
 er is donder:::Il y a du tonnerre.
-hier:::hier
+gisteren:::hier
 vandaag:::aujourd'hui
 vorige week:::la semaine passée
 volgende week:::la semaine prochaine
