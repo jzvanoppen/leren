@@ -1,0 +1,16 @@
+het bureau:::le bureau:
+de kamer:::la chambre:
+de keuken:::la cuisine:
+de ingang:::l'entrée:
+de verdieping:::l'étage:
+de keer:::la fois:
+de garage:::le garage:
+de tuin:::le jardin:
+het huis:::la maison:
+de ouder:::le parent:
+het zwembad:::la piscine:
+de badkamer:::la salle de bains:
+het terras:::la terrasse:
+het toilet, de wc:::les toilettes:
+het dorp:::le village:
+de stad:::la ville:
