@@ -1,0 +1,26 @@
+mooi weer:::Il fait beau.
+slecht weer:::Il fait mauvais.
+koud:::Il fait froid.
+fris:::Il fait frais.
+warm:::Il fait chaud.
+grijs (bewolkt):::Il fait gris.
+X graden:::Il fait X degrés.
+het regent:::Il pleut.
+het sneeuwt:::Il neige.
+het vriest:::Il gèle.
+er is zon:::Il y a du soleil.
+er is wind:::Il y a du vent.
+er is sneeuw:::Il y a de la neige.
+er is regen:::Il y a de la pluie.
+er zijn wolken:::Il y a des nuages.
+er is onweer:::Il y a de l'orage.
+er zijn buien:::Il y a des averses.
+er zijn opklaringen:::Il y a des éclaircies.
+er zijn bliksemschichten:::Il y a des éclairs.
+er is donder:::Il y a du tonnerre.
+hier:::hier
+vandaag:::aujourd'hui
+vorige week:::la semaine passée
+volgende week:::la semaine prochaine
+het is 7 uur:::il est 7 heures:
+het is half acht:::il est 7 heures et demi:
