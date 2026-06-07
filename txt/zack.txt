@@ -1,0 +1,10 @@
+rechts van:::à droite de
+links van:::à gauche de
+tegenover:::en face de
+voor:::devant
+onder:::sous
+in:::dans
+tussen:::entre
+op:::sur
+achter:::derrière
+naast:::à côté de
