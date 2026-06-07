@@ -1,0 +1,17 @@
+aankomen:::arriver:
+beginnen:::commencer:
+naar beneden gaan:::descendre:
+tonen:::montrer:
+mooi:::beau:MANNELIJK
+mooi:::belle:VROUWELIJK
+geweldig, prachtig:::formidable:
+groot:::grand:MANNELIJK:
+groot:::grande:::VROUWELIJK:
+tweede:::deuxième:
+klein:::petit:MANNELIJK
+klein:::petite:VROUWELIJK
+derde:::troisième:
+nog:::encore:
+recht tegenover:::en face de:
+dichtbij:::près de:
+afgesproken:::d'accord:
