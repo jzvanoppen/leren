@@ -1,0 +1,7 @@
+avoir:::eu:
+être:::été:
+faire:::fait:
+mettre:::mis:
+prendre:::pris:
+tenir:::tenu:
+retenir:::retenu:
