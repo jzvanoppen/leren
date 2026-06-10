@@ -1,0 +1,13 @@
+helpen:::aider:
+binnen gaan:::entrer:
+wonen:::habiter:
+veel:::beaucoup:
+in:::dans:
+daar:::là:
+mooi:::beau:MANNELIJK
+mooi:::belle:VROUWELIJK
+geniaal, fantastisch:::génial:MANNELIJK
+geniaal, fantastisch:::géniale:VROUWELIJK
+mooi:::joli:MANNELIJK
+mooi:::jolie:VROUWELIJK
+praktisch, handig:::pratique:
