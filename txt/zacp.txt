@@ -1,0 +1,14 @@
+de oven:::le four:
+de microgolf:::le micro-ondes:
+de koelkast:::le frigo:
+de friteuse:::la friteuse:
+de kleerkast:::la garde-robe:
+de wastafel, de lavabo:::le lavabo:
+de vaatwasser:::le lave-vaisselle:
+de wasmachine:::la machine à laver:
+de spiegel:::le miroir:
+de computer, de laptop:::l'ordinateur:
+het hoofdkussen:::l'oreiller:
+de ingemaakte kast:::le placard:
+de vuilnisbak:::la poubelle:
+het gordijn:::le rideau:
