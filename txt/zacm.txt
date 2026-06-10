@@ -1,0 +1,16 @@
+de kast:::l'armoire:
+het bord:::l'assiete:
+de bank:::le banc:
+de bureau:::le bureau:
+de stoel:::la chaise:
+de douche:::la douche:
+de zetel:::le fauteuil:
+de lamp:::la lampe:
+het bed:::le lit:
+de foto:::la photo:
+de tafel:::la table:
+het schilderij:::le tableau:
+de tas, het kopje:la tasse:
+het toilet, de wc-pot:::la toilette:
+het toilet:::les toilettes:
+het glas:::le verre:
