@@ -4,10 +4,10 @@ wonen:::habiter:
 veel:::beaucoup:
 in:::dans:
 daar:::là:
-mooi:::beau:MANNELIJK
-mooi:::belle:VROUWELIJK
+mooi:::beau:MANNELIJK b...
+mooi:::belle:VROUWELIJK b...
 geniaal, fantastisch:::génial:MANNELIJK
 geniaal, fantastisch:::géniale:VROUWELIJK
-mooi:::joli:MANNELIJK
-mooi:::jolie:VROUWELIJK
+mooi:::joli:MANNELIJK j...
+mooi:::jolie:VROUWELIJK j...
 praktisch, handig:::pratique:
