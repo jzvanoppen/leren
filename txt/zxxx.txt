@@ -1,22 +1,29 @@
-de berging:::la remise:::
-de slaapkamer:::la chambre à coucher:::
-de gang:::le couloir:::
-de logeerkamer:::la chambre d'amis:::
+de trap:::l'escalier:::
+de ingang:::l'entrée:::
 het terras:::la terrasse:::
-de keer:::la fois:::
-achter:::derrière:::
-het toilet:::les toilettes:::
-de zetel:::le fauteuil:::
-het schilderij:::le tableau:::
-de douche:::la douche:::
-de kast:::l'armoire:::
-het bord:::l'assiete:::
-beginnen:::commencer:::
-naar beneden gaan:::descendre:::
+het huis:::la maison:::
+de keuken:::la cuisine:::
 afgesproken:::d'accord:::
-nog:::encore:::
-tonen:::montrer:::
-daar:::là:::
-veel:::beaucoup:::
-praktisch, handig:::pratique:::
-binnen gaan:::entrer:::
+geweldig, prachtig:::formidable:::
+tegenover:::en face de:::
+tussen:::entre:::
+de lamp:::la lampe:::
+de kast:::l'armoire:::
+het toilet:::les toilettes:::
+het schilderij:::le tableau:::
+de stoel:::la chaise:::
+het donsdeken:::la couette:::
+de stofzuiger:::l'aspirateur:::
+het toestel, het apparaat:::l'appareil:::
+de gootsteen:::l'évier:::
+de diepvriezer:::le congélateur:::
+het hoofdkussen:::l'oreiller:::
+de vuilnisbak:::la poubelle:::
+de wasmachine:::la machine à laver:::
+de kleerkast:::la garde-robe:::
+de oven:::le four:::
+de ingemaakte kast:::le placard:::
+het tapijt:::le tapis:::
+de lade:::le tiroir:::
+rommelig:::en désordre:::
+de kraan:::le robinet:::
