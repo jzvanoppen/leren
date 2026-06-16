@@ -27,3 +27,5 @@ het tapijt:::le tapis:::
 de lade:::le tiroir:::
 rommelig:::en désordre:::
 de kraan:::le robinet:::
+ander:::autre:::
+welkom bij:::bienvenue chez:::
