@@ -1,5 +1,5 @@
 aannemer ruwbouw:::entrepreneur de gros oevre:
-metselaar:::maçon:
+aannemer metselaar:::entrepreneur de maçon:
 dakdekker:::couvreur:
 elektricien:::électricien:
 loodgieter:::plombier:
