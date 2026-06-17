@@ -1,0 +1,8 @@
+aannemer ruwbouw:::entrepreneur de gros oevre:
+metselaar:::maçon:
+dakdekker:::couvreur:
+elektricien:::électricien:
+loodgieter:::plombier:
+stukadoor/pleisteraar:::plâtrier:
+tegelzetter:::carreleur:
+schrijnwerkster/timmervrouw:::menusière:
