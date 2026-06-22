@@ -1,2 +1,47 @@
-Noorwegen:::papa is the goat:
-China:::Ishaaq verliest streak 7
+
+Ierland:::Ireland:
+Iers:::Irish:
+Verenigd Koninkrijk:::the United Kingdom:
+Brits:::British:
+Wales:::Wales:
+Welsh (uit Wales):::Welsh:
+Verenigde Staten:::the United States:
+Amerikaans:::American:
+Australië:::Australia:
+Australisch:::Australian:
+Canada:::Canada:
+Canadees:::Canadian:
+India:::India:
+Indiaas:::Indian:
+Spanje:::Spain:
+Spaans:::Spanish:
+Portugal:::Portugal:
+Portugees:::Portuguese:
+Oostenrijk:::Austria:
+Oostenrijks:::Austrian:
+België:::Belgium:
+Belgisch:::Belgian:
+Vlaanderen:::Flanders:
+Vlaams:::Flemish:
+Wallonië:::Wallonia:
+Waals:::Walloon:
+Nederland:::the Netherlands:
+Nederlands:::Dutch:
+Duitsland:::Germany:
+Duits:::German:
+Italië:::Italy:
+Italiaans:::Italian:
+Frankrijk:::France:
+Frans:::French:
+Griekenland:::Greece:
+Grieks:::Greek:
+Zwitserland:::Switzerland:
+Zwitsers:::Swiss:
+Turkije:::Turkey:
+Turks:::Turkish:
+Japan:::Japan:
+Japans:::Japanese:
+Marokko:::Morocco:
+Marokkaans:::Moroccan:
+Rusland:::Russia:
+Russisch:::Russian:
