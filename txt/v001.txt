@@ -1,10 +1,10 @@
-het huis:::la maison:
-de keuken:::la cuisine:
-de slaapkamer:::la chambre:
-de badkamer:::la salle de bains:
-de tafel:::la table:
-de stoel:::la chaise:
-het bed:::le lit:
-de koelkast:::le frigo:
-de vuilnisbak:::la poubelle:
-de stofzuiger:::l’aspirateur:
+de vader:::le père:
+de moeder:::la mère:
+de broer:::le frère:
+de zus:::la sœur:
+de zoon:::le fils:
+de dochter:::la fille:
+de opa:::le grand-père:
+de oma:::la grand-mère:
+de oom:::l’oncle:
+de tante:::la tante:
