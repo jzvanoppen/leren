@@ -6,5 +6,5 @@ de zoon:::le fils:
 de dochter:::la fille:
 de opa:::le grand-père:
 de oma:::la grand-mère:
-de oom:::l’oncle:
+de oom:::l'oncle:
 de tante:::la tante:
