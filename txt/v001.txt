@@ -1,7 +1,7 @@
 de vader:::le père:
 de moeder:::la mère:
 de broer:::le frère:
-de zus:::la sœur:
+de zus:::la soeur:
 de zoon:::le fils:
 de dochter:::la fille:
 de opa:::le grand-père:
