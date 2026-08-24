@@ -1,0 +1,9 @@
+hebben:::avoir:INFINITIEF
+ik heb:::j’ai:le présent (tegenwoordige tijd)
+jij hebt:::tu as:le présent (tegenwoordige tijd)
+hij heeft:::il a:le présent (tegenwoordige tijd)
+zij heeft:::elle a:le présent (tegenwoordige tijd)
+wij hebben:::nous avons:le présent (tegenwoordige tijd)
+jullie hebben:::vous avez:le présent (tegenwoordige tijd)
+zij hebben:::ils ont:MANNELIJK - le présent (tegenwoordige tijd)
+zij hebben:::elles ont:VROUWELIJK - le présent (tegenwoordige tijd)
