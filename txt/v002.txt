@@ -1,0 +1,10 @@
+de tafel:::la table:
+de stoel:::la chaise:
+de kast:::l’armoire:
+het bed:::le lit:
+de lamp:::la lampe:
+de zetel:::le canapé:
+de koelkast:::le frigo:
+de oven:::le four:
+het bord:::l’assiette:
+het glas:::le verre:
