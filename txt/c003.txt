@@ -1,0 +1,5 @@
+ik zie de auto:::je vois la voiture:
+jij ziet de fiets:::tu vois le vélo:
+hij ziet de bus:::il voit le bus:
+zij ziet het vliegtuig:::elle voit l‘avion:
+wij zien de trein:::nous voyons le train:
