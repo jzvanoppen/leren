@@ -1,0 +1,9 @@
+zien:::voir:INFINITIEF
+ik zie:::je vois:le présent (tegenwoordige tijd)
+jij ziet:::tu vois:le présent (tegenwoordige tijd)
+hij ziet:::il voit:le présent (tegenwoordige tijd)
+zij ziet:::elle voit:le présent (tegenwoordige tijd)
+wij zien:::nous voyons:le présent (tegenwoordige tijd)
+jullie zien:::vous voyez:le présent (tegenwoordige tijd)
+zij zien:::ils voient:MANNELIJK - le présent (tegenwoordige tijd)
+zij zien:::elles voient:VROUWELIJK - le présent (tegenwoordige tijd)
