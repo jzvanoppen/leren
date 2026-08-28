@@ -1,0 +1,10 @@
+de auto:::la voiture:
+de fiets:::le vélo:
+de bus:::le bus:
+de trein:::le train:
+de motor:::la moto:
+de vrachtwagen:::le camion:
+het vliegtuig:::l‘avion:
+de boot:::le bateau:
+de tram:::le tram:
+de taxi:::le taxi:
