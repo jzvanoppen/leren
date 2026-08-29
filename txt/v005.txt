@@ -1,0 +1,40 @@
+de vader:::le père:
+de moeder:::la mère:
+de broer:::le frère:
+de zus:::la soeur:
+de zoon:::le fils:
+de dochter:::la fille:
+de opa:::le grand-père:
+de oma:::la grand-mère:
+de oom:::l'oncle:
+de tante:::la tante:
+de tafel:::la table:
+de stoel:::la chaise:
+de kast:::l'armoire:
+het bed:::le lit:
+de lamp:::la lampe:
+de zetel:::le canapé:
+de koelkast:::le frigo:
+de oven:::le four:
+het bord:::l'assiette:
+het glas:::le verre:
+de auto:::la voiture:
+de fiets:::le vélo:
+de bus:::le bus:
+de trein:::le train:
+de motor:::la moto:
+de vrachtwagen:::le camion:
+het vliegtuig:::l'avion:
+de boot:::le bateau:
+de tram:::le tram:
+de taxi:::le taxi:
+het brood:::le pain:
+de kaas:::le fromage:
+de appel:::la pomme:
+de banaan:::la banane:
+het vlees:::la viande:
+de vis:::le poisson:
+de melk:::le lait:
+het ei:::l'oeuf:
+de soep:::la soupe:
+de rijst:::le riz:
