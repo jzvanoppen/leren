@@ -1,0 +1,9 @@
+eten:::manger:INFINITIEF
+ik eet:::je mange:le présent (tegenwoordige tijd)
+jij eet:::tu manges:le présent (tegenwoordige tijd)
+hij eet:::il mange:le présent (tegenwoordige tijd)
+zij eet:::elle mange:le présent (tegenwoordige tijd)
+wij eten:::nous mangeons:le présent (tegenwoordige tijd)
+jullie eten:::vous mangez:le présent (tegenwoordige tijd)
+zij eten:::ils mangent:MANNELIJK - le présent (tegenwoordige tijd)
+zij eten:::elles mangent:VROUWELIJK - le présent (tegenwoordige tijd)
