@@ -1,0 +1,20 @@
+ik ben de zoon:::je suis le fils:
+jij bent de dochter:::tu es la fille:
+hij is de vader:::il est le père:
+zij is de moeder:::elle est la mère:
+wij zijn de kinderen:::nous sommes les enfants:
+ik heb een tafel:::j'ai une table:
+jij hebt een stoel:::tu as une chaise:
+hij heeft een kast:::il a une armoire:
+zij heeft een lamp:::elle a une lampe:
+wij hebben een spiegel:::nous avons un miroir:
+ik zie de auto:::je vois la voiture:
+jij ziet de fiets:::tu vois le vélo:
+hij ziet de bus:::il voit le bus:
+zij ziet het vliegtuig:::elle voit l'avion:
+wij zien de trein:::nous voyons le train:
+ik eet brood:::je mange du pain:
+jij eet een appel:::tu manges une pomme:
+hij eet kaas:::il mange du fromage:
+zij eet een banaan:::elle mange une banane:
+wij eten rijst:::nous mangeons du riz:
