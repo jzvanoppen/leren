@@ -1,0 +1,10 @@
+het brood:::le pain:
+de kaas:::le fromage:
+de appel:::la pomme:
+de banaan:::la banane:
+het vlees:::la viande:
+de vis:::le poisson:
+de melk:::le lait:
+het ei:::l'oeuf:
+de soep:::la soupe:
+de rijst:::le riz:
