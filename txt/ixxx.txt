@@ -10,9 +10,7 @@ lier:::verbinden
 un accord:::een overeenkomst
 un cahier:::een schrift
 barrer:::doorstrepen
-employer:::gebruiken
 un auxiliaire:::een hulpwerkwoord
-un accent aigu:::een accent aigu (bijvoorbeeld é)
 un devoir:::een huiswerk
 un radical:::een stam (van een werkwoord)
 convenir:::overeenkomen
