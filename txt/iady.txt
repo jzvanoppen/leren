@@ -1,0 +1,10 @@
+ontmoeten:::to meet<met<met
+betalen:::to pay<paid<paid
+plaatsen:::to put<put<put
+lezen:::to read<read<read
+(be)rijden:::to ride<rode<ridden
+bellen, klinken:::to ring<rang<rung
+opstaan:::to rise<rose<risen
+lopen:::to run<ran<run
+zeggen:::to say<said<said
+zien:::to see<saw<seen
