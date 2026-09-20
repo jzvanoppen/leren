@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Flashcards</title>
+<style>
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background: #f2f4f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #222;
+    padding: 20px 0;
+  }
+
+  .app {
+    width: min(700px, 94vw);
+    text-align: center;
+  }
+
+  h1 {
+    margin-bottom: 18px;
+  }
+
+  .loader {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    margin-bottom: 12px;
+  }
+
+  input {
+    width: 150px;
+    padding: 12px;
+    font-size: 18px;
+    text-align: center;
+    border: 1px solid #bbb;
+    border-radius: 8px;
+  }
+
+  button {
+    border: 0;
+    border-radius: 8px;
+    padding: 12px 18px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  #loadBtn {
+    background: #333;
+    color: white;
+  }
+
+  #status {
+    min-height: 24px;
+    margin: 10px 0;
+  }
+
+  .card {
+    height: 330px;
+    background: #eaf4ff; /* lichte kleur voor de vraagkant */
+    border-radius: 20px;
+    box-shadow: 0 8px 25px #0002;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin: 15px 0;
+    cursor: pointer;
+    user-select: none;
+    touch-action: pan-y;
+    transition: transform .18s ease, opacity .18s ease, background-color .18s ease;
+    position: relative;
+  }
+
+  .card.flipped {
+    background: white; /* huidige kleur wanneer omgedraaid */
+  }
+
+  .card.swiping-left {
+    transform: translateX(-90px) rotate(-5deg);
+    opacity: .6;
+  }
+
+  .card.swiping-right {
+    transform: translateX(90px) rotate(5deg);
+    opacity: .6;
+  }
+
+  .word {
+    font-size: clamp(28px, 7vw, 52px);
+    overflow-wrap: anywhere;
+  }
+
+  .hint {
+    color: #777;
+    margin-top: -5px;
+  }
+
+  .controls {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 12px;
+  }
+
+  .unknown {
+    background: #e74c3c;
+    color: white;
+  }
+
+  .known {
+    background: #27ae60;
+    color: white;
+  }
+
+  .restart {
+    background: #ddd;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .done {
+    background: white;
+    padding: 35px;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px #0002;
+  }
+
+  small {
+    color: #666;
+    display: block;
+    margin-top: 10px;
+  }
+
+  .unknown-list-wrap {
+    margin-top: 20px;
+    text-align: left;
+  }
+
+  .unknown-list-wrap h3 {
+    text-align: center;
+    margin-bottom: 8px;
+  }
+
+  #unknownList {
+    width: 100%;
+    min-height: 60px;
+    max-height: 260px;
+    overflow-y: auto;
+    background: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 12px;
+    font-family: monospace;
+    font-size: 14px;
+    white-space: pre-wrap;
+    word-break: break-word;
+    text-align: left;
+  }
+
+  .copyBtn {
+    margin-top: 10px;
+    background: #333;
+    color: white;
+  }
+</style>
+</head>
+
+<body>
+
+<div class="app">
+
+  <h1>Flashcards</h1>
+
+  <div class="loader">
+    <input
+      id="filename"
+      maxlength="4"
+      placeholder="abcd"
+      autocomplete="off"
+    >
+
+    <button id="loadBtn">Laden</button>
+  </div>
+
+  <div id="status"></div>
+
+  <div id="game" class="hidden">
+
+    <div id="card" class="card" title="Klik om om te draaien">
+      <div id="word" class="word"></div>
+    </div>
+
+    <div class="hint">
+      Klik op de kaart om het antwoord te bekijken.
+    </div>
+
+    <div class="controls">
+      <button class="unknown" id="unknownBtn">
+        ← Niet gekend
+      </button>
+
+      <button class="known" id="knownBtn">
+        Gekend →
+      </button>
+    </div>
+
+    <small>
+      Je kunt ook swipen: ← niet gekend | gekend →
+    </small>
+
+  </div>
+
+  <div id="done" class="done hidden">
+
+    <h2>Klaar! 🎉</h2>
+
+    <p>Alle flashcards zijn gekend.</p>
+
+    <div id="unknownWrap" class="unknown-list-wrap hidden">
+      <h3>Woorden die je niet wist</h3>
+      <div id="unknownList"></div>
+      <div style="text-align:center;">
+        <button class="copyBtn" id="copyBtn">Kopieer lijst</button>
+      </div>
+    </div>
+
+    <div style="text-align:center; margin-top:15px;">
+      <button class="restart" id="restartBtn">
+        Opnieuw beginnen
+      </button>
+    </div>
+
+  </div>
+
+</div>
+
+
+<script>
+
+let cards = [];
+let queue = [];
+let current = null;
+let showingAnswer = false;
+
+let startX = 0;
+let dragging = false;
+
+// Houdt de woorden bij die minstens 1x "niet gekend" waren.
+// Sleutel = front, zodat elk woord maar 1x in de lijst komt.
+let unknownWords = new Map();
+
+
+const filenameInput =
+  document.getElementById('filename');
+
+const loadBtn =
+  document.getElementById('loadBtn');
+
+const statusEl =
+  document.getElementById('status');
+
+const game =
+  document.getElementById('game');
+
+const done =
+  document.getElementById('done');
+
+const cardEl =
+  document.getElementById('card');
+
+const wordEl =
+  document.getElementById('word');
+
+const unknownWrap =
+  document.getElementById('unknownWrap');
+
+const unknownListEl =
+  document.getElementById('unknownList');
+
+const copyBtn =
+  document.getElementById('copyBtn');
+
+
+function cleanFilename() {
+
+  return filenameInput.value
+    .trim()
+    .replace(/[^a-zA-Z0-9]/g, '')
+    .slice(0, 4);
+
+}
+
+
+async function loadCards() {
+
+  const name = cleanFilename();
+
+  if (name.length !== 4) {
+
+    statusEl.textContent =
+      'Geef een bestandsnaam van precies 4 tekens in, bijvoorbeeld rav3.';
+
+    return;
+  }
+
+
+  statusEl.textContent =
+    'Bestand laden...';
+
+
+  try {
+
+    /*
+      De bestanden staan in de map "txt".
+
+      Bijvoorbeeld:
+
+      index.html
+      txt/
+        rav3.txt
+        abc1.txt
+        test.txt
+    */
+
+    const response =
+      await fetch('txt/' + name + '.txt', {
+        cache: 'no-store'
+      });
+
+
+    if (!response.ok) {
+      throw new Error('bestand niet gevonden');
+    }
+
+
+    const text =
+      await response.text();
+
+
+    cards = text
+      .split(/\r?\n/)
+      .map(line => line.trim())
+      .filter(line => line)
+      .map(line => {
+
+        // Verwijder een eventuele dubbele punt
+        // helemaal aan het einde van de regel.
+
+        if (line.endsWith(':')) {
+          line = line.slice(0, -1);
+        }
+
+
+        const parts =
+          line.split(':::');
+
+
+        if (parts.length < 2) {
+          return null;
+        }
+
+
+        return {
+          front: parts[0].trim(),
+          back: parts.slice(1).join(':::').trim()
+        };
+
+      })
+      .filter(c =>
+        c &&
+        c.front &&
+        c.back
+      );
+
+
+    if (!cards.length) {
+      throw new Error('geen geldige kaarten');
+    }
+
+
+    queue =
+      shuffle([...cards]);
+
+    unknownWords =
+      new Map();
+
+    unknownWrap.classList.add('hidden');
+
+
+    game.classList.remove('hidden');
+
+    done.classList.add('hidden');
+
+
+    statusEl.textContent =
+      `${cards.length} kaarten geladen.`;
+
+
+    nextCard();
+
+
+  } catch (e) {
+
+    game.classList.add('hidden');
+
+    done.classList.add('hidden');
+
+
+    statusEl.textContent =
+      `Kan txt/${name}.txt niet laden. Zorg dat de map "txt" naast dit HTML-bestand staat.`;
+
+  }
+
+}
+
+
+function shuffle(array) {
+
+  for (
+    let i = array.length - 1;
+    i > 0;
+    i--
+  ) {
+
+    const j =
+      Math.floor(
+        Math.random() * (i + 1)
+      );
+
+
+    [array[i], array[j]] =
+      [array[j], array[i]];
+  }
+
+
+  return array;
+}
+
+
+function nextCard() {
+
+  if (!queue.length) {
+
+    game.classList.add('hidden');
+
+    done.classList.remove('hidden');
+
+    statusEl.textContent =
+      'Alle kaarten zijn gekend.';
+
+    showUnknownList();
+
+    return;
+  }
+
+
+  current =
+    queue.shift();
+
+
+  showingAnswer = false;
+
+
+  wordEl.textContent =
+    current.front;
+
+
+  cardEl.className =
+    'card';
+
+
+  statusEl.textContent =
+    `${queue.length + 1} kaart(en) over`;
+}
+
+
+function showUnknownList() {
+
+  if (!unknownWords.size) {
+
+    unknownWrap.classList.add('hidden');
+
+    return;
+  }
+
+
+  const lines = [...unknownWords.values()]
+    .map(c => `${c.front}:::${c.back}`);
+
+
+  unknownListEl.textContent =
+    lines.join('\n');
+
+
+  unknownWrap.classList.remove('hidden');
+
+}
+
+
+function flipCard() {
+
+  if (!current) {
+    return;
+  }
+
+
+  showingAnswer =
+    !showingAnswer;
+
+
+  wordEl.textContent =
+    showingAnswer
+      ? current.back
+      : current.front;
+
+
+  cardEl.classList.toggle(
+    'flipped',
+    showingAnswer
+  );
+}
+
+
+function markKnown() {
+
+  /*
+    Als de leerling nog niet naar
+    het antwoord heeft gekeken,
+    wordt de kaart eerst omgedraaid.
+  */
+
+  if (!showingAnswer) {
+
+    flipCard();
+
+    return;
+  }
+
+
+  // Gekende kaart verwijderen.
+
+  nextCard();
+}
+
+
+function markUnknown() {
+
+  /*
+    Als de leerling nog niet naar
+    het antwoord heeft gekeken,
+    wordt de kaart eerst omgedraaid.
+  */
+
+  if (!showingAnswer) {
+
+    flipCard();
+
+    return;
+  }
+
+
+  // Onthoud dit woord voor de eindlijst (max 1x per woord).
+
+  unknownWords.set(
+    current.front,
+    current
+  );
+
+
+  /*
+    De kaart komt opnieuw in de stapel.
+
+    De positie wordt willekeurig gekozen,
+    zodat een moeilijke kaart niet
+    onmiddellijk opnieuw verschijnt.
+  */
+
+  const position =
+    Math.floor(
+      Math.random() * (queue.length + 1)
+    );
+
+
+  queue.splice(
+    position,
+    0,
+    current
+  );
+
+
+  nextCard();
+}
+
+
+/*
+  Klik op de kaart
+  = kaart omdraaien.
+*/
+
+cardEl.addEventListener(
+  'click',
+  flipCard
+);
+
+
+/*
+  Bestand laden.
+*/
+
+loadBtn.addEventListener(
+  'click',
+  loadCards
+);
+
+
+/*
+  Enter in het invoerveld
+  = bestand laden.
+*/
+
+filenameInput.addEventListener(
+  'keydown',
+  e => {
+
+    if (e.key === 'Enter') {
+      loadCards();
+    }
+
+  }
+);
+
+
+/*
+  Knop "Gekend".
+*/
+
+document
+  .getElementById('knownBtn')
+  .addEventListener(
+    'click',
+    markKnown
+  );
+
+
+/*
+  Knop "Niet gekend".
+*/
+
+document
+  .getElementById('unknownBtn')
+  .addEventListener(
+    'click',
+    markUnknown
+  );
+
+
+/*
+  Kopieer de lijst met niet-gekende woorden.
+*/
+
+copyBtn.addEventListener(
+  'click',
+  async () => {
+
+    try {
+
+      await navigator.clipboard.writeText(
