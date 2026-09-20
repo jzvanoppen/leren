@@ -1,6 +1,6 @@
-un accent aigu:::een accent aigu
-un accent circonflexe:::een accent circonflexe
-un accent grave:::een accent grave
+un accent aigu:::een accent aigu (bijvoorbeeld é)
+un accent circonflexe:::een accent circonflexe (bijvoorbeeld ê)
+un accent grave:::een accent grave (bijvoorbeeld è)
 un accord:::een overeenkomst
 adapter:::aanpassen
 un adjectif:::een bijvoeglijk naamwoord
