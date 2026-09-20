@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Flashcards</title>
+
+<style>
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background: #f2f4f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #222;
+  }
+
+  .app {
+    width: min(700px, 94vw);
+    text-align: center;
+  }
+
+  h1 {
+    margin-bottom: 18px;
+  }
+
+  .loader {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    margin-bottom: 12px;
+  }
+
+  input {
+    width: 150px;
+    padding: 12px;
+    font-size: 18px;
+    text-align: center;
+    border: 1px solid #bbb;
+    border-radius: 8px;
+  }
+
+  button {
+    border: 0;
+    border-radius: 8px;
+    padding: 12px 18px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  #loadBtn {
+    background: #333;
+    color: white;
+  }
+
+  #status {
+    min-height: 24px;
+    margin: 10px 0;
+  }
+
+  .card {
+    height: 330px;
+    background: #eaf4ff;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px #0002;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin: 15px 0;
+    cursor: pointer;
+    user-select: none;
+    touch-action: pan-y;
+    transition:
+      transform .18s ease,
+      opacity .18s ease,
+      background-color .2s ease;
+    position: relative;
+  }
+
+  /* Kleur van de achterkant / het antwoord */
+  .card.answer {
+    background: #fff3cd;
+  }
+
+  .card.swiping-left {
+    transform: translateX(-90px) rotate(-5deg);
+    opacity: .6;
+  }
+
+  .card.swiping-right {
+    transform: translateX(90px) rotate(5deg);
+    opacity: .6;
+  }
+
+  .word {
+    font-size: clamp(28px, 7vw, 52px);
+    overflow-wrap: anywhere;
+  }
+
+  .hint {
+    color: #777;
+    margin-top: -5px;
+  }
+
+  .controls {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 12px;
+  }
+
+  .unknown {
+    background: #e74c3c;
+    color: white;
+  }
+
+  .known {
+    background: #27ae60;
+    color: white;
+  }
+
+  .restart {
+    background: #ddd;
+  }
+
+  .copy {
+    background: #2980b9;
+    color: white;
+    margin-right: 8px;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .done {
+    background: white;
+    padding: 35px;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px #0002;
+  }
+
+  small {
+    color: #666;
+    display: block;
+    margin-top: 10px;
+  }
+</style>
+</head>
+
+<body>
+
+<div class="app">
+
+  <h1>Flashcards</h1>
+
+  <div class="loader">
+    <input
+      id="filename"
+      maxlength="4"
+      placeholder="abcd"
+      autocomplete="off"
+    >
+
+    <button id="loadBtn">Laden</button>
+  </div>
+
+  <div id="status"></div>
+
+  <div id="game" class="hidden">
+
+    <div id="card" class="card" title="Klik om om te draaien">
+      <div id="word" class="word"></div>
+    </div>
+
+    <div class="hint">
+      Klik op de kaart om het antwoord te bekijken.
+    </div>
+
+    <div class="controls">
+
+      <button class="unknown" id="unknownBtn">
+        ← Niet gekend
+      </button>
+
+      <button class="known" id="knownBtn">
+        Gekend →
+      </button>
+
+    </div>
+
+    <small>
+      Je kunt ook swipen: ← niet gekend | gekend →
+    </small>
+
+  </div>
+
+  <div id="done" class="done hidden">
+
+    <h2>Klaar! 🎉</h2>
+
+    <p>Alle flashcards zijn gekend.</p>
+
+    <button class="copy" id="copyBtn">
+      Kopieer foute woorden
+    </button>
+
+    <button class="restart" id="restartBtn">
+      Opnieuw beginnen
+    </button>
+
+    <small id="copyStatus"></small>
+
+  </div>
+
+</div>
+
+
+<script>
+
+let cards = [];
+let queue = [];
+let current = null;
+let showingAnswer = false;
+
+let startX = 0;
+let dragging = false;
+
+
+/*
+  Woorden die minstens één keer
+  "niet gekend" waren.
+
+  De sleutel is de voorkant,
+  zodat elk woord maar één keer
+  in de lijst komt.
+*/
+
+let wrongCards = new Map();
+
+
+const filenameInput =
+  document.getElementById('filename');
+
+const loadBtn =
+  document.getElementById('loadBtn');
+
+const statusEl =
+  document.getElementById('status');
+
+const game =
+  document.getElementById('game');
+
+const done =
+  document.getElementById('done');
+
+const cardEl =
+  document.getElementById('card');
+
+const wordEl =
+  document.getElementById('word');
+
+const copyBtn =
+  document.getElementById('copyBtn');
+
+const copyStatus =
+  document.getElementById('copyStatus');
+
+
+function cleanFilename() {
+
+  return filenameInput.value
+    .trim()
+    .replace(/[^a-zA-Z0-9]/g, '')
+    .slice(0, 4);
+
+}
+
+
+async function loadCards() {
+
+  const name = cleanFilename();
+
+  if (name.length !== 4) {
+
+    statusEl.textContent =
+      'Geef een bestandsnaam van precies 4 tekens in, bijvoorbeeld rav3.';
+
+    return;
+  }
+
+
+  statusEl.textContent =
+    'Bestand laden...';
+
+
+  try {
+
+    /*
+      De bestanden staan in de map "txt".
+
+      Bijvoorbeeld:
+
+      index.html
+      txt/
+        rav3.txt
+        abc1.txt
+        test.txt
+    */
+
+    const response =
+      await fetch('txt/' + name + '.txt', {
+        cache: 'no-store'
+      });
+
+
+    if (!response.ok) {
+      throw new Error('bestand niet gevonden');
+    }
+
+
+    const text =
+      await response.text();
+
+
+    cards = text
+      .split(/\r?\n/)
+      .map(line => line.trim())
+      .filter(line => line)
+      .map(line => {
+
+        // Verwijder een eventuele dubbele punt
+        // helemaal aan het einde van de regel.
+
+        if (line.endsWith(':')) {
+          line = line.slice(0, -1);
+        }
+
+
+        const parts =
+          line.split(':::');
+
+
+        if (parts.length < 2) {
+          return null;
+        }
+
+
+        return {
+          front: parts[0].trim(),
+          back: parts.slice(1).join(':::').trim()
+        };
+
+      })
+      .filter(c =>
+        c &&
+        c.front &&
+        c.back
+      );
+
+
+    if (!cards.length) {
+      throw new Error('geen geldige kaarten');
+    }
+
+
+    queue =
+      shuffle([...cards]);
+
+
+    wrongCards = new Map();
+
+    copyStatus.textContent = '';
+
+
+    game.classList.remove('hidden');
+
+    done.classList.add('hidden');
+
+
+    statusEl.textContent =
+      `${cards.length} kaarten geladen.`;
+
+
+    nextCard();
+
+
+  } catch (e) {
+
+    game.classList.add('hidden');
+
+    done.classList.add('hidden');
+
+
+    statusEl.textContent =
+      `Kan txt/${name}.txt niet laden. Zorg dat de map "txt" naast dit HTML-bestand staat.`;
+
+  }
+
+}
+
+
+function shuffle(array) {
+
+  for (
+    let i = array.length - 1;
+    i > 0;
+    i--
+  ) {
+
+    const j =
+      Math.floor(
+        Math.random() * (i + 1)
+      );
+
+
+    [array[i], array[j]] =
+      [array[j], array[i]];
+  }
+
+
+  return array;
+}
+
+
+function nextCard() {
+
+  if (!queue.length) {
+
+    game.classList.add('hidden');
+
+    done.classList.remove('hidden');
+
+    statusEl.textContent =
+      'Alle kaarten zijn gekend.';
+
+    return;
+  }
+
+
+  current =
+    queue.shift();
+
+
+  showingAnswer = false;
+
+
+  wordEl.textContent =
+    current.front;
+
+
+  /*
+    Nieuwe kaart begint altijd
+    met de kleur van de voorkant.
+  */
+
+  cardEl.className =
+    'card';
+
+
+  statusEl.textContent =
+    `${queue.length + 1} kaart(en) over`;
+}
+
+
+function flipCard() {
+
+  if (!current) {
+    return;
+  }
+
+
+  showingAnswer =
+    !showingAnswer;
+
+
+  wordEl.textContent =
+    showingAnswer
+      ? current.back
+      : current.front;
+
+
+  /*
+    Als het antwoord zichtbaar is,
+    krijgt de kaart de klasse "answer".
+    Bij terugklikken wordt deze weer verwijderd.
+  */
+
+  cardEl.classList.toggle(
+    'answer',
+    showingAnswer
+  );
+}
+
+
+function markKnown() {
+
+  /*
+    Als de leerling nog niet naar
+    het antwoord heeft gekeken,
+    wordt de kaart eerst omgedraaid.
+  */
+
+  if (!showingAnswer) {
+
+    flipCard();
+
+    return;
+  }
+
+
+  // Gekende kaart verwijderen.
+
+  nextCard();
+}
+
+
+function markUnknown() {
+
+  /*
+    Als de leerling nog niet naar
+    het antwoord heeft gekeken,
+    wordt de kaart eerst omgedraaid.
+  */
+
+  if (!showingAnswer) {
+
+    flipCard();
+
+    return;
+  }
+
+
+  /*
+    Onthoud dit woord voor de eindlijst.
+
+    Door een Map te gebruiken komt
+    een woord dat je meermaals fout had
+    toch maar één keer in de lijst.
+  */
+
+  wrongCards.set(
+    current.front,
+    current
+  );
+
+
+  /*
+    De kaart komt opnieuw in de stapel.
+
+    De positie wordt willekeurig gekozen,
+    zodat een moeilijke kaart niet
+    onmiddellijk opnieuw verschijnt.
+  */
+
+  const position =
+    Math.floor(
+      Math.random() * (queue.length + 1)
+    );
+
+
+  queue.splice(
+    position,
+    0,
+    current
+  );
+
+
+  nextCard();
+}
+
+
+/*
+  Klik op de kaart
+  = kaart omdraaien.
+*/
+
+cardEl.addEventListener(
+  'click',
+  flipCard
+);
+
+
+/*
+  Bestand laden.
+*/
+
+loadBtn.addEventListener(
+  'click',
+  loadCards
+);
+
+
+/*
+  Enter in het invoerveld
+  = bestand laden.
+*/
+
+filenameInput.addEventListener(
+  'keydown',
+  e => {
+
+    if (e.key === 'Enter') {
+      loadCards();
+    }
+
+  }
+);
+
+
+/*
+  Knop "Gekend".
+*/
+
+document
+  .getElementById('knownBtn')
+  .addEventListener(
+    'click',
+    markKnown
+  );
+
+
+/*
+  Knop "Niet gekend".
+*/
+
+document
+  .getElementById('unknownBtn')
+  .addEventListener(
+    'click',
+    markUnknown
+  );
+
+
+/*
+  Knop "Kopieer foute woorden".
+
+  De lijst staat in het
+  oorspronkelijke formaat:
+
+  Tekst1:::Tekst2
+*/
+
+copyBtn.addEventListener(
+  'click',
+  async () => {
+
+    if (!wrongCards.size) {
+
+      copyStatus.textContent =
+        'Je had geen enkel woord fout.';
+
+      return;
+    }
+
+
+    const list =
+      [...wrongCards.values()]
+        .map(c => `${c.front}:::${c.back}`)
+        .join('\n');
+
+
+    try {
+
+      await navigator.clipboard.writeText(list);
+
+      copyStatus.textContent =
+        `${wrongCards.size} woord(en) gekopieerd.`;
+
+    } catch (e) {
+
+      /*
+        Als het klembord niet beschikbaar is
+        (bijvoorbeeld zonder https),
+        gebruiken we een tijdelijk tekstvak.
+      */
+
+      const temp =
+        document.createElement('textarea');
+
+      temp.value = list;
+
+      document.body.appendChild(temp);
+
+      temp.select();
+
+
+      try {
+
+        document.execCommand('copy');
+
+        copyStatus.textContent =
+          `${wrongCards.size} woord(en) gekopieerd.`;
+
+      } catch (err) {
+
+        copyStatus.textContent =
+          'Kopiëren is niet gelukt.';
+
+      }
+
+
+      document.body.removeChild(temp);
+
+    }
+
+  }
+);
+
+
+/*
+  Opnieuw beginnen.
+*/
+
+document
+  .getElementById('restartBtn')
+  .addEventListener(
+    'click',
+    () => {
+
+      queue =
+        shuffle([...cards]);
+
+      wrongCards = new Map();
+
+      copyStatus.textContent = '';
+
+      game.classList.remove(
+        'hidden'
+      );
+
+      done.classList.add(
+        'hidden'
+      );
+
+      nextCard();
+
+    }
+  );
+
+
+/*
+  TOUCH / SWIPE
+*/
+
+cardEl.addEventListener(
+  'touchstart',
+  e => {
+
+    if (!e.changedTouches.length) {
+      return;
+    }
+
+
+    startX =
+      e.changedTouches[0].clientX;
+
+    dragging = true;
+
+  },
+  {
+    passive: true
+  }
+);
+
+
+cardEl.addEventListener(
+  'touchend',
+  e => {
+
+    if (
+      !dragging ||
+      !e.changedTouches.length
+    ) {
+      return;
+    }
+
+
+    const dx =
+      e.changedTouches[0].clientX -
+      startX;
+
+
+    dragging = false;
+
+
+    if (Math.abs(dx) >= 70) {
+
+      if (dx < 0) {
+
+        cardEl.classList.add(
+          'swiping-left'
+        );
+
+        setTimeout(
+          markUnknown,
+          120
+        );
+
+      } else {
+
+        cardEl.classList.add(
+          'swiping-right'
+        );
+
+        setTimeout(
+          markKnown,
+          120
+        );
+
+      }
+
+    }
+
+  }
+);
+
+
+/*
+  MOUSE SWIPE / SLEEP OP DESKTOP
+*/
+
+cardEl.addEventListener(
+  'mousedown',
+  e => {
+
+    startX = e.clientX;
+
+    dragging = true;
+
+  }
+);
+
+
+window.addEventListener(
+  'mouseup',
+  e => {
+
+    if (!dragging) {
+      return;
+    }
+
+
+    const dx =
+      e.clientX - startX;
+
+
+    dragging = false;
+
+
+    if (Math.abs(dx) >= 90) {
+
+      if (dx < 0) {
+        markUnknown();
+      } else {
+        markKnown();
+      }
+
+    }
+
+  }
+);
+
+</script>
+
+</body>
+</html>
