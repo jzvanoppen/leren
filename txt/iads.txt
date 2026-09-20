@@ -1,0 +1,91 @@
+un accent aigu:::een accent aigu
+un accent circonflexe:::een accent circonflexe
+un accent grave:::een accent grave
+un accord:::een overeenkomst
+adapter:::aanpassen
+un adjectif:::een bijvoeglijk naamwoord
+ajouter:::toevoegen
+une apostrophe:::een afkappingsteken
+un article:::een lidwoord, een artikel
+associer à:::verbinden met
+un auxiliaire:::een hulpwerkwoord
+barrer:::doorstrepen
+un cahier:::een schrift
+une cédille:::een tekentje onder de c voor uitspraak als s
+un chiffre:::een cijfer
+choisir:::kiezen
+ci-dessous:::hieronder
+ci-dessus:::hierboven
+cocher:::aankruisen
+compléter:::aanvullen, vervolledigen
+conjuguer:::vervoegen
+connaître:::kennen
+une consigne:::een instructie, een opgave, een opdracht
+une consonne:::een medeklinker
+convenir:::overeenkomen
+une conversation:::een gesprek
+correspondre à:::overeenkomen met
+corriger:::verbeteren
+un crayon:::een potlood
+demander:::vragen
+un devoir:::een huiswerk
+un dialogue:::een dialoog
+un dictionnaire:::een woordenboek
+dire:::zeggen
+donner:::geven
+écrire:::schrijven
+employer:::gebruiken
+encercler:::omcirkelen
+entourer:::omcirkelen
+étudier:::studeren
+un examen:::een examen
+un exemple:::een voorbeeld
+un exercice:::een oefening
+un extrait:::een fragment
+faire:::maken, doen
+faux, fausse:::fout
+féminin, féminine:::vrouwelijk
+une feuille (de brouillon):::een (klad)blad
+le français:::het Frans
+en français:::in het Frans
+une gomme:::een gom
+une grammaire:::een grammatica, een spraakkunst
+gras, grasse:::dik
+en gras:::vetgedrukt
+indiquer:::aanduiden
+une lettre:::een letter
+en toutes lettres:::voluit
+lier:::verbinden
+lire:::lezen
+un livre:::een boek
+une main:::een hand
+lever la main:::je hand / je vinger opsteken
+une majuscule:::een hoofdletter
+un marqueur:::een markeerstift
+masculin, masculine:::mannelijk
+mettre:::zetten, plaatsen
+une minuscule:::een kleine letter
+un modèle:::een model, een voorbeeld
+un mot:::een woord
+le néerlandais:::het Nederlands
+en néerlandais:::in het Nederlands
+noter:::opschrijven, noteren
+un ordinateur portable:::een laptop
+une page:::een pagina, een bladzijde
+à la page:::op pagina, op bladzijde
+une parenthèse:::een (rond) haakje
+entre parenthèses:::tussen haakjes
+un participe passé:::een voltooid deelwoord
+une phrase:::een zin
+un pluriel:::een meervoud
+un point:::een punt
+un point d'interrogation:::een vraagteken
+un point d'exclamation:::een uitroepteken
+poser une question:::een vraag stellen
+précédent, précédente:::vorige
+prendre:::nemen
+une question:::een vraag
+poser une question:::een vraag stellen
+raconter:::vertellen
+un radical:::een stam (van een werkwoord)
+regarder:::bekijken
