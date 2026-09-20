@@ -1,0 +1,10 @@
+slapen:::to sleep<slept<slept
+praten, spreken:::to speak<spoke<spoken
+uitgeven:::to spend<spent<spent
+(af)splitsen:::to split<split<split
+staan:::to stand<stood<stood
+stelen:::to steal<stole<stolen
+steken:::to sting<stung<stung
+zwemmen:::to swim<swam<swum
+nemen:::to take<took<taken
+aanleren:::to teach<taught<taught
