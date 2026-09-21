@@ -1,10 +1,10 @@
-zijn:::to be<was/were<been
-(ver)slaan:::to beat<beat<beaten
-worden:::to become<became<become
-beginnen:::to begin<began<begun
-bijten:::to bite<bit<bitten
-breken:::to break<broke<broken
-brengen:::to bring<brought<brought
-uitzenden:::to broadcast<broadcast<broadcast
-bouwen:::to build<built<built
-(ver)branden:::to burn<burnt<burnt
+zijn - to be:::was/were<been
+(ver)slaan - to beat:::beat<beaten
+worden - to become:::became<become
+beginnen - to begin:::began<begun
+bijten - to bite:::bit<bitten
+breken - to break:::broke<broken
+brengen - to bring:::brought<brought
+uitzenden - to broadcast:::broadcast<broadcast
+bouwen - to build:::built<built
+(ver)branden - to burn:::burnt<burnt
