@@ -1,10 +1,10 @@
-drinken:::to drink<drank<drunk
-rijden:::to drive<drove<driven
-eten:::to eat<ate<eaten
-vallen:::to fall<fell<fallen
-voeden:::to feed<fed<fed
-voelen:::to feel<felt<felt
-vinden:::to find<found<found
-vliegen:::to fly<flew<flown
-vergeten:::to forget<forgot<forgotten
-vergeven:::to forgive<forgave<forgiven
+drinken - to drink:::drank<drunk
+rijden - to drive:::drove<driven
+eten - to eat:::ate<eaten
+vallen - to fall:::fell<fallen
+voeden - to feed:::fed<fed
+voelen - to feel:::felt<felt
+vinden - to find:::found<found
+vliegen - to fly:::flew<flown
+vergeten - to forget:::forgot<forgotten
+vergeven - to forgive:::forgave<forgiven
