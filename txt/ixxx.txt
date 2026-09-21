@@ -1,16 +1,6 @@
-associer à:::verbinden met
-un chiffre:::een cijfer
-ajouter:::toevoegen
-un extrait:::een fragment
-cocher:::aankruisen
-conjuguer:::vervoegen
-une consigne:::een instructie, een opgave, een opdracht
-une feuille (de brouillon):::een (klad)blad
-lier:::verbinden
-un accord:::een overeenkomst
-un cahier:::een schrift
-barrer:::doorstrepen
-un auxiliaire:::een hulpwerkwoord
-un devoir:::een huiswerk
-un radical:::een stam (van een werkwoord)
-convenir:::overeenkomen
+vliegen - to fly:::flew<flown
+voeden - to feed:::fed<fed
+rijden - to drive:::drove<driven
+vangen, grijpen - to catch:::caught<caught
+kunnen, mogen - can:::could<-
+doen - to do:::did<done
