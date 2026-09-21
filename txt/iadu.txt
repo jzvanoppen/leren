@@ -1,10 +1,10 @@
-kopen:::to buy<bought<bought
-kunnen, mogen:::can<could<-
-vangen, grijpen:::to catch<caught<caught
-kiezen:::to choose<chose<chosen
-komen:::to come<came<come
-kosten:::to cost<cost<cost
-knippen, snijden:::to cut<cut<cut
-doen:::to do<did<done
-tekenen, trekken:::to draw<drew<drawn
-dromen:::to dream<dreamt<dreamt
+kopen - to buy:::bought<bought
+kunnen, mogen - can:::could<-
+vangen, grijpen - to catch:::caught<caught
+kiezen - to choose:::chose<chosen
+komen - to come:::came<come
+kosten - to cost:::cost<cost
+knippen, snijden - to cut:::cut<cut
+doen - to do:::did<done
+tekenen, trekken - to draw:::drew<drawn
+dromen - to dream:::dreamt<dreamt
