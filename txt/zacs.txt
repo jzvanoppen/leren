@@ -1,15 +1,16 @@
-le panier:::het winkelmandje
-le paquet:::het pakje
-le pot:::de pot
-le ravier:::het bakje
-le rayon:::de afdeling
-le sachet:::het zakje
-le sachet:::het pakje
-la tablette:::de reep
-la tranche:::het sneetje
-pelé(e):::gepeld
-tranché(e):::gesneden
-D’accord.:::Akkoord.
-Oh zut, j’ai oublié.:::Oh, verdorie, vergeten.
-On demande ?:::Vragen we het?
-C’est droit devant vous.:::Het is recht voor u.
+het winkelmandje:::le panier
+het pakje:::le paquet
+de pot:::le pot
+het bakje:::le ravier
+de afdeling:::le rayon
+het zakje / het pakje:::le sachet
+de reep:::la tablette
+het sneetje:::la tranche
+gepeld:::pelé:MANNELIJK
+gepeld:::pelée:VROUWELIJK
+gesneden:::tranché:MANNELIJK
+gesneden:::tranchée:VROUWELIJK
+akkoord:::d'accord
+Oh, verdorie, vergeten.:::Oh zut, j'ai oublié.
+Vragen we het?:::On demande ?
+Het is recht voor u.:::C'est droit devant vous.
