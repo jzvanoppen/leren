@@ -1,0 +1,23 @@
+de wortel:::la carotte
+de champignon:::le champignon
+de komkommer:::le concombre
+de courgette:::la courgette
+de prinsessenboon:::le haricot vert
+de sperzieboon:::le haricot vert
+de sla:::la laitue
+de ui:::l'oignon
+de erwt:::le petit pois
+de peper:::le poivron
+de aardappel:::la pomme de terre
+de tomaat:::la tomate
+de banaan:::la banane
+de aardbei:::la fraise
+de framboos:::la framboise
+de kiwi:::le kiwi
+de meloen:::le melon
+de sinaasappel:::l'orange
+de perzik:::la pêche
+de peer:::la poire
+de appel:::la pomme
+de pruim:::la prune
+de druif:::le raisin
