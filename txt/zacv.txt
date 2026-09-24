@@ -1,0 +1,24 @@
+het bier:::la bière
+de koffie:::le café
+de wwarme chocolademelk:::le chocolat (chaud)
+de cola:::le coca
+het spuitwater:::l'eau gazeuse
+het plat water:::l'eau plate
+het sinaasappelsap:::le jus d'orange
+de limonade:::la limonade
+de thee:::le thé
+de wijn:::le vin
+de confituur:::la confiture
+de bloem:::la farine
+de tomatenpuree:::la purée de tomates
+de spaghetti:::les spaghettis
+de suiker:::le sucre
+de gepelde tomaten:::les tomates pelées
+de biefstuk:::le bifteck
+de hamburger:::le steak haché:SH
+de hamburger:::le hamburger:HB
+de ham:::le jambon
+het varkensvlees:::le porc
+het kippenvlees:::le poulet
+de salami:::le salami
+de worst:::la saucisse
