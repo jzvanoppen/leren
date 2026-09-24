@@ -1,7 +1,7 @@
 de boter:::le beurre
-de geraspte kaas:::le fromage (râpé)
+de geraspte kaas:::le fromage râpé
 de melk:::le lait
-het ei:::l’œuf
+het ei:::l'oeuf
 de yoghurt:::le yaourt
 het stokbrood:::la baguette
 de croissant:::le croissant
@@ -17,8 +17,8 @@ de bakkersvrouw:::la boulangère
 de bakkerij:::la boulangerie
 de fles:::la bouteille
 de kassa:::la caisse
-het verjaardagsfeest:::la fête d’anniversaire
-het ingrediënt:::l’ingrédient
+het verjaardagsfeest:::la fête d'anniversaire
+het ingrediënt:::l'ingrédient
 de boodschappenlijst:::la liste de courses
 de markt:::le marché
 het product:::le produit
