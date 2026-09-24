@@ -1,0 +1,15 @@
+kopen:::acheter
+halen:::aller chercher
+vragen:::demander
+boodschappen doen:::faire des courses
+betalen:::payer
+het bakje / het schaaltje:::la barquette
+het blik / de doos:::la boite
+het winkelkarretje:::le caddie
+de klantenkaart:::la carte de fidélité
+het pak / het brik:::la brique
+de bediende:::l'employé:MANNELIJK
+de bediende:::l'employée:VROUWELIJK
+de kruidenierwinkel:::l'épicerie
+de gram:::le gramme
+de kilo:::le kilo
