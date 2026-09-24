@@ -1,0 +1,27 @@
+de boter:::le beurre
+de geraspte kaas:::le fromage (râpé)
+de melk:::le lait
+het ei:::l’œuf
+de yoghurt:::le yaourt
+het stokbrood:::la baguette
+de croissant:::le croissant
+het brood:::le pain
+de chocolade-koek:::le pain au chocolat
+de pistolet:::le petit pain
+de aardbeientaart:::la tarte aux fraises
+de slager:::le boucher
+de slagersvrouw:::la bouchère
+de slagerij:::la boucherie
+de bakker:::le boulanger
+de bakkersvrouw:::la boulangère
+de bakkerij:::la boulangerie
+de fles:::la bouteille
+de kassa:::la caisse
+het verjaardagsfeest:::la fête d’anniversaire
+het ingrediënt:::l’ingrédient
+de boodschappenlijst:::la liste de courses
+de markt:::le marché
+het product:::le produit
+de kleine supermarkt:::la supérette
+de verkoper:::le vendeur
+de verkoopster:::la vendeuse
