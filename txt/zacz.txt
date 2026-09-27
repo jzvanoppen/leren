@@ -1,0 +1,14 @@
+rood:::red
+oranje:::orange
+geel:::yellow
+groen:::green
+blauw:::blue
+paars:::purple
+roze:::pink
+bruin:::brown
+zwart:::black
+wit:::white
+grijs:::grey
+donker:::dark
+licht:::light
+ros:::ginger
