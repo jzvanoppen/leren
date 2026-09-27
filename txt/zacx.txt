@@ -1,13 +1,12 @@
-celkern:::Coördineert de WERKING VAN DE CEL en bevat de erfelijke kenmerken van het organisme (DNA).
-celmembraan:::Dit is de CELBEGRENZING die het transport van stoffen in en uit de cel regelt.
-cytoplasma:::Dit is de CELVLOEISTOF die opgeloste stoffen voor de cel bevat.
-mitochondriën:::Hier gebeuren STOF- EN ENERGIEOMZETTINGEN waarbij glucose wordt verbrand en er ENERGIE VRIJKOMT.
-bladgroenkorrels:::Hier gebeuren STOF- EN ENERGIEOMZETTINGE waarbij VOEDINGSSTOFFEN (glucose) voor de plant WORDEN GEVORMD.
-vacuole:::WATER EN OPGELOSTE STOFFEN worden hier OPGESLAGEN en geven de plantencel extra stevigheid.
-celwand:::Zorgt voor de VORM EN STEVIGHEID van de plantencel.
-celkern:::GROTE BAAS - Ik bevat alle genetische codes van het organisme waarin ik leef. Luister dus goed, want ik ben de baas in de cel!
-mitochondriën:::ENERGIECENTRALE - Ik zet chemische energie in de cel om in andere verschillende energievormen zoals: warmte (thermische energie) en beweging (kinetische energie) ...
-bladgroenkorrel:::GROEN ZONNEPANEEL - Ik gebruik zonlicht om er zelf glucose mee te maken. Ik kleur de plantencellen groen, dat kun jij me niet zomaar nadoen!
-celmembraan:::GELEI DANSKONINGIN - Mijn binnenste is vloeibaar als warme pudding. Hierin vind je alle celonderdelen. Mijn buitenkant is dun en lijkt op het vliesje dat op pudding komt bij afkoeling.
-celwand:::STEVIGE SCHATKIST - Enkel bij plantencellen zorg ik voor de buitenste stevige en dikke celbegrenzing.
-vacuole:::OPSLAGRUIMTE - Als een stevige waterballon duw ik alles aan de kant. Geef me wel genoeg water of de plant wordt slap.
+GROTE BAAS:::celkern
+ENERGIECENTRALE:::mitochondriën
+GROEN ZONNEPANEEL:::bladgroenkorrel
+GELEI DANSKONINGIN:::celmembraan
+STEVIGE SCHATKIST:::celwand
+OPSLAGRUIMTE:::vacuole
+Ik bevat alle genetische codes van het organisme waarin ik leef. Luister dus goed, want ik ben de baas in de cel!:::celkern
+Ik zet chemische energie in de cel om in andere verschillende energievormen zoals: warmte (thermische energie) en beweging (kinetische energie):::mitochondriën
+Ik gebruik zonlicht om er zelf glucose mee te maken. Ik kleur de plantencellen groen, dat kun jij me niet zomaar nadoen!:::bladgroenkorrel
+Mijn binnenste is vloeibaar als warme pudding. Hierin vind je alle celonderdelen. Mijn buitenkant is dun en lijkt op het vliesje dat op pudding komt bij afkoeling.:::celmembraan
+Enkel bij plantencellen zorg ik voor de buitenste stevige en dikke celbegrenzing.:::celwand
+Als een stevige waterballon duw ik alles aan de kant. Geef me wel genoeg water of de plant wordt slap.:::vacuole
