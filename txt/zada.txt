@@ -1,0 +1,19 @@
+een broer of zus:::a sibling
+een tweeling:::a twin
+een tweelingbroer:::a twin brother
+een tweelingzus:::a twin sister
+een zoon:::a son
+een dochter:::a daughter
+een kind:::a child
+de kinderen:::the children
+een schoonbroer:::a brother-in-law
+een schoonzus:::a sister-in-law
+een stiefbroer/een plusbroer:::a stepbrother
+een stiefzus/een pluszus:::a stepsister
+een pleegbroer:::a foster brother
+een pleegzus:::a foster sister
+een halfbroer:::a half-brother
+een halfzus:::a half-sister
+een nicht (dochter van je broer of zus):::a niece
+een neef (zoon van je broer of zus):::a nephew
+een neef/nicht (kind van je oom of tante):::a cousin
