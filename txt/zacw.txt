@@ -1,0 +1,14 @@
+celkern:::Een herkenbaar bolvormig donkergekleurd celonderdeel
+celmembraan:::Een dun vliesje rondom het cytoplasma
+cytoplasma:::Een geleiachtige vloeistof waarin verschillende celonderdelen voorkomen
+mitochondriën:::Heel kleine korreltjes in het cytoplasma, ze zijn amper of niet zichtbaar met een lichtmicroscoop (1-2 µm)
+bladgroenkorrels:::Grotere groene korrels in het cytoplasma van plantencellen (5-10 µm)
+vacuole:::Een blaasje gevuld met vocht dat de celinhoud tegen de celwand duwt
+celwand:::dikke celbegrenzing opgebouwd uit cellulose
+Een herkenbaar bolvormig donkergekleurd celonderdeel:::celkern
+Een dun vliesje rondom het cytoplasma:::celmembraan
+Een geleiachtige vloeistof waarin verschillende celonderdelen voorkomen:::cytoplasma
+Heel kleine korreltjes in het cytoplasma, ze zijn amper of niet zichtbaar met een lichtmicroscoop (1-2 µm):::mitochondriën
+Grotere groene korrels in het cytoplasma van plantencellen (5-10 µm):::bladgroenkorrels
+Een blaasje gevuld met vocht dat de celinhoud tegen de celwand duwt:::vacuole
+dikke celbegrenzing opgebouwd uit cellulose:::celwand
