@@ -1,31 +1,12 @@
-de trap:::l'escalier:::
-de ingang:::l'entrée:::
-het terras:::la terrasse:::
-het huis:::la maison:::
-de keuken:::la cuisine:::
-afgesproken:::d'accord:::
-geweldig, prachtig:::formidable:::
-tegenover:::en face de:::
-tussen:::entre:::
-de lamp:::la lampe:::
-de kast:::l'armoire:::
-het toilet:::les toilettes:::
-het schilderij:::le tableau:::
-de stoel:::la chaise:::
-het donsdeken:::la couette:::
-de stofzuiger:::l'aspirateur:::
-het toestel, het apparaat:::l'appareil:::
-de gootsteen:::l'évier:::
-de diepvriezer:::le congélateur:::
-het hoofdkussen:::l'oreiller:::
-de vuilnisbak:::la poubelle:::
-de wasmachine:::la machine à laver:::
-de kleerkast:::la garde-robe:::
-de oven:::le four:::
-de ingemaakte kast:::le placard:::
-het tapijt:::le tapis:::
-de lade:::le tiroir:::
-rommelig:::en désordre:::
-de kraan:::le robinet:::
-ander:::autre:::
-welkom bij:::bienvenue chez:::
+een pleegzus:::a foster sister:::
+een dochter:::a daughter:::
+een tweelingbroer:::a twin brother:::
+een neef/nicht (kind van je oom of tante):::a cousin:::
+geel:::yellow:::
+licht:::light:::
+paars:::purple:::
+bruin:::brown:::
+bruin:::brown:::
+bruin:::brown:::
+wit:::white:::
+ros:::ginger:::
