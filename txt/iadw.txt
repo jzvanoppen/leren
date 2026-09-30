@@ -1,10 +1,10 @@
-worden, krijgen:::to get<got<got
-geven:::to give<gave<given
-gaan:::to go<went<gone
-groeien:::to grow<grew<grown
-hebben:::to have<had<had
-horen:::to hear<heard<heard
-verbergen:::to hide<hid<hidden
-treffen, slaan:::to hit<hit<hit
-(vast)houden:::to hold<held<held
-pijn doen, bezeren:::to hurt<hurt<hurt
+worden, krijgen - to get:::got<got
+geven - to give:::gave<given
+gaan - to go:::went<gone
+groeien - to grow:::grew<grown
+hebben - to have:::had<had
+horen - to hear:::heard<heard
+verbergen - to hide:::hid<hidden
+treffen, slaan - to hit:::hit<hit
+(vast)houden - to hold:::held<held
+pijn doen, bezeren - to hurt:::hurt<hurt
