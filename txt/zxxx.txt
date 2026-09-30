@@ -1,34 +1,11 @@
-een pleegzus:::a foster sister:::
-een dochter:::a daughter:::
-een tweelingbroer:::a twin brother:::
-een neef/nicht (kind van je oom of tante):::a cousin:::
-geel:::yellow:::
-licht:::light:::
-paars:::purple:::
-bruin:::brown:::
-wit:::white:::
-ros:::ginger:::
-een spitse kin hebben:::to have a pointy chin:::
-een groot voorhoofd hebben:::to have a high forehead:::
-een bleke huid hebben:::to have pale skin:::
-slank zijn:::to be slim:::
-gezet, stevig gebouwd zijn:::to be stocky:::
-gespierd zijn:::to be muscular:::
-overgewicht hebben:::to be overweight:::
-ovaalvormige ogen hebben:::to have almond-shaped eyes:::
-een groot voorhoofd hebben:::to have a high forehead:::
-sproeten hebben:::to have freckles:::
-een schoonheidsvlek hebben:::to have a beauty spot:::
-een neus:::a nose:::
-de wenkbrauwen:::the eyebrows:::
-een neus:::a nose:::
-een snor:::a moustache:::
-rimpels hebben:::to have wrinkles:::
-een bril:::a pair of glasses:::
-een litteken hebben:::to have a scar:::
-een wimper:::an eyelash:::
-een baard:::a beard:::
-een wenkbrauw:::an eyebrow:::
-een neus:::a nose:::
-een snor:::a moustache:::
-een litteken hebben:::to have a scar:::
+jong zijn:::to be young:::
+een bril hebben:::to have glasses:::
+de jongste zijn:::to be the youngest:::
+een beugel hebben:::to have braces:::
+krullend haar hebben:::to have curly hair:::
+zwart haar hebben:::to have black hair:::
+golvend haar hebben:::to have wavy hair:::
+steil haar hebben:::to have straight hair:::
+schouderlengte haar hebben:::to have shoulder length hair:::
+het sneetje:::la tranche:::
+Vragen we het?:::On demande?:::
