@@ -1,14 +1,4 @@
-jong zijn:::to be young:::
-een bril hebben:::to have glasses:::
-de jongste zijn:::to be the youngest:::
-een beugel hebben:::to have braces:::
-krullend haar hebben:::to have curly hair:::
-zwart haar hebben:::to have black hair:::
-golvend haar hebben:::to have wavy hair:::
-steil haar hebben:::to have straight hair:::
-schouderlengte haar hebben:::to have shoulder length hair:::
-het sneetje:::la tranche:::
-Vragen we het?:::On demande?:::
+
 de bediende:::l'employée:::VROUWELIJK
 de klantenkaart:::la carte de fidélité:::
 het bakje / het schaaltje:::la barquette:::
