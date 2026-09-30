@@ -12,5 +12,5 @@ gesneden:::tranché:MANNELIJK
 gesneden:::tranchée:VROUWELIJK
 akkoord:::d'accord
 Oh, verdorie, vergeten.:::Oh zut, j'ai oublié.
-Vragen we het?:::On demande ?
+Vragen we het?:::On demande?
 Het is recht voor u.:::C'est droit devant vous.
