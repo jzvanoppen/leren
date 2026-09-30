@@ -1,6 +1,8 @@
-vliegen - to fly:::flew<flown
-voeden - to feed:::fed<fed
-rijden - to drive:::drove<driven
-vangen, grijpen - to catch:::caught<caught
-kunnen, mogen - can:::could<-
-doen - to do:::did<done
+leren - to learn:::learnt<learnt
+liggen - to lie:::lay<lain
+hebben - to have:::had<had
+groeien - to grow:::grew<grown
+betalen - to pay:::paid<paid
+(be)rijden - to ride:::rode<ridden
+opstaan - to rise:::rose<risen
+zien - to see:::saw<seen
