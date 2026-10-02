@@ -1,0 +1,144 @@
+ik praat (parler):::je parle
+jij praat (parler):::tu parles
+hij praat (parler):::il parle
+zij praat (parler):::elle parle
+wij praten (parler):::nous parlons
+jullie/u praten (parler):::vous parlez
+zij praten (parler):::ils parlent
+zij praten (parler):::elles parlent
+ik hou van (aimer):::j'aime
+jij houdt van (aimer):::tu aimes
+hij houdt van (aimer):::il aime
+zij houdt van (aimer):::elle aime
+wij houden van (aimer):::nous aimons
+jullie/u houden van (aimer):::vous aimez
+zij houden van (aimer):::ils aiment
+zij houden van (aimer):::elles aiment
+ik woon (habiter):::j'habite
+jij woont (habiter):::tu habites
+hij woont (habiter):::il habite
+zij woont (habiter):::elle habite
+wij wonen (habiter):::nous habitons
+jullie/u wonen (habiter):::vous habitez
+zij wonen (habiter):::ils habitent
+zij wonen (habiter):::elles habitent
+ik verkoop (vendre):::je vends
+jij verkoopt (vendre):::tu vends
+hij verkoopt (vendre):::il vend
+zij verkoopt (vendre):::elle vend
+wij verkopen (vendre):::nous vendons
+jullie/u verkopen (vendre):::vous vendez
+zij verkopen (vendre):::ils vendent
+zij verkopen (vendre):::elles vendent
+ik wacht (attendre):::j'attends
+jij wacht (attendre):::tu attends
+hij wacht (attendre):::il attend
+zij wacht (attendre):::elle attend
+wij wachten (attendre):::nous attendons
+jullie/u wachten (attendre):::vous attendez
+zij wachten (attendre):::ils attendent
+zij wachten (attendre):::elles attendent
+ik verlies (perdre):::je perds
+jij verliest (perdre):::tu perds
+hij verliest (perdre):::il perd
+zij verliest (perdre):::elle perd
+wij verliezen (perdre):::nous perdons
+jullie/u verliezen (perdre):::vous perdez
+zij verliezen (perdre):::ils perdent
+zij verliezen (perdre):::elles perdent
+ik eindig (finir):::je finis
+jij eindigt (finir):::tu finis
+hij eindigt (finir):::il finit
+zij eindigt (finir):::elle finit
+wij eindigen (finir):::nous finissons
+jullie/u eindigen (finir):::vous finissez
+zij eindigen (finir):::ils finissent
+zij eindigen (finir):::elles finissent
+ik groei (grandir):::je grandis
+jij groeit (grandir):::tu grandis
+hij groeit (grandir):::il grandit
+zij groeit (grandir):::elle grandit
+wij groeien (grandir):::nous grandissons
+jullie/u groeien (grandir):::vous grandissez
+zij groeien (grandir):::ils grandissent
+zij groeien (grandir):::elles grandissent
+ik kies (choisir):::je choisis
+jij kiest (choisir):::tu choisis
+hij kiest (choisir):::il choisit
+zij kiest (choisir):::elle choisit
+wij kiezen (choisir):::nous choisissons
+jullie/u kiezen (choisir):::vous choisissez
+zij kiezen (choisir):::ils choisissent
+zij kiezen (choisir):::elles choisissent
+ik vertrek (partir):::je pars
+jij vertrekt (partir):::tu pars
+hij vertrekt (partir):::il part
+zij vertrekt (partir):::elle part
+wij vertrekken (partir):::nous partons
+jullie/u vertrekken (partir):::vous partez
+zij vertrekken (partir):::ils partent
+zij vertrekken (partir):::elles partent
+ik ga uit (sortir):::je sors
+jij gaat uit (sortir):::tu sors
+hij gaat uit (sortir):::il sort
+zij gaat uit (sortir):::elle sort
+wij gaan uit (sortir):::nous sortons
+jullie/u gaan uit (sortir):::vous sortez
+zij gaan uit (sortir):::ils sortent
+zij gaan uit (sortir):::elles sortent
+ik slaap (dormir):::je dors
+jij slaapt (dormir):::tu dors
+hij slaapt (dormir):::il dort
+zij slaapt (dormir):::elle dort
+wij slapen (dormir):::nous dormons
+jullie/u slapen (dormir):::vous dormez
+zij slapen (dormir):::ils dorment
+zij slapen (dormir):::elles dorment
+ik dien (servir):::je sers
+jij dient (servir):::tu sers
+hij dient (servir):::il sert
+zij dient (servir):::elle sert
+wij dienen (servir):::nous servons
+jullie/u dienen (servir):::vous servez
+zij dienen (servir):::ils servent
+zij dienen (servir):::elles servent
+ik voel (sentir):::je sens
+jij voelt (sentir):::tu sens
+hij voelt (sentir):::il sent
+zij voelt (sentir):::elle sent
+wij voelen (sentir):::nous sentons
+jullie/u voelen (sentir):::vous sentez
+zij voelen (sentir):::ils sentent
+zij voelen (sentir):::elles sentent
+ik kom (venir):::je viens
+jij komt (venir):::tu viens
+hij komt (venir):::il vient
+zij komt (venir):::elle vient
+wij komen (venir):::nous venons
+jullie/u komen (venir):::vous venez
+zij komen (venir):::ils viennent
+zij komen (venir):::elles viennent
+ik houd/vast (tenir):::je tiens
+jij houdt/vast (tenir):::tu tiens
+hij houdt/vast (tenir):::il tient
+zij houdt/vast (tenir):::elle tient
+wij houden/vast (tenir):::nous tenons
+jullie/u houden/vast (tenir):::vous tenez
+zij houden/vast (tenir):::ils tiennent
+zij houden/vast (tenir):::elles tiennent
+ik open (ouvrir):::j'ouvre
+jij opent (ouvrir):::tu ouvres
+hij opent (ouvrir):::il ouvre
+zij opent (ouvrir):::elle ouvre
+wij openen (ouvrir):::nous ouvrons
+jullie/u openen (ouvrir):::vous ouvrez
+zij openen (ouvrir):::ils ouvrent
+zij openen (ouvrir):::elles ouvrent
+ik vul (remplir):::je remplis
+jij vult (remplir):::tu remplis
+hij vult (remplir):::il remplit
+zij vult (remplir):::elle remplit
+wij vullen (remplir):::nous remplissons
+jullie/u vullen (remplir):::vous remplissez
+zij vullen (remplir):::ils remplissent
+zij vullen (remplir):::elles remplissent
