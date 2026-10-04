@@ -15,3 +15,5 @@ de suiker:::le sucre:::
 de bloem:::la farine:::
 de salami:::le salami:::
 de worst:::la saucisse:::
+het bakje / het schaaltje:::la barquette:::
+het winkelkarretje:::le caddie:::
