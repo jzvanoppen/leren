@@ -1,10 +1,11 @@
-
-de bediende:::l'employée:::VROUWELIJK
-de klantenkaart:::la carte de fidélité:::
-het bakje / het schaaltje:::la barquette:::
-de kruidenierwinkel:::l'épicerie:::
-het blik / de doos:::la boite:::
-vragen:::demander:::
-het pak / het brik:::la brique:::
-halen:::aller chercher:::
-het winkelkarretje:::le caddie:::
+de boter:::le beurre:::
+de verkoopster:::la vendeuse:::
+de croissant:::le croissant:::
+de yoghurt:::le yaourt:::
+het product:::le produit:::
+het bakje:::le ravier:::
+het winkelmandje:::le panier:::
+het zakje / het pakje:::le sachet:::
+de pruim:::la prune:::
+de aardappel:::la pomme de terre:::
+de peer:::la poire:::
