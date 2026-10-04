@@ -1,0 +1,107 @@
+```text
+le beurre:::de boter
+le fromage râpé:::de geraspte kaas
+le lait:::de melk
+l'oeuf:::het ei
+le yaourt:::de yoghurt
+la baguette:::het stokbrood
+le croissant:::de croissant
+le pain:::het brood
+le pain au chocolat:::de chocolade-koek
+le petit pain:::de pistolet
+la tarte aux fraises:::de aardbeientaart
+le boucher:::de slager
+la bouchère:::de slagersvrouw
+la boucherie:::de slagerij
+le boulanger:::de bakker
+la boulangère:::de bakkersvrouw
+la boulangerie:::de bakkerij
+la bouteille:::de fles
+la caisse:::de kassa
+la fête d'anniversaire:::het verjaardagsfeest
+l'ingrédient:::het ingrediënt
+la liste de courses:::de boodschappenlijst
+le marché:::de markt
+le produit:::het product
+la supérette:::de kleine supermarkt
+le vendeur:::de verkoper
+la vendeuse:::de verkoopster
+le panier:::het winkelmandje
+le paquet:::het pakje
+le pot:::de pot
+le ravier:::het bakje
+le rayon:::de afdeling
+le sachet:::het zakje / het pakje
+la tablette:::de reep
+la tranche:::het sneetje
+pelé:::gepeld:MANNELIJK
+pelée:::gepeld:VROUWELIJK
+tranché:::gesneden:MANNELIJK
+tranchée:::gesneden:VROUWELIJK
+d'accord:::akkoord
+Oh zut, j'ai oublié.:::Oh, verdorie, vergeten.
+On demande?:::Vragen we het?
+C'est droit devant vous.:::Het is recht voor u.
+la carotte:::de wortel
+le champignon:::de champignon
+le concombre:::de komkommer
+la courgette:::de courgette
+le haricot vert:::de prinsessenboon
+le haricot vert:::de sperzieboon
+la laitue:::de sla
+l'oignon:::de ui
+le petit pois:::de erwt
+le poivron:::de peper
+la pomme de terre:::de aardappel
+la tomate:::de tomaat
+la banane:::de banaan
+la fraise:::de aardbei
+la framboise:::de framboos
+le kiwi:::de kiwi
+le melon:::de meloen
+l'orange:::de sinaasappel
+la pêche:::de perzik
+la poire:::de peer
+la pomme:::de appel
+la prune:::de pruim
+le raisin:::de druif
+acheter:::kopen
+aller chercher:::halen
+demander:::vragen
+faire des courses:::boodschappen doen
+payer:::betalen
+la barquette:::het bakje / het schaaltje
+la boite:::het blik / de doos
+le caddie:::het winkelkarretje
+la carte de fidélité:::de klantenkaart
+la brique:::het pak / het brik
+l'employé:::de bediende:MANNELIJK
+l'employée:::de bediende:VROUWELIJK
+l'épicerie:::de kruidenierwinkel
+le gramme:::de gram
+le kilo:::de kilo
+la bière:::het bier
+le café:::de koffie
+le chocolat (chaud):::de warme chocolademelk
+le coca:::de cola
+l'eau gazeuse:::het spuitwater
+l'eau plate:::het plat water
+le jus d'orange:::het sinaasappelsap
+la limonade:::de limonade
+le thé:::de thee
+le vin:::de wijn
+la confiture:::de confituur
+la farine:::de bloem
+la purée de tomates:::de tomatenpuree
+les spaghettis:::de spaghetti
+le sucre:::de suiker
+les tomates pelées:::de gepelde tomaten
+le bifteck:::de biefstuk
+le steak haché:::de hamburger:SH
+le hamburger:::de hamburger:HB
+le jambon:::de ham
+le porc:::het varkensvlees
+le poulet:::het kippenvlees
+le salami:::de salami
+la saucisse:::de worst
+```
