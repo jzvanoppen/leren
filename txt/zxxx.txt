@@ -9,3 +9,9 @@ het zakje / het pakje:::le sachet:::
 de pruim:::la prune:::
 de aardappel:::la pomme de terre:::
 de peer:::la poire:::
+het plat water:::l'eau plate:::
+de confituur:::la confiture:::
+de suiker:::le sucre:::
+de bloem:::la farine:::
+de salami:::le salami:::
+de worst:::la saucisse:::
