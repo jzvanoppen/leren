@@ -2,7 +2,7 @@ een vogel:::a bird
 een kat:::a cat
 een kip:::a chicken
 een hond:::a dog
-een vis:::the fish
+een vis:::a fish
 de vissen:::the fish
 een geit:::a goat
 een hamster:::a hamster
