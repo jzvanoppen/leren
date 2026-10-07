@@ -1,10 +1,10 @@
-verkopen:::to sell<sold<sold
-opsturen:::to send<sent<sent
-plaatsen:::to set<set<set
-schudden:::to shake<shook<shaken
-schijnen:::to shine<shone<shone
-schieten:::to shoot<shot<shot
-tonen:::to show<showed<shown
-zingen:::to sing<sang<sung
-zinken:::to sink<sank<sunk
-zitten:::to sit<sat<sat
+verkopen - to sell:::sold<sold
+opsturen - to send:::sent<sent
+plaatsen - to set:::set<set
+schudden - to shake:::shook<shaken
+schijnen - to shine:::shone<shone
+schieten - to shoot:::shot<shot
+tonen - to show:::showed<shown
+zingen - to sing:::sang<sung
+zinken - to sink:::sank<sunk
+zitten - to sit:::sat<sat
