@@ -1,0 +1,34 @@
+Ik ben (être - zijn):::je suis
+Jij bent (être - zijn):::tu es
+Hij is (être - zijn):::il est
+Wij zijn (être - zijn):::nous sommes
+Jullie zijn (être - zijn):::vous êtes
+Zij zijn (être - zijn):::ils sont:MANNELIJK
+
+Ik heb (avoir - hebben):::j'ai
+Jij hebt (avoir - hebben):::tu as
+Hij heeft (avoir - hebben):::il a
+Wij hebben (avoir - hebben):::nous avons
+Jullie hebben (avoir - hebben):::vous avez
+Zij hebben (avoir - hebben):::ils ont:MANNELIJK
+
+Ik ga (aller - gaan):::je vais
+Jij gaat (aller - gaan):::tu vas
+Hij gaat (aller - gaan):::il va
+Wij gaan (aller - gaan):::nous allons
+Jullie gaan (aller - gaan):::vous allez
+Zij gaan (aller - gaan):::ils vont:MANNELIJK
+
+Ik doe (faire - doen/maken):::je fais
+Jij doet (faire - doen/maken):::tu fais
+Hij doet (faire - doen/maken):::il fait
+Wij doen (faire - doen/maken):::nous faisons
+Jullie doen (faire - doen/maken):::vous faites
+Zij doen (faire - doen/maken):::ils font:MANNELIJK
+
+Ik drink (boire - drinken):::je bois
+Jij drinkt (boire - drinken):::tu bois
+Hij drinkt (boire - drinken):::il boit
+Wij drinken (boire - drinken):::nous buvons
+Jullie drinken (boire - drinken):::vous buvez
+Zij drinken (boire - drinken):::ils boivent:MANNELIJK
