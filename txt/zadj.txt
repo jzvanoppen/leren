@@ -1,0 +1,41 @@
+Ik neem (prendre - nemen):::je prends
+Jij neemt (prendre - nemen):::tu prends
+Hij neemt (prendre - nemen):::il prend
+Wij nemen (prendre - nemen):::nous prenons
+Jullie nemen (prendre - nemen):::vous prenez
+Zij nemen (prendre - nemen):::ils prennent:MANNELIJK
+
+Ik begrijp (comprendre - begrijpen):::je comprends
+Jij begrijpt (comprendre - begrijpen):::tu comprends
+Hij begrijpt (comprendre - begrijpen):::il comprend
+Wij begrijpen (comprendre - begrijpen):::nous comprenons
+Jullie begrijpen (comprendre - begrijpen):::vous comprenez
+Zij begrijpen (comprendre - begrijpen):::ils comprennent:MANNELIJK
+
+Ik leer (apprendre - leren):::j'apprends
+Jij leert (apprendre - leren):::tu apprends
+Hij leert (apprendre - leren):::il apprend
+Wij leren (apprendre - leren):::nous apprenons
+Jullie leren (apprendre - leren):::vous apprenez
+Zij leren (apprendre - leren):::ils apprennent:MANNELIJK
+
+Ik zet/leg (mettre - zetten/leggen):::je mets
+Jij zet/legt (mettre - zetten/leggen):::tu mets
+Hij zet/legt (mettre - zetten/leggen):::il met
+Wij zetten/leggen (mettre - zetten/leggen):::nous mettons
+Jullie zetten/leggen (mettre - zetten/leggen):::vous mettez
+Zij zetten/leggen (mettre - zetten/leggen):::ils mettent:MANNELIJK
+
+Ik beloof (promettre - beloven):::je promets
+Jij belooft (promettre - beloven):::tu promets
+Hij belooft (promettre - beloven):::il promet
+Wij beloven (promettre - beloven):::nous promettons
+Jullie beloven (promettre - beloven):::vous promettez
+Zij beloven (promettre - beloven):::ils promettent:MANNELIJK
+
+Ik sta toe (permettre - toestaan):::je permets
+Jij staat toe (permettre - toestaan):::tu permets
+Hij staat toe (permettre - toestaan):::il permet
+Wij staan toe (permettre - toestaan):::nous permettons
+Jullie staan toe (permettre - toestaan):::vous permettez
+Zij staan toe (permettre - toestaan):::ils permettent:MANNELIJK
