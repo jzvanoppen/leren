@@ -1,0 +1,48 @@
+Ik eet (manger - eten):::je mange
+Jij eet (manger - eten):::tu manges
+Hij eet (manger - eten):::il mange
+Wij eten (manger - eten):::nous mangeons
+Jullie eten (manger - eten):::vous mangez
+Zij eten (manger - eten):::ils mangent:MANNELIJK
+
+Ik beweeg (bouger - bewegen):::je bouge
+Jij beweegt (bouger - bewegen):::tu bouges
+Hij beweegt (bouger - bewegen):::il bouge
+Wij bewegen (bouger - bewegen):::nous bougeons
+Jullie bewegen (bouger - bewegen):::vous bougez
+Zij bewegen (bouger - bewegen):::ils bougent:MANNELIJK
+
+Ik verbeter (corriger - verbeteren):::je corrige
+Jij verbetert (corriger - verbeteren):::tu corriges
+Hij verbetert (corriger - verbeteren):::il corrige
+Wij verbeteren (corriger - verbeteren):::nous corrigeons
+Jullie verbeteren (corriger - verbeteren):::vous corrigez
+Zij verbeteren (corriger - verbeteren):::ils corrigent:MANNELIJK
+
+Ik zwem (nager - zwemmen):::je nage
+Jij zwemt (nager - zwemmen):::tu nages
+Hij zwemt (nager - zwemmen):::il nage
+Wij zwemmen (nager - zwemmen):::nous nageons
+Jullie zwemmen (nager - zwemmen):::vous nagez
+Zij zwemmen (nager - zwemmen):::ils nagent:MANNELIJK
+
+Ik gooi/lanceer (lancer - gooien/lanceren):::je lance
+Jij gooit/lanceert (lancer - gooien/lanceren):::tu lances
+Hij gooit/lanceert (lancer - gooien/lanceren):::il lance
+Wij gooien/lanceren (lancer - gooien/lanceren):::nous lançons
+Jullie gooien/lanceren (lancer - gooien/lanceren):::vous lancez
+Zij gooien/lanceren (lancer - gooien/lanceren):::ils lancent:MANNELIJK
+
+Ik plaats (placer - plaatsen):::je place
+Jij plaatst (placer - plaatsen):::tu places
+Hij plaatst (placer - plaatsen):::il place
+Wij plaatsen (placer - plaatsen):::nous plaçons
+Jullie plaatsen (placer - plaatsen):::vous placez
+Zij plaatsen (placer - plaatsen):::ils placent:MANNELIJK
+
+Ik begin (commencer - beginnen):::je commence
+Jij begint (commencer - beginnen):::tu commences
+Hij begint (commencer - beginnen):::il commence
+Wij beginnen (commencer - beginnen):::nous commençons
+Jullie beginnen (commencer - beginnen):::vous commencez
+Zij beginnen (commencer - beginnen):::ils commencent:MANNELIJK
