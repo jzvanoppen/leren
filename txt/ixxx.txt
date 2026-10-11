@@ -1,8 +1,10 @@
-leren - to learn:::learnt<learnt
-liggen - to lie:::lay<lain
-hebben - to have:::had<had
-groeien - to grow:::grew<grown
-betalen - to pay:::paid<paid
-(be)rijden - to ride:::rode<ridden
-opstaan - to rise:::rose<risen
-zien - to see:::saw<seen
+gemoeten:::fallu:::
+gekund:::pu:::
+geleefd:::vécu:::
+gezeten:::assis:::
+geleden:::souffert:::
+gehouden:::tenu:::
+couvrir:::couvert:::
+bedekt:::couvert:::
+geleerd:::appris:::
+gemoeten:::dû:::
