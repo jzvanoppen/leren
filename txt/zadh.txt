@@ -12,6 +12,7 @@ Wij hebben (avoir - hebben):::nous avons
 Jullie hebben (avoir - hebben):::vous avez
 Zij hebben (avoir - hebben):::ils ont:MANNELIJK
 
+
 Ik ga (aller - gaan):::je vais
 Jij gaat (aller - gaan):::tu vas
 Hij gaat (aller - gaan):::il va
