@@ -1,13 +1,13 @@
-a:::a bird (een vogel)
-an:::an apple (een appel)
-a:::a dog (een hond)
-an:::an egg (een ei)
-a:::a cat (een kat)
-an:::an orange (een sinaasappel)
-a:::a book (een boek)
-an:::an elephant (een olifant)
-a:::a house (een huis)
-an:::an umbrella (een paraplu)
+... bird (een vogel):::a bird
+... apple (een appel):::an apple
+... dog (een hond):::a dog
+... egg (een ei):::an egg
+... cat (een kat):::a cat
+... orange (een sinaasappel):::an orange
+... book (een boek):::a book
+... elephant (een olifant):::an elephant
+... house (een huis):::a house
+... umbrella (een paraplu):::an umbrella
 one person > two ...:::two people
 one child > two ...:::two children
 one mouse > two ...:::two mice
