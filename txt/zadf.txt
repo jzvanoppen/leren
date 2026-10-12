@@ -1,4 +1,3 @@
-```text
 le beurre:::de boter
 le fromage râpé:::de geraspte kaas
 le lait:::de melk
@@ -104,4 +103,3 @@ le porc:::het varkensvlees
 le poulet:::het kippenvlees
 le salami:::de salami
 la saucisse:::de worst
-```
