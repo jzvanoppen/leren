@@ -1,0 +1,16 @@
+a:::a bird (een vogel)
+an:::an apple (een appel)
+a:::a dog (een hond)
+an:::an egg (een ei)
+a:::a cat (een kat)
+an:::an orange (een sinaasappel)
+a:::a book (een boek)
+an:::an elephant (een olifant)
+a:::a house (een huis)
+an:::an umbrella (een paraplu)
+one person > two ...:::two people
+one child > two ...:::two children
+one mouse > two ...:::two mice
+one fish > two ...:::two fish
+one woman > two ...:::two women
+one man > two ...:::two men
