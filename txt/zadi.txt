@@ -4,21 +4,18 @@ Hij komt (venir - komen):::il vient
 Wij komen (venir - komen):::nous venons
 Jullie komen (venir - komen):::vous venez
 Zij komen (venir - komen):::ils viennent:MANNELIJK
-
 Ik hou vast (tenir - vasthouden):::je tiens
 Jij houdt vast (tenir - vasthouden):::tu tiens
 Hij houdt vast (tenir - vasthouden):::il tient
 Wij houden vast (tenir - vasthouden):::nous tenons
 Jullie houden vast (tenir - vasthouden):::vous tenez
 Zij houden vast (tenir - vasthouden):::ils tiennent:MANNELIJK
-
 Ik kom terug (revenir - terugkomen):::je reviens
 Jij komt terug (revenir - terugkomen):::tu reviens
 Hij komt terug (revenir - terugkomen):::il revient
 Wij komen terug (revenir - terugkomen):::nous revenons
 Jullie komen terug (revenir - terugkomen):::vous revenez
 Zij komen terug (revenir - terugkomen):::ils reviennent:MANNELIJK
-
 Ik onthoud (retenir - onthouden):::je retiens
 Jij onthoudt (retenir - onthouden):::tu retiens
 Hij onthoudt (retenir - onthouden):::il retient
