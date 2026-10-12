@@ -14,3 +14,8 @@ one mouse > two ...:::two mice
 one fish > two ...:::two fish
 one woman > two ...:::two women
 one man > two ...:::two men
+a cat > two ...:::two cats
+a photo > two ...:::two photos
+a book > two ...:::two books
+an animal > two ...:::two animals
+a pen > two ...:::two pens
