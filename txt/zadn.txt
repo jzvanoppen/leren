@@ -1,0 +1,30 @@
+I love Jane. She loves ...:::me
+He loves Julia. She loves ...:::him
+She likes Tom. He likes ...:::her
+I have a new bike. I ride ... to school.:::it
+Anna calls Peter. He calls ... back.:::her
+Tom sees the dog. He feeds ... every morning.:::it
+She helps Mark. He thanks ...:::her
+I know Lisa. She knows ...:::me
+He is my brother. I love ...:::him
+She is my sister. I call ... every day.:::her
+I read the book. I like ... a lot.:::it
+Sam loves Emma. She loves ... too.:::him
+I help Tom. He thanks ...:::me
+Lucy has a cat. She plays with ... every day.:::it
+He visits Anna. She waits for ... at the station.:::him
+We help Tom. He thanks ...:::us
+You help me. I thank ...:::you
+They help Anna. She thanks ...:::them
+We call Peter. He calls ... back.:::us
+You call Sara. She calls ... back.:::you
+They call me. I call ... back.:::them
+We love our grandma. She loves ... too.:::us
+You are my friend. I trust ...:::you
+They are my neighbours. I often visit ...:::them
+We like Mr Brown. He teaches ... English.:::us
+You sing very well. I listen to ... every day.:::you
+They play outside. Mum calls ... for dinner.:::them
+We are late. The teacher waits for ...:::us
+You look sad. Tom wants to help ...:::you
+They live next door. We often see ... in the garden.:::them
