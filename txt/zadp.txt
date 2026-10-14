@@ -1,0 +1,71 @@
+zéro:::0
+un:::1
+deux:::2
+trois:::3
+quatre:::4
+cinq:::5
+six:::6
+sept:::7
+huit:::8
+neuf:::9
+dix:::10
+onze:::11
+douze:::12
+treize:::13
+quatorze:::14
+quinze:::15
+seize:::16
+dix-sept:::17
+dix-huit:::18
+dix-neuf:::19
+vingt:::20
+vingt et un:::21
+vingt-deux:::22
+vingt-cinq:::25
+vingt-huit:::28
+trente:::30
+trente et un:::31
+trente-trois:::33
+trente-six:::36
+quarante:::40
+quarante et un:::41
+quarante-quatre:::44
+quarante-sept:::47
+cinquante:::50
+cinquante-deux:::52
+cinquante-cinq:::55
+cinquante-neuf:::59
+soixante:::60
+soixante et un:::61
+soixante-quatre:::64
+soixante-huit:::68
+septante:::70
+septante et un:::71
+septante-cinq:::75
+septante-sept:::77
+quatre-vingts:::80
+quatre-vingt-un:::81
+quatre-vingt-trois:::83
+nonante:::90
+nonante et un:::91
+nonante-neuf:::99
+cent:::100
+cent un:::101
+cent dix:::110
+cent vingt:::120
+cent vingt et un:::121
+cent quarante-quatre:::144
+deux cents:::200
+deux cent un:::201
+deux cent cinquante:::250
+trois cents:::300
+trois cent soixante-cinq:::365
+quatre cents:::400
+quatre cent nonante-neuf:::499
+cinq cents:::500
+six cents:::600
+sept cent septante-sept:::777
+huit cents:::800
+huit cent quatre-vingt-huit:::888
+neuf cents:::900
+neuf cent nonante-neuf:::999
