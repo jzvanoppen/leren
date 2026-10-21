@@ -1,0 +1,17 @@
+aller (gaan):::ir
+avoir (hebben):::aur
+courir (lopen):::courr
+devenir (worden):::deviendr
+devoir (moeten):::devr
+envoyer (sturen):::enverr
+être (zijn):::ser
+faire (doen/maken):::fer
+falloir (nodig zijn):::faudr
+mourir (sterven):::mourr
+pleuvoir (regenen):::pleuvr
+pouvoir (kunnen):::pourr
+recevoir (ontvangen):::recevr
+savoir (weten):::saur
+venir (komen):::viendr
+voir (zien):::verr
+vouloir (willen):::voudr
