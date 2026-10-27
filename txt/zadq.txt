@@ -23,32 +23,3 @@ een school:::a school
 een internaat:::a boarding school
 een gang:::a corridor / a hallway
 een klaslokaal:::a classroom
-een turnzaal:::a gym
-een bibliotheek:::a library
-een locker:::a locker
-een muzieklokaal:::a music room
-een speelplaats:::a playground
-een (school)kantine:::a (school) canteen
-een wetenschapslokaal:::a science lab
-een leraarskamer:::a staff room / a teacher’s lounge
-naar een boekenclub gaan:::to go to a book club
-naar een muziekclub gaan:::to go to a music club
-naar een sportclub gaan:::to go to a sports club
-sport beoefenen:::to do sports
-voetballen:::to play football
-muziek spelen:::to play music
-zingen:::to sing
-lunchen:::to eat lunch / to have lunch
-een activiteit beginnen:::to start an activity
-een activiteit beëindigen:::to finish an activity
-een e-mail sturen:::to send an email
-een boek lenen:::to borrow a book
-de bus nemen:::to catch the bus
-naar huis gaan:::to go home
-met de bus naar huis gaan:::to go home by bus
-met de auto naar school gaan:::to go to school by car
-te voet naar school gaan:::to go to school on foot
-Engels studeren:::to study English
-(jouw) huiswerk maken:::to do (your) homework
-goed zijn in / goed kunnen:::to be good at
-veel talent hebben:::to be very talented
