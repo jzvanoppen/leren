@@ -13,7 +13,7 @@ sport beoefenen:::to do sports
 voetballen:::to play football
 muziek spelen:::to play music
 zingen:::to sing
-lunchen:::to eat lunch / to have lunch
+lunchen:::to eat lunch
 een activiteit beginnen:::to start an activity
 een activiteit beëindigen:::to finish an activity
 een e-mail sturen:::to send an email
