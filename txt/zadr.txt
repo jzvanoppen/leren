@@ -3,9 +3,9 @@ een bibliotheek:::a library
 een locker:::a locker
 een muzieklokaal:::a music room
 een speelplaats:::a playground
-een (school)kantine:::a (school) canteen
+een schoolkantine:::a canteen
 een wetenschapslokaal:::a science lab
-een leraarskamer:::a staff room / a teacher's lounge
+een leraarskamer:::a staff room
 naar een boekenclub gaan:::to go to a book club
 naar een muziekclub gaan:::to go to a music club
 naar een sportclub gaan:::to go to a sports club
@@ -24,6 +24,6 @@ met de bus naar huis gaan:::to go home by bus
 met de auto naar school gaan:::to go to school by car
 te voet naar school gaan:::to go to school on foot
 Engels studeren:::to study English
-(jouw) huiswerk maken:::to do (your) homework
+jouw huiswerk maken:::to do your homework
 goed zijn in / goed kunnen:::to be good at
 veel talent hebben:::to be very talented
