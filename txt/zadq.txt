@@ -15,8 +15,8 @@ muziek:::music
 natuurwetenschappen:::natural sciences
 biologie:::biology
 fysica:::physics
-lichamelijke opvoeding (LO):::physical education
-godsdienst:::religious education
+lichamelijke opvoeding (LO):::PE
+godsdienst:::RE
 STEM:::STEM
 houtbewerking:::woodwork
 een school:::a school
