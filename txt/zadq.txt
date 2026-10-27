@@ -7,7 +7,7 @@ geschiedenis:::history
 huishoudkunde:::home economics
 ICT:::ICT
 Latijn:::Latin
-wiskunde:::mathematics (maths)
+wiskunde:::mathematics
 metaalbewerking:::metalwork
 Engels:::English
 Frans:::French
@@ -15,11 +15,11 @@ muziek:::music
 natuurwetenschappen:::natural sciences
 biologie:::biology
 fysica:::physics
-lichamelijke opvoeding (LO):::physical education (PE)
-godsdienst:::religious education (RE)
+lichamelijke opvoeding (LO):::physical education
+godsdienst:::religious education
 STEM:::STEM
 houtbewerking:::woodwork
 een school:::a school
 een internaat:::a boarding school
-een gang:::a corridor / a hallway
+een gang:::a corridor
 een klaslokaal:::a classroom
