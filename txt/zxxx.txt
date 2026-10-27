@@ -2,3 +2,16 @@ natuurwetenschappen:::natural sciences:::
 biologie:::biology:::
 wiskunde:::mathematics:::
 aardrijkskunde:::geography:::
+sport beoefenen:::to do sports:::
+een e-mail sturen:::to send an email:::
+de bus nemen:::to catch the bus:::
+een schoolkantine:::a canteen:::
+naar een sportclub gaan:::to go to a sports club:::
+te voet naar school gaan:::to go to school on foot:::
+een bibliotheek:::a library:::
+een wetenschapslokaal:::a science lab:::
+jouw huiswerk maken:::to do your homework:::
+een activiteit beëindigen:::to finish an activity:::
+veel talent hebben:::to be very talented:::
+naar een boekenclub gaan:::to go to a book club:::
+de bus nemen:::to catch the bus:::
