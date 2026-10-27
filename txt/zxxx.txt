@@ -1,19 +1,4 @@
-de boter:::le beurre:::
-de verkoopster:::la vendeuse:::
-de croissant:::le croissant:::
-de yoghurt:::le yaourt:::
-het product:::le produit:::
-het bakje:::le ravier:::
-het winkelmandje:::le panier:::
-het zakje / het pakje:::le sachet:::
-de pruim:::la prune:::
-de aardappel:::la pomme de terre:::
-de peer:::la poire:::
-het plat water:::l'eau plate:::
-de confituur:::la confiture:::
-de suiker:::le sucre:::
-de bloem:::la farine:::
-de salami:::le salami:::
-de worst:::la saucisse:::
-het bakje / het schaaltje:::la barquette:::
-het winkelkarretje:::le caddie:::
+natuurwetenschappen:::natural sciences:::
+biologie:::biology:::
+wiskunde:::mathematics:::
+aardrijkskunde:::geography:::
