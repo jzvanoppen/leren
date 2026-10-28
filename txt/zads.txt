@@ -1,32 +1,30 @@
-I ... very happy with my new guitar:::am:POSITIEF
-You ... ready for the test yet:::are not:NEGATIEF
-He ... the best student in our English class:::is:POSITIEF
-She ... at the concert last night:::is not:NEGATIEF
-It ... a very interesting book to read:::is:POSITIEF
-We ... late, so we have to hurry:::are:POSITIEF
-You ... allowed to park your car here:::are not:NEGATIEF
-They ... ready to start the rehearsal:::are:POSITIEF
-I ... sure about the exact date:::am not:NEGATIEF
-Sarah and Tom ... at school today because they are sick:::are not:NEGATIEF
-
-I ... a red bicycle for my birthday:::have got:POSITIEF
-He ... a blue car, he takes the bus instead:::has not got:NEGATIEF
-You ... a lot of homework to do tonight:::have got:POSITIEF
-She ... any brothers or sisters, she is an only child:::has not got:NEGATIEF
-We ... tickets for the concert next week:::have got:POSITIEF
-They ... enough time to finish the project today:::have not got:NEGATIEF
-Peter ... a very nice apartment in the city center:::has got:POSITIEF
-You ... your umbrella with you, it is going to rain:::have not got:NEGATIEF
-I ... a pet dog named Max:::have got:POSITIEF
-Sarah ... a computer at home, so she uses the one at school:::has not got:NEGATIEF
-
-I ... speak three different languages fluently:::can:POSITIEF
-You ... park your car here, it is forbidden:::cannot:NEGATIEF
-He ... play the piano very well after years of practice:::can:POSITIEF
-She ... come to the party tonight because she is busy:::cannot:NEGATIEF
-We ... finish this exercise together:::can:POSITIEF
-They ... hear the music because it is too quiet:::cannot:NEGATIEF
-Tom ... swim across the entire pool:::can:POSITIEF
-You ... touch the paintings in the museum:::cannot:NEGATIEF
-I ... help you with your English homework tomorrow:::can:POSITIEF
-My little brother ... ride a bike yet:::cannot:NEGATIEF
+I ___ very happy with my new guitar:::am:POSITIEF
+You ___ ready for the test yet:::are not:NEGATIEF
+He ___ the best student in our English class:::is:POSITIEF
+She ___ at the concert last night:::is not:NEGATIEF
+It ___ a very interesting book to read:::is:POSITIEF
+We ___ late, so we have to hurry:::are:POSITIEF
+You ___ allowed to park your car here:::are not:NEGATIEF
+They ___ ready to start the rehearsal:::are:POSITIEF
+I ___ sure about the exact date:::am not:NEGATIEF
+Sarah and Tom ___ at school today because they are sick:::are not:NEGATIEF
+I ___ a red bicycle for my birthday:::have got:POSITIEF
+He ___ a blue car, he takes the bus instead:::has not got:NEGATIEF
+You ___ a lot of homework to do tonight:::have got:POSITIEF
+She ___ any brothers or sisters, she is an only child:::has not got:NEGATIEF
+We ___ tickets for the concert next week:::have got:POSITIEF
+They ___ enough time to finish the project today:::have not got:NEGATIEF
+Peter ___ a very nice apartment in the city center:::has got:POSITIEF
+You ___ your umbrella with you, it is going to rain:::have not got:NEGATIEF
+I ___ a pet dog named Max:::have got:POSITIEF
+Sarah ___ a computer at home, so she uses the one at school:::has not got:NEGATIEF
+I ___ speak three different languages fluently:::can:POSITIEF
+You ___ park your car here, it is forbidden:::cannot:NEGATIEF
+He ___ play the piano very well after years of practice:::can:POSITIEF
+She ___ come to the party tonight because she is busy:::cannot:NEGATIEF
+We ___ finish this exercise together:::can:POSITIEF
+They ___ hear the music because it is too quiet:::cannot:NEGATIEF
+Tom ___ swim across the entire pool:::can:POSITIEF
+You ___ touch the paintings in the museum:::cannot:NEGATIEF
+I ___ help you with your English homework tomorrow:::can:POSITIEF
+My little brother ___ ride a bike yet:::cannot:NEGATIEF
