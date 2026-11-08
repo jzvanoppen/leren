@@ -21,3 +21,10 @@ Northern Ireland:::Belfast
 Edinburgh:::Scotland
 Cardiff:::Wales
 Belfast:::Northern Ireland
+kleuterschool:::nursery
+lagere school:::primary school
+middelbare school:::secondary school
+hogeschool:::sixth form
+universiteit:::college
+schoolvak:::subject
+diploma:::degree
