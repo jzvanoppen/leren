@@ -15,3 +15,9 @@ New Delhi:::India
 Canberra:::Australia
 Auckland:::New Zealand
 naam van de vlag van England:::Union Jack
+Scotland:::Edinburgh
+Wales:::Cardiff
+Northern Ireland:::Belfast
+Edinburgh:::Scotland
+Cardiff:::Wales
+Belfast:::Northern Ireland
