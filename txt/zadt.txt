@@ -1,0 +1,17 @@
+Canada:::Ottawa
+America:::Washington
+Ireland:::Dublin
+England:::London
+South Africa:::Pretoria
+India:::New Delhi
+Australia:::Canberra
+New Zealand:::Auckland
+Ottawa:::Canada
+Washington:::America
+Dublin:::Ireland
+London:::England
+Pretoria:::South Africa
+New Delhi:::India
+Canberra:::Australia
+Auckland:::New Zealand
+naam van de vlag van England:::Union Jack
