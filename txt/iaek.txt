@@ -1,6 +1,6 @@
 de hersteller:::le dépanneur
 de vrije val:::la chute libre
-de beklimming / het klimmen:::l’escalade
+de beklimming / het klimmen:::l'escalade
 de klif:::la falaise
 de slee / het sleeën:::la luge
 de oplossing:::la solution
@@ -16,4 +16,4 @@ weigeren:::refuser
 springen:::sauter
 stelen:::voler
 getuige zijn van:::être témoin de
-ik begrijp er niets van:::je n’y comprends rien
+ik begrijp er niets van:::je n'y comprends rien
