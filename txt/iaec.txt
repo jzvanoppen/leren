@@ -11,3 +11,8 @@ devoir (gemoeten):::dû
 dire (gezegd):::dit
 écrire (geschreven):::écrit
 être (geweest):::été
+recevoir (gekregen):::reçu
+rire (gelachen):::ri
+s'asseoir (gezeten):::assis
+savoir (geweten):::su
+souffrir (geleden):::souffert
