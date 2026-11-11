@@ -1,0 +1,17 @@
+morgen:::demain
+overmorgen:::après-demain
+vandaag:::aujourd'hui
+in de herfst:::en automne
+in de winter:::en hiver
+in de lente:::au printemps
+in de zomer:::en été
+Het is mooi weer:::Il fait beau
+Het is warm weer:::Il fait chaud
+Het is koud:::Il fait froid
+Het is slecht weer:::Il fait mauvais
+Het sneeuwt:::Il neige
+Het regent:::Il pleut
+Het is zonnig:::Il y a du soleil
+Het is winderig:::Il y a du vent
+Welk seizoen is het:::On est en quelle saison
+Hoe is het weer:::Il fait quel temps
