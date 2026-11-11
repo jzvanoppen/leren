@@ -1,11 +1,37 @@
-recevoir (gekregen):::reçu
-rire (gelachen):::ri
-s'asseoir (gezeten):::assis
-savoir (geweten):::su
-souffrir (geleden):::souffert
-suivre (gevolgd):::suivi
-tenir (gehouden):::tenu
-venir (gekomen):::venu
-vivre (geleefd):::vécu
-voir (gezien):::vu
-vouloir (gewild):::voulu
+ik heb gemaakt (faire):::j'ai fait
+jij hebt gemoeten (falloir):::il a fallu
+hij heeft gelezen (lire):::il a lu
+wij hebben geplaatst (mettre):::nous avons mis
+zij is gestorven (mourir):::elle est morte
+hij is geboren (naître):::il est né
+ik heb aangeboden (offrir):::j'ai offert
+jullie hebben geopend (ouvrir):::vous avez ouvert
+hij heeft toegelaten (permettre):::il a permis
+het heeft geregend (pleuvoir):::il a plu
+wij hebben gekund (pouvoir):::nous avons pu
+jij hebt genomen (prendre):::tu as pris
+ik heb beloofd (promettre):::j'ai promis
+zij hebben gevolgd (suivre):::ils ont suivi
+hij heeft gehouden (tenir):::il a tenu
+wij zijn gekomen (venir):::nous sommes venus
+ik heb geleefd (vivre):::j'ai vécu
+jij hebt gezien (voir):::tu as vu
+zij heeft gewild (vouloir):::elle a voulu
+ik heb geleerd (apprendre):::j'ai appris
+wij hebben gehad (avoir):::nous avons eu
+hij heeft gedronken (boire):::il a bu
+jullie hebben begrepen (comprendre):::vous avez compris
+ik heb gekend (connaître):::j'ai connu
+zij heeft gelopen (courir):::elle a couru
+hij heeft bedekt (couvrir):::il a couvert
+wij hebben geloofd (croire):::nous avons cru
+hij is geworden (devenir):::il est devenu
+jij hebt gemoeten (devoir):::tu as dû
+ik heb gezegd (dire):::j'ai dit
+zij heeft geschreven (écrire):::elle a écrit
+wij zijn geweest (être):::nous avons été
+hij heeft gekregen (recevoir):::il a reçu
+jullie hebben gelachen (rire):::vous avez ri
+hij heeft gezeten (s'asseoir):::il s'est assis
+ik heb geweten (savoir):::j'ai su
+zij heeft geleden (souffrir):::elle a souffert
