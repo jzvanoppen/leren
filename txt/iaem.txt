@@ -1,0 +1,36 @@
+science-fiction film:::science-fiction film
+western:::western
+animated short film:::animated short film
+drama series:::drama series
+crime:::crime
+costume drama:::costume drama
+crime costume drama:::crime costume drama
+spannend:::exciting
+saai:::boring
+onderhoudend:::entertaining
+voorspelbaar:::predictable
+onvoorspelbaar:::unpredictable
+avontuurlijk:::adventurous
+geweldig:::awesome
+indrukwekkend:::impressive
+sprookjesachtig:::glamorous
+alledaags, gewoon:::ordinary
+teleurgesteld:::disappointed
+geweldig:::amazing
+spannend:::thrilling
+'feel good':::feel-good
+hartverwarmend:::heart-warming
+kinderachtig:::childish
+gruwelijk:::gruesome
+choquerend:::shocking
+verschrikkelijk:::horrible
+ondertitels:::subtitles
+nasynchroniseren:::to dub
+verbieden:::to ban
+een verhaal:::a plot
+een regisseur:::a director
+een script:::a script
+een scène:::a scene
+een hoofdacteur / actrice:::a lead actor
+de hoofdrol spelen in:::to star in
+een vervolgfilm:::a sequel
