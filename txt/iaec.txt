@@ -1,26 +1,13 @@
-apprendre:::appris
-geleerd:::appris
-avoir:::eu
-gehad:::eu
-boire:::bu
-gedronken:::bu
-comprendre:::compris
-begrepen:::compris
-connaître:::connu
-gekend:::connu
-courir:::couru
-gelopen:::couru
-couvrir:::couvert
-bedekt:::couvert
-croire:::cru
-geloofd:::cru
-devenir:::devenu
-geworden:::devenu
-devoir:::dû
-gemoeten:::dû
-dire:::dit
-gezegd:::dit
-écrire:::écrit
-geschreven:::écrit
-être:::été
-geweest:::été
+apprendre (geleerd):::appris
+avoir (gehad):::eu
+boire (gedronken):::bu
+comprendre (begrepen):::compris
+connaître (gekend):::connu
+courir (gelopen):::couru
+couvrir (bedekt):::couvert
+croire (geloofd):::cru
+devenir (geworden):::devenu
+devoir (gemoeten):::dû
+dire (gezegd):::dit
+écrire (geschreven):::écrit
+être (geweest):::été
