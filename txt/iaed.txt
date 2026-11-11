@@ -1,26 +1,13 @@
-faire:::fait
-gemaakt / gedaan:::fait
-falloir:::fallu
-gemoeten:::fallu
-lire:::lu
-gelezen:::lu
-mettre:::mis
-gezet, geplaatst, gelegd:::mis
-mourir:::mort
-gestorven:::mort
-naître:::né
-geboren:::né
-offrir:::offert
-aangeboden:::offert
-ouvrir:::ouvert
-geopend:::ouvert
-permettre:::permis
-toegelaten:::permis
-pleuvoir:::plu
-geregend:::plu
-pouvoir:::pu
-gekund:::pu
-prendre:::pris
-genomen:::pris
-promettre:::promis
-beloofd:::promis
+faire (gemaakt):::fait
+falloir (gemoeten):::fallu
+lire (gelezen):::lu
+mettre (gezet, geplaatst, gelegd):::mis
+mourir (gestorven):::mort
+naître (geboren):::né
+offrir (aangeboden):::offert
+ouvrir (geopend):::ouvert
+permettre (toegelaten):::permis
+pleuvoir (geregend):::plu
+pouvoir (gekund):::pu
+prendre (genomen):::pris
+promettre (beloofd):::promis
