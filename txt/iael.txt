@@ -1,0 +1,23 @@
+een droomprins:::Prince Charming
+een tovenaar:::a sorcerer
+een tovenares:::a sorceress
+een dwerg:::a dwarf
+een reus:::a giant
+een goede fee:::a fairy godmother
+een geest:::a genie
+een ridder:::a knight
+een heks:::a witch
+een held:::a hero
+een slechterik:::a villain
+action:::action
+adventure:::adventure
+biopic:::biopic
+musical:::musical
+thriller:::thriller
+fantasy:::fantasy
+animated film:::animated film
+documentary:::documentary
+horror film:::horror film
+romantic comedy:::romantic comedy
+comedy:::comedy
+romantic drama:::romantic drama
