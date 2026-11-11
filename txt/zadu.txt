@@ -1,105 +1,20 @@
-Nederlands:::Frans
-
-### Zelfstandige naamwoorden
-
 de boom:::l'arbre
-
 het bos:::les bois
-
 de laars:::la botte
-
 het platteland:::la campagne
-
 de pet:::la casquette
-
 het water:::l'eau
-
 de drinkfles:::la gourde
-
 de zee:::la mer
-
 de berg:::la montagne
-
 de natuur:::la nature
-
 de sneeuw:::la neige
-
 de paraplu:::le parapluie
-
 de trui:::le pull
-
 de rugzak:::le sac à dos
-
 de zon:::le soleil
-
 het weer:::le temps
-
 de wind:::le vent
-
 de jas, de vest:::la veste
-
-### Bijvoeglijk naamwoord
-
-volgend(e):::prochain, prochaine
-
-### Andere woorden
-
-(over)morgen:::(après-)demain
-
-vandaag:::aujourd'hui
-
-### De seizoenen
-
-in de herfst:::en automne
-
-in de winter:::en hiver
-
-in de lente:::au printemps
-
-in de zomer:::en été
-
-### Het weer
-
-Het is mooi weer.:::Il fait beau.
-
-Het is warm (weer).:::Il fait chaud.
-
-Het is koud.:::Il fait froid.
-
-Het is slecht weer.:::Il fait mauvais.
-
-Het sneeuwt.:::Il neige.
-
-Het regent.:::Il pleut.
-
-Het is zonnig.:::Il y a du soleil.
-
-Het is winderig.:::Il y a du vent.
-
-### Activiteiten
-
-naar muziek luisteren:::écouter de la musique
-
-fietsen:::faire du cyclisme / du vélo
-
-klimmen:::faire de l'escalade
-
-rondhangen in de stad:::traîner en ville
-
-zwemmen:::nager
-
-een spel spelen:::jouer à un jeu
-
-winkelen:::faire du shopping
-
-### Extra zinnen
-
-Welk seizoen is het?:::On est en quelle saison ?
-
-Hoe is het weer?:::Il fait quel temps ?
-
-Welke activiteiten doen jullie?:::Vous faites quelles activités ?
-
-We gaan ...:::On va ...
-
-Het (gerecht) is warm.:::C'est chaud.
+volgend:::prochain
+volgende:::prochaine
