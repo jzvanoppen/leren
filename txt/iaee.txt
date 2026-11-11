@@ -1,22 +1,11 @@
-recevoir:::reçu
-gekregen:::reçu
-rire:::ri
-gelachen:::ri
-s'asseoir:::assis
-gezeten:::assis
-savoir:::su
-geweten:::su
-souffrir:::souffert
-geleden:::souffert
-suivre:::suivi
-gevolgd:::suivi
-tenir:::tenu
-gehouden:::tenu
-venir:::venu
-gekomen:::venu
-vivre:::vécu
-geleefd:::vécu
-voir:::vu
-gezien:::vu
-vouloir:::voulu
-gewild:::voulu
+recevoir (gekregen):::reçu
+rire (gelachen):::ri
+s'asseoir (gezeten):::assis
+savoir (geweten):::su
+souffrir (geleden):::souffert
+suivre (gevolgd):::suivi
+tenir (gehouden):::tenu
+venir (gekomen):::venu
+vivre (geleefd):::vécu
+voir (gezien):::vu
+vouloir (gewild):::voulu
