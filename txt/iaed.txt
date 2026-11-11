@@ -11,3 +11,9 @@ pleuvoir (geregend):::plu
 pouvoir (gekund):::pu
 prendre (genomen):::pris
 promettre (beloofd):::promis
+suivre (gevolgd):::suivi
+tenir (gehouden):::tenu
+venir (gekomen):::venu
+vivre (geleefd):::vécu
+voir (gezien):::vu
+vouloir (gewild):::voulu
