@@ -1,4 +1,4 @@
-de windjas:::l’anorak
+de windjas:::l'anorak
 de bikini:::le bikini
 de muts:::le bonnet
 de mist:::le brouillard
@@ -9,5 +9,5 @@ de windstoot:::le coup de vent
 de zonnecrème:::la crème solaire
 de graad:::le degré
 de woestijn:::le désert
-de opklaring:::l’éclaircie
+de opklaring:::l'éclaircie
 het woud:::la forêt
