@@ -1,0 +1,828 @@
+Opa (verwennen) haar kleinkinderen graag met snoep:::verwende:ovt
+
+De bakker (bakken) elke ochtend vers brood:::bakt:ott
+
+Gisteren (verliezen) mijn broer zijn portefeuille:::verloor:ovt
+
+Wij (hebben) vorig jaar een nieuwe fiets (kopen):::hebben gekocht:vtt
+
+Toen de politie aankwam, (vluchten) de dieven al:::waren gevlucht:vvt
+
+Morgen (vertrekken) de leerlingen op schoolreis:::zullen vertrekken:ottk
+
+Als ik meer tijd had, (lezen) ik elke dag een boek:::las:ovt
+
+De kinderen (spelen) gisteren de hele namiddag buiten:::speelden:ovt
+
+Zij (hebben) de brief gisteren al (schrijven):::hebben geschreven:vtt
+
+Nadat hij zijn huiswerk (maken), ging hij voetballen:::had gemaakt:vvt
+
+Als we genoeg geld hadden, (reizen) we volgend jaar naar Australië:::zouden reizen:ovtk
+
+De hond (bijten) soms in zijn speelgoed:::bijt:ott
+
+Vorige week (rijden) mijn vader naar Frankrijk:::reed:ovt
+
+Ik (hebben) nog nooit zo'n mooie film (zien):::heb gezien:vtt
+
+Toen we aankwamen, (beginnen) de film al:::was begonnen:vvt
+
+Straks (krijgen) jij jouw rapport:::zult krijgen:ottk
+
+De juf (geven) elke vrijdag een toets:::geeft:ott
+
+Gisteren (vinden) ik een brief onder mijn deur:::vond:ovt
+
+Mijn zus (hebben) haar kamer helemaal (opruimen):::heeft opgeruimd:vtt
+
+De trein was al vertrokken voordat wij het station (bereiken):::hadden bereikt:vvt
+
+Als hij meer tijd had, (bouwen) hij zelf een boomhut:::zou bouwen:ovtk
+
+De kinderen (drinken) elke ochtend melk:::drinken:ott
+
+Vorige maand (vliegen) wij naar Spanje:::vlogen:ovt
+
+Hij (hebben) zijn sleutels thuis (vergeten):::heeft vergeten:vtt
+
+Nadat de winkel (sluiten), gingen we naar huis:::was gesloten:vvt
+
+Morgen (brengen) de postbode een belangrijk pakketje:::zal brengen:ottk
+
+Mijn grootmoeder (breien) graag warme truien:::breit:ott
+
+De jongen (vallen) gisteren van zijn fiets:::viel:ovt
+
+Wij (hebben) de wedstrijd met twee doelpunten (winnen):::hebben gewonnen:vtt
+
+De leerlingen hadden de oefening al (maken) voordat de bel ging:::gemaakt:vvt
+
+Als ik rijk was, (kopen) ik een groot huis:::zou kopen:ovtk
+
+De ober (dragen) de borden naar de keuken:::draagt:ott
+
+Gisteren (eten) wij frietjes met mayonaise:::aten:ovt
+
+Zij (hebben) haar verjaardag uitgebreid (vieren):::heeft gevierd:vtt
+
+Toen de brandweer arriveerde, (branden) het huis al:::had gebrand:vvt
+
+Later (kunnen) jij zelfstandig naar school gaan:::zult kunnen:ottk
+
+Mijn buurman (maaien) elke zaterdag het gras:::maait:ott
+
+De kinderen (zingen) gisteren een mooi lied:::zongen:ovt
+
+Ik (hebben) mijn boek op school (laten) liggen:::heb laten liggen:vtt
+
+Nadat hij de deur (openen), liep de hond naar buiten:::had geopend:vvt
+
+Als ik kon kiezen, (wonen) ik in een klein dorp:::zou wonen:ovtk
+
+Morgen (zijn) het waarschijnlijk mooi weer:::zal zijn:ottk
+
+De kat (liggen) graag op de vensterbank:::ligt:ott
+
+Vorige zomer (zwemmen) wij elke dag in het meer:::zwommen:ovt
+
+Mijn vader (hebben) een heerlijke taart (bakken):::heeft gebakken:vtt
+
+De leerlingen waren al naar huis (gaan) toen de directeur belde:::gegaan:vvt
+
+Binnenkort (moeten) we een nieuwe oplossing zoeken:::zullen moeten:ottk
+
+De kinderen (begrijpen) de uitleg meestal goed:::begrijpen:ott
+
+De dief (stelen) gisteren een dure fiets:::stal:ovt
+
+Wij (hebben) gisteren onze grootouders (bezoeken):::hebben bezocht:vtt
+
+Toen ik thuiskwam, (maken) mijn zus haar huiswerk al:::had gemaakt:vvt
+
+Als ik meer geld had, (organiseren) ik een groot feest:::zou organiseren:ovtk
+
+Mijn moeder (snijden) elke dag groenten:::snijdt:ott
+
+Gisteren (schieten) de voetballer de bal naast het doel:::schoot:ovt
+
+De leerlingen (hebben) de tekst aandachtig (lezen):::hebben gelezen:vtt
+
+De trein was al (vertrekken) toen we op het perron aankwamen:::vertrokken:vvt
+
+Als hij harder trainde, (winnen) hij misschien de wedstrijd:::zou winnen:ovtk
+
+De kinderen (lopen) elke ochtend naar school:::lopen:ott
+
+Mijn broer (kiezen) gisteren een nieuwe jas:::koos:ovt
+
+Ik (hebben) mijn huissleutels eindelijk (vinden):::heb gevonden:vtt
+
+Nadat de kok het eten (bereiden), mochten we aan tafel:::had bereid:vvt
+
+Volgend jaar (studeren) mijn zus aan de universiteit:::zal studeren:ottk
+
+De leraar (verbieden) het gebruik van gsm's tijdens de toets:::verbiedt:ott
+
+Gisteren (spreken) de directeur met de ouders:::sprak:ovt
+
+Wij (hebben) de hele avond naar muziek (luisteren):::hebben geluisterd:vtt
+
+De kinderen hadden de koekjes al (opeten) voordat mama thuiskwam:::opgegeten:vvt
+
+Als ik jou was, (vertellen) ik de waarheid:::zou vertellen:ovtk
+
+De boer (melken) elke ochtend zijn koeien:::melkt:ott
+
+Vorige week (breken) mijn zus haar bril:::brak:ovt
+
+Hij (hebben) zijn kamer netjes (houden):::heeft gehouden:vtt
+
+Toen de les begon, (schrijven) de leerlingen hun naam al op:::hadden geschreven:vvt
+
+Binnenkort (verschijnen) er een nieuw boek van deze auteur:::zal verschijnen:ottk
+
+De baby (slapen) meestal acht uur per nacht:::slaapt:ott
+
+Gisteren (graven) de arbeiders een diepe put:::groeven:ovt
+
+Mijn ouders (hebben) een nieuwe auto (kopen):::hebben gekocht:vtt
+
+De gasten waren al (vertrekken) toen wij aankwamen:::vertrokken:vvt
+
+Als we een grotere tuin hadden, (planten) we meer bloemen:::zouden planten:ovtk
+
+De leerling (schrijven) elke dag in zijn dagboek:::schrijft:ott
+
+Vorig jaar (helpen) mijn vrienden mij bij de verhuis:::hielpen:ovt
+
+Zij (hebben) haar huiswerk netjes (maken):::heeft gemaakt:vtt
+
+Nadat hij de melk (drinken), zette hij het glas op tafel:::had gedronken:vvt
+
+Volgende maand (beginnen) de examens:::zullen beginnen:ottk
+
+De kinderen (houden) van spannende verhalen:::houden:ott
+
+Gisteren (trekken) mijn vader de oude kast uit elkaar:::trok:ovt
+
+Ik (hebben) mijn lunch thuis (vergeten):::heb vergeten:vtt
+
+De brandweer had het vuur al (blussen) voordat de journalist arriveerde:::geblust:vvt
+
+Als hij groter was, (worden) hij later misschien piloot:::zou worden:ovtk
+
+De bakker (verpakken) de koekjes in een doos:::verpakt:ott
+
+Mijn zus (nemen) gisteren de verkeerde trein:::nam:ovt
+
+Wij (hebben) gisteren een interessant museum (bezoeken):::hebben bezocht:vtt
+
+Toen de ouders thuiskwamen, (opruimen) de kinderen hun kamer al:::hadden opgeruimd:vvt
+
+Morgen (ontmoeten) ik mijn nieuwe klasgenoten:::zal ontmoeten:ottk
+
+De leerlingen (kiezen) zelf hun groepsleider:::kiezen:ott
+
+Vorige zaterdag (rijden) mijn oom met de tractor op het veld:::reed:ovt
+
+Hij (hebben) de hele nacht niet (slapen):::heeft geslapen:vtt
+
+De wedstrijd was al (beginnen) toen wij arriveerden:::begonnen:vvt
+
+Als ik in jouw plaats was, (nemen) ik die aanbieding aan:::zou nemen:ovtk
+
+De hond (graven) elke dag een kuil in de tuin:::graaft:ott
+
+Gisteren (schrikken) de kinderen van het harde geluid:::schrokken:ovt
+
+Mijn broer (hebben) zijn schoenen zelf (poetsen):::heeft gepoetst:vtt
+
+Nadat de leerlingen de toets (invullen), mochten ze naar huis:::hadden ingevuld:vvt
+
+Binnenkort (ontdekken) de wetenschappers misschien een nieuwe planeet:::zullen ontdekken:ottk
+
+De bakker (kneden) elke ochtend het deeg:::kneedt:ott
+
+Gisteren (vergeten) mijn zus haar brooddoos:::vergat:ovt
+
+Wij (hebben) gisteren een lange wandeling (maken):::hebben gemaakt:vtt
+
+Voordat de film begon, (kopen) vader al popcorn:::had gekocht:vvt
+
+Morgen (ontmoeten) de leerlingen hun nieuwe leerkracht:::zullen ontmoeten:ottk
+
+Als ik meer vrije tijd had, (leren) ik Italiaans:::zou leren:ovtk
+
+De kinderen (helpen) hun ouders elke zaterdag:::helpen:ott
+
+Vorige week (schrijven) mijn broer een lange brief:::schreef:ovt
+
+Zij (hebben) de hele namiddag in de tuin (werken):::heeft gewerkt:vtt
+
+Toen de bel ging, (vertrekken) de leerlingen al:::waren vertrokken:vvt
+
+Volgende zomer (logeren) wij bij onze grootouders:::zullen logeren:ottk
+
+Als hij een auto had, (rijden) hij naar het werk:::zou rijden:ovtk
+
+De ober (serveren) het eten aan de gasten:::serveert:ott
+
+Gisteren (zoeken) ik mijn sleutels overal:::zocht:ovt
+
+Mijn ouders (hebben) een nieuwe televisie (bestellen):::hebben besteld:vtt
+
+Nadat de kinderen hun tanden (poetsen), gingen ze slapen:::hadden gepoetst:vvt
+
+Straks (brengen) de leerlingen hun boeken terug:::zullen brengen:ottk
+
+Als ik kon vliegen, (bezoeken) ik alle landen:::zou bezoeken:ovtk
+
+De schilder (verven) elke maand een andere kamer:::verft:ott
+
+Gisteren (kiezen) de klas een nieuwe vertegenwoordiger:::koos:ovt
+
+Mijn tante (hebben) een heerlijke maaltijd (bereiden):::heeft bereid:vtt
+
+De trein was al (vertrekken) voordat wij het station bereikten:::vertrokken:vvt
+
+Volgend jaar (volgen) mijn broer een opleiding tot kok:::zal volgen:ottk
+
+Als we vroeger vertrokken, (halen) we de trein:::zouden halen:ovtk
+
+De kinderen (begraven) hun speelgoed in het zand:::begraven:ott
+
+Gisteren (vechten) de twee jongens om een voetbal:::vochten:ovt
+
+Ik (hebben) mijn huiswerk netjes (afwerken):::heb afgewerkt:vtt
+
+Toen de dokter arriveerde, (slapen) de patiënt al:::had geslapen:vvt
+
+Morgen (ontvangen) de winnaars hun prijzen:::zullen ontvangen:ottk
+
+Als ik een hond had, (wandelen) ik elke dag met hem:::zou wandelen:ovtk
+
+Mijn vader (onderhouden) de tuin heel goed:::onderhoudt:ott
+
+Vorige maand (krijgen) mijn zus een nieuwe fiets:::kreeg:ovt
+
+Wij (hebben) gisteren onze vrienden (uitnodigen):::hebben uitgenodigd:vtt
+
+De leerlingen hadden de oefening al (verbeteren) voordat de leraar binnenkwam:::verbeterd:vvt
+
+Binnenkort (verschijnen) er een nieuwe aflevering van de reeks:::zal verschijnen:ottk
+
+Als ik beter kon koken, (uitnodigen) ik mijn vrienden vaker:::zou uitnodigen:ovtk
+
+De kat (springen) elke ochtend op de tafel:::springt:ott
+
+Gisteren (werpen) de speler de bal naar zijn ploeggenoot:::wierp:ovt
+
+Hij (hebben) zijn fiets helemaal (herstellen):::heeft hersteld:vtt
+
+Voordat de winkel openging, (poetsen) de medewerkers de vloer:::hadden gepoetst:vvt
+
+Morgen (beginnen) de leerlingen aan een nieuw hoofdstuk:::zullen beginnen:ottk
+
+Als ik genoeg geld had, (kopen) ik een motorfiets:::zou kopen:ovtk
+
+De kinderen (vergelijken) hun antwoorden met elkaar:::vergelijken:ott
+
+Gisteren (zwijgen) de verdachte tijdens het gesprek:::zweeg:ovt
+
+Mijn moeder (hebben) de was al (ophangen):::heeft opgehangen:vtt
+
+Toen wij aankwamen, (vertrekken) onze vrienden al:::waren vertrokken:vvt
+
+Volgende week (bespreken) we de resultaten in de klas:::zullen bespreken:ottk
+
+Als ik de keuze had, (blijven) ik nog een week op vakantie:::zou blijven:ovtk
+
+De leerlingen (meten) de lengte van de tafel:::meten:ott
+
+Gisteren (bedriegen) de jongen zijn beste vriend:::bedroog:ovt
+
+Wij (hebben) de wedstrijd met veel enthousiasme (spelen):::hebben gespeeld:vtt
+
+Nadat hij de brief (lezen), gaf hij hem terug:::had gelezen:vvt
+
+Morgen (ontbijten) wij samen met onze buren:::zullen ontbijten:ottk
+
+Als het niet regende, (fietsen) ik naar school:::zou fietsen:ovtk
+
+De tuinman (snoeien) elke lente de bomen:::snoeit:ott
+
+Gisteren (ruiken) de bloemen heerlijk:::roken:ovt
+
+Zij (hebben) haar verloren ring eindelijk (terugvinden):::heeft teruggevonden:vtt
+
+De kinderen hadden de taart al (opeten) voordat de gasten kwamen:::opgegeten:vvt
+
+Binnenkort (veranderen) de school de speelplaats:::zal veranderen:ottk
+
+Als ik meer durf had, (spreken) ik voor de hele klas:::zou spreken:ovtk
+
+De leraar (verbeteren) elke week de toetsen:::verbetert:ott
+
+Vorige zomer (grijpen) de keeper de bal net op tijd:::greep:ovt
+
+Mijn broer (hebben) zijn kamer grondig (schilderen):::heeft geschilderd:vtt
+
+Toen de brandweer arriveerde, (blussen) de buren het vuur al:::hadden geblust:vvt
+
+Morgen (ontdekken) de leerlingen een nieuwe proef:::zullen ontdekken:ottk
+
+Als ik een boot had, (varen) ik elke zondag op het meer:::zou varen:ovtk
+
+De muzikanten (oefenen) elke avond samen:::oefenen:ott
+
+Gisteren (buigen) de tak onder het gewicht van de sneeuw:::boog:ovt
+
+Wij (hebben) de hele dag in de bergen (wandelen):::hebben gewandeld:vtt
+
+Voordat de les begon, (uitdelen) de leerkracht de werkbladen al:::had uitgedeeld:vvt
+
+Volgende maand (verhuizen) onze buren naar een groter huis:::zullen verhuizen:ottk
+
+Als ik een groter huis had, (ontvangen) ik vaker gasten:::zou ontvangen:ovtk
+
+De kinderen (schudden) de fles voor gebruik:::schudden:ott
+
+Gisteren (bedenken) mijn zus een origineel verhaal:::bedacht:ovt
+
+De leerlingen (hebben) de opdrachten zelfstandig (uitvoeren):::hebben uitgevoerd:vtt
+
+Toen we thuiskwamen, (opwarmen) mama het eten al:::had opgewarmd:vvt
+
+Straks (vertellen) de directeur het nieuws aan de medewerkers:::zal vertellen:ottk
+
+Als ik meer ervaring had, (solliciteren) ik voor die functie:::zou solliciteren:ovtk
+
+De chauffeur (laden) elke ochtend de vrachtwagen:::laadt:ott
+
+Vorige week (sterven) de oude boom in de tuin:::stierf:ovt
+
+Mijn ouders (hebben) de tickets online (reserveren):::hebben gereserveerd:vtt
+
+De leerlingen hadden hun boeken al (openen) voordat de les begon:::geopend:vvt
+
+Binnenkort (organiseren) de gemeente een groot feest:::zal organiseren:ottk
+
+Als ik de kans kreeg, (deelnemen) ik aan de wedstrijd:::zou deelnemen:ovtk
+
+De wind (waaien) vandaag bijzonder hard:::waait:ott
+
+Gisteren (slaan) de klok twaalf uur:::sloeg:ovt
+
+Hij (hebben) zijn portefeuille in de auto (laten) liggen:::heeft laten liggen:vtt
+
+Toen de politie aankwam, (verdwijnen) de verdachte al:::was verdwenen:vvt
+
+Morgen (ontmoeten) de spelers hun nieuwe trainer:::zullen ontmoeten:ottk
+
+Als ik vroeger op de bus stapte, (aankomen) ik op tijd op school:::zou aankomen:ovtk
+
+De kok (braden) het vlees in een grote pan:::braadt:ott
+
+Gisteren (bederven) de melk door de warmte:::bedierf:ovt
+
+Wij (hebben) de volledige film (bekijken):::hebben bekeken:vtt
+
+De gasten hadden hun jassen al (aantrekken) voordat ze naar buiten gingen:::aangetrokken:vvt
+
+Volgend jaar (bouwen) de stad een nieuwe sporthal:::zal bouwen:ottk
+
+Als ik meer tijd had, (schrijven) ik een boek:::zou schrijven:ovtk
+
+De leerlingen (beantwoorden) alle vragen zorgvuldig:::beantwoorden:ott
+
+Gisteren (verliezen) onze ploeg de finale:::verloor:ovt
+
+Mijn vader (hebben) de garage helemaal (opruimen):::heeft opgeruimd:vtt
+
+Voordat de storm begon, (vastzetten) de buren alle tuinmeubelen al:::hadden vastgezet:vvt
+
+Binnenkort (verschijnen) mijn eerste artikel in de schoolkrant:::zal verschijnen:ottk
+
+Als ik de mogelijkheid had, (studeren) ik in het buitenland:::zou studeren:ovtk
+
+De directeur (ontvangen) elke ochtend de bezoekers:::ontvangt:ott
+
+Gisteren (bedriegen) de verkoper zijn klanten:::bedroog:ovt
+
+Mijn zus (hebben) gisteren haar portefeuille (verliezen):::heeft verloren:vtt
+
+Voordat de wedstrijd begon, (opwarmen) de spelers zich al:::hadden opgewarmd:vvt
+
+Morgen (vertrekken) onze buren naar Duitsland:::zullen vertrekken:ottk
+
+Als ik een betere computer had, (werken) ik veel sneller:::zou werken:ovtk
+
+De kinderen (verstoppen) hun speelgoed onder het bed:::verstoppen:ott
+
+Vorige zaterdag (sluiten) de winkel uitzonderlijk vroeg:::sloot:ovt
+
+Wij (hebben) gisteren een oude vriend (tegenkomen):::hebben tegengekomen:vtt
+
+Toen de leraar binnenkwam, (beginnen) de leerlingen al:::waren begonnen:vvt
+
+Volgende maand (ontvangen) mijn ouders hun nieuwe auto:::zullen ontvangen:ottk
+
+Als ik meer moed had, (springen) ik van de duikplank:::zou springen:ovtk
+
+De kok (gieten) de saus over het vlees:::giet:ott
+
+Gisteren (vangen) de vissers een grote snoek:::vingen:ovt
+
+Hij (hebben) zijn afspraak helemaal (vergeten):::heeft vergeten:vtt
+
+Nadat de kinderen hun kamer (opruimen), mochten ze televisie kijken:::hadden opgeruimd:vvt
+
+Morgen (rijden) de leerlingen met de bus naar Brussel:::zullen rijden:ottk
+
+Als ik kon kiezen, (blijven) ik liever thuis:::zou blijven:ovtk
+
+De tuinman (harken) elke herfst de bladeren bijeen:::harkt:ott
+
+Vorige week (breken) de storm verschillende takken af:::brak:ovt
+
+Mijn ouders (hebben) een nieuwe keuken (bestellen):::hebben besteld:vtt
+
+Toen we aankwamen, (vertrekken) de laatste trein al:::was vertrokken:vvt
+
+Binnenkort (verschijnen) er een nieuw woordenboek:::zal verschijnen:ottk
+
+Als ik meer tijd had, (bezoeken) ik mijn vrienden vaker:::zou bezoeken:ovtk
+
+De leerling (schudden) zijn hoofd wanneer hij het niet begrijpt:::schudt:ott
+
+Gisteren (bederven) de hitte het voedsel:::bedierf:ovt
+
+Wij (hebben) de hele namiddag naar de wedstrijd (kijken):::hebben gekeken:vtt
+
+Voordat de gasten kwamen, (dekken) mama de tafel al:::had gedekt:vvt
+
+Straks (brengen) de koerier een belangrijk document:::zal brengen:ottk
+
+Als ik een eigen restaurant had, (serveren) ik Italiaanse gerechten:::zou serveren:ovtk
+
+De hond (bijten) nooit in zijn baasje:::bijt:ott
+
+Gisteren (zwijgen) iedereen tijdens de plechtigheid:::zweeg:ovt
+
+Mijn broer (hebben) zijn fiets tegen de muur (zetten):::heeft gezet:vtt
+
+Toen de brandweer aankwam, (uitbreiden) het vuur zich al:::had uitgebreid:vvt
+
+Volgende week (organiseren) de leerlingen een schoolfeest:::zullen organiseren:ottk
+
+Als ik een groter huis had, (uitnodigen) ik meer vrienden:::zou uitnodigen:ovtk
+
+De bakker (kneden) het deeg met de hand:::kneedt:ott
+
+Vorige nacht (vriezen) het bijzonder hard:::vroor:ovt
+
+Zij (hebben) haar lievelingsboek opnieuw (lezen):::heeft gelezen:vtt
+
+Nadat hij zijn schoenen (uittrekken), ging hij in de zetel zitten:::had uitgetrokken:vvt
+
+Morgen (geven) de leerlingen hun presentatie:::zullen geven:ottk
+
+Als ik een vogel was, (vliegen) ik naar warme landen:::zou vliegen:ovtk
+
+De kinderen (rennen) elke middag naar de speelplaats:::rennen:ott
+
+Gisteren (dragen) mijn vader zware dozen naar boven:::droeg:ovt
+
+Ik (hebben) mijn huiswerk op tijd (indienen):::heb ingediend:vtt
+
+De winkel was al (openen) toen wij aankwamen:::geopend:vvt
+
+Binnenkort (veranderen) de regels van het spel:::zullen veranderen:ottk
+
+Als ik beter kon zingen, (deelnemen) ik aan de wedstrijd:::zou deelnemen:ovtk
+
+De leraar (antwoorden) rustig op alle vragen:::antwoordt:ott
+
+Vorige maand (steken) een wesp mijn broer:::stak:ovt
+
+Wij (hebben) de verloren hond uiteindelijk (terugvinden):::hebben teruggevonden:vtt
+
+Voordat de ouders thuiskwamen, (wassen) de kinderen de auto al:::hadden gewassen:vvt
+
+Morgen (ontbijten) we samen in het hotel:::zullen ontbijten:ottk
+
+Als ik een boot bezat, (varen) ik elke zomer naar Frankrijk:::zou varen:ovtk
+
+De ober (inschenken) de drankjes voor de gasten:::schenkt in:ott
+
+Gisteren (verbergen) de jongen zijn rapport:::verborg:ovt
+
+Mijn moeder (hebben) de gordijnen zelf (maken):::heeft gemaakt:vtt
+
+Toen de politie arriveerde, (verdwijnen) de inbrekers al:::waren verdwenen:vvt
+
+Volgend jaar (verbouwen) mijn ouders hun keuken:::zullen verbouwen:ottk
+
+Als ik de directeur was, (veranderen) ik enkele regels:::zou veranderen:ovtk
+
+De leerlingen (onthouden) de belangrijkste informatie:::onthouden:ott
+
+Gisteren (trekken) de arbeiders een zware kabel door de muur:::trokken:ovt
+
+Hij (hebben) zijn verjaardag met vrienden (vieren):::heeft gevierd:vtt
+
+Nadat de kok de groenten (snijden), begon hij aan de saus:::had gesneden:vvt
+
+Straks (ontmoeten) wij de nieuwe buren:::zullen ontmoeten:ottk
+
+Als ik beter kon tekenen, (maken) ik zelf de illustraties:::zou maken:ovtk
+
+De kinderen (begrijpen) de opdracht onmiddellijk:::begrijpen:ott
+
+Vorige winter (bevriezen) het water in de vijver:::bevroor:ovt
+
+Wij (hebben) de hele nacht niet (slapen):::hebben geslapen:vtt
+
+Voordat de les begon, (uitdelen) de leerkracht de toetsen al:::had uitgedeeld:vvt
+
+Morgen (vertellen) opa een verhaal over vroeger:::zal vertellen:ottk
+
+Als ik een eigen winkel had, (verkopen) ik boeken:::zou verkopen:ovtk
+
+De chauffeur (laden) de vrachtwagen iedere ochtend:::laadt:ott
+
+Gisteren (werpen) de speler de bal over het hek:::wierp:ovt
+
+Zij (hebben) haar kamer volledig (veranderen):::heeft veranderd:vtt
+
+Toen we aan het station kwamen, (aankomen) de trein al:::was aangekomen:vvt
+
+Volgende zomer (reizen) mijn vrienden door Canada:::zullen reizen:ottk
+
+Als ik een betere fiets had, (deelnemen) ik aan de fietstocht:::zou deelnemen:ovtk
+
+De kinderen (wassen) hun handen voor het eten:::wassen:ott
+
+Gisteren (slaan) de voetballer de bal tegen de paal:::sloeg:ovt
+
+Mijn vader (hebben) de oude kast zelf (bouwen):::heeft gebouwd:vtt
+
+Voordat de storm losbarstte, (sluiten) de bewoners alle ramen:::hadden gesloten:vvt
+
+Binnenkort (starten) de werken aan het nieuwe gebouw:::zullen starten:ottk
+
+Als ik de kans kreeg, (spreken) ik met de burgemeester:::zou spreken:ovtk
+
+De leerling (verbeteren) zijn fouten zorgvuldig:::verbetert:ott
+
+Vorige week (schieten) de jager een pijl in het doel tijdens de sportles:::schoot:ovt
+
+Wij (hebben) onze tickets ruim op voorhand (boeken):::hebben geboekt:vtt
+
+Toen de bezoekers arriveerden, (voorbereiden) de gids zijn rondleiding al:::had voorbereid:vvt
+
+Morgen (ontvangen) de kinderen hun rapporten:::zullen ontvangen:ottk
+
+Als ik meer ervaring had, (solliciteren) ik voor die functie:::zou solliciteren:ovtk
+
+De kat (krabben) soms aan de zetel:::krabt:ott
+
+Gisteren (kiezen) mijn ouders een nieuwe bestemming:::kozen:ovt
+
+Hij (hebben) de volledige uitleg goed (begrijpen):::heeft begrepen:vtt
+
+Nadat de kinderen hun ontbijt (opeten), vertrokken ze naar school:::hadden opgegeten:vvt
+
+Volgende maand (beginnen) mijn zus aan haar nieuwe opleiding:::zal beginnen:ottk
+
+Als ik een tuin had, (planten) ik fruitbomen:::zou planten:ovtk
+
+De leerlingen (schrijven) hun antwoorden met een blauwe pen:::schrijven:ott
+
+Gisteren (verliezen) de doelman zijn handschoenen:::verloor:ovt
+
+Mijn ouders (hebben) de garage helemaal (opruimen):::hebben opgeruimd:vtt
+
+Voordat de winkel sloot, (verkopen) de medewerkers alle broodjes:::hadden verkocht:vvt
+
+Morgen (brengen) de leerlingen hun sportkledij mee:::zullen brengen:ottk
+
+Als ik kon kiezen, (wonen) ik aan zee:::zou wonen:ovtk
+
+De leerlingen (vergelijken) hun antwoorden met elkaar:::vergelijken:ott
+
+Gisteren (bedenken) mijn broer een slimme oplossing:::bedacht:ovt
+
+Wij (hebben) gisteren een nieuwe kast (monteren):::hebben gemonteerd:vtt
+
+Voordat de gasten arriveerden, (voorbereiden) mama het avondeten al:::had voorbereid:vvt
+
+Morgen (ontvangen) de spelers hun nieuwe uitrusting:::zullen ontvangen:ottk
+
+Als ik meer vrije tijd had, (volgen) ik een cursus fotografie:::zou volgen:ovtk
+
+De hond (begraven) zijn botten in de tuin:::begraaft:ott
+
+Vorige zaterdag (vliegen) de kinderen voor het eerst met een vliegtuig:::vlogen:ovt
+
+Mijn zus (hebben) haar fiets aan een vriend (uitlenen):::heeft uitgeleend:vtt
+
+Toen de brandweer aankwam, (uitbreken) de brand al:::was uitgebroken:vvt
+
+Volgende week (bespreken) de directeur de nieuwe plannen:::zal bespreken:ottk
+
+Als ik een groter budget had, (organiseren) ik een groot evenement:::zou organiseren:ovtk
+
+De kok (proeven) de saus voordat hij ze serveert:::proeft:ott
+
+Gisteren (verliezen) onze ploeg met drie doelpunten verschil:::verloor:ovt
+
+Wij (hebben) de hele namiddag in de garage (werken):::hebben gewerkt:vtt
+
+Nadat hij de brief (schrijven), stopte hij hem in een envelop:::had geschreven:vvt
+
+Binnenkort (verschijnen) er een nieuwe film van deze regisseur:::zal verschijnen:ottk
+
+Als ik een eigen bedrijf had, (aanwerven) ik extra personeel:::zou aanwerven:ovtk
+
+De kinderen (verstoppen) zich achter de gordijnen:::verstoppen:ott
+
+Gisteren (breken) de arbeiders de oude muur af:::braken:ovt
+
+Hij (hebben) zijn portefeuille op de trein (laten) liggen:::heeft laten liggen:vtt
+
+Voordat de les begon, (klaarzetten) de leerkracht alle materialen al:::had klaargezet:vvt
+
+Morgen (vertrekken) de leerlingen vroeger naar huis:::zullen vertrekken:ottk
+
+Als ik een eigen zwembad had, (zwemmen) ik elke ochtend:::zou zwemmen:ovtk
+
+Mijn vader (onderhouden) de machines van het bedrijf:::onderhoudt:ott
+
+Vorige maand (sterven) de oude hond van onze buren:::stierf:ovt
+
+De leerlingen (hebben) alle oefeningen correct (invullen):::hebben ingevuld:vtt
+
+Toen de politie aankwam, (verdwijnen) de verdachte al:::was verdwenen:vvt
+
+Volgende zomer (kamperen) wij aan de Belgische kust:::zullen kamperen:ottk
+
+Als ik meer geduld had, (leren) ik piano spelen:::zou leren:ovtk
+
+De bakker (wegen) het deeg voor elk brood:::weegt:ott
+
+Gisteren (grijpen) de keeper de bal net voor de doellijn:::greep:ovt
+
+Mijn moeder (hebben) de ramen grondig (wassen):::heeft gewassen:vtt
+
+Nadat de kinderen hun huiswerk (maken), gingen ze buitenspelen:::hadden gemaakt:vvt
+
+Straks (ontmoeten) wij de nieuwe directeur:::zullen ontmoeten:ottk
+
+Als ik een huis aan zee had, (wandelen) ik elke avond op het strand:::zou wandelen:ovtk
+
+De leerlingen (onthouden) de belangrijkste regels:::onthouden:ott
+
+Gisteren (schrikken) mijn zus van een onverwacht geluid:::schrok:ovt
+
+Wij (hebben) de volledige wedstrijd (opnemen):::hebben opgenomen:vtt
+
+Toen de ouders thuiskwamen, (opeten) de kinderen hun avondeten al:::hadden opgegeten:vvt
+
+Volgend jaar (verbouwen) de gemeente het sportcentrum:::zal verbouwen:ottk
+
+Als ik beter kon zwemmen, (deelnemen) ik aan de zwemwedstrijd:::zou deelnemen:ovtk
+
+De tuinman (snoeien) de struiken iedere lente:::snoeit:ott
+
+Vorige week (steken) een bij mijn vader in zijn arm:::stak:ovt
+
+Zij (hebben) haar verloren documenten eindelijk (terugvinden):::heeft teruggevonden:vtt
+
+Voordat de film begon, (kopen) mijn vrienden al hun tickets:::hadden gekocht:vvt
+
+Morgen (organiseren) de leerlingen een quiz:::zullen organiseren:ottk
+
+Als ik meer geld had, (reizen) ik de hele wereld rond:::zou reizen:ovtk
+
+De ober (inschenken) de glazen met water:::schenkt in:ott
+
+Gisteren (bedriegen) de jongen zijn ouders:::bedroog:ovt
+
+Mijn broer (hebben) zijn oude computer volledig (herstellen):::heeft hersteld:vtt
+
+Toen we thuiskwamen, (aankomen) de pakjesbezorger al:::was aangekomen:vvt
+
+Binnenkort (openen) de burgemeester een nieuwe bibliotheek:::zal openen:ottk
+
+Als ik een eigen boerderij had, (houden) ik verschillende dieren:::zou houden:ovtk
+
+De kinderen (rennen) na schooltijd naar het voetbalveld:::rennen:ott
+
+Gisteren (trekken) mijn vader de zware kast naar buiten:::trok:ovt
+
+Wij (hebben) onze vakantie volledig (plannen):::hebben gepland:vtt
+
+Nadat de kok de aardappelen (schillen), zette hij ze op het vuur:::had geschild:vvt
+
+Volgende maand (starten) de nieuwe lessen:::zullen starten:ottk
+
+Als ik een betere camera had, (fotograferen) ik meer dieren:::zou fotograferen:ovtk
+
+De leerling (verbeteren) zijn antwoorden met een groene pen:::verbetert:ott
+
+Vorige winter (vriezen) het water in de vijver volledig dicht:::vroor:ovt
+
+Mijn ouders (hebben) hun oude meubels (verkopen):::hebben verkocht:vtt
+
+Voordat de wedstrijd begon, (aantrekken) de spelers hun sportkledij al:::hadden aangetrokken:vvt
+
+Morgen (brengen) mijn broer zijn auto naar de garage:::zal brengen:ottk
+
+Als ik een eigen restaurant had, (bereiden) ik elke dag verse maaltijden:::zou bereiden:ovtk
+
+De kinderen (schudden) de fles voordat ze drinken:::schudden:ott
+
+Gisteren (buigen) de tak onder het gewicht van de sneeuw:::boog:ovt
+
+Hij (hebben) de volledige tekst aandachtig (lezen):::heeft gelezen:vtt
+
+Toen de gasten aankwamen, (dekken) mama de tafel al:::had gedekt:vvt
+
+Volgende week (ontvangen) de leerlingen hun resultaten:::zullen ontvangen:ottk
+
+Als ik een muziekinstrument kon bespelen, (kiezen) ik voor de piano:::zou kiezen:ovtk
+
+De directeur (beantwoorden) alle vragen van de ouders:::beantwoordt:ott
+
+Gisteren (slaan) de voetballer de bal tegen de lat:::sloeg:ovt
+
+Wij (hebben) de volledige tuin (aanleggen):::hebben aangelegd:vtt
+
+Nadat de arbeiders de muur (afbreken), begonnen ze met de nieuwbouw:::hadden afgebroken:vvt
+
+Morgen (beginnen) de leerlingen aan hun examens:::zullen beginnen:ottk
+
+Als ik een boot had, (varen) ik iedere zondag op het meer:::zou varen:ovtk
+
+De kinderen (begrijpen) de uitleg van de leerkracht:::begrijpen:ott
+
+Gisteren (kiezen) mijn ouders een nieuwe keuken:::kozen:ovt
+
+Mijn vader (hebben) de kapotte stoel zelf (repareren):::heeft gerepareerd:vtt
+
+Toen de politie arriveerde, (wegvluchten) de dieven al:::waren weggevlucht:vvt
+
+Binnenkort (veranderen) de school de uurregeling:::zal veranderen:ottk
+
+Als ik meer ervaring had, (solliciteren) ik voor die functie:::zou solliciteren:ovtk
+
+De bakker (kneden) het deeg met beide handen:::kneedt:ott
+
+Vorige week (schieten) de speler de bal over het doel:::schoot:ovt
+
+Zij (hebben) haar volledige boekenkast (verplaatsen):::heeft verplaatst:vtt
+
+Voordat de storm begon, (vastzetten) de bewoners alle tuinmeubelen al:::hadden vastgezet:vvt
+
+Morgen (ontdekken) de leerlingen een nieuwe wetenschappelijke proef:::zullen ontdekken:ottk
+
+Als ik een grotere tuin had, (planten) ik fruitbomen:::zou planten:ovtk
+
+De chauffeur (laden) elke ochtend de vrachtwagen:::laadt:ott
+
+Gisteren (nemen) mijn zus de verkeerde afslag:::nam:ovt
+
+Wij (hebben) de hele avond naar een documentaire (kijken):::hebben gekeken:vtt
+
+Toen de ouders thuiskwamen, (opruimen) de kinderen hun kamer al:::hadden opgeruimd:vvt
+
+Volgende zomer (verblijven) wij enkele weken in Frankrijk:::zullen verblijven:ottk
+
+Als ik een betere conditie had, (lopen) ik iedere dag tien kilometer:::zou lopen:ovtk
+
+De kinderen (wassen) hun handen voor het avondeten:::wassen:ott
+
+Gisteren (vinden) mijn broer een oude foto op zolder:::vond:ovt
+
+Mijn ouders (hebben) een nieuwe tafel (bestellen):::hebben besteld:vtt
+
+Nadat de leerlingen de toets (indienen), mochten ze naar huis:::hadden ingediend:vvt
+
+Binnenkort (bouwen) de gemeente een nieuw zwembad:::zal bouwen:ottk
+
+Als ik een eigen winkel had, (verkopen) ik sportartikelen:::zou verkopen:ovtk
+
+De hond (liggen) iedere namiddag in zijn mand:::ligt:ott
+
+Gisteren (drinken) de kinderen warme chocolademelk:::dronken:ovt
+
+Hij (hebben) zijn sleutels eindelijk (terugvinden):::heeft teruggevonden:vtt
+
+Voordat de gasten vertrokken, (opruimen) de medewerkers de zaal al:::hadden opgeruimd:vvt
+
+Morgen (vertellen) de leerkracht hoe de leerlingen geslaagd zijn:::zal vertellen:ottk
+
+Als ik een tweede kans kreeg, (proberen) ik het opnieuw:::zou proberen:ovtk
+
