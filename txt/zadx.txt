@@ -1,0 +1,13 @@
+de windjas:::l’anorak
+de bikini:::le bikini
+de muts:::le bonnet
+de mist:::le brouillard
+de hoofdstad:::la capitale
+de wandelschoen:::la chaussure de marche
+de kust:::la côte
+de windstoot:::le coup de vent
+de zonnecrème:::la crème solaire
+de graad:::le degré
+de woestijn:::le désert
+de opklaring:::l’éclaircie
+het woud:::la forêt
