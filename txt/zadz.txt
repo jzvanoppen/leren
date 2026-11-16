@@ -1,0 +1,14 @@
+de hagel:::la grêle
+de regenjas:::l'imperméable
+de zonnebril:::les lunettes de soleil
+de verrekijker:::les jumelles
+het weerbericht:::la météo
+de wolk:::le nuage
+het onweer:::l'orage
+het strand:::la plage
+de regen:::la pluie
+de trektocht:::la randonnée
+de rivier:::la rivière
+de zwemshort:::le short de bain
+de temperatuur:::la température
+de vallei:::la vallée
