@@ -1,494 +1,237 @@
-
 <!DOCTYPE html>
 <html lang="nl">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Mijn meeleesmachine</title>
-
 <style>
-    * {
-        box-sizing: border-box;
-    }
-
-    body {
-        margin: 0;
-        padding: 25px;
-        font-family: Arial, sans-serif;
-        background: linear-gradient(135deg, #e0f2fe, #f3e8ff);
-        color: #263248;
-    }
-
-    .container {
-        max-width: 1050px;
-        margin: 20px auto;
-        background: white;
-        padding: 30px;
-        border-radius: 25px;
-        box-shadow: 0 8px 30px rgba(0,0,0,0.10);
-    }
-
-    h1 {
-        text-align: center;
-        font-size: 34px;
-        margin-top: 0;
-        color: #5145a0;
-    }
-
-    .subtitle {
-        text-align: center;
-        color: #777;
-        margin-bottom: 30px;
-    }
-
-    .instellingen {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 15px;
-        margin-bottom: 25px;
-    }
-
-    .veld {
-        flex: 1;
-        min-width: 200px;
-    }
-
-    label {
-        display: block;
-        font-weight: bold;
-        margin-bottom: 8px;
-    }
-
-    input, select {
-        width: 100%;
-        padding: 14px;
-        border: 2px solid #ddd;
-        border-radius: 12px;
-        font-size: 17px;
-        background: white;
-    }
-
-    input:focus, select:focus {
-        outline: none;
-        border-color: #8173e6;
-    }
-
-    button {
-        border: none;
-        border-radius: 12px;
-        padding: 14px 22px;
-        font-size: 17px;
-        font-weight: bold;
-        cursor: pointer;
-        transition: 0.2s;
-    }
-
-    button:hover {
-        transform: translateY(-2px);
-        filter: brightness(0.95);
-    }
-
-    .laden {
-        background: #5145a0;
-        color: white;
-    }
-
-    .start {
-        background: #16a36a;
-        color: white;
-    }
-
-    .pauze {
-        background: #f4b740;
-        color: #333;
-    }
-
-    .opnieuw {
-        background: #e8eaf0;
-        color: #333;
-    }
-
-    .bediening {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 12px;
-        margin: 25px 0;
-    }
-
-    .leesvenster {
-        background: #f8f9ff;
-        border: 3px solid #e4e3f5;
-        border-radius: 20px;
-        min-height: 350px;
-        padding: 35px;
-        font-size: 30px;
-        line-height: 2;
-        white-space: pre-wrap;
-        overflow-wrap: anywhere;
-    }
-
-    .woord {
-        padding: 3px 5px;
-        border-radius: 8px;
-        transition: background 0.1s;
-    }
-
-    .actief {
-        background: #ffe36e;
-        color: #27203d;
-        font-weight: bold;
-        box-shadow: 0 2px 8px rgba(0,0,0,0.12);
-    }
-
-    .status {
-        text-align: center;
-        margin-top: 20px;
-        font-weight: bold;
-        color: #5145a0;
-        font-size: 18px;
-    }
-
-    .voortgang {
-        height: 12px;
-        background: #e9e9f2;
-        border-radius: 20px;
-        overflow: hidden;
-        margin-top: 20px;
-    }
-
-    .balk {
-        height: 100%;
-        width: 0%;
-        background: linear-gradient(90deg, #8173e6, #ec70b5);
-        transition: width 0.2s;
-    }
-
-    .fout {
-        color: #d43d3d;
-        text-align: center;
-        margin-top: 15px;
-        font-weight: bold;
-    }
-
-    @media (max-width: 600px) {
-        body {
-            padding: 10px;
-        }
-
-        .container {
-            padding: 18px;
-        }
-
-        .leesvenster {
-            font-size: 23px;
-            padding: 20px;
-        }
-
-        h1 {
-            font-size: 27px;
-        }
-    }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 24px; min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #e0f2fe, #f3e8ff);
+    color: #263248;
+  }
+  .container {
+    max-width: 1050px; margin: 20px auto; padding: 30px;
+    background: white; border-radius: 24px;
+    box-shadow: 0 8px 30px rgba(0,0,0,.10);
+  }
+  h1 { text-align: center; color: #5145a0; margin: 0 0 8px; }
+  .subtitle { text-align: center; color: #777; margin-bottom: 28px; }
+  .settings { display: flex; flex-wrap: wrap; gap: 15px; margin-bottom: 18px; }
+  .field { flex: 1; min-width: 220px; }
+  label { display: block; font-weight: bold; margin-bottom: 8px; }
+  input, select {
+    width: 100%; padding: 14px; border: 2px solid #ddd;
+    border-radius: 12px; font-size: 17px; background: white;
+  }
+  input:focus, select:focus { outline: none; border-color: #8173e6; }
+  button {
+    border: 0; border-radius: 12px; padding: 14px 22px;
+    font-size: 16px; font-weight: bold; cursor: pointer;
+    transition: transform .15s, filter .15s;
+  }
+  button:hover { transform: translateY(-2px); filter: brightness(.96); }
+  .load { background: #5145a0; color: white; }
+  .start { background: #16a36a; color: white; }
+  .pause { background: #f4b740; color: #333; }
+  .reset { background: #e8eaf0; color: #333; }
+  .controls { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; margin: 22px 0; }
+  .reader {
+    background: #f8f9ff; border: 3px solid #e4e3f5; border-radius: 20px;
+    min-height: 350px; padding: 30px; font-size: 30px; line-height: 1.45;
+    white-space: pre-wrap; overflow-wrap: anywhere;
+  }
+  .word { border-radius: 7px; padding: 2px 3px; }
+  .word.title { font-weight: bold; }
+  .word.active { background: #ffe36e; color: #27203d; font-weight: bold; }
+  .progress { height: 12px; background: #e9e9f2; border-radius: 20px; overflow: hidden; margin-top: 20px; }
+  .bar { height: 100%; width: 0%; background: linear-gradient(90deg, #8173e6, #ec70b5); transition: width .2s; }
+  .status { text-align: center; margin-top: 16px; font-weight: bold; color: #5145a0; font-size: 18px; }
+  .error { color: #c83232; text-align: center; margin-top: 12px; font-weight: bold; }
+  @media (max-width: 600px) {
+    body { padding: 10px; }
+    .container { padding: 18px; }
+    .reader { font-size: 23px; padding: 20px; }
+    h1 { font-size: 27px; }
+  }
 </style>
 </head>
-
 <body>
+<main class="container">
+  <h1>📖 Mijn meeleesmachine</h1>
+  <div class="subtitle">Lees mee en volg de gele woorden!</div>
 
-<div class="container">
-
-    <h1>📖 Mijn meeleesmachine</h1>
-    <div class="subtitle">
-        Lees mee en volg de gele woorden!
+  <div class="settings">
+    <div class="field">
+      <label for="filename">📁 Naam van het tekstbestand</label>
+      <input id="filename" type="text" value="raab" placeholder="Bijvoorbeeld: raab">
     </div>
-
-    <div class="instellingen">
-
-        <div class="veld">
-            <label for="bestandsnaam">📁 Naam van het tekstbestand</label>
-            <input
-                type="text"
-                id="bestandsnaam"
-                placeholder="Bijvoorbeeld: raab"
-                value="raab"
-            >
-        </div>
-
-        <div class="veld">
-            <label for="snelheid">🚀 Kies je leessnelheid</label>
-            <select id="snelheid">
-                <option value="25">🐌 Slak – 25 woorden/minuut</option>
-                <option value="50">🐢 Schildpad – 50 woorden/minuut</option>
-                <option value="90" selected>🐰 Konijn – 90 woorden/minuut</option>
-                <option value="160">😱 Horror! – 160 woorden/minuut</option>
-            </select>
-        </div>
-
+    <div class="field">
+      <label for="speed">🚀 Kies je leessnelheid</label>
+      <select id="speed">
+        <option value="50">🐌 Slak – 50 woorden/minuut</option>
+        <option value="100">🐢 Schildpad – 100 woorden/minuut</option>
+        <option value="150" selected>🐰 Konijn – 150 woorden/minuut</option>
+        <option value="220">😱 Horror! – 220 woorden/minuut</option>
+      </select>
     </div>
+  </div>
 
-    <button class="laden" onclick="laadTekst()">
-        📖 Tekst laden
-    </button>
+  <button class="load" id="loadBtn">📖 Tekst laden</button>
 
-    <div class="bediening">
+  <div class="controls">
+    <button class="start" id="startBtn">▶ Start</button>
+    <button class="pause" id="pauseBtn">⏸ Pauze</button>
+    <button class="reset" id="resetBtn">↻ Opnieuw</button>
+  </div>
 
-        <button class="start" onclick="startLezen()">
-            ▶ Start
-        </button>
-
-        <button class="pauze" onclick="pauzeLezen()">
-            ⏸ Pauze
-        </button>
-
-        <button class="opnieuw" onclick="opnieuwLezen()">
-            ↻ Opnieuw
-        </button>
-
-    </div>
-
-    <div class="leesvenster" id="leesvenster">
-        Laad eerst een tekstbestand om te beginnen!
-    </div>
-
-    <div class="voortgang">
-        <div class="balk" id="balk"></div>
-    </div>
-
-    <div class="status" id="status">
-        Klaar om te lezen!
-    </div>
-
-    <div class="fout" id="fout"></div>
-
-</div>
+  <section class="reader" id="reader">Laad eerst een tekstbestand om te beginnen!</section>
+  <div class="progress"><div class="bar" id="bar"></div></div>
+  <div class="status" id="status">Klaar om te lezen!</div>
+  <div class="error" id="error" role="alert"></div>
+</main>
 
 <script>
+  let wordElements = [];
+  let currentWord = 0;
+  let timer = null;
+  let isPlaying = false;
+  let isLoaded = false;
 
-let woorden = [];
-let huidigeIndex = 0;
-let timer = null;
-let bezig = false;
-let geladen = false;
+  const reader = document.getElementById('reader');
+  const status = document.getElementById('status');
+  const errorBox = document.getElementById('error');
+  const bar = document.getElementById('bar');
 
-// Tekstbestand laden
-async function laadTekst() {
+  async function loadText() {
+    pauseReading();
+    errorBox.textContent = '';
+    const name = document.getElementById('filename').value.trim();
 
-    pauzeLezen();
-
-    const naam = document.getElementById("bestandsnaam")
-        .value.trim();
-
-    const fout = document.getElementById("fout");
-    const venster = document.getElementById("leesvenster");
-
-    fout.textContent = "";
-
-    if (!naam) {
-        fout.textContent = "Geef eerst een bestandsnaam in!";
-        return;
+    if (!name) {
+      errorBox.textContent = 'Geef eerst een bestandsnaam in.';
+      return;
+    }
+    if (!/^[a-zA-Z0-9_-]+$/.test(name)) {
+      errorBox.textContent = 'Gebruik alleen letters, cijfers, - of _.';
+      return;
     }
 
-    if (!/^[a-zA-Z0-9_-]+$/.test(naam)) {
-        fout.textContent = "Gebruik enkel letters, cijfers, - of _.";
-        return;
-    }
-
-    venster.textContent = "Even laden...";
-
+    reader.textContent = 'Even laden...';
     try {
+      const response = await fetch(`txt/${name}.txt`);
+      if (!response.ok) throw new Error('Bestand niet gevonden.');
 
-        const antwoord = await fetch("txt/" + naam + ".txt");
+      const text = await response.text();
+      if (!text.trim()) throw new Error('Het tekstbestand is leeg.');
 
-        if (!antwoord.ok) {
-            throw new Error("Bestand niet gevonden.");
-        }
-
-        const tekst = await antwoord.text();
-
-        // Alle woorden en witruimtes afzonderlijk bewaren.
-        woorden = tekst.match(/\S+|\s+/g) || [];
-
-        if (woorden.length === 0) {
-            throw new Error("Het tekstbestand is leeg.");
-        }
-
-        huidigeIndex = 0;
-        geladen = true;
-
-        toonTekst();
-
-        document.getElementById("status").textContent =
-            "Je tekst is klaar! Veel leesplezier! 🌟";
-
-        document.getElementById("balk").style.width = "0%";
-
+      renderText(text);
+      currentWord = 0;
+      isLoaded = true;
+      bar.style.width = '0%';
+      status.textContent = `De tekst "${name}.txt" is klaar. Veel leesplezier! 🌟`;
     } catch (error) {
-
-        geladen = false;
-        woorden = [];
-
-        venster.textContent = "Er is nog geen tekst geladen.";
-
-        fout.textContent =
-            "Kon txt/" + naam + ".txt niet laden. Controleer de bestandsnaam.";
-
+      isLoaded = false;
+      wordElements = [];
+      reader.textContent = 'Er kon geen tekst geladen worden.';
+      errorBox.textContent = `Kon txt/${name}.txt niet laden. Controleer de naam en de map.`;
     }
-}
+  }
 
+  function renderText(text) {
+    reader.replaceChildren();
+    wordElements = [];
 
-// Tekst weergeven met behoud van enters
-function toonTekst() {
-
-    const venster = document.getElementById("leesvenster");
-
-    venster.innerHTML = "";
-
-    woorden.forEach((woord, index) => {
-
-        if (/^\s+$/.test(woord)) {
-
-            venster.appendChild(
-                document.createTextNode(woord)
-            );
-
-        } else {
-
-            const span = document.createElement("span");
-
-            span.textContent = woord;
-            span.className = "woord";
-            span.id = "woord-" + index;
-
-            venster.appendChild(span);
-
-        }
-
+    // Splits in woorden en alle tussenliggende witruimte.
+    // Witruimte (waaronder enters) blijft exact behouden.
+    const parts = text.match(/\s+|[^\s]+/g) || [];
+    let isTitleLine = true;
+    parts.forEach(part => {
+      if (/^\s+$/.test(part)) {
+        reader.appendChild(document.createTextNode(part));
+        // Vanaf de eerste regeleinde is de titelregel voorbij.
+        if (/[\r\n]/.test(part)) isTitleLine = false;
+      } else {
+        const span = document.createElement('span');
+        span.className = isTitleLine ? 'word title' : 'word';
+        span.textContent = part;
+        reader.appendChild(span);
+        wordElements.push(span);
+      }
     });
+  }
 
-}
-
-
-// Het volgende woord markeren
-function volgendeWoord() {
-
-    if (huidigeIndex >= woorden.length) {
-
-        pauzeLezen();
-
-        document.getElementById("status").textContent =
-            "🎉 Fantastisch! Je hebt de hele tekst gelezen!";
-
-        return;
+  function highlightNextWord() {
+    if (currentWord >= wordElements.length) {
+      pauseReading();
+      status.textContent = '🎉 Fantastisch! Je hebt de hele tekst gelezen!';
+      bar.style.width = '100%';
+      return;
     }
 
-    const huidig = document.getElementById(
-        "woord-" + huidigeIndex
-    );
+    wordElements.forEach(el => el.classList.remove('active'));
+    const active = wordElements[currentWord];
+    active.classList.add('active');
 
-    if (huidig) {
-
-        huidig.classList.add("actief");
-
-        // Automatisch scrollen indien nodig
-        huidig.scrollIntoView({
-            behavior: "smooth",
-            block: "nearest"
-        });
-
+    // Scroll alleen als het gemarkeerde woord buiten beeld valt.
+    const rect = active.getBoundingClientRect();
+    if (rect.top < 90 || rect.bottom > window.innerHeight - 50) {
+      active.scrollIntoView({ behavior: 'smooth', block: 'center' });
     }
 
-    huidigeIndex++;
+    currentWord++;
+    bar.style.width = `${(currentWord / wordElements.length) * 100}%`;
+    status.textContent = `Woord ${currentWord} van ${wordElements.length}`;
+  }
 
-    const percentage =
-        (huidigeIndex / woorden.length) * 100;
-
-    document.getElementById("balk").style.width =
-        percentage + "%";
-
-    document.getElementById("status").textContent =
-        "Woord " + huidigeIndex + " van " + woorden.filter(w => !/^\s+$/.test(w)).length;
-
-}
-
-
-// Lezen starten
-function startLezen() {
-
-    if (!geladen) {
-        document.getElementById("fout").textContent =
-            "Laad eerst een tekstbestand!";
-        return;
+  function startReading() {
+    if (!isLoaded) {
+      errorBox.textContent = 'Laad eerst een tekstbestand!';
+      return;
     }
+    if (isPlaying) return;
+    if (currentWord >= wordElements.length) resetReading();
 
-    if (bezig) return;
+    isPlaying = true;
+    errorBox.textContent = '';
+    highlightNextWord();
 
-    if (huidigeIndex >= woorden.length) {
-        opnieuwLezen();
-    }
+    const interval = 60000 / Number(document.getElementById('speed').value);
+    timer = setInterval(highlightNextWord, interval);
+  }
 
-    bezig = true;
-
-    const snelheid = Number(
-        document.getElementById("snelheid").value
-    );
-
-    const interval = 60000 / snelheid;
-
-    volgendeWoord();
-
-    timer = setInterval(() => {
-
-        if (!bezig) return;
-
-        volgendeWoord();
-
-    }, interval);
-
-}
-
-
-// Pauzeren
-function pauzeLezen() {
-
-    clearInterval(timer);
+  function pauseReading() {
+    if (timer !== null) clearInterval(timer);
     timer = null;
-    bezig = false;
+    isPlaying = false;
+  }
 
-}
+  function resetReading() {
+    pauseReading();
+    if (!isLoaded) return;
+    currentWord = 0;
+    wordElements.forEach(el => el.classList.remove('active'));
+    bar.style.width = '0%';
+    status.textContent = 'Opnieuw klaar om te lezen!';
+  }
 
+  document.getElementById('loadBtn').addEventListener('click', loadText);
+  document.getElementById('startBtn').addEventListener('click', startReading);
+  document.getElementById('pauseBtn').addEventListener('click', pauseReading);
+  document.getElementById('resetBtn').addEventListener('click', resetReading);
 
-// Opnieuw beginnen
-function opnieuwLezen() {
-
-    pauzeLezen();
-
-    if (!geladen) return;
-
-    huidigeIndex = 0;
-
-    toonTekst();
-
-    document.getElementById("balk").style.width = "0%";
-
-    document.getElementById("status").textContent =
-        "Opnieuw klaar om te lezen!";
-
-}
-
-
-// Bij een andere snelheid: onmiddellijk aanpassen
-document.getElementById("snelheid").addEventListener(
-    "change",
-    function() {
-
-        if (bezig) {
-            pauzeLezen();
-            startLezen();
-        }
-
+  document.getElementById('speed').addEventListener('change', () => {
+    if (isPlaying) {
+      pauseReading();
+      startReading();
     }
-);
+  });
 
+  document.getElementById('filename').addEventListener('keydown', event => {
+    if (event.key === 'Enter') loadText();
+  });
 </script>
-
 </body>
 </html>
