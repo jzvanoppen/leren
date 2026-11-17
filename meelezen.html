@@ -42,6 +42,7 @@
     background: #f8f9ff; border: 3px solid #e4e3f5; border-radius: 20px;
     min-height: 350px; padding: 30px; font-size: 30px; line-height: 1.45;
     white-space: pre-wrap; overflow-wrap: anywhere;
+    cursor: pointer;
   }
   .word { border-radius: 7px; padding: 2px 3px; }
   .word.title { font-weight: bold; }
@@ -60,21 +61,21 @@
 </head>
 <body>
 <main class="container">
-  <h1>📖 Raysa's meeleesmachine</h1>
+  <h1>📖 Mijn meeleesmachine</h1>
   <div class="subtitle">Lees mee en volg de gele woorden!</div>
 
   <div class="settings">
     <div class="field">
       <label for="filename">📁 Naam van het tekstbestand</label>
-      <input id="filename" type="text" value="" placeholder="Bijvoorbeeld: raab">
+      <input id="filename" type="text" value="raab" placeholder="Bijvoorbeeld: raab">
     </div>
     <div class="field">
       <label for="speed">🚀 Kies je leessnelheid</label>
       <select id="speed">
         <option value="50">🐌 Slak – 50 woorden/minuut</option>
-        <option value="80">🐢 Schildpad – 80 woorden/minuut</option>
-        <option value="110" selected>🐰 Konijn – 110 woorden/minuut</option>
-        <option value="150">😱 Horror! – 150 woorden/minuut</option>
+        <option value="100">🐢 Schildpad – 100 woorden/minuut</option>
+        <option value="150" selected>🐰 Konijn – 150 woorden/minuut</option>
+        <option value="220">😱 Horror! – 220 woorden/minuut</option>
       </select>
     </div>
   </div>
@@ -144,14 +145,12 @@
     reader.replaceChildren();
     wordElements = [];
 
-    // Splits in woorden en alle tussenliggende witruimte.
-    // Witruimte (waaronder enters) blijft exact behouden.
     const parts = text.match(/\s+|[^\s]+/g) || [];
     let isTitleLine = true;
+
     parts.forEach(part => {
       if (/^\s+$/.test(part)) {
         reader.appendChild(document.createTextNode(part));
-        // Vanaf de eerste regeleinde is de titelregel voorbij.
         if (/[\r\n]/.test(part)) isTitleLine = false;
       } else {
         const span = document.createElement('span');
@@ -175,7 +174,6 @@
     const active = wordElements[currentWord];
     active.classList.add('active');
 
-    // Scroll alleen als het gemarkeerde woord buiten beeld valt.
     const rect = active.getBoundingClientRect();
     if (rect.top < 90 || rect.bottom > window.innerHeight - 50) {
       active.scrollIntoView({ behavior: 'smooth', block: 'center' });
@@ -231,6 +229,18 @@
 
   document.getElementById('filename').addEventListener('keydown', event => {
     if (event.key === 'Enter') loadText();
+  });
+
+  // Tik op de tekst om te pauzeren of verder te lezen.
+  reader.addEventListener('click', () => {
+    if (!isLoaded) return;
+
+    if (isPlaying) {
+      pauseReading();
+      status.textContent = '⏸ Even pauze! Tik opnieuw om verder te lezen.';
+    } else {
+      startReading();
+    }
   });
 </script>
 </body>
