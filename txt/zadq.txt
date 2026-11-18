@@ -23,3 +23,5 @@ een school:::a school
 een internaat:::a boarding school
 een gang:::a corridor
 een klaslokaal:::a classroom
+wetenschappen:::science
+techniek, technologie:::technology
