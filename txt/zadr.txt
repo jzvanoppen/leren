@@ -21,3 +21,10 @@ een boek lenen:::to borrow a book
 de bus nemen:::to catch the bus
 naar huis gaan:::to go home
 jouw huiswerk maken:::to do your homework
+een klaslokaal:::a classroom
+een sportterrein:::a sports ground
+een sporthal:::a sports hall
+koken:::to cook
+schilderen:::to paint
+boeken lezen:::to read books
+schrijven:::to write
