@@ -7,7 +7,7 @@ geschiedenis:::history
 huishoudkunde:::home economics
 ICT:::ICT
 Latijn:::Latin
-wiskunde:::mathematics
+wiskunde:::maths
 metaalbewerking:::metalwork
 Engels:::English
 Frans:::French
