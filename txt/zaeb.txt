@@ -1,0 +1,18 @@
+aankondigen:::annoncer
+vriezen:::geler
+hagelen:::grêler
+sneeuwen:::neiger
+regenen:::pleuvoir
+voorspellen:::prévoir
+buiten:::dehors
+daar (ginds):::là-bas
+Waar is het?:::C'est où?
+in het noorden:::dans le nord
+in het westen:::dans l'ouest
+in het oosten:::dans l'est
+in het zuiden:::dans le sud
+Het is fris:::Il fait frais
+Het is bewolkt:::Il fait nuageux
+Het regent:::Il fait pluvieux
+Het weer is wisselvallig:::Le temps est variable
+Wat voor weer is het?:::Tu sais quel temps il fait?
