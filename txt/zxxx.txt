@@ -21,27 +21,3 @@ de kust:::la côte:::
 de hoofdstad:::la capitale:::
 de opklaring:::l'éclaircie:::
 de muts:::le bonnet:::
-de mist:::le brouillard:::
-de windstoot:::le coup de vent:::
-de wandelschoen:::la chaussure de marche:::
-de graad:::le degré:::
-het woud:::la forêt:::
-de verrekijker:::les jumelles:::
-het onweer:::l'orage:::
-het strand:::la plage:::
-de wolk:::le nuage:::
-de trektocht:::la randonnée:::
-de rivier:::la rivière:::
-de regenjas:::l'imperméable:::
-de zonnebril:::les lunettes de soleil:::
-Wat voor weer is het?:::Tu sais quel temps il fait?:::
-Het is fris:::Il fait frais:::
-aankondigen:::annoncer:::
-daar (ginds):::là-bas:::
-in het zuiden:::dans le sud:::
-Het regent:::Il fait pluvieux:::
-regenen:::pleuvoir:::
-een jeepuitstap maken:::faire une excursion en jeep:::
-paragliden:::faire du parapente:::
-beachvolley spelen:::jouer au beachvolley:::
-zonnebaden:::prendre un bain de soleil:::
