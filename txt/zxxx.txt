@@ -1,23 +1,4 @@
-de berg:::la montagne:::
-de boom:::l'arbre:::
-de drinkfles:::la gourde:::
-de paraplu:::le parapluie:::
-de zee:::la mer:::
-de natuur:::la nature:::
-de laars:::la botte:::
-het weer:::le temps:::
-volgend:::prochain:::
-Het is mooi weer:::Il fait beau:::
-Hoe is het weer:::Il fait quel temps:::
-overmorgen:::après-demain:::
-vandaag:::aujourd'hui:::
-in de herfst:::en automne:::
-Welk seizoen is het:::On est en quelle saison:::
-een spel spelen:::jouer à un jeu:::
-klimmen:::faire de l'escalade:::
-de zonnecrème:::la crème solaire:::
-de windstoot:::le coup de vent:::
-de kust:::la côte:::
-de hoofdstad:::la capitale:::
-de opklaring:::l'éclaircie:::
-de muts:::le bonnet:::
+de opklaring:::l'éclaircie:::::
+volgend:::prochain:::::
+Welk seizoen is het:::On est en quelle saison:::::
+in de herfst:::en automne:::::
