@@ -26,3 +26,11 @@ de windstoot:::le coup de vent:::
 de wandelschoen:::la chaussure de marche:::
 de graad:::le degré:::
 het woud:::la forêt:::
+de verrekijker:::les jumelles:::
+het onweer:::l'orage:::
+het strand:::la plage:::
+de wolk:::le nuage:::
+de trektocht:::la randonnée:::
+de rivier:::la rivière:::
+de regenjas:::l'imperméable:::
+de zonnebril:::les lunettes de soleil:::
