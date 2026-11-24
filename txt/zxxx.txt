@@ -1,10 +1,4 @@
-de opklaring:::l'éclaircie:::::
-volgend:::prochain:::::
-Welk seizoen is het:::On est en quelle saison:::::
-in de herfst:::en automne:::::
-de mist:::le brouillard:::::
-zonnebaden:::prendre un bain de soleil:::::
-de zonnebril:::les lunettes de soleil:::::
-de mist:::le brouillard:::::
-Wat voor weer is het?:::Tu sais quel temps il fait?:::::
-Het regent:::Il fait pluvieux:::::
+
+zaterdag:::Saturday:::
+donderdag:::Thursday:::
+fysica:::physics:::
