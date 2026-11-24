@@ -1,4 +1,11 @@
-
 zaterdag:::Saturday:::
 donderdag:::Thursday:::
 fysica:::physics:::
+een wetenschapslokaal:::a science lab:::
+schrijven:::to write:::
+een bibliotheek:::a library:::
+sport beoefenen:::to do sports:::
+schilderen:::to paint:::
+een boek lenen:::to borrow a book:::
+boeken lezen:::to read books:::
+een leraarskamer:::a staff room:::
